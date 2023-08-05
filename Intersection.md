@@ -5,4 +5,4 @@ If $S$ and $T$ are [[Sets]], then their intersection $S\cap T$, is a set that co
 Let $S = \{2, 3, 4, 5, 7, 9\}$
 Let $T = \{1, 2, 4, 7, 9, 10\}$
 
-Therefore, the set $S\cap T = \{2, 4,7,9\}$. 
+Therefore, the set $S\cap T = \{2, 4,7,9\}$. o

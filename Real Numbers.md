@@ -7,7 +7,7 @@ Real numbers represent is a number system that includes **natural, integers, rat
 - Rational $\rightarrow$ ratios of other numbers (division by zero is ruled-out).
 - Irrational $\rightarrow$ Can't be expressed by a ratio of two numbers.
 
-	A repeating decimal like $x = 3.5474747474...$ is a rational number and we can write it as ratio of two integers by multiplying $x$ by appropriate parts of 10 and subtract to eliminate de repeating part such as:
+	A repeating decimal like $x = 3.5474747474...$ is a rational number and we can write it as ratio of two integers by multiplying $x$ by appropriate parts of 10 (where decimal places match) and subtract to eliminate de repeating part such as:
 	$$\begin{align*}
 x &= 3.5474747474...\\
 1000x &= 3547.4747474...\\
