@@ -1,0 +1,2 @@
+- $a^{m}a^{n} = a^{m+n} \rightarrow 3^{2} \cdot 3^{5}= 3^{2+5}=3^7$ 
+- $\frac{a^m}{m}$ 
