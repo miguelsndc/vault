@@ -9,7 +9,7 @@ $$\begin{align*}
 \frac{\theta}{360}&= \frac{S}{2\pi r}
 \end{align*}$$
 
-![[Excalidraw__Arc Length Example]]
+![[Arc Length Example]]
 
 Let's apply the formula:
 $$\begin{align*}\\

@@ -2,7 +2,7 @@
 
 Co-terminal angles are those who end at the same place
 
-![[Excalidraw__Co Terminal Positive Angles]]
+![[Representation of Co Terminal Positive Angles in Degrees]]
 
 Co-terminal angles can be found by either adding or subtracting 360º.
 
@@ -21,7 +21,7 @@ $$
 
 Radian angles can also be found in the [[Trigonometric Circle]]
 
-![[Excalidraw__ Co Terminal Angles (Radians).excalidraw]]
+![[Representation of Co-Terminal Angles (Radians).excalidraw]]
 
 We can get a co terminal angle by adding or subtracting 2$\pi$ from a radian. observe this example:
 $$\begin{align*}

@@ -1,3 +1,4 @@
+ 
  #algebra #geometry 
 
 Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
