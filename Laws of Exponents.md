@@ -4,7 +4,8 @@
 - $(a^{m})^{n} = a^{mn} \rightarrow (3^{2})^{5} = 3^{2 \cdot 5} = 3^{10}$ 
 - $(ab)^{n}=a^{n}b^{n} \rightarrow (3\cdot 4)^{2} = 3^{2}\cdot4^{2}$ 
 - $(\frac{a}{b})^{n} = \frac{a^{n}}{b^{n}} \rightarrow (\frac{3}{4})^{2} = \frac{3^{2}}{4^{2}}$ 
-- 
+- $(\frac{a}{b})^{-n} = (\frac{b}{a})^{n} \rightarrow (\frac{3}{4})^{-2} = (\frac{4}{3})^{2}$
+- $\frac{a}{b}$
 
 
 
