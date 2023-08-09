@@ -1,6 +1,6 @@
 #trigonometry 
 
-Same concept as in [[Arc Length]]. but the denominator of $\theta$ is now 2$\pi$.
+Same concept as in `= [[Arc Length]]`. but the denominator of $\theta$ is now 2$\pi$.
 e.g.
 $$
 \begin{align*}
