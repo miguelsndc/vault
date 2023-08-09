@@ -6,7 +6,7 @@ Co-terminal angles are those who end at the same place
 
 Co-terminal angles can be found by either adding or subtracting 360º.
 
-Let 1200º be our target angle. We can subtract 360º until we have a angle that is represented in the `=[[Trigonometric Circle]]`.  
+Let 1200º be our target angle. We can subtract 360º until we have a angle that is represented in the [[Trigonometric Circle]].  
 $$
 \begin{align*}
 1200-360 &= 840\\
@@ -19,7 +19,7 @@ $$
 
 ## In Radians
 
-Radian angles can also be found in the `= [[Trigonometric Circle]]`
+Radian angles can also be found in the [[Trigonometric Circle]]
 
 ![[Representation of Co-Terminal Angles (Radians).excalidraw]]
 

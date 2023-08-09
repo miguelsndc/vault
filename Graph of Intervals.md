@@ -1,6 +1,6 @@
 #algebra #sets #geometry 
 
-Considering the following `= [[Intervals]]`:
+Considering the following [[Intervals]]:
 
 - $[-1, 2)$ or $[-1, 2) = \{x \: | -1 \le x < 2\}$ 
 

@@ -1,6 +1,6 @@
 #trigonometry 
 
-To convert between `=[[Radians]]` and Degrees we can think of a proportion.
+To convert between [[Radians]] and Degrees we can think of a proportion.
 
 A radian $r$ divided by half of the circle, which is $\pi$. 
 A degree $d$ divided by $180 º$, which is half of the circle as well. 

@@ -5,7 +5,7 @@ Following the notation:
 $$\begin{align*}
 d(a,b) &=  |b - a|
 \end{align*}$$
-As shown in Property 6 of `= link("Properties of Negatives") `   : $| a - b | = | b - a |$.
+As shown in Property 6 of [[Properties of Negatives]]: $| a - b | = | b - a |$.
 
 $e.g.$ The distance between points $2$ and $-8$ in the real line is:
 
