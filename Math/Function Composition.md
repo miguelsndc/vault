@@ -1,0 +1,1 @@
+Function composition is the act of "composing" (no shit), or *nesting* functions together, and taking the
