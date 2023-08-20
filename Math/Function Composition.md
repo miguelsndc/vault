@@ -22,13 +22,16 @@ $$\begin{align*}
 \end{align*}$$
 ___
 If we compose these functions with arbitrary values we can visualize the output in two manners:
-$$\begin{align*}
-f(t(4)) &= (t(4))^{2}- 1
-\end{align*}$$
-Or we can evaluate $t(3)$ first and plugin the result later on:
+1. We can evaluate from inside out, taking the output of $t(4)$ and plugin the result on $f(x)$:
 $$\begin{align*}
 t(4) &= \frac{3\cdot4}{2}=\frac{12}{2}=6\\
 f(6)&= 6^{2} - 1=36 -1=35
 \end{align*}$$
-Just choose whatever suits better.
+2. We can find the total composite function, by following that:
+$$\begin{align*}
+f(t(x)) &= (t(x))^{2}- 1\\
+f(t(x)) &= \bigg(\frac{3x}{2}\bigg)^{2}-1\\
+f(t(x))&= \frac{9x^2}{4}-1
+\end{align*}$$
+	This function should take us directly to 35.
 
