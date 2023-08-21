@@ -20,6 +20,7 @@ f(x) =\sqrt{x^{2}+3x-28}\\
 x &= 4 \\
 x &= 7
 \end{align*}$$
-In a number line
+In a number line:
 
-
+![[Domain in number line example.excalidraw]]
+in [[Set Builder Notation]]: $D(-\infty, -7] \cup [4, \infty)$.
