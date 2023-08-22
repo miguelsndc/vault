@@ -4,3 +4,4 @@ $$
 \sqrt{a} &= b \;\;\;\ \text{means} \;\;\; b^{2}=a \;\;\; \text{and}\;\;\; b\ge0
 \end{align*}
 $$
+Square roots are a special case of $n$th roots. The $n$th root of $x$ is the number that, when raised to the $n$th power yields $x$.
