@@ -1,3 +1,5 @@
+#algebra 
+
 Scientific notation is a technique used to represent extremely large numbers as a small numbers multiplying powers of 10. $e.g.$
 A Positive numbers $x$ is said to be written in scientific notation if it's expressed as follows:
 $$\begin{align*}
@@ -12,4 +14,4 @@ ___
 When we state that the mass of a hydrogen atom is $1.66\times10^{-24}g$ the exponent $-24$ indicates that the decimal point should be moved 24 places to the left
 $$\begin{align*}
 1.66\times10^{-24}&= 0.00000000000000000000000166
-\end{align*}$$
+	\end{align*}$$
