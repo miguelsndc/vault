@@ -3,10 +3,13 @@ A Positive numbers $x$ is said to be written in scientific notation if it's expr
 $$\begin{align*}
 x &= a \times 10^{n} \;\; \text{where} \;\; 1\le a\le10 \;\;\text{and} \;\; n\in \mathbb{Z}
 \end{align*}$$
-For instance, *Proxima Centauri* is the closest star to the sun and it is 40,000,000,000,000 km away. We can represent in scientific notation as:
+For instance, *Proxima Centauri* is the closest star to the sun and it is $4\times10^{13}$ km away. We are say that the decimal point should be moved 13 places to the right:
 $$\begin{align*}
-40,000,000,000,000 &= 4\times10^{13}
+ 4\times10^{13}&= 40,000,000,000,000
 \end{align*}$$
-Where $13$ is indicates that the decimal point should be moved 13 places to the right.
+
 ___
-When we state that the mass of a huyd
+When we state that the mass of a hydrogen atom is $1.66\times10^{-24}g$ the exponent $-24$ indicates that the decimal point should be moved 24 places to the left
+$$\begin{align*}
+1.66\times10^{-24}&= 0.00000000000000000000000166
+\end{align*}$$
