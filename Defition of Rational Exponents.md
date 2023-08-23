@@ -1,4 +1,8 @@
 For any [[Rational Exponents]] $m/n$ in lowest terms, where $m$ and $n$ are integers and $n \ge 0$, we define:
 $$\begin{align*}
-a^{\frac{m}{n}=}(\sqrt[n]{a})^{m}
+a^{\frac{m}{n}=}(\sqrt[n]{a})^{m} \;\;\;\; \text{or equivalently} \;\;\;\; a^{\frac{m}{n}}=\sqrt[n]{a^{m}} 
 \end{align*}$$
+> Try to think like $power/root$. 
+
+With this definition it can be proved that the [[Laws of Exponents]] and [[Defition of Rational Exponents]] also holds for [[Rational Exponents]]
+
