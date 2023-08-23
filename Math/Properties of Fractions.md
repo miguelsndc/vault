@@ -5,5 +5,6 @@
 3. $\frac{a}{c} + \frac{b}{c} = \frac{a + b}{c}$ 
 4. $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$ 
 5. $\frac{ac}{bc}=\frac{a}{b}$
-6. If $\frac{a}{b}=\frac{c}{d}$ then $ad=bc$  *(Cross Multiplication)*
+6. If $\frac{a}{b}=\frac{c}{d}$ then $ad=bc$  *(Cross Multiplication)
+7. $\frac{a}{a} =1$
 
