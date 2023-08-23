@@ -4,3 +4,8 @@ $e.g.$
 $$\begin{align*}
 \frac{1}{\sqrt{a}}&= \frac{1}{\sqrt{a}}\cdot1=\frac{1}{\sqrt{a}}\cdot \frac{\sqrt{a}}{\sqrt{a}}=\frac{\sqrt{a}}{a}
 \end{align*}$$
+If the denominator of the form $\sqrt[n]{a^{m}}$ with $m \le n$ then multiplying the numerator and denominator by $\sqrt[n]{a^{n-m}}$ with rationalize the denominator, because: (for $a\ge0$ )
+$$\begin{align*}
+\sqrt[n]{a^{m}}\sqrt[n]{a^{n-m}}=\sqrt[n]{a^{m+n-m}}=\sqrt[n]{a^n}=a
+\end{align*}$$
+A fraction expression whose denominator contains no radicals is said to be in **standard form**
