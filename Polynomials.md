@@ -7,3 +7,10 @@ $$\begin{align*}
 a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots+a^0
 \end{align*}$$
 Where $a_{0}, a_{1}, \cdots, a_{n}$ are real numbers, and $n$ is a nonnegative integer, If $a \neq 0$, then the polynomial has **degree $n$**, the monomials $a_{k}x^{k}$ that make up the polynomials are called the **terms** of the polynomial.
+
+| Polynomial                      | Type       | Terms                      | Degree |
+| ------------------------------- | ---------- | -------------------------- | ------ |
+| $2x^{2}-3x + 4$                 | trinomial  | $2x^{2},-3x,$              | 2      |
+| $x^{8} + 5x$                    | binomial   | $x^{8},5x$                 | 8      |
+| $8-x + x^{2}- \frac{1}{2}x^{3}$ | four terms | $-\frac{1}{2}x^3,x^2,-x,3$ | 3      |
+ 
