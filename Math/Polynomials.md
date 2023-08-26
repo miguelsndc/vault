@@ -1,3 +1,5 @@
+#algebra
+
 A **variable** is a letter that can represent any number in a given set of numbers. If we apply operations like, addition, subtraction, division, multiplication, powers and roots we obtain a **algebriac expression**.
 
 A **monomial** is a expression of the type $ax^k$ where $a$ is a real number and $k$ is a nonnegative integer. A **binomial** is a sum of two monomials and a **trinomial** is a sum of three monomials. In general a sum of monomials is called a **Polynomial**.
@@ -6,7 +8,7 @@ A polynomial in the variable $x$ is a expression of the form:
 $$\begin{align*}
 a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots+a^0
 \end{align*}$$
-Where $a_{0}, a_{1}, \cdots, a_{n}$ are real numbers, and $n$ is a nonnegative integer, If $a \neq 0$, then the polynomial has **degree $n$**, the monomials $a_{k}x^{k}$ that make up the polynomials are called the **terms** of the polynomial.
+Where $a_{0}, a_{1}, \cdots, a_{n}$ are [[Real Numbers]], and $n$ is a nonnegative integer, If $a \neq 0$, then the polynomial has **degree $n$**, the monomials $a_{k}x^{k}$ that make up the polynomials are called the **terms** of the polynomial. Operations with polynomials are done combining *like-terms* and keeping some [[Special Product Formulas]] in mind.
 
 | Polynomial                      | Type       | Terms                      | Degree |
 | ------------------------------- | ---------- | -------------------------- | ------ |
