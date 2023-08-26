@@ -1,0 +1,1 @@
+We call by Greatest Common Factor the term 

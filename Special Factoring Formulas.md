@@ -8,3 +8,5 @@ The inverse of [[Special Product Formulas]]
 >We recognize a perfect square *(formula 2/3)* if the middle term $2AB$ or $-2AB$ is plus or minus twice the product of the square roots of the outer two terms.
 
 We start factoring by looking at the [[Greatest Common Factor]] and factoring out with the *smallest exponent*, and then proceeding with the formulas above.
+
+Polynomials can also be factored using [[Factor by Grouping terms]].
