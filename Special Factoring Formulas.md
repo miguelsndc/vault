@@ -1,4 +1,5 @@
 The inverse of [[Special Product Formulas]]
+
 1. $A^2-B^2=(A+B)(A-B)$ 
 2. $A^2+2AB+B^2=(A+B)^2$
 3. $A^2-2AB+B^2=(A-B)^2$
