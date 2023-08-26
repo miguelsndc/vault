@@ -1,0 +1,6 @@
+[[Polynomials]] with at least four terms can sometimes be factored by **grouping terms**. The following example illustrates the idea:
+$$\begin{align*}
+x^{3}+x^{2}+4x4&= (x^3+x^2)(4x+ 4)\\
+&= x^2(x+1)+4(x+1)\\
+&= (x^{2}+4)(x+1)
+\end{align*}$$

@@ -6,3 +6,5 @@ The inverse of [[Special Product Formulas]]
 5. $A^{3}+B^{3}=(A+B)(A^2-AB+B^2)$
 
 >We recognize a perfect square *(formula 2/3)* if the middle term $2AB$ or $-2AB$ is plus or minus twice the product of the square roots of the outer two terms.
+
+We start factoring by looking at the [[Greatest Common Factor]] and factoring out with the *smallest exponent*, and then proceeding with the formulas above.
