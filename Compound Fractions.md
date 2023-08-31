@@ -1,1 +1,1 @@
-A compound fraction is a fraction in which both numerator and denominator are presented as fractional expressions
+Compound Fractions are [[Rational Expressions]] whose both numerator and denominator are presented as fractional expressions.
