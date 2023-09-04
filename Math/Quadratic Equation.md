@@ -5,3 +5,5 @@ ax^2+bx+c=0
 1. [[Factoring Trinomials]], and by using the [[Zero Product Property]].
 2. [[Completing the Square]] 
 3. [[The Quadratic Formula]] 
+
+With equations involving [[Rational Expressions]] or [[Radicals]], we must check the re
