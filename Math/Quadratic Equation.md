@@ -6,4 +6,4 @@ ax^2+bx+c=0
 2. [[Completing the Square]] 
 3. [[The Quadratic Formula]] 
 
-With equations involving [[Rational Expressions]] or [[Radicals]], we must check the re
+With equations involving [[Rational Expressions]] or [[Radicals]], we must check the solutions against the original expression, they are only *potential* solutions, math is fucked. Called technically *Extraneous Solutions*.
