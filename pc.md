@@ -1,0 +1,12 @@
+- [x] Processador ✅ 2023-09-05
+- [ ] Memória
+- [ ] SSD
+- [ ] Fonte
+- [x] Placa Mãe ✅ 2023-09-05
+- [ ] Gabinete
+- [ ] Teclado
+- [ ] Mouse
+- [ ] Fone
+- [ ] Monitor
+___
+- [ ] Notebook
