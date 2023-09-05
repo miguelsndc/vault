@@ -7,6 +7,6 @@
 - [x] Teclado ✅ 2023-09-05
 - [x] Mouse ✅ 2023-09-05
 - [x] Fone ✅ 2023-09-05
-- [ ] Monitor
+- [x] Monitor ✅ 2023-09-05
 ___
 - [ ] Notebook
