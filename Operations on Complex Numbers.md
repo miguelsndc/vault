@@ -14,3 +14,5 @@ $$
 $$\begin{align*}
 (a+bi)\cdot(c+di) &= (ac-bd) + (ad + bc)i
 \end{align*}$$
+4. Division
+The division of complex numbers is much like [[Rationalize the Denominator]] of [[Rational Expressions]].
