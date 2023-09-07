@@ -5,4 +5,4 @@ and $i^{2} = -1$. The **real part** of this complex number is $a$ and the **imag
 
 Two complex numbers are equal if and only if their real and imaginary part are equal.
 
-
+To perform arithmetic operations use the [[Operations on Complex Numbers]] rules.
