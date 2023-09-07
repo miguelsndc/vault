@@ -14,10 +14,7 @@ $$
 $$\begin{align*}
 (a+bi)\cdot(c+di) &= (ac-bd) + (ad + bc)i
 \end{align*}$$
-4. Division
-The division of complex numbers is much like [[Rationalize the Denominator]] of [[Rational Expressions]].
-To simplify the quotient $\frac{a+bi}{c+di}$, multiply the numerator and the denominator by the [[Complex Conjugate]] of the denominator:
-$$\begin{align*}
-\frac{a+bi}{c+di}&= \bigg{(}\frac{a+bi}{c+di}\bigg{)}\bigg{(}\frac{c-di}{c-di}\bigg{)}= \frac{(ac+bd) + (bc-ad)i}{}
-\\
-\end{align*}$$
+4. [[Division of Complex Numbers]]
+5. [[Square Roots of Complex Numbers]]
+
+
