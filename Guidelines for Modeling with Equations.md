@@ -1,0 +1,2 @@
+1. **Identify the Variable**: First identify the quantity the question is asking you to find, it can usually be found by carefully reading the question at the end of the problem, once found, **introduce notation**, call it $x$ or whatever.
+2. 

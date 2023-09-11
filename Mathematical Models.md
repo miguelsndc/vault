@@ -1,0 +1,1 @@
+A mathematical model is a [[Equation]] that describes real-world situations and processes. Modeling is the process of finding those equations, once we're able to define them, we can gather information about the things being modeled.
