@@ -1,3 +1,11 @@
+---
+tags:
+  - algebra
+aliases:
+  - conjugate
+date: 14-09-2023
+---
+
 The complex conjugate of a complex number is the number itself with the sign of the imaginary part switched.
 *e.g.*
 $$\begin{align*}
