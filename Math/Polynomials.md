@@ -1,5 +1,12 @@
-#algebra
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 25
+---
 A **variable** is a letter that can represent any number in a given set of numbers. If we apply operations like, addition, subtraction, division, multiplication, powers and roots we obtain a **algebriac expression**.
 
 A **monomial** is a expression of the type $ax^k$ where $a$ is a real number and $k$ is a nonnegative integer. A **binomial** is a sum of two monomials and a **trinomial** is a sum of three monomials. In general a sum of monomials is called a **Polynomial**.

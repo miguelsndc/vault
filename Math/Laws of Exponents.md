@@ -1,6 +1,13 @@
-#algebra
-
-a number $a$ that multiplies itself $n$ times written as $a^{n}$ is called a *power*, where $a$ is the *base* and *n*, the exponent.
+---
+tags:
+  - algebra
+  - james-stewart
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 14
+---
+A given number $a$ that multiplies itself $n$ times written as $a^{n}$ is called a *power*, where $a$ is the *base* and *n*, the exponent.
 
 #### Definitions:
 - $a^{m}a^{n} = a^{m+n} \rightarrow 3^{2} \cdot 3^{5}= 3^{2+5}=3^7$  
