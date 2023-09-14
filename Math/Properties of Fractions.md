@@ -1,14 +1,11 @@
 ---
 tags:
-  - algebra
+  - properties
   - precalculus
-  - james-stewart
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
 page: 5
 ---
-#algebra 
-
 1. $\frac{a}{b}\cdot \frac{c}{d}= \frac{ac}{cd}$
 2. $\frac{a}{b}\div \frac{c}{d}=\frac{a}{b}\cdot \frac{d}{c}$ 
 3. $\frac{a}{c} + \frac{b}{c} = \frac{a + b}{c}$ 

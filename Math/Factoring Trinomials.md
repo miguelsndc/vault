@@ -1,6 +1,5 @@
 ---
 tags:
-  - algebra
   - precalculus
   - factoring
   - quadratics

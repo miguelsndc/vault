@@ -1,8 +1,6 @@
 ---
 tags:
-  - algebra
-  - precalculus
-  - complex-numbers
+  - complex
 date: 14-09-2023
 source: "[[James Stewart Precalculus Book]]"
 page: 61

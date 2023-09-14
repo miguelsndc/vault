@@ -1,6 +1,5 @@
 ---
 tags:
-  - algebra
   - assignment
 done: false
 date: 

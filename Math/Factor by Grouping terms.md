@@ -1,6 +1,5 @@
 ---
 tags:
-  - algebra
   - precalculus
   - factoring
 date: 2023-09-14

@@ -1,6 +1,5 @@
 ---
-tags:
-  - algebra
+tags: []
 date: 
 link: 
 timestamp:

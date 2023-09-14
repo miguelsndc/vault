@@ -1,8 +1,7 @@
 ---
 tags:
-  - algebra
-  - precalculus
   - sets
+  - intervals
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
 page: 7
