@@ -1,7 +1,7 @@
 ---
 tags:
-  - job
   - algebra
+  - assignment
 done: false
 date: 
 due_date: 

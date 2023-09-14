@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 
+source: "[[James Stewart Precalculus Book]]"
+pages:
+---
 #algebra 
 
 A complex number is an expression of the form $a +bi$ where $a$ and $b$ are [[Real Numbers]]

@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: 16-17
+---
 We could use the data in the [[Scientific Notation]] or we can just use [[Laws of Exponents]] instead, Prefer using the Laws of Exponents since it's easier and faster to perform the calculations:
 $e.g.$
 If $a \approx 0.00046, b \approx 1.697\times10^{22}$ and $c \approx 2.91\times10^{-18}$, Calculate $\frac{ab}{c}$.
