@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "date"
+    "date": "date",
+    "pending": "checkbox",
+    "due_date": "datetime"
   }
 }

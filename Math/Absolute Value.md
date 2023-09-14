@@ -1,7 +1,13 @@
- 
- #algebra #geometry 
-
-Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
+---
+tags:
+  - algebra
+  - book
+  - precalculus
+date: 2023-09-14
+source: 
+pages:
+---
+ Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
 
 $$\begin{align*}
 \mid a \mid &=\begin{cases}
