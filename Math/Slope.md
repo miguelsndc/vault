@@ -1,5 +1,13 @@
-#geometry #trigonometry #algebra 
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+  - functions
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 106
+---
 Is the rise divided by the run. the rate of change of a function.
 e.g.
 $$\begin{align*}

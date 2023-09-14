@@ -1,5 +1,13 @@
-#algebra #sets
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+  - sets
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 6
+---
 Let $S$ and $m$ be arbitrary values for set names and variable names. See:
 
 > $S$ = { $m$ | $m$ <*constraints*> }

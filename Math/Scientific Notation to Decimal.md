@@ -1,5 +1,12 @@
-#algebra 
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 17
+---
 To convert from [[Scientific Notation]] to decimal, perform the inverse operation showed in [[Decimal to Scientific Notation]] like following:
 1. Transform $6.97\times10^{9}$ in decimals. *Move the decimal point to the **right** 9 times*
 $$

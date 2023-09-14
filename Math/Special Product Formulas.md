@@ -1,3 +1,11 @@
+---
+tags:
+  - algebra
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 30
+---
 Inverse of [[Special Factoring Formulas]]
 
 1. $(A+B)(A-B)=A^2-B^2$ 
