@@ -1,4 +1,13 @@
-oA rational expression is a fractional expression which both numerator and denominator are [[Polynomials]].
+---
+tags:
+  - algebra
+  - james-stewart
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 36
+---
+A rational expression is a fractional expression which both numerator and denominator are [[Polynomials]].
 
 The [[Domain]] of a rational expression is the set of values the expression is allowed to have.
 

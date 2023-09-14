@@ -1,5 +1,12 @@
-#algebra
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page:
+---
 The simbol $\sqrt{\;\;\;}$ means "the positive square root of". Thus
 $$
 \begin{align*}

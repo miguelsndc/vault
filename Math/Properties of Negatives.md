@@ -1,5 +1,12 @@
-#algebra 
-
+---
+tags:
+  - algebra
+  - james-stewart
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 4
+---
 1. $(-1)a = a \rightarrow (-1)5 = 5$ 
 2. $-(-a) =a \rightarrow -(-5) = 5$ 
 3. $-(a)b = a(-b) =-(ab) \rightarrow -(3)5 = 3(-5) = -(3\cdot5)$    

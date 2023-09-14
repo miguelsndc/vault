@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 5
+---
 #algebra 
 
 1. $\frac{a}{b}\cdot \frac{c}{d}= \frac{ac}{cd}$

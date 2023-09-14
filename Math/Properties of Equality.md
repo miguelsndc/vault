@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 46
+---
 1. $A = B \iff A + C = B + C$ 
 2. $A = B \iff CA = CB \;\; (C \ne 0)$ 
 
