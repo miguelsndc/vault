@@ -2,8 +2,7 @@
 tags:
   - algebra
   - precalculus
-  - sets
-  - james-stewart
+  - intervals
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
 pages: 6

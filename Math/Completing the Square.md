@@ -1,7 +1,7 @@
 ---
 tags:
   - algebra
-  - james-stewart
+  - quadratics
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
 pages: 49

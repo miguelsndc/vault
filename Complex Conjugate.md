@@ -1,9 +1,11 @@
 ---
 tags:
   - algebra
-aliases:
-  - conjugate
+  - precalculus
+  - complex-numbers
 date: 14-09-2023
+source: "[[James Stewart Precalculus Book]]"
+page: 61
 ---
 
 The complex conjugate of a complex number is the number itself with the sign of the imaginary part switched.

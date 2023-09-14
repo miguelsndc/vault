@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - complex-numbers
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 62
+---
 Just like positive [[Real Numbers]] have two square roots ($\sqrt{r}$ and $-\sqrt{r}$), every negative number also has two square roots. 
 
 if $-r$ is a negative number than it's square roots are $\pm i\sqrt{r}$.

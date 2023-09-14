@@ -2,7 +2,8 @@
 tags:
   - algebra
   - precalculus
-  - james-stewart
+  - factoring
+  - quadratics
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
 pages: 29

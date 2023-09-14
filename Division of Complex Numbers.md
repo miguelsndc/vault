@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - complex-numbers
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+page: 61
+---
 The division of complex numbers is much like [[Rationalize the Denominator]] of [[Rational Expressions]].
 To simplify the quotient $\frac{a+bi}{c+di}$, multiply the numerator and the denominator by the [[Complex Conjugate]] of the denominator:
 $$\begin{align*}
