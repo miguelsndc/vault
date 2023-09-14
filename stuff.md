@@ -5,4 +5,12 @@ Python
 HTML, CSS JavaScript, etc.
 - [Discover](https://www.rocketseat.com.br/discover) 
 
-uma hora a bomba estoura
+coisas que vc precisa e nao sabia
+- https://www.youtube.com/@LucasMontano
+- https://www.youtube.com/@FilipeDeschamps
+- https://www.youtube.com/@Fireship
+- https://www.youtube.com/@freecodecamp
+- https://www.youtube.com/@KunalKushwaha
+- https://www.youtube.com/watch?v=9MKWegSQakM
+- https://www.youtube.com/@DavesGarage <- muito foda
+
