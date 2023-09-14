@@ -1,5 +1,13 @@
-#algebr
-
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+  - sets
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: 7
+---
 Considering the following [[Intervals]]:
 
 - $[-1, 2)$ or $[-1, 2) = \{x \: | -1 \le x < 2\}$ 

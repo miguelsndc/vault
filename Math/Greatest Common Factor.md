@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - james-stewart
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: 28
+---
 We call by Greatest Common Factor the greatest term that appears in all terms of [[Polynomials]]. It's usually the first step on factoring.
 $e.g.$
 $$\begin{align*}

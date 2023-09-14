@@ -5,7 +5,7 @@ tags:
   - precalculus
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
-pages: "32"
+pages: 32
 ---
 [[Polynomials]] with at least four terms can sometimes be factored by **grouping terms**. The following example illustrates the idea:
 $$\begin{align*}

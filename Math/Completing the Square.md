@@ -4,7 +4,7 @@ tags:
   - james-stewart
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
-pages: 49-50
+pages: 49
 ---
 If a [[Quadratic Equation]] does not factor readily, we can solve it by **completing the square**.
 This means to add a constant to an expression to make it a perfect square; *see formulas 2 and 3 of [[Special Product Formulas]]*.

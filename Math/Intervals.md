@@ -1,5 +1,13 @@
-#algebra #sets #geometry 
-
+---
+tags:
+  - algebra
+  - precalculus
+  - sets
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: 6
+---
 Intervals correspond geometrically to line segments. 
 
 if $a$ < $b$, then the **Open Interval** from $a$ to $b$ consists of all numbers between $a$ and $b$ is denoted $(a, b)$. 

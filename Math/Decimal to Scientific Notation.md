@@ -5,7 +5,7 @@ tags:
   - james-stewart
 date: 2023-09-14
 source: "[[James Stewart Precalculus Book]]"
-pages: "17"
+pages: 17
 ---
 #algebra 
 

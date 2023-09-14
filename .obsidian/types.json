@@ -5,6 +5,8 @@
     "tags": "tags",
     "date": "date",
     "pending": "checkbox",
-    "due_date": "datetime"
+    "due_date": "datetime",
+    "pages": "number",
+    "page": "number"
   }
 }

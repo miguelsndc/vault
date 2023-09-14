@@ -3,5 +3,5 @@ tags:
   - algebra
 date: 
 source: 
-pages:
+page:
 ---
