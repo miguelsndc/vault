@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: "45"
+---
 A equation is a statement that two mathematical expressions are true:
 $e.g.$
 $$\begin{align*}

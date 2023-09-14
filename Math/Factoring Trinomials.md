@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: "29"
+---
 To factor [[Polynomials]] of the form $x^{2}+bx+c$, we note that
 $$\begin{align*}
 (x+r)(x+s)=x^{2}+(r+s)x+rs

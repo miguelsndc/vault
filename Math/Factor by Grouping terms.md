@@ -1,3 +1,12 @@
+---
+tags:
+  - algebra
+  - james-stewart
+  - precalculus
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: "32"
+---
 [[Polynomials]] with at least four terms can sometimes be factored by **grouping terms**. The following example illustrates the idea:
 $$\begin{align*}
 x^{3}+x^{2}+4x4&= (x^3+x^2)(4x+ 4)\\

@@ -1,4 +1,4 @@
-#algebra #sets #geometry 
+#algebr
 
 Considering the following [[Intervals]]:
 

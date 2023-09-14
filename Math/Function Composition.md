@@ -1,5 +1,12 @@
-___
-
+---
+tags:
+  - algebra
+  - khan-academy
+  - precalculus
+  - functions
+date: 2023-09-14
+link: https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:composite/x9e81a4f98389efdf:composing/v/function-composition
+---
 Function composition is the act of "composing" (no shit), or *nesting* functions together, and evaluate from inside out if necessary, Let $f(x)$ and $t(x)$:
 
 $$

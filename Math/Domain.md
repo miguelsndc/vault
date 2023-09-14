@@ -1,3 +1,13 @@
+---
+tags:
+  - algebra
+  - precalculus
+  - james-stewart
+  - functions
+date: 2023-09-14
+source: "[[James Stewart Precalculus Book]]"
+pages: "153"
+---
 The domain $D$ of a function $f$ is the list of all possible $x$ values that can exist for this function. Can be written using [[Set Builder Notation]].
 
 > $x$ values that yield undefined results **are not** part of the domain of the function. Therefore, if a function $f$ has fractions os square roots (or both), find $x$ values that yield negative roots or 0 as denominator and exclude them from the domain.
