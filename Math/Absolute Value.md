@@ -2,7 +2,7 @@
 tags:
   - precalculus
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdfSaleem Watson - Precalculus_ Mathematics for Calculus (2015, Brooks Cole) - libgen.li.pdf]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 8-9
 ---
  Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
