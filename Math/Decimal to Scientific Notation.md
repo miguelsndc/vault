@@ -2,7 +2,7 @@
 tags:
   - scientific-notation
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 17
 ---
 To convert decimals in [[Scientific Notation]], move the decimal point right or left, depending on the sign of the power.

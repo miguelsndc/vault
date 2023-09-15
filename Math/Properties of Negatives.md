@@ -2,7 +2,7 @@
 tags:
   - properties
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 4
 ---
 1. $(-1)a = a \rightarrow (-1)5 = 5$ 

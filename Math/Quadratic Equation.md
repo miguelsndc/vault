@@ -3,7 +3,7 @@ tags:
   - quadratics
   - equations
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 48
 ---
 A Quadratic [[Equation]] is a second-degree equations of the form:

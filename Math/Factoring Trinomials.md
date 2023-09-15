@@ -4,7 +4,7 @@ tags:
   - factoring
   - quadratics
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 29
 ---
 To factor [[Polynomials]] of the form $x^{2}+bx+c$, we note that

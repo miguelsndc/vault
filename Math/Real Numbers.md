@@ -2,7 +2,7 @@
 tags:
   - sets
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 2
 ---
 Real numbers represent is a number system that includes **natural, integers, rational and irrational** numbers.

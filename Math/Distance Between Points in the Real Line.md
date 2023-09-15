@@ -4,7 +4,7 @@ tags:
   - intervals
   - sets
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 9
 ---
 The distance $d$ between points $a$ and $b$ in the real line is $\mid b - a \mid$.

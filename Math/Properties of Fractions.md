@@ -3,7 +3,7 @@ tags:
   - properties
   - precalculus
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 5
 ---
 1. $\frac{a}{b}\cdot \frac{c}{d}= \frac{ac}{cd}$

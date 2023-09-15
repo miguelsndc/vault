@@ -2,7 +2,7 @@
 tags:
   - polynomials
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 25
 ---
 A **variable** is a letter that can represent any number in a given set of numbers. If we apply operations like, addition, subtraction, division, multiplication, powers and roots we obtain a **algebriac expression**.

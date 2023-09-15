@@ -2,7 +2,7 @@
 tags:
   - precalculus
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 18
 ---
 If $n$ is any positive integer, than the **principal $n$th root** of $a$ is defined as follows:

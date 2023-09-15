@@ -2,7 +2,7 @@
 tags:
   - functions
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 106
 ---
 Is the rise divided by the run. the rate of change of a function.

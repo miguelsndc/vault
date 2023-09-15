@@ -2,7 +2,7 @@
 tags:
   - intervals
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 pages: 6
 ---
 Intervals correspond geometrically to line segments. 

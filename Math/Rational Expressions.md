@@ -3,7 +3,7 @@ tags:
   - precalculus
   - polynomials
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 36
 ---
 A rational expression is a fractional expression which both numerator and denominator are [[Polynomials]].

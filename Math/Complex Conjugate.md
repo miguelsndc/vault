@@ -2,7 +2,7 @@
 tags:
   - complex
 date: 14-09-2023
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 61
 ---
 

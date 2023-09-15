@@ -2,7 +2,7 @@
 tags:
   - sets
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 6
 ---
 A set is a collection of objects, and these objects are called **elements**.

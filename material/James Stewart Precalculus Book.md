@@ -1,1 +1,0 @@
-[[James Stewart, Lothar Redlin, Saleem Watson - Precalculus_ Mathematics for Calculus (2015, Brooks Cole) - libgen.li.pdf]]

@@ -2,7 +2,7 @@
 tags:
   - complex
 date: 2023-09-14
-source: "[[James Stewart Precalculus Book]]"
+source: "[[James Stewart Precalculus.pdf]]"
 page: 62
 ---
 Just like positive [[Real Numbers]] have two square roots ($\sqrt{r}$ and $-\sqrt{r}$), every negative number also has two square roots. 
