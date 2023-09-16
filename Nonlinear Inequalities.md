@@ -21,4 +21,4 @@ Nonlinear inequalities are kind of tricky, so we must follow a set of guidelines
 4. **Make a table or diagram**
 	Use **test values** to make a table or diagram of the signs of each factor on each interval. In the last row determine the sign of the product (or quotient) of these factors.
 5. **Solve**
-	Use the sign table to find the intervals on which the inequality is sat- isfied. Check whether the endpoints of these intervals satisfy the inequality. (This may happen if the inequality involves  or .)
+	Use the sign table to find the intervals on which the inequality is satisfied. Check whether the endpoints of these intervals satisfy the inequality. (This may happen if the inequality involves $\le$ or $\ge$)
