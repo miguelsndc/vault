@@ -11,7 +11,7 @@ Here we state the rules for working with inequalities. These rules will tell us 
 1. $A \le B \iff A + C \le B + C$  
 2. $A \le B \iff A-C\le B-C$ 
 3. If $C \gt 0$, then $A\le B \iff CA \le CB$ 
-4. If $C < 0$, then $A\le B \iff CA \ge B$ 
+4. If $C < 0$, then $A\le B \iff CA \ge CB$ 
 5. If $A \gt 0$ and $B \gt 0$,
 	then 
 	$A\le B \iff \frac{1}{A} \ge \frac{1}{B}$ 
