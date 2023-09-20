@@ -16,3 +16,21 @@ page: 96
 | 1   | 1               | (1,1)   |
 | 2   | 2               | (2,2)   |
 | 3   | 3               | (3,3)        |
+
+#### Graph of $y=\mid x \mid$ 
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: false
+grid: true
+---
+y=abs(x)
+```
+
+
+
+
