@@ -11,11 +11,9 @@
   "obsidian-pandoc",
   "url-into-selection",
   "nldates-obsidian",
-  "obsidian-kanban",
   "note-refactor-obsidian",
   "obsidian-git",
-  "homepage",
   "obsidian-tasks-plugin",
-  "obsidian-desmos",
-  "obsidian-functionplot"
+  "obsidian-functionplot",
+  "pane-relief"
 ]
