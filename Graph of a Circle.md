@@ -9,4 +9,4 @@ Base on the [[Circle Equation]], let's consider a arbitrary circle centered at t
 
 ![[Pasted image 20230920213502.png]]
 
-This damn functionplot doesn't support circles.
+This damn functionplot doesn't support circles

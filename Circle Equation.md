@@ -14,6 +14,14 @@ This is called the **standard form** of the circle, if the center is the origin 
 $$\begin{align*}
 x^{2}+y^{2}=r^{2}
 \end{align*}$$
+Take a circle with a center $C(3, 1)$ and a arbritrary radius of 67 and expand it, we get:
+$$\begin{align*}
+(x- 3)^{2}+(y-1)^{2}&= 67\\
+x^{2}-6x +9+y^{2}-2y+1&= 67\text{ Subtract 10 from both sides}\\
+x^{2}-6x+y^{2}-2y&= 67\\
+x^{2}+y^{2}-6x-2y&= 67
+\end{align*}$$
+It's quite hard to see that this is circle. But look at $x$ factors $x^{2}, -6x$ and $y$ factors $y^{2},-2y$, we see , that they are both uncomplete [[Quadratic Equation]]s, that we can hence solve by [[Completing the Square]], once we get the remaining value for x and for y, we can put it into the standard form again. 
 
 #### Deriving
 
