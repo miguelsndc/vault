@@ -14,7 +14,8 @@ This is specially useful when nothing else works (lol).
 ##### Equilatereal Triangle Case
 With equilateral triangles we know that $a=b=c$, therefore, it can be written as:
 $$\begin{align*}
-a&= \sqrt{[\; p(p-a)^{3} \;]}
+a&= \sqrt{[\; p(p-a)^{3} \;]}\\
+&= (p-a)\sqrt{p(p-a)}
 \end{align*}$$
 We can use instead: [[Equilateral Triangle Area]]
 
