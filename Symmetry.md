@@ -1,7 +1,7 @@
 ---
 tags:
-  - analytic
   - graphs
+  - geometry/analytic
 date: 2023-09-21
 source: "[[James Stewart Precalculus.pdf]]"
 page: 100
