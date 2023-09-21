@@ -2,6 +2,7 @@
 tags:
   - functions
   - graphs
+  - analytic
 date: 2023-09-20
 source: "[[James Stewart Precalculus.pdf]]"
 page: 97

@@ -1,7 +1,8 @@
 ---
 tags:
-  - coordinates
   - functions
+  - graphs
+  - analytic
 date: 
 source: "[[James Stewart Precalculus.pdf]]"
 page: 94
