@@ -4,6 +4,8 @@ tags:
 date: 2023-09-15
 source: "[[James Stewart Precalculus.pdf]]"
 page: 81
+aliases:
+  - Inequalities
 ---
 Some problems in algebra lead to inequalities instead of a [[Equation]]s, a inequality behaves similarly to a equation, but, instead of the equal sign, we use the following symbols: $\lt,\gt,\le,\ge$, meaning, respectively, *Less than, Greater than, Less or Equals, Greater or Equals*. 
 

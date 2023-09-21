@@ -5,12 +5,14 @@ tags:
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
 page: 48
+aliases:
+  - quadratics
 ---
 A Quadratic [[Equation]] is a second-degree equations of the form:
 $$\begin{align*}
 ax^2+bx+c=0
 	\end{align*}$$Quadratic equations can be solved in many ways:
-1. [[Factoring Trinomials]], and by using the [[Zero Product Property]].
+1. [[Factoring Trinomials]], and by using the [[Zero-Product Property]].
 2. [[Completing the Square]] 
 3. [[The Quadratic Formula]] 
 

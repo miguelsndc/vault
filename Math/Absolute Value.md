@@ -3,7 +3,9 @@ tags:
   - precalculus
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
-pages: 8-9
+pages: 8
+aliases:
+  - Absolute values
 ---
  Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
 

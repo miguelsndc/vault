@@ -6,7 +6,7 @@ date: 2023-09-16
 source: "[[James Stewart Precalculus.pdf]]"
 page: 86
 ---
-We use the following properties to solve a [[Absolute Value]] [[Inequality]]. *($\iff$ means "is equivalent to"* 
+We use the following properties to solve a [[Inequality|Inequalities]] involving [[Absolute Value|Absolute values]]. *($\iff$ means "is equivalent to"* 
 
 1. $\mid x \mid \; \lt C \iff -C \lt x \lt C$
 	The distance of $-C$ and $C$ from zero in the real line is $x$
