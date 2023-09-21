@@ -6,7 +6,8 @@ date: 2023-09-21
 source: "[[James Stewart Precalculus.pdf]]"
 page: 100
 ---
-We have three types of symmetry:
+We can sketch a symmetric graph by just plotting the points for only positive on negative points and then reflect it about the symmetric axis
+#### Types of Symmetry
 
 1. **Symmetric with respect to the y-axis**
 	If whenever the point $(x,y)$ is on the graph, then so is $(-x, y)$. This means that the graph remains unchanged when reflected about the **x-axis**. To verify, replace $x$ with $-x$ in the equation and the result is equivalent to the original one.
