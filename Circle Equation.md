@@ -6,7 +6,7 @@ date: 2023-09-20
 source: "[[James Stewart Precalculus.pdf]]"
 page: 98
 ---
-The equation of a circle of with center $(h, k)$ and radius $r$ is:
+The equation of a circle of with center $(h, k)$ and radius $r$ is , see: [[Graph of a Circle]]:
 $$\begin{align*}
 (x-h)^{2}+(y-k)^{2}&=r^2
 \end{align*}$$
