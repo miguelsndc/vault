@@ -1,7 +1,9 @@
 ---
 tags:
   - geometry
-aliases: 
+aliases:
+  - heron
+  - heron theorem
 date: 2023-09-21
 ---
 We can find the area of a scalene triangle of unknown height by using the Heron Theorem. 
