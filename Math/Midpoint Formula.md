@@ -6,6 +6,9 @@ tags:
 date: 
 source: "[[James Stewart Precalculus.pdf]]"
 page: 94
+aliases:
+  - midpoint
+  - midpoints
 ---
 The Midpoint Formula $M(x,y)$ for $A(x_{1},y_{1})$ and $B(x_{2}, y_{2})$ is:
 $$\begin{align*}
