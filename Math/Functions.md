@@ -17,4 +17,4 @@ $$\begin{align*}
 \end{align*}$$
 The symbol that represents an arbitrary number in the **domain** of $f$ is called a **independent** variable. The symbol that represents an arbitrary number in the **range** of $f$ is called a **dependent** variable.
 
-If we think of functions as machines, If $x$ is the domain of the function, when it enters the machine, it is accepted as **input**, then the machine produces an output $f(x)$ according to the rule of the function.
+If we think of functions as machines, If $x$ is the domain of the function, when it enters the machine, it is accepted as **input**, then the machine produces an output $f(x)$ according to the rule of the function. Thus, the domain is the set of all possible inputs and the range is the set of all possible outputs.
