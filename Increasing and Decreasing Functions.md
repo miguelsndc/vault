@@ -9,4 +9,4 @@ aliases:
   - increasing
   - decreasing
 ---
-We say that the [[Functions|function]] $f$ is **increasing** in the [[Intervals|interval]] $I$, when
+We say that the [[Functions|function]] $f$ is **increasing** in the [[Intervals|interval]] $I$, when 
