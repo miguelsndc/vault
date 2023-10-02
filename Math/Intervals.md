@@ -4,6 +4,8 @@ tags:
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
 pages: 6
+aliases:
+  - interval
 ---
 Intervals correspond geometrically to line segments. 
 
