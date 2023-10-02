@@ -9,4 +9,6 @@ aliases:
   - increasing
   - decreasing
 ---
-We say that the [[Functions|function]] $f$ is **increasing** in the [[Intervals|interval]] $I$, when 
+We say that the [[Functions|function]] $f$ is:
+- **Increasing** in the [[Intervals|interval]] $I$ when $f(x_{1}) \lt f(x_{2})$ and $x_{1} \lt x_{2}$
+- **Decreasing** in the interval $I$ when $f(x_{1}) \gt f(x_{2})$ and $x_{1} \lt x_{2}$ 
