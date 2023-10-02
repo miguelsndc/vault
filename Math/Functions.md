@@ -11,7 +11,7 @@ aliases:
 #### Definition 
 A function $f$ is a rule that assigns to each element $x$ in a set $A$ exactly one element, called $f(x)$, in a set $B$.
 
-The set $A$ is called the [[Domain]] of the function. The [[range]] of $f$ is the set of all possible values of $f(x)$ as $x$ varies throughout the domain, that means:
+The set $A$ is called the [[Domain]] of the function. The [[Range]] of $f$ is the set of all possible values of $f(x)$ as $x$ varies throughout the domain, that means:
 $$\begin{align*}
 \text{range of } f&= \{f(x) \;|\; x \in A\}
 \end{align*}$$

@@ -4,6 +4,9 @@ tags:
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
 page: 6
+aliases:
+  - set
+  - sets
 ---
 A set is a collection of objects, and these objects are called **elements**.
 If $S$ is a set and $a$ is a object of this set, the notation is:
