@@ -7,6 +7,7 @@ source: "[[James Stewart Precalculus.pdf]]"
 page: 48
 aliases:
   - quadratics
+  - quadratic
 ---
 A Quadratic [[Equation]] is a second-degree equations of the form:
 $$\begin{align*}
