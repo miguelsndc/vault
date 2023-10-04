@@ -18,3 +18,6 @@ f(x)+4>&= 0\\
 f(x)>&= -4
 \end{align*}$$
 So the range of a function is the domain of its [[Inverse]].
+###### Useful Properties
+- The range of an [[Absolute Value|absolute]] function of the form $c|ax+b|+k$ is $f(x) \ge k$.
+	The domain of this function is known to be $(-\infty, \infty)$, so, if we plugin a value $-\frac{b}{a}$, we'll get zero out of the absolute value. so, the range must be all values greater or equals $k$.

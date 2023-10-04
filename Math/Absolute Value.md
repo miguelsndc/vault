@@ -6,6 +6,7 @@ source: "[[James Stewart Precalculus.pdf]]"
 pages: 8
 aliases:
   - Absolute values
+  - absolute
 ---
  Denoted by $\mid a \mid$. Represents the *distance* between a number $a$ and 0 in the real line. The distance is **always positive or zero**.
 
