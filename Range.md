@@ -17,4 +17,4 @@ x&= \sqrt{f(x)+4}\\
 f(x)+4>&= 0\\
 f(x)>&= -4
 \end{align*}$$
-So the range of this function is $[-4, \infty]$.
+So the range of a function is the domain of its [[Inverse]].
