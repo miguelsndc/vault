@@ -20,4 +20,4 @@ x+3&= 0\\
 x&= -3 \; \text{when y is 0, x will be -3}\\
 & \text{so we are essentially moving the graph leftwards.}
 \end{align*}$$
-The same goes the other way around.
+The same goes the other way around, but it **isn't a x-intercept**, remember that, it's just a intuitive way of understanding the direction where it goes, it doesnt mean the function will cross the x axis when $x=-3$, it just walks $-3$ units in $x$.
