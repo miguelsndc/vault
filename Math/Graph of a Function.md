@@ -9,6 +9,7 @@ aliases:
   - function graph
   - the graph of the function
   - graph of
+  - graph
 ---
 If $f$ is a function with [[Domain]] $A$, then the graph of $f$ is the set of ordered pairs:
 $$\begin{align*}
