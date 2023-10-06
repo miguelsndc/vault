@@ -14,4 +14,11 @@ aliases:
 ---
 Horizontally stretching or shrink stands for a transformation that makes the [[Graph of a Function|graph of]] a [[Functions|function]]]] **wider** or **narrower** without changing the $y$-values of it.
 Suppose we have $y=f(x)$, Note:
-	- To horizontally **stretch** it, we can multiply $x$ by a constant $c$ where $c$
+- To horizontally **shrink** it, we can multiply $x$ by a constant $c$ where $c \gt 1$, because if:
+$$\begin{align*}
+f(x)&= 1\\
+f(2x) &= y\\
+2x&= y\\
+x&= 2y
+\end{align*}$$
+Here we are doubling the value of $y$ for the same value of $x$, therefore making it look **shrinked**, because the values of $y$ are larger for the same 
