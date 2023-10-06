@@ -25,5 +25,13 @@ f(x) &\rightarrow (x,f(x))\\
 f(cx) &\rightarrow (cx,f(cx)) \;\text{We don't want this!}\\
 f(cx) &\rightarrow \left(\frac{x}{c}, f(cx)\right) \; \text{Now x is preserved}
 \end{align*}$$
-Now for every ordered-pair, $$
-
+Now for every ordered-pair, $y$ will keep the same value but will be closer the the $y-axis$, because the $x$ valued is **smaller**. Therefore it looks *shrinked*.
+- To horizontally **stretch it**, we can multiply $x$ by a constant $c$ where $0 < c < 1$, because:
+$$\begin{align*}
+\text{Let } c &= \frac{1}{k} \;\text{because } 0 < \frac{1}{k}<1 \; \text {for}\; k<1
+\\
+f(x) &\rightarrow (x,f(x))\\
+f(cx) &\rightarrow f\left(\frac{x}{k}\right)\rightarrow \left(x,f\left(\frac{x}{k}\right)\right)\; \text{We dont want this!!}\\
+f(cx)&\rightarrow f\left(\frac{x}{k}\right)\rightarrow\left(xk,f\left(\frac{x}{k}\right)\right)
+\end{align*}$$
+We are therefore stretching the graph $k$ units farther from the $y$-axis while keeping the $y$-values preserved, because $x$ is larger now the $y$ values are more separat
