@@ -32,6 +32,6 @@ x&= 2y
 We can even make it simpler, by taking the previous defition and multiplying by $\frac{1}{c}$:
 $$\begin{align*}
 f(\frac{1}{2}x)&= y\\
-\frac{1}{\frac{1}{2}}y=\frac{1}{1}\cdot \frac{2}{1}=2y
+\frac{1}{\frac{1}{2}}y=\bigg(\frac{1}{1}\cdot \frac{2}{1}\bigg)y=2y
 \end{align*}$$
-See that now $y$ is **twice** as far from where it originally used to be.
+See that now $y$ is **twice** as far from where it originally used to be, without being modified.
