@@ -32,6 +32,6 @@ $$\begin{align*}
 \\
 f(x) &\rightarrow (x,f(x))\\
 f(cx) &\rightarrow f\left(\frac{x}{k}\right)\rightarrow \left(x,f\left(\frac{x}{k}\right)\right)\; \text{We dont want this!!}\\
-f(cx)&\rightarrow f\left(\frac{x}{k}\right)\rightarrow\left(xk,f\left(\frac{x}{k}\right)\right)
+f(cx)&\rightarrow f\left(\frac{x}{k}\right)\rightarrow\left(xk,f\left(\frac{x}{k}\right)\right) \;x\;\text{ is preserved.}
 \end{align*}$$
-We are therefore stretching the graph $k$ units farther from the $y$-axis while keeping the $y$-values preserved, because $x$ is larger now the $y$ values are more separat
+We are therefore stretching the graph $k$ units farther from the $y$-axis while keeping the $y$-values preserved, because $x$ is larger now the $y$ values are more separate, making it look *stretched*.
