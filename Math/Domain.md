@@ -4,6 +4,8 @@ tags:
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
 pages: 153
+aliases:
+  - domain
 ---
 The domain $D$ of a function $f$ is the list of all possible $x$ values that can exist for this function. Can be written using [[Set-Builder Notation]].
 
