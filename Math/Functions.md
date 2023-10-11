@@ -7,6 +7,7 @@ page: 176
 aliases:
   - function
   - fn
+  - functions
 ---
 #### Definition 
 A function $f$ is a rule that assigns to each element $x$ in a set $A$ exactly one element, called $f(x)$, in a set $B$.
