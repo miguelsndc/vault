@@ -6,6 +6,7 @@ source: "[[James Stewart Precalculus.pdf]]"
 page: 220
 aliases:
   - inverse
+  - inverse function
 ---
 #### Definition
 Let $f$ be a [[One-to-One Functions|one-to-one function]] with a [[Domain|domain]] $A$ and [[Range|range]] $B$. Then it's **inverse** [[Functions|function]] $f^{-1}$ has domain $B$ and range $A$ and is defined by:
