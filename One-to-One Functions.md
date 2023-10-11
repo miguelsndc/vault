@@ -6,6 +6,7 @@ source: "[[James Stewart Precalculus.pdf]]"
 page: 219
 aliases:
   - one to one
+  - one-to-one function
 ---
 One to one [[Functions|functions]] are those who map to exactly one output. See:
 ###### Definition
