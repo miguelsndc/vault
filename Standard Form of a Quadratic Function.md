@@ -6,6 +6,7 @@ source: "[[James Stewart Precalculus.pdf]]"
 page: 246
 aliases:
   - standard form of quadratic function
+  - standard form
 ---
 A [[Quadratic Function]] of the form $f(x) = ax^{2}+bx+c$ can be expressed in the **standard form:**
 $$\begin{align*}
