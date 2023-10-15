@@ -15,5 +15,6 @@
   "obsidian-git",
   "obsidian-tasks-plugin",
   "obsidian-functionplot",
-  "pane-relief"
+  "pane-relief",
+  "obsidian-discordrpc"
 ]
