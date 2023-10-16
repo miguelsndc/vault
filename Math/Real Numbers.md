@@ -4,6 +4,8 @@ tags:
 date: 2023-09-14
 source: "[[James Stewart Precalculus.pdf]]"
 page: 2
+aliases:
+  - real number
 ---
 Real numbers represent is a number system that includes **natural, integers, rational and irrational** numbers.
 
