@@ -16,5 +16,9 @@ The end behavior of the polynomial $P(x) = a_{n}x^{n}+ a_{n-1}x^{n-1}+ \cdots + 
 #### Four Types of Behavior
 After all those ups and downs of this weird looking function we end up with **four** common behaviors, splitting into **two** cases, **even and odd**, and both being **negative or positive**:
 Let $P$ be a polynomial function.
-- When $P$ has **odd** degree:
-	And 
+- When $P$ has **odd** degree: 
+	- Leading coefficient **positive**:
+		- $y \rightarrow \infty$ as $x \rightarrow \infty$ 
+		- $y \rightarrow -\infty$ as $x \rightarrow -\infty$ 
+	- Leading coefficient **negative**:
+	- 
