@@ -21,4 +21,13 @@ Let $P$ be a polynomial function.
 		- $y \rightarrow \infty$ as $x \rightarrow \infty$ 
 		- $y \rightarrow -\infty$ as $x \rightarrow -\infty$ 
 	- Leading coefficient **negative**:
-	- 
+		- $y \rightarrow \infty$ as $x \rightarrow -\infty$ 
+		- $y \rightarrow -\infty$ as $x \rightarrow \infty$
+
+- When $P$ has **even** degree:
+	- Leading coefficient **positive**:
+		- $y \rightarrow \infty$ as $x \rightarrow -\infty$
+		- $y \rightarrow \infty$ as $x \rightarrow \infty$  
+	- Leading coefficient **negative**:
+		- $y \rightarrow -\infty$ as $x \rightarrow -\infty$
+		- $y \rightarrow -\infty$ as $x \rightarrow \infty$   
