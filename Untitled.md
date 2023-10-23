@@ -1,10 +1,12 @@
 ---
 tags:
   - avlc
-  - ip
-  - ic
-  - md
   - calc
+  - ic
+  - ip
+  - md
+done: false
 date: 
+due_date: 
 aliases:
 ---
