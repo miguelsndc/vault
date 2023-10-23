@@ -1,6 +1,10 @@
 ---
 tags:
-  - class
+  - avlc
+  - ip
+  - ic
+  - md
+  - calc
 date: 
-source:
+aliases:
 ---

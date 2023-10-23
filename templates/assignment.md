@@ -1,8 +1,12 @@
 ---
 tags:
-  - assignment
+  - avlc
+  - calc
+  - ic
+  - ip
+  - md
 done: false
 date: 
 due_date: 
-source:
+aliases:
 ---
