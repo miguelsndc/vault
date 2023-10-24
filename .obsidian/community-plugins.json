@@ -6,7 +6,6 @@
   "tabout",
   "table-editor-obsidian",
   "oz-image-plugin",
-  "periodic-notes",
   "omnisearch",
   "obsidian-pandoc",
   "url-into-selection",
@@ -18,5 +17,6 @@
   "pane-relief",
   "obsidian-discordrpc",
   "obsidian-outliner",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-memos"
 ]
