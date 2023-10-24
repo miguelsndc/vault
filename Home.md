@@ -1,6 +1,5 @@
-**Urgent Stuff:**
 ```dataview
-LIST from #urgent 
+LIST from #urgent and !"templates"
 ```
 Overdue:
 ```tasks
