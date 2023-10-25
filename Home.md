@@ -30,7 +30,3 @@ not done
 no due date
 ```
 ___
-Overall:
-```tasks
-not done
-```

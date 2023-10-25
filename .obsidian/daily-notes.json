@@ -1,5 +1,5 @@
 {
-  "folder": "daily",
-  "format": "DD/MM/YYYY",
+  "folder": "Journal",
+  "format": "YYYY/MMMM/DD-MM-YYYY",
   "template": "templates/Daily"
 }
