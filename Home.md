@@ -1,12 +1,20 @@
+
 ```dataview
 LIST from #urgent and !"templates"
 ```
+Todo:
+```tasks
+not done
+sort by priority
+happens this week
+```
+___
 Overdue:
 ```tasks
 not done
 sort by due date
 due before <% tp.date.now("YYYY-MM-DD")%>
-hide backlinkg
+hide backlink
 ```
 ___
 Due Today:
