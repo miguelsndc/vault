@@ -1,3 +1,4 @@
+
 **Arquitetura de Von Neumann** 
 - **ALU** - Arithmetic and Logic Unit.
 	- Differentiates Instructions from Data.
