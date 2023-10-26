@@ -1,3 +1,11 @@
+---
+tags:
+  - md
+  - propositional-logic
+aliases:
+  - logical operations
+date: 2023-10-25
+---
 Based on [[Proposition]], we can use some operators to create more complex propositions based on others, See:
 - $p\lor q$, $p$ or $q$
 	- Yields true whether one (or both) propositions are **true**.
