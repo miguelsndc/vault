@@ -10,4 +10,4 @@ Based on [[Proposition]], we can use some operators to create more complex propo
 - $p \implies q$, If $p$ then $q$ 
 	- Is a relationship of two proposition when one is last is a logical consequence of the first. **Returns false only when p $p$ is true and $q$ is false, Otherwise always true**
 - $p \iff q$, $p$ if and only if $q$.
-	- Bothways implication, expressed as $(p\implies q) \land (q \implies p)$. Tru
+	- Bothways implication, expressed as $(p\implies q) \land (q \implies p)$. True when $p$ and $q$ are equal.
