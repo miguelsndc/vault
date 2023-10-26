@@ -12,4 +12,4 @@ Examples are:
 - Speed
 - Temperature
 - 30mph.
-If a quantity **does not** have **both magnitude and direction** then it's a scalar, otherwise it's a [[Vector Quantity]]
+If a quantity **does not** have **both magnitude and direction** then it's a scalar, otherwise it's a [[Vector Quantity]] 
