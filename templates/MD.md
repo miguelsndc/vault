@@ -2,5 +2,5 @@
 tags:
   - "#md"
 aliases: 
-date: ""
+date: <% tp.date.now() %>
 ---

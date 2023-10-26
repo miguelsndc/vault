@@ -3,7 +3,7 @@ tags:
   - chill
   - worthalook
   - urgent
-date: 2023-10-23
+date: <% tp.date.now() %>
 aliases:
 ---
 <% tp.web.daily_quote()%>
