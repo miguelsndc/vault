@@ -17,13 +17,4 @@ $p$ is called the *premise* and $q$ is called the *conclusion*. **Is true when b
 | T   | F   | F              |
 | T   | T   | T               |
 
-#### Frequently Used Terminology
-Since conditional statements play a essential role in mathematical reasoning, it's often used in a ton of different ways, some of them are not that obvious, but they all mean the same. $p \implies q$. See:
-- "$p$ is sufficient for $q$"
-- "$q$ if $p$"
-- "$q$ when $p$"
-- "a necessary condition for $p$ is $q$"
-- "q unless $\neg p$"
-- "$q$ whenever $p$"
-- "$q$ is necessary for $p$"
-- "$q$ follows from $p$" 
+Look at [[Frequently Used Terminology]] for the conditional statements.
