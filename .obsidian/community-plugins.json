@@ -3,7 +3,6 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "quick-latex",
-  "tabout",
   "table-editor-obsidian",
   "oz-image-plugin",
   "omnisearch",
@@ -19,5 +18,6 @@
   "obsidian-outliner",
   "templater-obsidian",
   "obsidian-memos",
-  "homepage"
+  "homepage",
+  "tabout"
 ]
