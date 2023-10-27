@@ -4,6 +4,8 @@ tags:
 date: 2023-09-19
 source: "[[James Stewart Precalculus.pdf]]"
 page: 93
+aliases:
+  - distance
 ---
 The Distance formula for $d(A,B)$ for $A(x_{1},y_{1})$ and $B(x_{2}, y_{2})$ is:
 $$\begin{align*}

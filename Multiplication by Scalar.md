@@ -14,3 +14,6 @@ b_{2}&= \lambda a_{2}\\
 b_{3}&= \lambda a_{3}
 \end{cases}
 \end{align*}$$
+The length of a vector $\vec{b} =\lambda a$ is $\vec{b} = |\lambda| a$
+- If $\lambda \gt 0$ then $\vec{b}$ is of the same direction of $\vec{a}$ 
+- If $\lambda \lt 0$ then $\vec{b} = \lambda a$ has the **opposite direction** with respect to $\vec{a}$.
