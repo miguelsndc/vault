@@ -58,8 +58,12 @@ $$
 &|\cos{\theta}| \le 1\\
 &\text{So:}\\
 &\mid \frac{u\cdot{v}}{||u||\cdot{||v||}}\mid \le 1\\
-**\frac{1}{||u||\cdot{||v||}} \cdot |u\cdot{v}| \le 1\\
-|u\cdot{v}| &\le ||u|| \cdot ||v||
+&\frac{1}{||u||\cdot{||v||}} \cdot |u\cdot{v}| \le 1\\
+&|u\cdot{v}| \le ||u|| \cdot ||v||
 \end{align*}
 $$
+From here we take a few identities, like:
+$$\begin{align*}
+&\cos{\theta}= \frac{u\cdot{v}}{||u||\cdot{||v||}}\\
+\end{align*}$$
 
