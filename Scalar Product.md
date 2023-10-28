@@ -18,3 +18,4 @@ $$\begin{align*}
 \end{align*}$$
 - $\vec{u} \cdot \vec{v} = \vec{v} \cdot \vec{u}$ 
 - $(k\cdot \vec{u})\vec{v} = k(\vec{v} \cdot \vec{u})$ 
+- $\vec{U}(\vec{v}+\vec{w}) = \vec{U}\cdot v + \vec{U} \cdot w$  .
