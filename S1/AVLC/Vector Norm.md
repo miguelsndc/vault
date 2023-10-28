@@ -44,12 +44,22 @@ $$\begin{align*}
 Let the vectors $\vec{u}$ and $\vec{v}$ and $\overrightarrow{u -v}$ form a non-right triangle in a two-dimensional plane, with $\theta$ as the angle that $\vec{u}$ and $\vec{v}$ form together, Let the sides **be their norms**. By the law of cosines we have, Here well ignore the upper arrow notation for readability purposes.
 $$
 \begin{align*}
-||u-v||^{2} &=  ||u||^{2}-||v||^{2}-2||u||\cdot||v||\cos{\theta}\\
+&||u-v||^{2} =  ||u||^{2}+||v||^{2}-2||u||\cdot||v||\cos{\theta}\\
 &\text{Simplify } ||u-v||^{2}\\
-||u-v||^{2}&= u(u-v) + (u-v)(-v)\\
-&= u\cdot u - vu -vu
+&||u-v||^{2}= u(u-v) + (u-v)(-v)\\
+&= u\cdot u - vu -vu+v \cdot v\\
+&= ||u||^{2}-2vu+||v||^{2}\\
+&\text{Now we have:}\\
+&||u||^{2}-2u\cdot{v}+||v||^{2}= ||u||^{2}+||v||^{2}-2||u||\cdot ||v||\cos(\theta)\\
+&u\cdot v= ||u||\cdot||v||\cos(\theta)\\
+&\cos{\theta}= \frac{u\cdot{v}}{||u||\cdot{||v||}}\\
+&\text{We know that:}\\
+&-1 \le \cos{\theta} \le 1\\
+&|\cos{\theta}| \le 1\\
+&\text{So:}\\
+&\mid \frac{u\cdot{v}}{||u||\cdot{||v||}}\mid \le 1\\
+**\frac{1}{||u||\cdot{||v||}} \cdot |u\cdot{v}| \le 1\\
+|u\cdot{v}| &\le ||u|| \cdot ||v||
 \end{align*}
 $$
-$$\begin{align*}
 
-\end{align*}$$
