@@ -29,14 +29,15 @@ $$\begin{align*}
 ||\vec{v}|| &= \sqrt{x_{1}^{2}+ y_{1}^{2}+ z_{1}^{2}}
 \end{align*}$$
 #### Properties
-- $||\vec{u}|| \ge 0$ 
+1. $||\vec{u}|| \ge 0$ 
 $$\begin{align*}
 ||\vec{u}|| &= \sqrt{\vec{u} \cdot \vec{u}} \\\
 \sqrt{\vec{u} \cdot \vec{u}} &= 0 \iff \vec{u}=(0,0) \therefore ||\vec{u}|| \ge 0
 \end{align*}$$
-- $||K \cdot \vec{v}||$ = $|K| \cdot ||\vec{v}||$
+2. $||K \cdot \vec{v}||$ = $|K| \cdot ||\vec{v}||$
 $$\begin{align*}
 ||K\cdot \vec{v}||&= \sqrt{(K\cdot\vec{u})(K\cdot\vec{u})}\\
 &= \sqrt{K^{2}}\cdot\sqrt{\vec{u} \cdot \vec{u}}\\
 &= |K| \cdot ||\vec{u}||
 \end{align*}$$
+3. 

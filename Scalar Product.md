@@ -8,7 +8,7 @@ date: 2023-10-28
 ---
 The **scalar product** of two [[Vector|vectors]] $\vec{u} = (x_{1}, y_{1})$ and $\vec{v}=(x_{2}, y_{2})$, is denoted by:
 $$
-\vec{u} \cdot \vec{v} = (x_{1}x_{2}, y_{1}y_{2}) = t
+\vec{u} \cdot \vec{v} = (x_{1}x_{2} + y_{1}y_{2}) = t
 $$
 Where $t$ is a constant called the **scalar product**.
 #### Properties:
