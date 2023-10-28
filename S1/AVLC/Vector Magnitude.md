@@ -16,4 +16,12 @@ $$\begin{align*}
 The $||\vec{v}||$ syntax stands for **norm**, note that the result of this pythagorean theorem is exactly the [[Scalar Product]] of $\vec{v}$ with itself, so we can say that:
 
 > The norm of a vector $\vec{v}$ is the square root of the scalar product of $\vec{v}$ with itself.
-> 
+
+Or
+
+> The norm of a vector $\vec{v}$ is th
+
+With $\mathbb{R}^{3}$ it's:
+$$\begin{align*}
+||\vec{v}|| &= \sqrt{x_{1}^{2}+ y_{1}^{2}+ z_{1}^{2}}
+\end{align*}$$
