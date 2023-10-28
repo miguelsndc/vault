@@ -19,9 +19,15 @@ The $||\vec{v}||$ syntax stands for **norm**, note that the result of this pytha
 
 Or
 
-> The norm of a vector $\vec{v}$ is th
+> The norm of a vector $\vec{v}$ is the distance from the origin to the endpoint of $\vec{v}$. 
+> $dist(O, v) = ||\vec{v}||$
+
+Since the distance from the origin and self scalar product leads to the same return value.
 
 With $\mathbb{R}^{3}$ it's:
 $$\begin{align*}
 ||\vec{v}|| &= \sqrt{x_{1}^{2}+ y_{1}^{2}+ z_{1}^{2}}
 \end{align*}$$
+#### Properties
+- $||\vec{u}|| \ge 0$ 
+
