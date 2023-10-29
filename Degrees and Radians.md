@@ -27,8 +27,8 @@ $$\begin{align*}
 x\left(\frac{180}{\pi}\right)&= 270\\
 \frac{180x}{\pi} &= 270\\
 180x &= 270\pi\\
-x &= \frac{1}{2}\pi\\
-x&= \frac{\pi}{2}
+x&= \frac{270\pi}{180}\\
+&= \frac{3\pi}{2}
 \end{align*}$$
 So paying attention, what we really did was multiply by $\frac{\pi}{180}$.
 
