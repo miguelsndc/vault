@@ -18,5 +18,20 @@ $$\begin{align*}
 \end{align*}$$
 But we also need to drop the $\pi$ here, so:
 $$\begin{align*}
-\frac{540\pi}{4} \cdot \frac{1}{\pi}
+\frac{540\pi}{4} \cdot \frac{1}{\pi}&= \frac{540}{4}=135\degree
 \end{align*}$$
+Notice that all we did was multiply by $180/\pi$. which is, algebraically the same as multiplying by one since $\pi = 180$ then $\frac{180}{180}=1$. We **did not change** the value of angle.
+
+Same process goes for degrees to radians, Converting $270\degree$ to radians. Think of $270\degree$ as a already converted radian, so $270\degree$ is already multiplied by $180$ and divided by $\pi$, so we need to do the opposite:
+$$\begin{align*}
+x\left(\frac{180}{\pi}\right)&= 270\\
+\frac{180x}{\pi} &= 270\\
+180x &= 270\pi\\
+x &= \frac{1}{2}\pi\\
+x&= \frac{\pi}{2}
+\end{align*}$$
+So paying attention, what we really did was multiply by $\frac{\pi}{180}$.
+
+Notice the pattern:
+- Convert from degrees to radians, drop the $180\degree$ and multiply by $\pi$ 
+- Convert from radians to degrees, drop $\pi$ and multiply by $180\degree$.
