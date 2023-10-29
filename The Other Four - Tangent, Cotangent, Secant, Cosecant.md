@@ -25,4 +25,20 @@ $$\begin{align*}
 &= \frac{opp}{hyp}\cdot \frac{hyp}{adj}\\
 &= \frac{opp}{adj}\\
 \tan{A} &= \frac{opp}{adj} 
+\end{align*}$$And the last three are defined in terms of the first three:
+$$\begin{align*}
+\cot{A} &= \frac{1}{\tan{A}}\\
+\sec{A} &= \frac{1}{\cos{A}}\\
+\csc{A}&= \frac{1}{\sin{A}}
+\end{align*}$$
+
+We can immediately notice that the *tangent* and the *cotangent* are the **cofunction** of the other, just like sine and cosine.
+$$\begin{align*}
+\cot{A} &= \tan{\frac{\pi}{2}- A}\\
+\tan{A} &= \cot{\frac{\pi}{2}-A}\\
+\end{align*}$$
+Same goes for secant and **co**secant:
+$$\begin{align*}
+\sec{A} &= \csc{\frac{\pi}{2} -A}\\
+\csc{A} &= \sec{\frac{\pi}{2}-A}
 \end{align*}$$
