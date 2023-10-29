@@ -16,5 +16,13 @@ The trig functions are no more than rations of the sides of [[Right Triangle|rig
 $\sin{A} =$ opposite side of $A$ divided by the *hypothenuse*.
 $\cos{A}$ = adjacent side of $A$ divided by the *hypothenuse*.
 
-Since 
+Since $A+B+C =180$ and $C=90$, then $A+B = 90$, which can be rewritten as:
+- $A= 90- B$
+- $B = 90 - A$ 
+When two angles add to $90\degree$ they are the **complement** of each other, and the sine of each angle is the **co**sine of the other.
+These are the **cofunction identities**:
+$$\begin{align*}
+\sin{A} &= \cos{90\degree-A} \text{ or } \cos{\frac{\pi}{2}-A}\\
+\cos{A} &= \sin{90\degree-A} \text{ or } \sin{\frac{\pi}{2}-A}
+\end{align*}$$
 
