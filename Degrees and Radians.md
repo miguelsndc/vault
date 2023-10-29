@@ -22,7 +22,7 @@ $$\begin{align*}
 \end{align*}$$
 Notice that all we did was multiply by $180/\pi$. which is, algebraically the same as multiplying by one since $\pi = 180$ then $\frac{180}{180}=1$. We **did not change** the value of angle.
 
-Same process goes for degrees to radians, Converting $270\degree$ to radians. Think of $270\degree$ as a already converted radian, so $270\degree$ is already multiplied by $180$ and divided by $\pi$, so we need to do the opposite:
+Same process goes for degrees to radians, Converting $270\degree$ to radians. Think of $270\degree$ as a already converted radian, so $270\degree$ is already multiplied by $180$ and divided by $\pi$, so we need to reverse the process:
 $$\begin{align*}
 x\left(\frac{180}{\pi}\right)&= 270\\
 \frac{180x}{\pi} &= 270\\
