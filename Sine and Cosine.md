@@ -26,3 +26,4 @@ $$\begin{align*}
 \cos{A} &= \sin{90\degree-A} \text{ or } \sin{\frac{\pi}{2}-A}
 \end{align*}$$
 
+T
