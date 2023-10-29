@@ -46,7 +46,8 @@ $$
 $$
 So for fuck's sake we finally obtain:
 $$\begin{align*}
-\sin{30\degree\text{ or } \frac{\pi}{6}} &= \frac{1}{2};& \sin{60\degree} =\frac{\sqrt{3}}{2}\\
-\cos{30\degree} &= \frac{\sqrt{3}}{2};& \cos{60\degree}=\frac{1}{2}\\
-\tan{30\degree} &= \frac{\sqrt{3}}{3};& \tan{60\degree}=\sqrt{3}
+\sin{30\degree\text{ or } \frac{\pi}{6}} &= \frac{1}{2};& \sin{60\degree\text{ or } \frac{\pi}{3}} =\frac{\sqrt{3}}{2}\\
+\cos{30\degree\text{ or } \frac{\pi}{6}} &= \frac{\sqrt{3}}{2};& \cos{60\degree \text{ or } \frac{\pi}{3}}=\frac{1}{2}\\
+\tan{30\degree\text{ or } \frac{\pi}{6}} &= \frac{\sqrt{3}}{3};& \tan{60\degree \text{ or } \frac{\pi}{3}}=\sqrt{3}
 \end{align*}$$
+
