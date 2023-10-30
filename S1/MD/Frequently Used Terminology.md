@@ -1,4 +1,4 @@
-Since [[Conditional Statement]] play a essential role in mathematical reasoning, it's often used in a ton of different ways, some of them are not that obvious, but they all mean the same. $p \implies q$. See:
+Since [[Implication]] play a essential role in mathematical reasoning, it's often used in a ton of different ways, some of them are not that obvious, but they all mean the same. $p \implies q$. See:
 - "$p$ is sufficient for $q$"
 - "$q$ if $p$"
 - "$q$ when $p$"
