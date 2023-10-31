@@ -28,5 +28,13 @@ $p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$
 $p \land (q \lor r) \equiv (p \land q) \lor (p \land r)$ 
 ##### De Morgan's Laws
 $\neg (p \land q) \equiv \neg p \lor \neg q$ 
-$\neg(p \lor q) \equiv \neg p $
+$\neg(p \lor q) \equiv \neg p \land \neg q$ 
+##### Absorption Laws
+$p \lor (p \land q) \equiv p$ 
+$p \land (p \lor q) \equiv p$ 
+##### Negation Laws
+$p \lor \neg p \equiv T$ 
+$p \land \neg p \equiv F$   
+
+
 
