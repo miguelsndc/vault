@@ -13,4 +13,6 @@ $(p \implies q) \land (p \implies r) \equiv p \implies (q \land r)$
 $(p \implies r) \land (q \implies r) \equiv (p \lor q) \implies r$ 
 $(p \implies q) \lor (p \implies r) \equiv p \implies (q \lor r)$ 
 $(p \implies q) \land (p \implies r) \equiv p \implies (q \land r)$     
+$(p \implies r) \land (q \implies r) \equiv (p \land q) \implies r$
 
+for fucks sake.
