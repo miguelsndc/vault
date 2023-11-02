@@ -67,3 +67,4 @@ $$\begin{align*}
 &\cos{\theta}= \frac{u\cdot{v}}{||u||\cdot{||v||}}\\
 \end{align*}$$
 
+	
