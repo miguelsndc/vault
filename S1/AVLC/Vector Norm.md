@@ -4,6 +4,7 @@ tags:
   - vector
 aliases:
   - magnitude
+  - cauchy-schwarz inequality
 date: 2023-10-26
 ---
 The **magnitude, length or norm** $a$ of a [[Vector]] $\vec{v}$ plotted within a two-dimensional system is:
