@@ -10,8 +10,8 @@
   },
   "weekly": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "templates/Weekly.md",
+    "folder": "Journal/unit1",
     "enabled": true
   },
   "monthly": {
