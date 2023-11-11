@@ -1,1 +1,0 @@
-A line is said to be perpendicular to another line if the two lines intersect at a right angle (90º).

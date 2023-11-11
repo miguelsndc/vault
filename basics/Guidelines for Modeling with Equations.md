@@ -1,4 +1,0 @@
-1. **Identify the Variable**: First identify the quantity the question is asking you to find, it can usually be found by carefully reading the question at the end of the problem, once found, **introduce notation**, call it $x$ or whatever.
-2. **Translate words to Algebra**: Read each sentence of the problem again, and express all the quantities mentioned in terms of the variable you just defined in step 1, It is useful to **draw a diagram** or **make a table** to help keep track of those values.
-3. **Set Up the Model**: Find the crucial fact in the problem that gives a relationship between the expressions you listed in step 2. Set up an [[Equation]] or [[Mathematical Models]] that expresses this relationship.
-4. **Solve the Equation**: Solve the equation, check you answer and express it as a sentence that answers the question posed in the problem.
