@@ -26,7 +26,28 @@ As an example, for the point $Q(1.5,2.25)$ we obtain:
 $$\begin{align*}
 m_{pq}&= \frac{2.25-1}{1.5-1}=\frac{1.25}{0.5}=2.5
 \end{align*}$$
+Notice that for several values of $x$ close to $1$:
 
+| $x$   | $m_{pq}$ |
+| ----- | -------- |
+| $2$     | $3$        |
+| $1.5$   | $2.25$     |
+| $1.1$   | $2.1$      |
+| $1.01$  | $2.01$    |
+| $1.001$ | $2.001$    |  
 
+| $x$   | $m_{pq}$ |
+| ----- | -------- |
+| $0$     | $1$        |
+| $0.5$   | $1.5$     |
+| $0.9$   | $1.9$      |
+| $0.99$  | $1.99$    |
+| $0.999$ | $1.999$    |  
 
-
+See that the closer $Q$ is to $P$, the closer $x$ is to $1$, the closer $m_{pq}$ is to $2$. This suggests that the slope of the tangent line $l$ should be $m=2$. 
+We say that the slope of the tanget line is the [[Limits|limit ]]of the slopes of the secant lines, and we express this symbolically by writing:
+$$\begin{align*}
+\lim_{Q \to P} m_{pq}&= m\\
+\lim_{x\to 2}
+\end{align*}$$
+ 
