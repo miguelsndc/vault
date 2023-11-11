@@ -12,6 +12,10 @@ y ^RZ2D8Zrc
 
 x ^fF2kdW1M
 
+l ^pEZhnxFA
+
+t ^kCrBIvOM
+
 %%
 # Drawing
 ```json
@@ -264,7 +268,7 @@ x ^fF2kdW1M
 			"width": 7,
 			"height": 4,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -277,13 +281,175 @@ x ^fF2kdW1M
 				"type": 2
 			},
 			"seed": 589083622,
-			"version": 8,
-			"versionNonce": 1429331898,
+			"version": 9,
+			"versionNonce": 925405414,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1699715686683,
+			"updated": 1699715688101,
 			"link": null,
 			"locked": false
+		},
+		{
+			"id": "8Gs_EDtgtzPd8BaUYzG9q",
+			"type": "line",
+			"x": -274,
+			"y": -105.9296875,
+			"width": 395,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 720471078,
+			"version": 150,
+			"versionNonce": 1019119802,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1699715697915,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					395,
+					-25
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "ogX5LNUq-RDbhBEvdTH1U",
+			"type": "line",
+			"x": -174,
+			"y": -208.9296875,
+			"width": 21,
+			"height": 244,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1524037606,
+			"version": 62,
+			"versionNonce": 273625082,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1699715705493,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					21,
+					244
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "pEZhnxFA",
+			"type": "text",
+			"x": 131,
+			"y": -143.9296875,
+			"width": 5.2599945068359375,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1570447546,
+			"version": 16,
+			"versionNonce": 1736776166,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1699715712570,
+			"link": null,
+			"locked": false,
+			"text": "l",
+			"rawText": "l",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "l",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "kCrBIvOM",
+			"type": "text",
+			"x": -180,
+			"y": -236.9296875,
+			"width": 11.29998779296875,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 308174714,
+			"version": 23,
+			"versionNonce": 1535654010,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1699715717425,
+			"link": null,
+			"locked": false,
+			"text": "t",
+			"rawText": "t",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "t",
+			"lineHeight": 1.25
 		},
 		{
 			"id": "onzRbleJ",
@@ -363,7 +529,7 @@ x ^fF2kdW1M
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#2f9e44",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
