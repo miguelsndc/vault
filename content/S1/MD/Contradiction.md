@@ -1,6 +1,7 @@
 ---
 tags:
   - "#md"
+  - proofs
 aliases:
   - contradiction
 date: 2023-10-30

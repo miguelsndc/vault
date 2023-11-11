@@ -1,6 +1,7 @@
 ---
 tags:
   - "#md"
+  - functions
 aliases:
   - codomain
 date: 2023-11-10

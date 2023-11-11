@@ -2,6 +2,7 @@
 tags:
   - md
   - propositional-logic
+  - proofs
 aliases:
   - contrapositive
 date: 2023-10-26
