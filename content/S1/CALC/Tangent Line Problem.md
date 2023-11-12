@@ -45,7 +45,7 @@ Notice that for several values of $x$ close to $1$:
 | $0.999$ | $1.999$    |  
 
 See that the closer $Q$ is to $P$, the closer $x$ is to $1$, the closer $m_{pq}$ is to $2$. This suggests that the slope of the tangent line $l$ should be $m=2$. 
-We say that the slope of the tanget line is the [[Limits|limit ]]of the slopes of the secant lines, and we express this symbolically by writing:
+We say that the slope of the tanget line is the [[Intuitive Definition of Limits|limit ]]of the slopes of the secant lines, and we express this symbolically by writing:
 $$\begin{align*}
 &\lim_{Q \to P} m_{pq}= m\\
 &\lim_{x\to 1}= \frac{x^{2}-1}{x-1}=2 
