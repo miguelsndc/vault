@@ -47,7 +47,10 @@ Notice that for several values of $x$ close to $1$:
 See that the closer $Q$ is to $P$, the closer $x$ is to $1$, the closer $m_{pq}$ is to $2$. This suggests that the slope of the tangent line $l$ should be $m=2$. 
 We say that the slope of the tanget line is the [[Limits|limit ]]of the slopes of the secant lines, and we express this symbolically by writing:
 $$\begin{align*}
-\lim_{Q \to P} m_{pq}&= m\\
-\lim_{x\to 2}
+&\lim_{Q \to P} m_{pq}= m\\
+&\lim_{x\to 1}= \frac{x^{2}-1}{x-1}=2 
 \end{align*}$$
- 
+Assuming that the slope of the tangent line is $m=2$ we can use the [[Point-Slope Equation of Line]] to write the equation of the tangent line:
+$$\begin{align*}
+y-1 =2(x-1)&= 2x-1
+\end{align*}$$
