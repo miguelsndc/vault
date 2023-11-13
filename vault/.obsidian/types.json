@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date": "date",
+    "pending": "checkbox",
+    "due_date": "datetime",
+    "pages": "number",
+    "page": "number",
+    "end_date": "date"
+  }
+}

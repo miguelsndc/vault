@@ -1,0 +1,2 @@
+1. If a product or quotient has a **even** number of **negative** factors, then its result is positive.
+2. If a product or quotient has a **odd** number of **negative** factors, then its result is positive.
