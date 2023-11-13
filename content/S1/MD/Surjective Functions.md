@@ -5,5 +5,7 @@ aliases:
   - surjective
 date: 2023-11-10
 ---
-Surjective or *onto* functions are those who every value $y$ in the [[Range|range]] has a associated value in the [[Domain|domain]], it means that there are no gaps between the [[Codomain|codomain]] and the [[Range in Discrete Math|range]] of the function. See:
-$$\forall y \in \mathbb{Y} \; \exists x \in \mathbb{X} : f(x) = y $$
+A [[Functions in Discrete Math|function]] $f$ from $A$ to $B$ is called *onto* or *surjection*, if and only if for every element $b \in B$ there is a element $a \in A$ with $f(a) = b$. A function is called surjective if its onto. See:
+$$\begin{align*}
+\forall y \exists x(f(x) =y)
+\end{align*}$$
