@@ -18,5 +18,33 @@ u\times v \ne v \times u
 \end{align*}$$
 But if we change **two lines or two columns** we keep the same result, so:
 $$\begin{align*}
-u \times v&= -v\time
+u \times v&= -v\times u
 \end{align*}$$
+But note that both $u\times v$ and $v \times u$ are perpendicular to $u$ and $v$. They just fall in opposite directions.
+- Cross Product is distributive:
+$$\begin{align*}
+(u+v)\times w&= u\times w+v\times w\\
+w\times(u+v)&= w\times u + w\times v
+\end{align*}$$
+- Scalar Multiplication
+$$\begin{align*}
+(ku)\times v=u\times(kv)=k(u\times v)
+\end{align*}$$
+For whatever vectors $u$ and $v$ or number $k$.
+- **NOT ASSOCIATIVE**:
+$$\begin{align*}
+u\times(v\times w)\ne (u\times v)\times w
+\end{align*}$$
+- $||u\times v||=||u||\cdot ||v|| \sin{\theta}$. Proof: 
+$$\begin{align*}
+||u\times v||^{2}=||u||^{2}\cdot||v||^{2}-(u\cdot v)^{2}
+\end{align*}$$
+Take this for granted, too much work to prove it, but we'll use it:
+$$\begin{align*}
+||u\times v||^{2}&= ||u||^{2}\cdot||v||^{2}-(u\cdot v)^{2}\\
+&= ||u||^{2}\cdot ||v||^{2}-||u||^2\cdot||v||^{2}\cos^2{\theta}\\
+&= ||u||^{2}\cdot ||v||^{2}(1-\cos^2{\theta})\\
+&= ||u||^{2}\cdot||v||^{2}\sin^{2}{\theta}\\\\
+&||u\times v||=||u||\cdot||v||\sin{\theta}
+\end{align*}$$
+So taking a a
