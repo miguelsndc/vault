@@ -3,6 +3,9 @@ tags:
   - avlc
 aliases:
   - line
+  - parametric line equations
+  - parametric line
+  - parametric lines
 date: 2023-11-14
 ---
 Different from the [[Cartesian Line Equation]], the parametric line equation lies on the idea that we can scale or shrink vectors infinetly. If we have a point and a vector, we can determine a arbitrary point that falls on this line by arbitrating values on a [[vault/content/S1/AVLC/Scalar|scalar]] $t$ that will grow or shrink the [[vault/content/S1/AVLC/Vector|vector]] to reach the desired points. 

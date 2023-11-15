@@ -47,4 +47,4 @@ $$\begin{align*}
 &= ||u||^{2}\cdot||v||^{2}\sin^{2}{\theta}\\\\
 &||u\times v||=||u||\cdot||v||\sin{\theta}
 \end{align*}$$
-So taking a a
+So the area of a paralellogram is also denoted by $||u||\cdot ||v||\sin{\theta}$.
