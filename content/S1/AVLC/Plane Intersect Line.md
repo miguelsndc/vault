@@ -11,4 +11,4 @@ r:\begin{cases}
 2x+y+z=2
 \end{cases}
 \end{align*}$$
-You might want to [[Convert from Plane Intersect to Parametric]] 
+You might want to [[Convert from Plane Intersect to Parametric]]  

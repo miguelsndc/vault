@@ -10,7 +10,7 @@ The distance between skew lines can be given by the [[Scalar Triple Product]] of
 $$\begin{align*}
 \frac{|\vec{Vdr},\vec{Vds},Pr-Ps|}{||\vec{Vdr}\times\vec{Vds}||}
 \end{align*}$$
-Perhaps if the line is in [[Plane Intersect Form]] you might need to know [[How to Find Direction Vector of Plane Intersect Line]].
+Perhaps if the line is a [[Plane Intersect Line]] you might need to know [[How to Find Direction Vector of Plane Intersect Line]].
 
 Where:
 - $\vec{Vdr}$ Direction vector of line $r$ .
