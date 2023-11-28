@@ -9,4 +9,4 @@ $$\begin{align*}
 -1 & 0 & 5\\
 \end{bmatrix}
 \end{align*}$$
-Notice how the elements are *reflected* over the diagonal, See, #
+Notice how the elements are *reflected* over the diagonal.
