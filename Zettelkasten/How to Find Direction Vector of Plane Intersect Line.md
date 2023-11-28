@@ -1,10 +1,10 @@
 ---
 tags:
-  - avlc
+  - vector
 aliases: 
 date: 2023-11-16
 ---
-To find the direction [[vault/content/S1/AVLC/Vector|vector]] of a [[Plane Intersect Line]] $r$. you need to solve a **determinant** with the coefficients of the line, see:
+To find the direction [[Vector|vector]] of a [[Plane Intersect Line]] $r$. you need to solve a **determinant** with the coefficients of the line, see:
 $$\begin{align*}
 r: \begin{cases}
 x-z=3\\

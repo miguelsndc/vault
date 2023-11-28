@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - propositional-logic
 aliases:
   - logical equivalence laws
   - de morgans law

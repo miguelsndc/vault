@@ -1,6 +1,5 @@
 ---
 tags:
-  - "#md"
   - propositional-logic
 aliases:
   - if and only if

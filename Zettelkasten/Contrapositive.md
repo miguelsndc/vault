@@ -1,8 +1,7 @@
 ---
 tags:
-  - md
   - propositional-logic
-  - proofs
+  - proof-methods
 aliases:
   - contrapositive
 date: 2023-10-26

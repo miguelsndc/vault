@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - functions
 aliases:
   - bijection
   - bijective

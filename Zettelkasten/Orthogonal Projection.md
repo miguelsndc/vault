@@ -1,7 +1,7 @@
 ---
 tags:
-  - avlc
   - vector
+  - geometry/analytic
 aliases:
   - orthogonal projection
   - projection

@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - functions
 aliases:
   - surjective
 date: 2023-11-10

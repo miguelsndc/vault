@@ -1,6 +1,7 @@
 ---
 tags:
-  - "#md"
+  - proof-methods
+  - functions
 aliases: 
 date: 2023-11-13
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - propositional-logic
 aliases:
   - predicate
   - propositional functions

@@ -1,7 +1,7 @@
 ---
 tags:
-  - equations
   - functions
+  - lines
 date: 2023-11-11
 source: "[[James Stewart Precalculus.pdf]]"
 page: 

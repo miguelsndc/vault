@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - quantifiers
 aliases:
   - quantifier
 date: 2023-11-05

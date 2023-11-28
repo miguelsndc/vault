@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - sets
 aliases:
   - power set
 date: 2023-11-08

@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#md"
+  - propositional-logic
 aliases:
   - contingency
 date: 2023-10-30

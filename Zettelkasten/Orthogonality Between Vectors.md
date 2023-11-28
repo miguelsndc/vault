@@ -1,6 +1,6 @@
 ---
 tags:
-  - avlc
+  - vector
 aliases:
   - orthogonal vector
   - orthogonal

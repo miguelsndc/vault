@@ -1,6 +1,5 @@
 ---
 tags:
-  - "#md"
   - functions
 aliases:
   - codomain

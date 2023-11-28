@@ -1,6 +1,8 @@
 ---
 tags:
-  - avlc
+  - vector
+  - geometry/analytic
+  - lines
 aliases:
   - distance
 date: 2023-11-16

@@ -1,7 +1,7 @@
 ---
 tags:
-  - "#md"
-  - proofs
+  - proof-methods
+  - functions
 aliases:
   - surjectivity
 date: 2023-11-10

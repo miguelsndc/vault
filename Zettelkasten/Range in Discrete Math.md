@@ -1,6 +1,7 @@
 ---
 tags:
-  - "#md"
+  - sets
+  - functions
 aliases:
   - range
 date: 2023-11-10

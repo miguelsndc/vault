@@ -1,7 +1,7 @@
 ---
 tags:
-  - "#md"
   - sets
+  - functions
 aliases:
   - one-to-one
   - injunction
