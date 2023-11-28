@@ -5,20 +5,14 @@
   "quick-latex",
   "table-editor-obsidian",
   "omnisearch",
-  "obsidian-pandoc",
-  "url-into-selection",
   "nldates-obsidian",
   "note-refactor-obsidian",
   "obsidian-git",
   "obsidian-tasks-plugin",
-  "obsidian-functionplot",
   "pane-relief",
   "obsidian-discordrpc",
   "obsidian-outliner",
   "templater-obsidian",
-  "obsidian-memos",
-  "homepage",
   "tabout",
-  "periodic-notes",
-  "obsidian-admonition"
+  "periodic-notes"
 ]
