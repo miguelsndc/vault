@@ -6,7 +6,7 @@ A **Square Matrix** is a special kind of [[Matrix Definition|matrix]], where the
 $$\begin{align*}A_{3\times 3}&= 
 \begin{bmatrix}
 1 & 2 & 3\\
-8 & 9 & 32\\\\
-\sin{45\degree}  & e^x
+8 & 9 & 32\\
+\sin{45\degree}  & e^{x} & \phi
 \end{bmatrix}
 \end{align*}$$
