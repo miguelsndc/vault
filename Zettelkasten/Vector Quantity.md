@@ -1,6 +1,6 @@
 ---
 tags:
-  - avlc
+  - vector
 aliases:
   - vector quantities
 date: 2023-10-26

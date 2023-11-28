@@ -1,6 +1,5 @@
 ---
 tags:
-  - "#md"
   - sets
 aliases:
   - singleton

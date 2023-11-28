@@ -1,6 +1,5 @@
 ---
 tags:
-  - avlc
   - vector
 aliases:
   - magnitude

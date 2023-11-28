@@ -1,8 +1,9 @@
 {
-  "accentColor": "",
+  "accentColor": "#9788aa",
   "textFontFamily": "Atkinson Hyperlegible",
   "baseFontSize": 16,
   "theme": "obsidian",
   "interfaceFontFamily": "Inter",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "translucency": false
 }

@@ -1,6 +1,7 @@
 ---
 tags:
-  - avlc
+  - vector
+  - geometry/analytic
 aliases:
   - scalar
 date: 2023-10-26

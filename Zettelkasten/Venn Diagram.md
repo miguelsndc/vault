@@ -1,8 +1,7 @@
 ---
 tags:
-  - "#md"
-aliases:
-  - venn diagram
+  - sets
+aliases: 
 date: 2023-11-06
 ---
 Venn diagram's are a way to graphically represent a [[S1/MD/Sets|set]] and it's relations with other sets.

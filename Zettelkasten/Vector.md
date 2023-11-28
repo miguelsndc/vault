@@ -1,7 +1,6 @@
 ---
 tags:
   - vector
-  - avlc
 aliases:
   - vectors
   - vector

@@ -1,7 +1,8 @@
 ---
 tags:
-  - "#md"
-aliases: 
+  - quantifiers
+aliases:
+  - forall
 date: 2023-11-05
 ---
 The universal [[Quantifiers|quantifier]] is a way to express that a [[Proposition]] is true across all elements in a range called the **domain**, The domain specifies the possible values of $x$, so when the domain changes the proposition might change.
