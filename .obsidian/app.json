@@ -11,7 +11,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Zettelkasten",
   "attachmentFolderPath": "Files",
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "propertiesInDocument": "source",
   "showLineNumber": true
 }
