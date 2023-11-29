@@ -2,7 +2,7 @@
 tags:
   - quadratics
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 51
 ---
 The **discriminant** of the general [[Quadratic Equation]] $ax^{2}+bx+c=0$ is $D = b^{2}-4ac$.

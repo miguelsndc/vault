@@ -2,7 +2,7 @@
 tags:
   - trigonometry
 date: 2023-10-19
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 407
 aliases:
 ---

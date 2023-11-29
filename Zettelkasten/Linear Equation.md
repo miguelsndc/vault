@@ -3,7 +3,7 @@ tags:
   - equations
   - lines
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 46
 ---
 A linear equation is a expression of the form:

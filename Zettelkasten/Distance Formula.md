@@ -2,7 +2,7 @@
 tags:
   - geometry/analytic
 date: 2023-09-19
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 93
 aliases:
   - distance

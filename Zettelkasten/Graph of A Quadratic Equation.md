@@ -3,7 +3,7 @@ tags:
   - graphs
   - quadratics
 date: 2023-09-20
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 96
 ---
 #### Plotting Points for $y = x^{2}- 2$ 

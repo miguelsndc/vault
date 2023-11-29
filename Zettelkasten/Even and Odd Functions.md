@@ -3,7 +3,7 @@ tags:
   - functions
   - graphs
 date: 2023-10-07
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 204
 aliases:
   - even functions

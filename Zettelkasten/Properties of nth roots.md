@@ -3,7 +3,7 @@ tags:
   - radicals
   - properties
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 18
 ---
 1. $\sqrt[n]{ab} = \sqrt[n]{a}\sqrt[n]{b} \rightarrow \sqrt[3]{-8\cdot 27}= \sqrt[3]{-8}\sqrt[3]{27} = (-2)(3) = -6$ 

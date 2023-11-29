@@ -2,7 +2,7 @@
 tags:
   - scientific-notation
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 16
 ---
 Scientific notation is a technique used to represent extremely large numbers as a small numbers multiplying powers of 10. $e.g.$

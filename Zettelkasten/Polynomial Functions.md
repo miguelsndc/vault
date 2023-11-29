@@ -3,7 +3,7 @@ tags:
   - functions
   - polynomials
 date: 2023-10-13
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 246
 aliases:
   - polynomial function

@@ -3,7 +3,7 @@ tags:
   - functions
   - graphs
 date: 2023-10-13
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 219
 aliases:
 ---

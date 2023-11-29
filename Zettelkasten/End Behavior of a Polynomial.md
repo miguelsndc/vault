@@ -4,7 +4,7 @@ tags:
   - functions
   - graphs
 date: 2023-10-15
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 257
 aliases:
   - end behavior

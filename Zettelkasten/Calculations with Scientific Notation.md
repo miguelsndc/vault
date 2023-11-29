@@ -2,7 +2,7 @@
 tags:
   - scientific-notation
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 16
 ---
 We could use the data in the [[Scientific Notation]] or we can just use [[Laws of Exponents]] instead, Prefer using the Laws of Exponents since it's easier and faster to perform the calculations:

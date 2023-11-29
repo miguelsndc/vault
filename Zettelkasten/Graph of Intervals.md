@@ -4,7 +4,7 @@ tags:
   - sets
   - intervals
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 7
 ---
 Considering the following [[Intervals]]:

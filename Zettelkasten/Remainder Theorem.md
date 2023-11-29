@@ -2,7 +2,7 @@
 tags:
   - polynomials
 date: 2023-10-16
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 271
 aliases:
   - remainder theorem

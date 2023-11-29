@@ -3,7 +3,7 @@ tags:
   - precalculus
   - factoring
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 32
 ---
 [[Polynomials]] with at least four terms can sometimes be factored by **grouping terms**. The following example illustrates the idea:

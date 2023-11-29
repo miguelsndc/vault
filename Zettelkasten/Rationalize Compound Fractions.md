@@ -4,7 +4,7 @@ tags:
   - polynomials
   - rationalization
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 41
 ---
 If a [[Rational Expressions]] has a denominator of the form $A + B\sqrt{C}$, we can [[Rationalize the Denominator]], by multiplying both numerator and denominator by the **conjugate radical** $A -B\sqrt{C}$. This works because of [[Special Product Formulas]] 1, the product of a radical and its conjugate does not contain a radical:

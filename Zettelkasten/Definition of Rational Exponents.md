@@ -2,7 +2,7 @@
 tags:
   - precalculus
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 19
 ---
 For any [[Rational Exponents]] $m/n$ in lowest terms, where $m$ and $n$ are integers and $n \ge 0$, we define:

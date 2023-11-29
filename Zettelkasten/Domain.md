@@ -2,7 +2,7 @@
 tags:
   - functions
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 153
 aliases:
   - domain

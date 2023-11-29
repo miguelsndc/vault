@@ -3,7 +3,7 @@ tags:
   - equations
   - geometry/graphs
 date: 2023-09-20
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 95
 ---
 The **graph** of a equation in $x$ and $y$ is the set of all points $(x,y)$ in the [[Coordinate Plane]] that satisfy the [[Equation]].

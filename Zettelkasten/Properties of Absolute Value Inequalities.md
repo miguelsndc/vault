@@ -3,7 +3,7 @@ tags:
   - inequalities
   - properties
 date: 2023-09-16
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 86
 ---
 We use the following properties to solve a [[Inequality|Inequalities]] involving [[Absolute Value|Absolute values]]. *($\iff$ means "is equivalent to"* 

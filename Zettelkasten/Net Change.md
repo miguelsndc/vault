@@ -2,7 +2,7 @@
 tags:
   - functions
 date: 2023-09-30
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 178
 aliases:
   - changes

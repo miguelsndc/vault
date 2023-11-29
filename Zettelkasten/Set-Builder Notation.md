@@ -2,7 +2,7 @@
 tags:
   - sets
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 6
 ---
 Let $S$ and $m$ be arbitrary values for set names and variable names. See:

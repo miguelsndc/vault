@@ -3,7 +3,7 @@ tags:
   - functions
   - transformations
 date: 2023-10-09
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 212
 aliases:
   - composition

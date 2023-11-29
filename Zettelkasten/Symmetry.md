@@ -3,7 +3,7 @@ tags:
   - graphs
   - geometry/analytic
 date: 2023-09-21
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 100
 ---
 We can sketch a symmetric graph by just plotting the points for only positive on negative points and then reflect it about the symmetric axis

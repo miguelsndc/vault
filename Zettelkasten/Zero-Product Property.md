@@ -3,7 +3,7 @@ tags:
   - quadratics
   - equations
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 48
 ---
 This property states that:

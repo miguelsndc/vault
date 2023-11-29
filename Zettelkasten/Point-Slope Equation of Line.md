@@ -3,7 +3,7 @@ tags:
   - functions
   - lines
 date: 2023-11-11
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 
 aliases:
   - point-slope form

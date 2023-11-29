@@ -3,7 +3,7 @@ tags:
   - functions
   - graphs
 date: 2023-10-11
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 224
 aliases:
   - graph of inverse function

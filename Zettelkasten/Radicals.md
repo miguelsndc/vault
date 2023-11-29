@@ -2,7 +2,7 @@
 tags:
   - radicals
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page:
 ---
 The simbol $\sqrt{\;\;\;}$ means "the positive square root of". Thus

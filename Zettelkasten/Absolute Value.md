@@ -2,7 +2,7 @@
 tags:
   - precalculus
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 8
 aliases:
   - Absolute values

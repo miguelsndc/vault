@@ -2,7 +2,7 @@
 tags:
   - scientific-notation
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 17
 ---
 To convert from [[Scientific Notation]] to decimal, perform the inverse operation showed in [[Decimal to Scientific Notation]] like following:

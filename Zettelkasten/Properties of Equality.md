@@ -3,7 +3,7 @@ tags:
   - precalculus
   - properties
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 46
 ---
 1. $A = B \iff A + C = B + C$ 

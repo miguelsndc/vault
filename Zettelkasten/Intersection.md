@@ -3,7 +3,7 @@ tags:
   - sets
   - intervals
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: 7
 ---
 If $S$ and $T$ are [[Sets]], then their intersection $S\cap T$, is a set that consists of all elements that **are in both** $S$ and $T$.

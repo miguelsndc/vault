@@ -2,7 +2,7 @@
 tags:
   - functions
 date: 2023-09-30
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 151
 aliases:
   - piecewise

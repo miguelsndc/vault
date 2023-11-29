@@ -3,7 +3,7 @@ tags:
   - polynomials
   - graphs
 date: 2023-10-15
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 256
 aliases:
   - polynomial graphs

@@ -4,7 +4,7 @@ tags:
   - graphs
   - geometry/analytic
 date: 
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 94
 aliases:
   - midpoint

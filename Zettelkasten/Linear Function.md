@@ -3,7 +3,7 @@ tags:
   - functions
   - lines
 date: 2023-10-05
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 191
 aliases:
   - linear

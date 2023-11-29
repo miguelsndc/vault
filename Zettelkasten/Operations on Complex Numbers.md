@@ -2,7 +2,7 @@
 tags:
   - complex
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 60
 ---
 Operations with [[Complex Numbers]] are perford similarly to operations with expressions of the form $a + b\sqrt{c}$, but keep in mid that $i^{2} = -1$

@@ -4,7 +4,7 @@ tags:
   - graphs
   - transformations
 date: 2023-10-05
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 199
 aliases:
   - shift

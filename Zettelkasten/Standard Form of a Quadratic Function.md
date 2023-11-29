@@ -2,7 +2,7 @@
 tags:
   - quadratics
 date: 2023-10-13
-source: "[[James Stewart Precalculus.pdf]]"
+"
 page: 246
 aliases:
   - standard form of quadratic function

@@ -2,7 +2,7 @@
 tags:
   - complex
 date: 2023-09-14
-source: "[[James Stewart Precalculus.pdf]]"
+"
 pages: "59"
 ---
 A complex number is an expression of the form $a +bi$ where $a$ and $b$ are [[Real Numbers]]
