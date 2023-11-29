@@ -9,3 +9,9 @@ The product rule applies when we have a procedure than can be separated into mul
 >
 
 
+#### Example
+
+> [!question]
+> *How many different bit strings of length seven are there ?*
+
+
