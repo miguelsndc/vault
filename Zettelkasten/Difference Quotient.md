@@ -7,5 +7,8 @@ $$\begin{align*}
 \frac{f(x+h) - f(x)}{h}
 \end{align*}$$
 This operation denotes how this function behaves from $x$ to $x+h$ and we divide by $h$ to obtain the average change. 
-If we take smaller and smaller values of $h$, *but never zero*, we start to notice the graph of this other function converge from two points to one point, till at some point it becomes **tangent** to the original point of $x$. This limiting behaviour allows us to determine the behavior of the function **at a specific point**.
-By this limiting process we 
+If we take smaller and smaller values of $h$, *but never zero*, we start to notice the graph of this other function converge from two points to one point as $h$ get arbitrarily small, till at some point it becomes **tangent** to the original point of $x$. This limiting behaviour allows us to determine the behavior of the function **at a specific point**.
+By letting $h$ approach zero we find:
+$$
+\lim_{h\to0}\frac{f(x+h)-f(t)}{h}
+$$Whic
