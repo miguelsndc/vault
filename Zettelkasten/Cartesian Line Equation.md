@@ -15,7 +15,7 @@ We can eliminate the parameter by multiplying the upper equation by $b$ and the 
 $$\begin{align*}
 ay-bx=c
 \end{align*}$$
-Which is called the **Cartesian Equation** of the line $r$. if $a\ne 0$ we can divide the equation by $a$ and get $$y=\frac{b}{a}x + \frac{c}{a}$$By letting $m=\frac{b}{a}$ and $k = \frac{c}{a}$ we have: $y=mx+k$ where $m=\frac{b}{a} = \tan{\theta}$. And $m$ is called the [[vault/content/basics/Average Rate of Change|slope]] of the line.
+Which is called the **Cartesian Equation** of the line $r$. if $a\ne 0$ we can divide the equation by $a$ and get $$y=\frac{b}{a}x + \frac{c}{a}$$By letting $m=\frac{b}{a}$ and $k = \frac{c}{a}$ we have: $y=mx+k$ where $m=\frac{b}{a} = \tan{\theta}$. And $m$ is called the [[/Average Rate of Change|slope]] of the line.
 By letting $A=b$, $B=-a$ and $C=-c$ we have: $$Ax +By+C=0$$Which is the **standard form of the line**. If $(x_{0},y_{0})$ is a point of the line, then:
 $$
 \begin{align*}

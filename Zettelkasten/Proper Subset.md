@@ -4,7 +4,7 @@ tags:
 aliases: 
 date: 2023-11-08
 ---
-If we want to emphasize that the [[S1/MD/Sets|set]] $A$ is a [[Subsets|subset]] of $B$ but $A\ne B$, we write:
+If we want to emphasize that the [[Sets|set]] $A$ is a [[Subsets|subset]] of $B$ but $A\ne B$, we write:
 $$\begin{align*}
 A \subset B
 \end{align*}$$

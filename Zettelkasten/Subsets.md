@@ -5,7 +5,7 @@ aliases:
   - subset
 date: 2023-11-06
 ---
-A [[S1/MD/Sets|set]] $A$ is a subset of $B$ **if and only if** every element in $A$ is also in $B$.
+A [[Sets|set]] $A$ is a subset of $B$ **if and only if** every element in $A$ is also in $B$.
 $A \subseteq B$ means *A subset of B*. See:
 $$\begin{align*}
 \forall x (x\in A \implies x \in B)

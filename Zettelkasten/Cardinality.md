@@ -4,7 +4,7 @@ tags:
 aliases: 
 date: 2023-11-08
 ---
-Pretty much the length of a [[S1/MD/Sets|set]], cardinality refers to the number $n$ of **distinct** elements in $S$, where $n \in \mathbb{N}^{+}$. Is denoted as $|S|$.
+Pretty much the length of a [[Sets|set]], cardinality refers to the number $n$ of **distinct** elements in $S$, where $n \in \mathbb{N}^{+}$. Is denoted as $|S|$.
 See:
 $$\begin{align*}
 A &=  \{x | (x\pmod{2}) = 1\land x<10\}\\

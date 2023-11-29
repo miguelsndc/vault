@@ -5,7 +5,7 @@ aliases:
   - power set
 date: 2023-11-08
 ---
-To consider all combinations of a [[S1/MD/Sets|set]] $S$, we build a new set whose elements are the [[Subsets]] of $S$.
+To consider all combinations of a [[Sets|set]] $S$, we build a new set whose elements are the [[Subsets]] of $S$.
 
 >The power set of $S$ is the set of all subsets of $S$. Denoted by $P(S)$
 
