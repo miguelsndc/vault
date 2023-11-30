@@ -16,5 +16,5 @@ a_{m1}x_{1}+a_{m2}x_{2}+\cdots+a_{mn}x_{n}=b_{m}
 \end{align*}$$
 > With $a_{ij}, 1\le i \le m, 1\le j \le n$, [[Real Numbers]] (or [[Complex Numbers]])
 
-The solution of the system $(*)$ is a [[Tuples|tuple]] $(x_{1}, x_{2},\cdots, x_{n})$ that simu
+The solution of the system $(*)$ is a [[Tuples|tuple]] $(x_{1}, x_{2},\cdots, x_{n})$ that simultaneously satisfy all the $m$ equations defined, Two system are equivalent [[If and Only if|if and only if]] every solution on one system is also solution to the other.
 
