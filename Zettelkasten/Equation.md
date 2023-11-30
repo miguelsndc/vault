@@ -3,8 +3,8 @@ tags:
   - precalculus
   - equations
 date: 2023-09-14
-"
 pages: 45
+aliases: equations
 ---
 A equation is a statement that two mathematical expressions are true:
 $e.g.$
