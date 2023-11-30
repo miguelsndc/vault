@@ -1,7 +1,7 @@
 ---
 tags: 
   - matrix
-aliases: matrix 
+aliases: matrix, matrices
 ---
 
 a **matrix** is a table of elements disposed in lines and columns, they are essential to organize and solve problems with a enormous amount of variables.
