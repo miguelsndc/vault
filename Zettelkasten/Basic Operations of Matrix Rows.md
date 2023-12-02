@@ -1,5 +1,6 @@
 ---
 tags: matrix
+aliases: basic operations
 ---
 Here we state the three elementary operations in the rows of a [[Matrix Definition|matrix]], Let $L_{i}$ represent the $i$th row in a arbitrary matrix.
 
@@ -34,4 +35,16 @@ $$
 \end{bmatrix}
 $$
 3. Replace the $i$th row by the $i$th row plus $k$ times the $j$th row: $(L_{i} \rightarrow L_{i}+kL_{j})$, It's like a combination of properties $1$ and $2$.
-*Example:*
+*Example: $L_{3}\rightarrow L_{3}+ 2L_{1}$*
+$$
+\begin{bmatrix}
+8 & 6 \\
+1 & 3 \\
+9 & 2 \\
+\end{bmatrix}
+\Rightarrow
+\begin{bmatrix}
+8 & 6 \\
+1 & 3 \\ 25 & 14
+\end{bmatrix}
+$$
