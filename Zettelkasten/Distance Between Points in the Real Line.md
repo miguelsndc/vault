@@ -1,10 +1,9 @@
 ---
 tags:
-  - precalculus
   - intervals
   - sets
+  - distance
 date: 2023-09-14
-"
 pages: 9
 ---
 The distance $d$ between points $a$ and $b$ in the real line is $\mid b - a \mid$.
