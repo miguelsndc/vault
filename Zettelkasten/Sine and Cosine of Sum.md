@@ -23,7 +23,13 @@ $$\begin{align*}
 \sin(A+B)&= \sin(A)\cos(B)+\cos(A)\sin(B)\\
 \cos(A+B)&= \cos(A)\cos(B)-\sin(A)\sin(B)
 \end{align*}$$
->[!tip] Sine and Cosine of Sum;
+>[!tip] Sine and Cosine of Sum:
+>From Euler's formula we derive:
+>$$\begin{align*}
+\sin(A+B)&= \sin(A)\cos(B)+\cos(A)\sin(B)\\
+\cos(A+B)&= \cos(A)\cos(B)-\sin(A)\sin(B)
+\end{align*}$$
+
 >
 
 
