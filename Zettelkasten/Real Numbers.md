@@ -2,7 +2,6 @@
 tags:
   - sets
 date: 2023-09-14
-"
 page: 2
 aliases:
   - real number
