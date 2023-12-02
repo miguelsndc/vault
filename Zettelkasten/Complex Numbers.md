@@ -1,9 +1,8 @@
 ---
 tags:
   - complex
-date: 2023-09-14
-"
 pages: "59"
+aliases: imaginary, complex
 ---
 A complex number is an expression of the form $a +bi$ where $a$ and $b$ are [[Real Numbers]]
 and $i^{2} = -1$. The **real part** of this complex number is $a$ and the **imaginary part** is $bi$.
