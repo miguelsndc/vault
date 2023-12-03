@@ -4,7 +4,6 @@ tags:
   - factoring
   - quadratics
 date: 2023-09-14
-"
 pages: 29
 ---
 To factor [[Polynomials]] of the form $x^{2}+bx+c$, we note that
