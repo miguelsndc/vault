@@ -2,7 +2,6 @@
 tags:
   - factoring
 date: 2023-09-14
-"
 page: 30
 aliases:
   - notable products
