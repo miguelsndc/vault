@@ -4,11 +4,9 @@ tags: combinatorics
 The complement rule for counting says that we don't really need to solve the problem directly, instead, we can answer the **opposite** problem. That means, *find all the outcomes where our condition isn't true*, then subtract from the [[Sample Space]], 
 
 >[!tip] Technique Definition
->Suppose we want to find all $x$ outcomes in a sample space $z$. If finding $x$ feels to overwhelming, we can find all outcomes $y$ in $z$ where $x$ isn't true, and then subtract $y$ from $z$ to get the outcomes $x$.
+>Suppose we want to find all $x$ outcomes in a sample space $z$. If finding $x$ feels too overwhelming, we can find all outcomes $y$ in $z$ where $x$ isn't true, and then subtract $y$ from $z$ to get the outcomes $x$.
 >
 >When you see ***at least "something"***
->
-
 
 ## Example
 
