@@ -2,7 +2,7 @@
 tags: matrix
 aliases: multiplication, matrix multiplication, multiply, multiplying
 ---
->[!danger] Remember
+>[!bug] Remember
 >Matrix multiplication is **not** commutative.
 
 To multiply two [[Matrix Definition|matrices]], apply the [[Scalar Product|dot product]] between the rows of the one on **the left** and the **columns** of the one on the right.
@@ -13,6 +13,9 @@ Looks like:
 - The number of **columns of the 1st matrix** must equal the number of **rows of the 2nd matrix**.
 - And the result will have the same number of **rows as the 1st matrix**, and the same number of **columns as the 2nd matrix**.
 - Matrix multiplication is **associative** (fancy word for: "we can move the parentheses").
+
+>[!danger] Important
+> To do **row operations** we multiply a matrix on the left, to do **column operations** we multiply on the right.
 
 >[!tip] Tip
 > To multiply an **m×n** matrix by an **n×p** matrix, the **n**s must be the same,  
