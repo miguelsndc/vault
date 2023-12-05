@@ -14,4 +14,4 @@ $$
 $$
 The multiplication of a matrix by a column vector is the multiplication of each **row** of the vector by each **column** of the matrix, resulting in a new column vector.
 
-Same goes for **row vectors**. 
+Same goes for **row vectors** on t, each column of the row vector is multipled 
