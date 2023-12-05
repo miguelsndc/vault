@@ -1,8 +1,8 @@
 ---
 tags: matrix
 ---
->[!danger] Be aware
->Matrix multiplication is **not** commutative.
+>[!danger] Remember
+>Matrix multiplication is **not** commutative. See [[Why is matrix multiplication not commutative]].
 
 A [[Matrix Definition|matrix]] multiplied on the right by some [[Vector Matrix Form|column vector]] is the combination of the column of the matrix and the rows of the vector, see:
 $$
@@ -14,4 +14,4 @@ $$
 $$
 The multiplication of a matrix by a column vector is the multiplication of each **row** of the vector by each **column** of the matrix, resulting in a new column vector.
 
-Same goes for **row vectors**, : 
+Same goes for **row vectors**. 
