@@ -1,5 +1,6 @@
 ---
 tags: matrix
+aliases: multiplication, matrix multiplication, multiply, multiplying
 ---
 >[!danger] Remember
 >Matrix multiplication is **not** commutative. See [[Why is matrix multiplication not commutative]].

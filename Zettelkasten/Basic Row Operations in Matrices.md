@@ -1,6 +1,6 @@
 ---
 tags: matrix
-aliases: basic operations
+aliases: basic operations, basic operation
 ---
 Here we state the three elementary operations in the rows of a [[Matrix Definition|matrix]], Let $L_{i}$ represent the $i$th row in a arbitrary matrix.
 
