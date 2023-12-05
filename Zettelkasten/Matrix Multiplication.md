@@ -3,9 +3,16 @@ tags: matrix
 aliases: multiplication, matrix multiplication, multiply, multiplying
 ---
 >[!danger] Remember
->Matrix multiplication is **not** commutative. See [[Why is matrix multiplication not commutative]].
+>Matrix multiplication is **not** commutative.
 
-A [[Matrix Definition|matrix]] multiplied on the right by some [[Vector Matrix Form|column vector]] is the combination of the column of the matrix and the rows of the vector, see:
+To multiply two [[Matrix Definition|matrices]] where both **aren't** in [[Vector Matrix Form|column vector]] form nor [[Vector Matrix Form|row vector ]] form, we need to apply the [[Scalar Product|dot product]] between the rows of the one on **the left** and the **columns** of the one on the right.
+
+Looks like:
+![[Pasted image 20231205103418.png]]
+
+- The number of **columns of the 1st matrix** must equal the number of **rows of the 2nd matrix**.
+- And the result will have the same number of **rows as the 1st matrix**, and the same number of **columns as the 2nd matrix**.
+In case of column or row vectors, if we want to multiply on the right by some [[Vector Matrix Form|column vector]], the result is a new column vector that is the combination of the column of the matrix and the rows of the vector, see:
 $$
 \begin{bmatrix}a&b&c \\ d&e&f \\ g&h&i\end{bmatrix}
 \cdot
