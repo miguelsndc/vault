@@ -5,7 +5,7 @@ aliases: multiplication, matrix multiplication, multiply, multiplying
 >[!bug] Remember
 >Matrix multiplication is **not** commutative.
 
-To multiply two [[Matrix Definition|matrices]], apply the [[Scalar Product|dot product]] between the rows of the one on **the left** and the **columns** of the one on the right, it will be the sum of the $k$ columns of the row multiplied by 
+To multiply two [[Matrix Definition|matrices]], apply the [[Scalar Product|dot product]] between the rows of the one on **the left** and the **columns** of the one on the right, it will be the $k$ columns of the row multiplied each by the row in the column of the other matrix and **summed up**, that's why columns in $A$ must equal rows in $B$, if $B$ is a column matrix there are no values to sum after, so we just multiply and put each in a new column in $C$.
 
 Looks like:
 ![[Pasted image 20231205103418.png]]
