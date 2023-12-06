@@ -12,9 +12,9 @@ $$\begin{align*}
 \end{align*}$$
 - Product Rule: *if $f$ and $g$ are both differentiable [[Functions in Discrete Math|functions]], then*
 $$\begin{align*}
-\frac{d}{dx}[f(x)\cdot g(x)]&= f(x) \frac{d}{dx}[g(x)]+g(x) \frac{d}{dx}[f(x)]
+\frac{d}{dx}[f(x)\cdot g(x)]&= \frac{d}{dx}[f(x)] \cdot g(x) + f(x) \cdot \frac{d}{dx}[g(x)]
 \end{align*}$$
 - Quotient Rule, *if $f$ and $g$ are both differentiable [[Functions in Discrete Math|functions]], then*:
 $$\begin{align*}
-\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]&= \frac{g(x) \frac{d}{dx}[f(x)]-f(x) \frac{d}{dx}[g(x)]}{[g(x)]^{2}}
+\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]&= \frac{\frac{d}{dx}[f(x)] \cdot g(x) - f(x) \cdot \frac{d}{dx}[g(x)]}{[g(x)]^{2}}
 \end{align*}$$
