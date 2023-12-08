@@ -1,4 +1,4 @@
 ---
 tags: derivatives
 ---
-When facing a [[Equation]] in **implicit form**
+When facing a [[Equation]] in [[Implicit and Explicit forms of a Equations|implicit]] form 
