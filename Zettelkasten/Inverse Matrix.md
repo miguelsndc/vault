@@ -1,5 +1,6 @@
 ---
-tags: matrix
+tags: matrix,
+aliases: inverse, inverses
 ---
 > [!tip] Definition 
 > Let $A_{m\times n}$ be a [[Matrix Definition|matrix]], the **inverse** of $A$ will be that matrix whose [[Matrix Multiplication|multiplication]] by $A$ will yield the [[Identity Matrix]], we call it $A^{-1}$, the inverse 
