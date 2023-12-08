@@ -7,8 +7,9 @@ aliases: multiplication, matrix multiplication, multiply, multiplying
 
 To multiply two [[Matrix Definition|matrices]], apply the [[Scalar Product|dot product]] between the rows of the one on **the left** and the **columns** of the one on the right, it will be the $k$ columns of the row multiplied each by the row in the column of the other matrix and **summed up**, that's why columns in $A$ must equal rows in $B$, if $B$ is a column matrix there are no values to sum after, so we just multiply and put each in a new column in $C$.
 
-Looks like:
-![[Pasted image 20231205103418.png]]
+$$
+C_{ij}=a_{i1}b_{1j} +a_{i2}b_{2j}+\cdots+ a_{im}b_{mj}=\sum_{k=0}^{m}a_{ik}b_{kj}
+$$
 
 - The number of **columns of the 1st matrix** must equal the number of **rows of the 2nd matrix**.
 - And the result will have the same number of **rows as the 1st matrix**, and the same number of **columns as the 2nd matrix**.

@@ -35,8 +35,9 @@ L_{1}\leftarrow L_{1} -3L_{2}
 0&1
 \end{matrix}&
 \begin{matrix}
-7 & 3\\
+7 &-3\\
 -2& 1
 \end{matrix}
 \end{array}\right]
 \end{align*}$$
+Here we see: the left side **is the identity** and this matrix on the right is the inverse of $A$, $A^{-1}$.
