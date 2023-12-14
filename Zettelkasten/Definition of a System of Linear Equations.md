@@ -1,5 +1,5 @@
 ---
-tags: system_of_linear_equations
+tags: systems
 aliases: system of linear equations, system, system of equations
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: system_of_linear_equations, matrix
+tags: systems, matrix
 ---
 Each [[Definition of a System of Linear Equations|system of linear equations]] has a [[Matrix Definition|matrix]] associated to it, we call it the **augmented matrix** of a sistem $\delta$. We can write a arbitrary system like:
 
