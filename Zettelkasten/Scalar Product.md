@@ -24,4 +24,4 @@ The dot product works the same for [[Vector Matrix Form]], but can be quickly de
 $$\begin{align*}
 dp(i)&= \sum_{j=0}^{n}a_{ij}x_{j}
 \end{align*}$$
-Where for each row $i$ of the **left most** matrix, we multiply each column with it's respective part in a [[Vector Matrix Form|column vector]], 
+Where for a row $i$ of the **left most** matrix, we multiply each column with it's respective part in a [[Vector Matrix Form|column vector]] $x$, and summing it up, produces a single number, the inner product, or scalar product.  
