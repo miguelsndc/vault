@@ -19,3 +19,9 @@ $$\begin{align*}
 - $\vec{u} \cdot \vec{v} = \vec{v} \cdot \vec{u}$ 
 - $(k\cdot \vec{u})\vec{v} = k(\vec{v} \cdot \vec{u})$ 
 - $\vec{U}(\vec{v}+\vec{w}) = \vec{U}\cdot v + \vec{U} \cdot w$
+
+The dot product works the same for [[Vector Matrix Form]], but can be quickly defined as a [[Functions in Discrete Math|function]] like so:
+$$\begin{align*}
+dp(i)&= \sum_{j=0}^{n}a_{ij}x_{j}
+\end{align*}$$
+Where for each row $i$ of the **left most** matrix, we multiply each column with it's respective part in a [[Vector Matrix Form|column vector]], 
