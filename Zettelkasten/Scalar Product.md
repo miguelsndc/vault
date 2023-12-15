@@ -10,7 +10,7 @@ $$
 \vec{u} \cdot \vec{v} = (x_{1}x_{2} + y_{1}y_{2}) = t
 $$
 Where $t$ is a constant called the **scalar product**.
-#### Properties:
+# Properties:
 These same properties apply for both $\mathbb{R}^{2}$ and $\mathbb{R^{3}}$.
 - $\vec{u} \cdot \vec{u} \ge 0$ and $\vec{u} \cdot \vec{u} = 0 \iff \vec{u} = (0,0)$.
 $$\begin{align*}
