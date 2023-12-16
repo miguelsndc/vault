@@ -17,6 +17,6 @@ x&= \begin{pmatrix}x_{1}\\
 x_{2}\\
 \vdots\\
 x_{n}\end{pmatrix}\\
-Ax &= 
-
+b_{j}&= (a_1x_1+a_2x_2+\cdots+a_{n}x_{n})
 \end{align*}$$
+Since a row times a column produces a single number, $b$ will have as much rows as $A$ and as much columns as $x$.
