@@ -1,5 +1,6 @@
 ---
 tags: function
+aliases: partial functions, partial function
 ---
 Let $f$ be a [[Functions in Discrete Math|function]] from $A$ to $B$ $f: A \rightarrow B$. $f$ is a **partial function** if it isn't a **total function**. A Total function is a normal function, where every element in domain is assigned to some element in the range.
 
