@@ -26,9 +26,22 @@ $$\begin{align*}
 a \mid b &\implies b=am, m \in \mathbb{Z}\\
 a \mid c &\implies c= an, n \in \mathbb{Z}\\
 b + c&= am + an\\
-b + c &= a(m+n) \implies a \mid (b+c)
+b + c &= a(m+n) \implies a \mid (b+c)\\
+\therefore a &\mid (b+c)
 \end{align*}$$
 2. If $a \mid b$, then $a \mid bc \;\;\forall c \in \mathbb{Z}$.
 $$\begin{align*}
-a \mid b \implies b=am, 
+a \mid b &\implies b=am, m \in \mathbb{Z}\\
+bc &= amc\\
+bc &= a(mc)\\
+\therefore a &\mid bc
+\end{align*}$$
+1. If $a \mid b$ and $b \mid c$, then $a \mid c$.
+$$\begin{align*}
+a \mid b &\implies b=am, m\in \mathbb{Z}\\
+b \mid c &\implies c=bn, n \in \mathbb{Z}\\
+\therefore bc&= ambn\\
+c &= amn\\
+c&= a(mn)\\
+\therefore a &\mid c.
 \end{align*}$$
