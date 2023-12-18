@@ -36,7 +36,7 @@ bc &= amc\\
 bc &= a(mc)\\
 \therefore a &\mid bc
 \end{align*}$$
-1. If $a \mid b$ and $b \mid c$, then $a \mid c$.
+3. If $a \mid b$ and $b \mid c$, then $a \mid c$.
 $$\begin{align*}
 a \mid b &\implies b=am, m\in \mathbb{Z}\\
 b \mid c &\implies c=bn, n \in \mathbb{Z}\\
@@ -45,3 +45,8 @@ c &= amn\\
 c&= a(mn)\\
 \therefore a &\mid c.
 \end{align*}$$
+1. If $a \mid b$ and $a \mid c$, then $a \mid mb + nc$ for $m,n \in \mathbb{Z}$.
+   From $(1)$ we know $a \mid mb, m\in \mathbb{Z}$ 
+   From $(1)$ we know $a \mid nc, n\in \mathbb{Z}$ 
+   Therefore from $(2)$ we know $a \mid mb + nc$.
+ 
