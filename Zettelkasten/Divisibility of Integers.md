@@ -6,9 +6,8 @@ $$\begin{align*}
 a,b &\in \mathbb{Z} \land \frac{b}{a} \in \mathbb{Z}\\
 \therefore \exists c&\in \mathbb{Z} \;s.t\; (b=ac)\\
 \because \frac{b}{a}&= c \therefore b=ac
-\end{align*}$$
-> [!faq] Question
-> Let $n$ and $d$ be positive integers, how many positive integers **not exceeding** $n$, are divisible by $d$ ?
+\end{align*}$$ 
+>Let $n$ and $d$ be positive integers, how many positive integers **not exceeding** $n$, are divisible by $d$ ?
 
 We know that if some number $m$ is divisible by $d$, we have: $d | m \implies m = dk$ with $d \ne 0$ and $k \in \mathbb{Z}$. So the following holds:
 $$\begin{align*}
@@ -16,4 +15,20 @@ $$\begin{align*}
 0 &\lt dk \le n\\
 0 &\lt k \le \frac{n}{d}
 \end{align*}$$
-So there exists $\lfloor{}$   
+> [!attention] Corollary
+> So there exists $\lfloor \frac{n}{d} \rfloor$ positive integers divisible by $d$ not exceeding $n$.      
+
+## Properties of Divisibility
+
+Let $a,b,c \in \mathbb{Z}$ where $a \ne 0$
+1. If $a \mid b$ and $a \mid c$, then $a \mid (b + c)$.
+$$\begin{align*}
+a \mid b &\implies b=am, m \in \mathbb{Z}\\
+a \mid c &\implies c= an, n \in \mathbb{Z}\\
+b + c&= am + an\\
+b + c &= a(m+n) \implies a \mid (b+c)
+\end{align*}$$
+2. If $a \mid b$, then $a \mid bc \;\;\forall c \in \mathbb{Z}$.
+$$\begin{align*}
+a \mid b \implies b=am, 
+\end{align*}$$
