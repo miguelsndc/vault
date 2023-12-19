@@ -36,4 +36,4 @@ ac &= bd + bmq + mkd + m^{2}kq\\
 ac &= bd + m(bq + kd + mkq)
 \end{align*}
 $$
-So it holds that $ac \equiv bd \pmod n$.
+So it holds that $ac \equiv bd \pmod n$. 
