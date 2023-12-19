@@ -11,3 +11,10 @@ If we aim to find $E \times A$ *(Notice E is multiplying on the left)*, the mult
 Since the restriction of dot product is that the vectors must be of the same dimension, the numbers of columns of $E$ must match the number of rows in $A$.
 Also notice that if we call the matrix $EA = x$, the product between the $i$th row of $E$ and the $j$th row of $A$ produces the entry $x_{ij}$.
 Since $x$ will have as much rows as $E$ and as much columns as $A$, if $E_{m \times n}$ and $A_{n \times p}$, $x$ will be $m \times p$.
+# Properties
+- Associativity: $A(BC) = (AB)C$
+- Distributivity: $A(B+C) = AB + AC$ and $(B+D)C = BC + DC$.
+- **NOT COMMUTATIVE**: *Usually* $EF \ne FE$.
+	Two matrices only commute if one of them is the [[Identity Matrix]].
+
+
