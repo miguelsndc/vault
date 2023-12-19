@@ -29,4 +29,4 @@ Ax&= \begin{pmatrix}2\\4\end{pmatrix}(1)+\begin{pmatrix}3\\0\end{pmatrix}(5)\\
 &= \begin{pmatrix}2\\4\end{pmatrix}+\begin{pmatrix}15\\0\end{pmatrix}\\
 &= \begin{pmatrix}17\\4\end{pmatrix}
 \end{align*}$$
-Products indeed can be computed using whole columns at once instead of component by component, which saves time and effort, and can be seen as the sum: $\sum_{j=1}^{n}A_{i\times j} x_{j}$, where we $j$ is the column index.
+Products indeed can be computed using whole columns at once instead of component by component, which saves time and effort, and can be seen as the sum: $\sum_{j=1}^{n}A_{i\times j} x_{j}$, where we $j$ is the column index. 
