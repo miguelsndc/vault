@@ -22,4 +22,18 @@ a + c &= b +d+mq+mk\\
 a + c &= b+d+m(q + k)
 \end{align*}$$
 Therefore, $a+c \equiv b + d \pmod n$.
-2. 
+1. Let $m \in \mathbb{Z}$, if $a \equiv b \pmod n$, and $c \equiv d \pmod n$ then $ac \equiv bd \pmod n$.
+Similarly to $(1)$ we have:
+(I) $a \equiv b \pmod m \implies m \mid a - b \implies a = b+mk$ for $k \in \mathbb{Z}$
+(II) $c \equiv d \pmod m \implies m \mid c - d \implies c = d+mq$ for $a \in \mathbb{Z}$
+Since (I) and (II) holds, we can multiply them to obtain:
+$$
+\begin{align*}
+a&= b+mk\\
+c&= d + mq\\
+ac &= (b + mk)(d+mq)\\
+ac &= bd + bmq + mkd + m^{2}kq\\
+ac &= bd + m(bq + kd + mkq)
+\end{align*}
+$$
+So it holds that $ac \equiv bd \pmod n$.
