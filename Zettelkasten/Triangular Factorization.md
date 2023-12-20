@@ -38,4 +38,28 @@ w\\
 -4\\
 -4\end{pmatrix}
 \end{align*}$$
-There's the $Ux = c$ 
+There's the $Ux = c$. system.
+Find the [[Matrix Definition|matrix]] $E$ that subracts $2$ times the first equation from the second, denote it $E_{21}$ because it subtracts a multiple of equation $1$ from equation $2$, and also produces a zero in the $(2,1)$ position:
+$$\begin{align*}
+E_{21}=\begin{pmatrix}
+1 & 0 & 0\\
+-2 & 1 & 0\\
+0 & 0 & 1
+\end{pmatrix}
+\end{align*}$$
+The same can be done for steps $(2)$ and $(3)$:
+$$
+\begin{align*}
+E_{31}=\begin{pmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+1 & 0 & 1
+\end{pmatrix}\;\;
+E_{32} = \begin{pmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 3 & 1
+\end{pmatrix}
+\end{align*}
+$$
+See that $E_{32}E_{31}E_{21}A$ turns $A $
