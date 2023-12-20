@@ -10,5 +10,10 @@ d_{1}& & &\\
 & & & d_{n}
 \end{pmatrix}=
 \begin{pmatrix}
-1 & \frac{u_{12}}{d_{1}}& \frac{u_{13}}{d_{1}}\end{pmatrix}
+1 & \frac{u_{12}}{d_{1}}& \frac{u_{13}}{d_{1}} \cdots\\\
+& 1 & \frac{u_{23}}{d_{2}} \cdots\\
+&  \cdots & \cdots\\
+& & 1
+\end{pmatrix}
 \end{align*}$$
+Now the triangular decomposition of $A$ is written as $A = LDU$
