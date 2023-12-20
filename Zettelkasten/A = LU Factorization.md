@@ -39,7 +39,7 @@ w\\
 -4\end{pmatrix}
 \end{align*}$$
 There's the $Ux = c$. system.
-Find the [[Matrix Definition|matrix]] $E$ that subracts $2$ times the first equation from the second, denote it $E_{21}$ because it subtracts a multiple of equation $1$ from equation $2$, and also produces a zero in the $(2,1)$ position:
+The [[Matrix Definition|matrix]] $E$ that subtracts $2$ times the first equation from the second, denote it $E_{21}$ because it subtracts a multiple of equation $1$ from equation $2$, and also produces a zero in the $(2,1)$ position:
 $$\begin{align*}
 E_{21}=\begin{pmatrix}
 1 & 0 & 0\\
@@ -62,4 +62,7 @@ E_{32} = \begin{pmatrix}
 \end{pmatrix}
 \end{align*}
 $$
-See that $E_{32}E_{31}E_{21}A$ turns $A $
+See that $E_{32}E_{31}E_{21}A$ turns $A$ into $U$ 
+# How to Undo the Steps of $U$ ?
+
+First notice that $E_{32}E_{31}E_{21}$ turns $A$ into $U$, so if we **reverse** the thing that $E_{32}E_{31}E_{21}$ does to $A$ to get it to $U$ we can find something to bring $U$ back to $A$, first, we have to **undo** the $E_{ij}$ step. Take $E_{21}$
