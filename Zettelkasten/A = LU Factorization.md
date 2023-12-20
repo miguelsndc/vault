@@ -91,7 +91,12 @@ Notice $E_{31}E_{31}^{-1}= I$, so one operation undoes the other.
 
 An important thing is that we also need to reverse the order of the multiplications, since matrix [[Matrix Multiplication|multiplication]] isn't commutative. So the inverse would be $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so $A = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U$, Let $L = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so that $A = LU$, also $Lc = b$.
 
+So $L = (E_{32}E_{31}E_{21})^{-1} \implies L^{-1}=E_{32}E_{31}E_{21}$.
+
 $A$ = Original Matrix
 $U$ = Upper triangular matrix obtained from [[Gaussian Elimination]].
 $L$ = [[Lower Triangular Matrix]] that **undoes** $U$.
+
+> [!important] Definition (kind of)
+> As long as no [[Pivot|pivots]]  are zero, the matrix $A$ can be written as a product $LU$ of a lower triangular matrix $L$ and a upper triangular matrix $U$. The entries of $L$ on the main diagonal are $1$'s; below the diagonal, the are the multipliers $l_{ij}$ of row $j$ which are subtracted from row $i$ during elimination and before [[Back-Substitution]]; it's diagonal entries are the pivos.
 

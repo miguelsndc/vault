@@ -1,5 +1,6 @@
 ---
 tags: matrix
+aliases: pivot, pivots
 ---
 
 >[!tip] Definition
