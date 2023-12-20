@@ -17,3 +17,5 @@ d_{1}& & &\\
 \end{pmatrix}
 \end{align*}$$
 Now the triangular decomposition of $A$ is written as $A = LDU$
+
+> The LDU Factorization for A is uniquely determined.
