@@ -76,15 +76,22 @@ E_{21}^{-1}&=
 \end{align*}$$
 Same for $E_{32}$ and $E_{31}$:
 $$\begin{align*}
-E_{31}=\begin{pmatrix}
+E_{31}^{-1}=\begin{pmatrix}
 1 & 0 & 0\\
 0 & 1 & 0\\
 -1 & 0 & 1
 \end{pmatrix}\;\;
-E_{32} = \begin{pmatrix}
+E_{32}^{-1} = \begin{pmatrix}
 1 & 0 & 0\\
 0 & 1 & 0\\
 0 & -3 & 1
 \end{pmatrix}
 \end{align*}$$
-An important thing is that we also need to reverse the order of the multiplications, since matrix [[Matrix Multiplication|multiplication]] isn't commutative. So the inverse would be $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, So $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1} U = A$, Let $L = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so $A = LU$.
+Notice $E_{31}E_{31}^{-1}= I$, so one operation undoes the other.
+
+An important thing is that we also need to reverse the order of the multiplications, since matrix [[Matrix Multiplication|multiplication]] isn't commutative. So the inverse would be $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so $A = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U$, Let $L = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so that $A = LU$, also $Lc = b$.
+
+$A$ = Original Matrix
+$U$ = Upper triangular matrix obtained from [[Gaussian Elimination]].
+$L$ = [[Lower Triangular Matrix]] that **undoes** $U$.
+
