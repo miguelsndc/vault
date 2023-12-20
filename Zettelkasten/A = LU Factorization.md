@@ -65,4 +65,26 @@ $$
 See that $E_{32}E_{31}E_{21}A$ turns $A$ into $U$ 
 # How to Undo the Steps of $U$ ?
 
-First notice that $E_{32}E_{31}E_{21}$ turns $A$ into $U$, so if we **reverse** the thing that $E_{32}E_{31}E_{21}$ does to $A$ to get it to $U$ we can find something to bring $U$ back to $A$, first, we have to **undo** the $E_{ij}$ step. Take $E_{21}$
+First notice that $E_{32}E_{31}E_{21}$ turns $A$ into $U$, so if we **reverse** the thing that $E_{32}E_{31}E_{21}$ does to $A$ to get it to $U$ we can find something to bring $U$ back to $A$, first, we have to **undo** the $E_{ij}$ step. Take $E_{21}$, *subtracts 2 times the first equation from the second*, so we have to undo this, by *adding 2 times the first equation to the second*, so:
+$$\begin{align*}
+E_{21}^{-1}&= 
+\begin{pmatrix}
+1 & 0 & 0\\
+2 & 1 & 0\\
+0 & 0 & 1
+\end{pmatrix}
+\end{align*}$$
+Same for $E_{32}$ and $E_{31}$:
+$$\begin{align*}
+E_{31}=\begin{pmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+-1 & 0 & 1
+\end{pmatrix}\;\;
+E_{32} = \begin{pmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & -3 & 1
+\end{pmatrix}
+\end{align*}$$
+An important thing is that we also need to reverse the order of the multiplications, since matrix [[Matrix Multiplication|multiplication]] isn't commutative. So the inverse would be $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, So $E_{21}^{-1}E_{31}^{-1}E_{32}^{-1} U = A$, Let $L = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}$, so $A = LU$.
