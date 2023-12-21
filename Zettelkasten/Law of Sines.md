@@ -18,23 +18,16 @@ Forming a relation of proportin between the sides and the sine of their opposite
 - Two angles and the area;
 - *(Sometimes)* two sides and one angle;
 # Proof
-Divide in two cases: **Acute** and **Obtuse** Triangles:
-- Acute triangles case:
-![[Pasted image 20231221125511.png]]
-In the figure we drawn a straight line from $A$ to the opposite side. From here we can see the following:
-$$\begin{align*}
-\sin{C} &= \frac{h}{b}\\
-\sin{B} &= \frac{h}{c}\\
-\therefore h&= b\sin{C}\\
-h&= c\sin{B} 
-\end{align*}$$
-Since we have two values for $h$ we can equate them:
-$$\begin{align*}
-b\sin{C}&= c\sin{B}\\
-\frac{b\sin{C}}{(\sin{C})(\sin{B})}&= \frac{c\sin{B}}{(\sin{C})(\sin{B})}\\
-&\implies \frac{b}{\sin{B}}=\frac{c}{\sin{C}}
-\end{align*}$$
-Repeating the above but with altitude drawn from point $B$
+Let $\triangle ABC$ be an oblique triangle, then $\triangle ABC$ can be *acute* or *obtuse* as shown in the figure:
 
-![[Pasted image 20231221130131.png]]
+![[Pasted image 20231221131726.png]]
 
+See that $\sin{A} = \frac{h}{b}$ and $\sin{B}=\frac{h}{a}$, so it follows that:
+$$\begin{align*}
+h&= b\sin{A}\\
+h&= a\sin{B}\\
+\therefore b\sin{A}&= a\sin{B}\\
+\frac{b\sin{A}}{\sin{A}\sin{B}} &= \frac{a\sin{B}}{\sin{A}\sin{B}}\\
+\frac{b}{\sin{B}}&= \frac{a}{\sin{A}}
+\end{align*}$$
+In figure $(b)$ we have $\sin{180\degree} - B = \sin{B}=\frac{h}{b}$ so we're good.
