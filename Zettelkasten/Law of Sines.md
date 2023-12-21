@@ -1,7 +1,7 @@
 ---
 tags: trig
 ---
-The law of sines relates the sides of a triangle and the sines of the angles opposite to them:
+The law of sines relates the sides of a triangle and the sines of the [[Angle|angles]] opposite to them:
 
 >[!tip] Definition
 >In **any type of triangle**, given the the angles $A, B$ and $C$ and the sides $a, b$ and $c$, where $a$ is opposite to $A$, $b$ is opposite to $B$ and $c$ is opposite to $C$, the law of sines states that:
@@ -14,11 +14,12 @@ The law of sines relates the sides of a triangle and the sines of the angles opp
 
 Forming a relation of proportin between the sides and the sine of their opposite angles.
 ## This is Useful when:
-- 
-
-
-
-
+- We know two angles and any side;
+- Two angles and the area;
+- *(Sometimes)* two sides and one angle;
+# Proof
+Divide in two cases: **Acute** and **Obtuse** Triangles:
+- Acute triangles case:
 
 
 
