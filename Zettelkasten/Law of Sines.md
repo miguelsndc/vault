@@ -35,17 +35,6 @@ b\sin{C}&= c\sin{B}\\
 &\implies \frac{b}{\sin{B}}=\frac{c}{\sin{C}}
 \end{align*}$$
 Repeating the above but with altitude drawn from point $B$
+
 ![[Pasted image 20231221130131.png]]
-$$
-\begin{align*}
-\sin{A}&=\frac{h}{c}\\
-\sin{C}&= \frac{h}{b}\\
-&\implies c\sin{A}= h\\
-&b\sin{C}=h
-\end{align*}$$
-
-
-
-
-
 
