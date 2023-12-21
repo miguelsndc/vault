@@ -39,6 +39,13 @@ a^{2}-(b^{2} - 2bc\cos{A} + c^{2}\cos^{2}{A})&= c^{2}-c^{2}\cos^{2}{A}\\
 a^{2}-b^{2}+2bc\cos{A}-c^{2}\cos^{2}{A}&= c^{2}-c^{2}\cos^{2}{A}\\
 a^{2}-b^{2}+2bc\cos{A}&= c^{2}\\
 2bc\cos{A}&= b^{2}+c^{2}-a^{2}\\
-\cos{A}&= \frac{b^{2}+c^{2}-a^{2}}{2b}
+\cos{A}&= \frac{b^{2}+c^{2}-a^{2}}{2bc}
 \end{align*}$$
-Which shows the **first form**, now the se
+Which shows the **first form**, now the second form comes from the first:
+$$\begin{align*}
+\cos{A}&= \frac{b^{2}+c^{2}-a^{2}}{2bc}\\
+2bc\cos{A}&= b^{2}+c^{2}-a^{2}\\
+a^{2}+2bc\cos{A}&= b^{2}+c^{2}\\
+a^{2}&= b^{2}+c^{2}-2bc\cos{A}
+\end{align*}$$
+This shows the first form. $QED$
