@@ -16,7 +16,7 @@ Forming a relation of proportin between the sides and the sine of their opposite
 ## This is Useful when:
 - We know two angles and any side;
 - Two angles and the area;
-- *(Sometimes)* two sides and one angle;
+- *(Sometimes)* two sides and one angle - Might have solution or not.
 # Proof
 Let $\triangle ABC$ be an oblique triangle, then $\triangle ABC$ can be *acute* or *obtuse* as shown in the figure:
 
