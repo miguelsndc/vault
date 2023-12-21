@@ -31,3 +31,14 @@ h&= a\sin{B}\\
 \frac{b}{\sin{B}}&= \frac{a}{\sin{A}}
 \end{align*}$$
 In figure $(b)$ we have $\sin{180\degree} - B = \sin{B}=\frac{h}{b}$ so we're good.
+Pulling the altitude from $A$ to $BC$ in $(A)$ we have:
+$$\begin{align*}
+\sin{C} &= \frac{h}{b}\\
+\sin{B} &= \frac{h}{c}\\
+\therefore b\sin{C}&= c\sin{B}\\
+\frac{b}{\sin{B}}&= \frac{c}{\sin{C}}
+\end{align*}$$
+So wrapping up we have:
+$$\begin{align*}
+\frac{a}{\sin{A}} &= \frac{b}{\sin{B}}= \frac{c}{\sin{C}}
+\end{align*}$$
