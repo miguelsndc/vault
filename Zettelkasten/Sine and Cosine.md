@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#trigonometry"
+  - trig
 date: 2023-10-29
 link: https://brownmath.com/twt/sixfunc.htm
 aliases:
@@ -25,5 +25,6 @@ $$\begin{align*}
 \sin{A} &= \cos{90\degree-A} \text{ or } \cos{\frac{\pi}{2}-A}\\
 \cos{A} &= \sin{90\degree-A} \text{ or } \sin{\frac{\pi}{2}-A}
 \end{align*}$$
+
 
 T
