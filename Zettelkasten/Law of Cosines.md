@@ -19,14 +19,26 @@ See the triangle $\triangle{ABC}$:
 
 > *Disclaimer: in the [[Law of Sines]] proof page, we found the cosines of the angles and didn't really use them, now we will.*
 
-We know:
+- We know:
 $$\begin{align*}
 \cos{A}&= \frac{AD}{c}\implies AD=c\cos{A}\\
 \cos{C}&= \frac{CD}{a}\implies CD=a\cos{C}
 \end{align*}$$
 We can find a relation between these two by the [[Pythagorean Theorem]] and the segment $BD$:
 $$\begin{align*}
-(CD)^{2}+(BD)^{2}=a^{2}\\
-(AD)^{2}+(BD)^{2}=c^{2}\\
-
+(CD)^{2}+(BD)^{2}&= a^{2}\\
+(AD)^{2}+(BD)^{2}&= c^{2}\\
+(BD)^{2}&=a^{2}-(CD)^{2}\\
+(BD)^{2}&= c^{2}- (AD)^{2} 
 \end{align*}$$
+Since $(BD)^{2}$ is equal to two expressions, we can equate them, but notice that: $CD+AD = b$, so $CD = b - AD$ *(or vice-versa)*.
+$$\begin{align*}
+a^{2}-(CD)^{2}&= c^{2}-(AD)^{2}\\
+a^{2}-(b-c\cos{A})^{2}&= c^{2}-(c\cos{A})^{2}\\
+a^{2}-(b^{2} - 2bc\cos{A} + c^{2}\cos^{2}{A})&= c^{2}-c^{2}\cos^{2}{A}\\
+a^{2}-b^{2}+2bc\cos{A}-c^{2}\cos^{2}{A}&= c^{2}-c^{2}\cos^{2}{A}\\
+a^{2}-b^{2}+2bc\cos{A}&= c^{2}\\
+2bc\cos{A}&= b^{2}+c^{2}-a^{2}\\
+\cos{A}&= \frac{b^{2}+c^{2}-a^{2}}{2b}
+\end{align*}$$
+Which shows the **first form**, now the se
