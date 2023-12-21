@@ -13,9 +13,20 @@ The first form is used to find the angles of a triangle when only sides are know
 The second form allow us to find the length of a side opposite two an angle $C$ between two known sides. *the square of a side $c$ is the sum of the squares of the other sides minus 2 times cosine of the angle opposite to $C$ and the other sides*.
 It's a general form of [[Pythagorean Theorem]], but with the $2ab\cos{C}$ correction factor, to it works not only for [[Right Triangle|right triangles]].
 # Proof
+See the triangle $\triangle{ABC}$: 
 
+![[Pasted image 20231221170646.png]]
 
+> *Disclaimer: in the [[Law of Sines]] proof page, we found the cosines of the angles and didn't really use them, now we will.*
 
+We know:
+$$\begin{align*}
+\cos{A}&= \frac{AD}{c}\implies AD=c\cos{A}\\
+\cos{C}&= \frac{CD}{a}\implies CD=a\cos{C}
+\end{align*}$$
+We can find a relation between these two by the [[Pythagorean Theorem]] and the segment $BD$:
+$$\begin{align*}
+(CD)^{2}+(BD)^{2}=a^{2}\\
+(AD)^{2}+(BD)^{2}=c^{2}\\
 
-
-
+\end{align*}$$
