@@ -4,12 +4,13 @@ tags: trig
 To find the length of the sides of a triangle if only the [[Angle|angles]] and the area are known *(or two angles, do $180 - A - B$ to find the third)*. Assume we are dealing with a non-[[Right Triangle]].
 
 >[!tip] Definition:
->Let $c$ be a arbitrary side of a triangle $\triangle{ABC}$ and $S$ be the area of $\triangle{ABC}$.
+>Let $c$ be a arbitrary unknown side of a triangle $\triangle{ABC}$ and $S$ be the area of $\triangle{ABC}$.
+>
 > $c^{2}= S\frac{2\sin{C}}{\sin{A}\sin{B}}$
-> **
+> 
+> *The square of a side $a$ is the area multiplied by two times the sine of the angle opposite to $a$ divided by the sines of the other angles*
 
-
-
+# Derivation
 Suppose the $\triangle{ABC}$ with Area = $S$.
 ![[Pasted image 20231221225454.png]]
 Notice that $S = \frac{ah}{2}$ where $h$ is a segment from $A$ to $BC$.
