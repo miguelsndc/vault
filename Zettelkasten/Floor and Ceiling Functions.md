@@ -11,4 +11,8 @@ Ceil $\lceil 2.1 \rceil = 3$.
 - $\lceil x\rceil=n$ if and only if $n - 1\lt x \le n$
 - $\lfloor x\rfloor=n$ if and only if $x - 1 \lt n \le x$ 
 - $\lceil x\rceil=n$ if and only if $x \le n \lt x + 1$
-- $x - 1 \lt \lfloor x \rfloor \le x \le \lceil x \rceil \lt x $   
+- $x - 1 \lt \lfloor x \rfloor \le x \le \lceil x \rceil \lt x + 1$.
+- $\lfloor - x \rfloor = - \lfloor x\rfloor$   
+- $\lceil - x \rceil= - \lceil x\rceil$
+- $\lceil x + n \rceil= \lceil x\rceil + n$
+- $\lfloor x + n \rfloor = \lfloor x \rfloor + n$
