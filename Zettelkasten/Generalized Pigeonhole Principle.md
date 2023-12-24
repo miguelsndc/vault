@@ -14,5 +14,7 @@ $$\begin{align*}
 N &\le k\left(\left\lceil \frac{N}{k} \right\rceil -1\right)\lt k\left(\left(\frac{N}{k}+1\right)-1\right)\\
 N &\le k\left(\left\lceil \frac{N}{k} \right\rceil -1\right)\lt k\left(\frac{N}{k}\right)\\
 N &\le k\left(\left\lceil \frac{N}{k} \right\rceil -1\right)\lt N\\
-N \lt 
+N &\lt N \\
+\bot
 \end{align*}$$
+From here we obtain $N \lt N$, a contradiction.
