@@ -12,4 +12,6 @@ $$\begin{align*}
 R^{2}&= \Big\{ \begin{pmatrix}x \\ y\end{pmatrix} \mid x,y\in\mathbb{R} \Big\} 
 \end{align*}$$
 *All vectors in two-dimensional space* represent a vector space because they obbey all the [[Eight Axioms for Vector Spaces|eight axioms]].
-Notice that anything that test positive for the axioms is a vector space and **anything contained in that vector space is a vector**. Vectors are 
+___
+Notice that anything that test positive for the axioms is a vector space and **anything contained in that vector space is a vector**. Vectors are a kind of abstract entity, that's weird, but it is what it is.
+For example the set of polynomials of degree $\le n$ form a vector space of dimension $n+1$.
