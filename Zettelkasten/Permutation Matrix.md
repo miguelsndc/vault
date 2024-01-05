@@ -10,3 +10,5 @@ P_{23}&= \begin{pmatrix}1 & 0 & 0\\
 0 & 1 & 0\end{pmatrix}
 \end{align*}$$
 With $k = 2$ and $l = 3$, Notice $P_{kl}^{-1}=P_{kl}$, since reversing the exchange process we just exchange the same rows again.
+
+> The [[Inverse Matrix|inverse]] of a permutation matrix $P$ is it's [[Transposes|transpose]] $P^{T}$ 
