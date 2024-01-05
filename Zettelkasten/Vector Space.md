@@ -8,4 +8,6 @@ R^{2}&= \Big\{ \begin{pmatrix}x \\ y\end{pmatrix} \mid x,y\in\mathbb{R} \Big\}
 \end{align*}$$
 There's eight **axioms** that a collection of vectors must obbey in order to be considered a vector space:
 1.  Associativity of vector addition:
-2. $$
+$$\begin{align*}
+\vec{u} + (\vec{v} + \vec{w}) &= (\vec{u} + \vec{v}) + \vec{w}
+\end{align*}$$
