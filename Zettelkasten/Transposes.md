@@ -26,4 +26,4 @@ $$\begin{align*}
 (AB)^{T}=B^{T}A^{T}
 \end{align*}$$
 - By multiplying a nonsquare matrix by its transpose, we obtain a [[Symmetric Matrix]}.
-- Symmetric matrices $S$ are equal to their transpose, $S^{T} = S \implies \text{S is Symmetric}$.
+	- Symmetric matrices $S$ are equal to their transpose, $S^{T} = S \implies \text{S is Symmetric}$.
