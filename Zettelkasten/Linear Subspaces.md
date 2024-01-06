@@ -1,6 +1,6 @@
 ---
 tags: spaces
-aliases: subspace, subspaces
+aliases: subspace, subspaces, linear subspace
 ---
 A Vector **sub**space is a [[Subsets|subset]] of a [[Vector Space]] that is, in itself, a vector space. All the [[Eight Axioms for Vector Spaces|eight axioms]] are already fulfilled by the superset (the vector space in which the subspace is contained). So for a subset to be a subspace, it needs to account for:
 
