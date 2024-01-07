@@ -36,4 +36,4 @@ A&=
 0 & 0 & 0 & 0 
 \end{pmatrix}
 \end{align*}$$
-Elimination is complete, Notice $A$ is in a upper *"trapezoid"* form, since all non-zero entries $u_{ij}$ lie above the main diagonal. 
+Elimination is complete, Notice $A$ is in a upper *"trapezoid"* form, since all non-zero entries $u_{ij}$ lie above the main diagonal. Notice its on [[Echelon Form]].
