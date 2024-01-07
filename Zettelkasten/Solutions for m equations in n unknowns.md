@@ -49,4 +49,5 @@ L&=
 In this specific case, no [[Row Exchanges]] were needed, this would include a [[Permutation Matrix|permutation matrix]] $P$, that'd need to be carried on $A$ in order to get $PA = LU$.
 
 > [!Tip] General Theorem
-> For every $m \times n$ rectangular $A$ there is some [[Permutation Matrix]] $P$, a [[Lower Triangular Matrix]] $L$ with unit diagonals and a 
+> For every $m \times n$ rectangular $A$ there is some [[Permutation Matrix]] $P$, a [[Lower Triangular Matrix]] $L$ with unit diagonals and a upper trapezoid $U$ in [[Echelon Form]] such that $PA = LU$.
+
