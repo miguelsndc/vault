@@ -29,7 +29,7 @@ A&=
 If A were a square matrix, this would mean that $A$ is [[Singular Case in Square Matrices Ax = b|singular]], but since $A$ is rectangular, all we can do is continue the elimination and go on to the next column, where the pivot is non-zero. 
 
 $$\begin{align*}
-A&= 
+U&= 
 \begin{pmatrix}
 1 & 3 & 3 & 2\\
 0 & 0 & 3 & 1\\
@@ -37,3 +37,16 @@ A&=
 \end{pmatrix}
 \end{align*}$$
 Elimination is complete, Notice $A$ is in a upper *"trapezoid"* form, since all non-zero entries $u_{ij}$ lie above the main diagonal. Notice its on [[Echelon Form]].
+There is [[A = LU Factorization]] just as in square matrices, but $L$ is square of order $3$, the same number of rows in $A$ and $U$:
+$$\begin{align*}
+L&= 
+\begin{pmatrix}
+1 & 0 & 0\\
+2 & 1 & 0\\
+-1 & 2 & 1\\
+\end{pmatrix}
+\end{align*}$$
+In this specific case, no [[Row Exchanges]] were needed, this would include a [[Permutation Matrix|permutation matrix]] $P$, that'd need to be carried on $A$ in order to get $PA = LU$.
+
+> [!Tip] General Theorem
+> For every $m \times n$ rectangular $A$ there is some [[Permutation Matrix]] $P$, a [[Lower Triangular Matrix]] $L$ with unit diagonals and a 
