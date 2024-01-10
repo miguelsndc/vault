@@ -45,4 +45,8 @@ $\rm{e.g.}$
 >Suppose $U$ is an $n\times n$ [[Upper Triangular Matrix]], with non-zero [[Pivot|pivots]] in the diagonal. Then the rows of $U$ are linearly independent.
 
 *Proof:*
-We start by assuming that some linear combination of the rows is zero, $c_{1}v_{1}+c_{2}v_{2}+\cdots+c_{k}v_{k}=0$. Then we head for the first non-zero entry in the diagonal $u_{11}$, since we know $c_{1}v_{1}=0$ and $v_{1}\ne 0$, this implies that $c_{1}=0$, and $c_{2}=0$ since $c_{1}v_{1}+ c_{2}v_{2}=0$ and $v_{2}\ne 0$, this applies to all $u_{ij}$ pivots, since the only weights that make $c_{1}v_{1}+c_{2}v_{2}+\cdots+ c_{k}v_{k}=0$ are those of the tr
+We start by assuming that some linear combination of the rows is zero, $c_{1}v_{1}+c_{2}v_{2}+\cdots+c_{k}v_{k}=0$. Then we head for the first non-zero entry in the diagonal $u_{11}$, since we know $c_{1}v_{1}=0$ and $v_{1}\ne 0$, this implies that $c_{1}=0$, and $c_{2}=0$ since $c_{1}v_{1}+ c_{2}v_{2}=0$ and $v_{2}\ne 0$, this applies to all $u_{ij}$ pivots, since the only weights that make $c_{1}v_{1}+c_{2}v_{2}+\cdots+ c_{k}v_{k}=0$ are those of the trivial solution. Then $U$ is linearly independent.
+___
+The $r$ nonzero rows of an [[Echelon Form|echelon]] matrix $U$ are linearly independent, and so are the $r$ columns that contain nonzero pivots.
+$\rightarrow$ An important reminder is that the definition of linear independence is "coordinate free". Given $k$ points in $n$-dimensional space, the vectors from the origin to those points either can or cannot be combined to give zero, regardless of where we put the coordinate axes. A rotation will change the coordinates however it won't affect the question of dependent or independent whatsoever.
+$\rightarrow$ Given an arbitrary [[Sets|set]] of vectors, their 

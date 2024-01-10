@@ -13,5 +13,8 @@
   "attachmentFolderPath": "Files",
   "showInlineTitle": true,
   "propertiesInDocument": "source",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "readableLineLength": true
 }
