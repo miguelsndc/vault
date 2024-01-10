@@ -35,3 +35,4 @@ I&= \begin{pmatrix}
 \end{pmatrix}
 \end{align*}$$
 Are linearly independent. We give this vectors a special notation $e_{1},e_{2},\cdots, e_{n}$, they are the unit vectors in the coordinate directions, $e_{1}=(1,0,0,\cdots,0)$, $e_{n}=(0,0,\cdots,1)$.
+## Procedure for Proving Independence
