@@ -49,4 +49,20 @@ We start by assuming that some linear combination of the rows is zero, $c_{1}v_{
 ___
 The $r$ nonzero rows of an [[Echelon Form|echelon]] matrix $U$ are linearly independent, and so are the $r$ columns that contain nonzero pivots.
 $\rightarrow$ An important reminder is that the definition of linear independence is "coordinate free". Given $k$ points in $n$-dimensional space, the vectors from the origin to those points either can or cannot be combined to give zero, regardless of where we put the coordinate axes. A rotation will change the coordinates however it won't affect the question of dependent or independent whatsoever.
-$\rightarrow$ Given an arbitrary [[Sets|set]] of vectors, their 
+$\rightarrow$ Given an arbitrary [[Sets|set]] of vectors, their verification of dependency or independency of course requires some calculation, $c_{1}v_{1}+c_{2}v_{2}+\cdots+c_{k}v_{k}$, the natural step is to form a [[Matrix Definition|matrix]] $A$, whose columns are the given vectors. Then if we write $c$ for the vector of weights: $(c_{1}, c_{2}, \cdots, c_{k})$:
+
+$$\begin{align*}
+Ac &= \begin{pmatrix}
+\cdot & \cdot & \cdot  & \cdot\\
+\cdot & \cdot & \cdot  & \cdot\\
+v_{1} & v_{2}  & \cdots & v_{k}\\
+\cdot & \cdot & \cdot  & \cdot\\
+\cdot & \cdot & \cdot  & \cdot\\
+\end{pmatrix}
+\begin{pmatrix}c_{1}\\ c_{2} \\ \vdots \\ c_{k}\end{pmatrix}
+&= c_{1}v_{1}+ c_{2}v_{2}+\cdots+c_{k}v_{k}
+\end{align*}$$
+The vectors are dependent **if and only if there is a nontrivial sollution for $Ac = 0$**. This is settled by [[Gaussian Elimination]]. If the [[Rank of a Matrix|rank]] of $A=k$, then there are no free variables and no [[Nullspace]], (except for $c=0$), then the vectors are linearly independent. If the rank is less than $k$ then there's at least one free variable that can be chosen nonzero and the columns are linearly dependent.
+$\rightarrow$ A really important thing is that if we let the vectors have $m$ components, so that $A$ is a $m\times k$ matrix, and suppose now that $k \gt m$, it will be impossible for $A$ to have rank $k$, since the number of [[Pivot|pivots]] cannot surpass the number of rows. The rank must be less than $k$ and a homogeneous system $Ax=0$ with more unknowns than equations always has nontrivial solutions $x \ne 0$.
+
+> A Set of vectors $K$ in $\mathbb{R}^{m}$ with $K \gt m$ is always linearly dependent.
