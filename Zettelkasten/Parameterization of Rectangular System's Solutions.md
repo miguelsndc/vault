@@ -27,7 +27,7 @@ u+3v+3w+2y &= 0\\
 w &= -\frac{1}{3}y\\
 u&= -3-y
 \end{align*}$$
-There is a "double infinity" of solutions with two free and independent parameters $v$ and $y$. The general solution is the [[Linear Combination]]:
+There is a "double infinity" of solutions with two free and independent parameters $v$ and $y$. The general solution is the [[Linear Combinations]]:
 $$\begin{align*}
 x&= \begin{pmatrix}
 -3v-y\\

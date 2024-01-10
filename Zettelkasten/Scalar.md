@@ -4,6 +4,7 @@ tags:
   - geometry/analytic
 aliases:
   - scalar
+  - scalars
 date: 2023-10-26
 ---
 Scalar quantities are quantities that have **magnitude** only. *(magnitude stands for size in some manner)*. 
