@@ -36,3 +36,13 @@ I&= \begin{pmatrix}
 \end{align*}$$
 Are linearly independent. We give this vectors a special notation $e_{1},e_{2},\cdots, e_{n}$, they are the unit vectors in the coordinate directions, $e_{1}=(1,0,0,\cdots,0)$, $e_{n}=(0,0,\cdots,1)$.
 ## Procedure for Proving Independence
+Assume that the linear combination gives zero, and prove that all weight $c_{i}$ must equal zero, for example:
+$$\begin{align*}
+c_{1}e_{1}+ c_{2}e_{2}+\cdots+c_{n}e_{n}=(c_{1},c_{2},\cdots, c_{n})\\
+\end{align*}$$
+If the combination is the zero vector then obviously all $c_{i}=0$.
+$\rm{e.g.}$
+>Suppose $U$ is an $n\times n$ [[Upper Triangular Matrix]], with non-zero [[Pivot|pivots]] in the diagonal. Then the rows of $U$ are linearly independent.
+
+*Proof:*
+We start by assuming that some linear combination of the rows is zero, $c_{1}v_{1}+c_{2}v_{2}+\cdots+c_{k}v_{k}=0$. Then we head for the first non-zero entry in the diagonal $u_{11}$, since we know $c_{1}v_{1}=0$ and $v_{1}\ne 0$, this implies that $c_{1}=0$, and $c_{2}=0$ since $c_{1}v_{1}+ c_{2}v_{2}=0$ and $v_{2}\ne 0$, this applies to all $u_{ij}$ pivots, since the only weights that make $c_{1}v_{1}+c_{2}v_{2}+\cdots+ c_{k}v_{k}=0$ are those of the tr
