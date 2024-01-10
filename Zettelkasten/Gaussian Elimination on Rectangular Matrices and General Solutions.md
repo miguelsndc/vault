@@ -1,6 +1,12 @@
 ---
-tags: systems
+tags: systems, spaces
 ---
+## Overall
+Suppose the $m$ by $n$ matrix $A$ is reduced by elementary operations and [[Row Exchanges]] to a matrix $U$ in [[Echelon Form]]. Let there be $r$ non-zero [[Pivot|pivots]]; the last $m-r$ rows of $U$ are zero. Then there will be $r$ *basic variables* and $n-r$ *free variables,* correspoding to the rows of $A$ with and without pivots, respectively.
+The [[Nullspace]], formed of solutions to $Ax = 0$, has the $n-r$ free variables as independent parameters. If $r=n$, there are no free variables and the nullspace contains only $x=0$.
+Solutions exist for every right side $b$ if and only f $r=m$; with this number of pivots, the matrix $U$ has no zero rows, and $Ux=c$ can be solved by [[Back-Substitution]]. In case $r \lt m$, $U$ will have $m-r$ zero rows and there are $m-r$ constraints on $b$ in order for $Ax=b$ to be solvable; they appear explicitly in the last $m-r$ rows of $Ux=c$. If one particular solution exists then every other solution differs from it by a vector in the nullspace of $A$.
+*The number $r$ is called the [[Rank of a Matrix|rank]] of $A$.*
+___
 When the number of equations in a [[Definition of a System of Linear Equations|system]] differ the number of unknowns $A_{m\times n}$ and $m \ne n$, $Ax=b$, [[Gaussian Elimination]] proceeds normally, but attention is needed on [[Back-Substitution]].
 *Ex:* Look at the [[Scalar|scalar]] equation $ax=b$ a humble $1\times1$ system, we have three possibilities of solutions:
 1. If $a \ne 0$ there is a unique solution $x=\frac{b}{a}$, this is the [[Non-Singular Case Matrix of a System|non-singular]] case.
