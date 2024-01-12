@@ -47,8 +47,12 @@ P(n,r)&= n(n-1)(n-2)\cdots(n-r+1)
 \end{align*}$$
 Since we multiply until $(n-r+1)$ we need to divide by everything after $(n-r+1)$, so $(n-r+1)-1 = (n-r)$ and we need to factorial that, to include everything after it, so $(n-r)!$. From this the formula might look like $P(n,r)=\frac{n!}{(n-r)!}$, Let's check that:
 $$\begin{align*}
-P(n,0)= \frac 
+P(n,0)&= \frac{n!}{(n-0)!}= \frac{n!}{n!}=1 \\
+P(n,n)&= \frac{n!}{(n-n)!}=n!\\
+P(n,r)&= \frac{n(n-1)(n-2)\cdots(n-r+1)(n-r)! \text{ (this $(n-r)!$ needs to disappear)}}{(n-r)!}\\
+&=n(n-1)(n-2)\cdots(n-r+1)=\frac{n!}{(n-r)!}
 \end{align*}$$
+So the formula holds for all cases.
 
 
 
