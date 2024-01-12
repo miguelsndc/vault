@@ -1,5 +1,6 @@
 ---
 tags: combinatorics
+aliases: factorial
 ---
 Factorials are a mathematical expression highly useful in combinatorics to describe the number of permutations of $n$ objects.
 Let $n = 50$, let there be no reposition of objects.
