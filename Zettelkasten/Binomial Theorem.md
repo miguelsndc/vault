@@ -21,4 +21,33 @@ $\text{What is the coefficient of } x^{12}y^{13} \text{ in the expansion of } (x
 $$\begin{align*}
 {25 \choose 13}1^{12}1^{13}&= \frac{25!}{13!12!}=5200030
 \end{align*}$$
-In this case we need to consider the signs and possible 
+In this case we need to consider the signs and possible coefficients already attached to $x$ or $y$ inside the binomial. Notice we aim for a coefficient so we need to isolate the $x$ and $y$ on the side and everything else is the coefficient of the expansion.
+___
+There's a bunch of useful identities related to the binomial theorem, we shall prove each one here.
+>[!faq] Proposition
+>Let $n$ be a nonnegative integer, then:
+$$\sum_{k=0}^{n}{n\choose k}=2^{n}$$
+>
+# Proof
+Using the binomial theorem with $x=1$ and $y=1$; we have:
+$$\begin{align*}
+2^{n}=(1+1)^{n}=\sum_{k=0}^{n}{n\choose k}1^{k}1^{n-k}=\sum_{k=0}^{n}{n\choose k}
+\end{align*}$$
+We can give a [[Combinatorial Proof]] for this too:
+A set with $n$ elements has $2^n$ subsets, (see: [[Power Set]]), each with $0,1,2,\cdots,n$ elements, $n \choose 0$ counts the subsets with no elements, $n \choose 1$ counts those with one element, $n \choose 2$ those with two elements, $\cdots$, $n \choose n$ counts the whole set once. so:
+$$\begin{align*}
+\sum_{k=0}^{n}{n\choose k}
+\end{align*}$$
+Counts the number of subsets of a set with $n$ elements, so:
+$$\begin{align*}
+\sum_{k=0}^{n}{n\choose k} &= 2^{n}
+\end{align*}$$
+>[!faq] Proposition
+>Let $n$ be a prositive integer, so: $$\sum_{k=0}^{n}(-1)^{k}{n \choose k} = 0$$
+# Proof
+Let's use $x=-1$ and $y=1$:
+$$\begin{align*}
+
+\end{align*}
+0 = 0^{n}=(-1+1)^{n}= \sum_{k=0}^{n}{n \choose k}(-1)^{k}1^{n-k}{n\choose k}
+$$
