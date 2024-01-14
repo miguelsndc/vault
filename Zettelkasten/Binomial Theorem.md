@@ -47,7 +47,17 @@ $$\begin{align*}
 # Proof
 Let's use $x=-1$ and $y=1$:
 $$\begin{align*}
-
+0 &=  0^{n}=(-1+1)^{n}\\
+& = \sum_{k=0}^{n}{n \choose k}(-1)^{k}1^{n-k}{n\choose k}\\
+&= \sum\limits_{k=0}^{n}(-1)^{k}{n\choose k}
 \end{align*}
-0 = 0^{n}=(-1+1)^{n}= \sum_{k=0}^{n}{n \choose k}(-1)^{k}1^{n-k}{n\choose k}
 $$
+
+>[!faq] Proposition
+>Let $n$ be a nonegative integer, so: $$\sum\limits_{k=0}^{n}2^{k}{n \choose k}=3^{n}$$
+# Proof:
+Let's use $x=1$ and $y=2$:
+$$\begin{align*}
+3^{n}=(1+2)^{n}&= \sum\limits_{k=0}^{n}{n \choose k}2^{k}1^{n-k}\\
+&= \sum\limits_{k=0}^{n}2^{k}{n\choose k}
+\end{align*}$$
