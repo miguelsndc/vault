@@ -16,14 +16,7 @@ ___
 ## Proof of the Binomial Theorem
 Note that the terms of the expansion are of the form: $x^{n-j}y^{j}$ with $j=0,1,2,\cdots,n$. To find the number of terms for $x^{n-j}y^{j}$is necessary to choose $n-j$ terms (such that the other $j$ terms are the $y$'s), so the coefficient for $x^{n-j}y^{j}$ is ${n \choose n-j}$ which is equal to $n \choose j$.
 ____
-We can calculate both entire expansions of binomials or calculate a specific coeficient in a expansion, see:
-$\text{What is the coefficient of } x^{12}y^{13} \text{ in the expansion of } (x+y)^{25}$?
-$$\begin{align*}
-{25 \choose 13}1^{12}1^{13}&= \frac{25!}{13!12!}=5200030
-\end{align*}$$
-In this case we need to consider the signs and possible coefficients already attached to $x$ or $y$ inside the binomial. Notice we aim for a coefficient so we need to isolate the $x$ and $y$ on the side and everything else is the coefficient of the expansion.
-___
-There's a bunch of useful identities related to the binomial theorem, we shall prove each one here.
+There's a bunch of useful identities related to the binomial theorem, we shall prove (almost) each one here.
 >[!faq] Proposition
 >Let $n$ be a nonnegative integer, then:
 $$\sum_{k=0}^{n}{n\choose k}=2^{n}$$
