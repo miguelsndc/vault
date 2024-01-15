@@ -40,4 +40,13 @@ C(n, n-r)&= \frac{n!}{(n-r)!(n-(n-r))!}\\
 &= C(n,r)
 \end{align*}$$
 ___
-Permutations are combinations multiplied by the permutation of the $r$ [[Subsets]]. Since we divide a permutation by $r!$ to obtain the combinations, So a 
+Permutations are combinations multiplied by the permutation of the $r$ [[Subsets]]. Since we divide a permutation by $r!$ to obtain the combinations, So relation is stablished below:
+$$\begin{align*}
+P(n,r)=C(n,r)\cdot P(r,r)
+\end{align*}$$
+From this we get all three operations:
+$$\begin{align*}
+P(n,r)&= C(n,r)\cdot P(r,r)\\
+C(n,r)&= \frac{P(n,r)}{P(r,r)}\\\\
+P(r,r)&= \frac{P(n,r)}{P(r,r)}
+\end{align*}$$
