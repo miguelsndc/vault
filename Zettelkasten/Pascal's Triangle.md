@@ -16,6 +16,7 @@ $$\begin{align*}
 \end{matrix}=
 \begin{matrix}
 {0\choose0}\\
-{}
+{1 \choose 0 }  & {1 \choose 1}\\
+{2\choose0} & {2\choose1} & {2 \choose}
 \end{matrix}
 \end{align*}$$
