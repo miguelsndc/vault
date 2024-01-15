@@ -22,8 +22,22 @@ Combinations are so common in so many areas that there's a special notation for 
 $$\begin{align*}
 C(n,r)&= {n\choose r}=\frac{n!}{r!(n-r!)}
 \end{align*}$$
-This $2\times 1$ [[Matrix Definition|matrix]] represent a combination as well. To denote a combination of $r$ elements in $n$, we say **$n$ choose $r$**, that's the convention.
+This $2\times 1$ [[Matrix Definition|matrix]] represent a [[Binomial Theorem|binomial]] coeffient, a special use case for combinations. A combination of $r$ elements in $n$, we say **$n$ choose $r$**, i mean that's what we are doing here, choosing $r$ subsets from $n$.
 # Complement Identity:
+Here we prove a important identity:
 $$\begin{align*}
 C(n,r)=C(n,n-r)
 \end{align*}$$
+**Combinatorial Proof**
+Let $S$ be a [[Sets|set]] with $n$ elements. Let $r \in \mathbb{Z} \mid 0\le r \le n$. The number of ways to choose $r$ element [[Subsets]] from $S$ is ${n \choose r}$. However, each subset $A$ with $r$ elements can be defined by which elements **are not** in $A$, i.e $\overline{A}$. This means that **not choosing $n-r$ elements, equals choosing $r$ elements**.
+**Algebraic Proof**:
+$$\begin{align*}
+C(n,r) &= \frac{n!}{r!(n-r)!}\\
+C(n, n-r)&= \frac{n!}{(n-r)!(n-(n-r))!}\\
+&= \frac{n!}{(n-r)!(n-n+r)!}\\
+&= \frac{n!}{(n-r)!r!}\\
+&= \frac{n!}{r!(n-r)!}\\
+&= C(n,r)
+\end{align*}$$
+___
+Permutations are combinations multiplied by the permutation of the $r$ [[Subsets]]. Since we divide a permutation by $r!$ to obtain the combinations, So a 
