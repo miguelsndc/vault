@@ -21,8 +21,28 @@ ___
 > Dados $n$ alunos e $n$ monitores, prove que existem $2n \choose n$ possibilidades ao selecionar uma quantidade arbitrária ($0$ até $n$) deles, sabendo que ao selecionar um número $k$ de alunos é necessário selecionar $k$ monitores. $\rm{OBS}$ utilize a identidade:
 > $$\sum_{k=0}^{n}{r \choose k}{s \choose n-k}= {r+s \choose n}$$
 
-Existem $n$ alunos e $n$ monitores. Suponha que queremos escolher $m$ elementos de ambos, com $0 \le m \le n$. Suponha que escolhemos $k$ alunos, com $0 \le k\le m$, logo precisamos escolher mais $m-k$ monitores. então, temos ${m \choose k}{m \choose m-k}$ formas de fazer isso. Pela identidade de [[Vandermonde's Identity|vandermonde]]: 
+Existem $n$ alunos e $n$ monitores. Suponha que queremos escolher $m$ elementos de ambos, com $0 \le m \le n$. Suponha que escolhemos $k$ alunos, com $0 \le k\le m$, logo precisamos escolher mais $m-k$ monitores. então, temos ${m \choose k}{m \choose m-k}$ formas de fazer isso. Pela identidade:
 $$\begin{align*}
 \sum\limits_{k=0}^{m}{m\choose k}{m\choose m-k}&= \sum\limits_{k=0}^{m}{m\choose k}^{2}={m+m\choose m}= {2m \choose m}
 \end{align*}$$
 Para qualquer $0 \le m \le n$. Caso $m=n$ então há $2n \choose n$ formas.
+___
+> [!faq] 4 Questão
+> Encontre o coeficiente de $x^{14}y^{10}$ na expansão de $(3x\sqrt{x^{2}-1} + 2y)^{20}$.
+
+Os coeficientes são dados por $$\begin{align*}
+\sum\limits_{j=0}^{20}{20 \choose j}(3x\sqrt{x^{2}-1})^{20-j}(2y)^{j}
+\end{align*}$$
+Para $x^{14}y^{10}$ temos que ter $j=10$, logo:
+$$\begin{align*}
+{20 \choose 10}(3x\sqrt{x^{2}-1})^{10}(2y)^{10}&= {20\choose10}(3x)^{10}(x^{2}-1)^{5}2^{10}y^{10}\\
+&= {20\choose10}3^{10}2^{10}x^{10}y^{10}(x^{2}-1)^{5}
+\end{align*}$$
+Expandindo $(x^{2}-1)^{5} = x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2}$:
+$$\begin{align*}
+{20 \choose 10}=3^{10}2^{10}x^{10}y^{10}(x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2})
+\end{align*}$$
+O único coeficiente da expansão de $(x^{2}-1)^{5}$ que consegue nos entregar o $x^{14}$ é $-10.$ Desconsiderando os outros coeficientes, teremos, então:
+$$\begin{align*}
+-{20\choose10}3^{10}2^{10}x^{14}y^{10}\cdot10
+\end{align*}$$
