@@ -44,4 +44,8 @@ $$\begin{align*}
 &{20 \choose 10}6^{10}x^{14}y^{10}(x^{6}-5x^{4}+10x^{2}-10+5x^{-2}-x^{-4})
 
 \end{align*}$$
+
+$$\begin{align*}
+{20 \choose 10}6^{10}x^{14}y^{10}\sum\limits_{k=0}^{5}(-1)^{k}{5\choose k}x^{2k-4}
+\end{align*}$$
 ___
