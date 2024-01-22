@@ -48,4 +48,4 @@ $$\begin{align*}
 $$\begin{align*}
 {20 \choose 10}6^{10}x^{14}y^{10}\sum\limits_{k=0}^{5}(-1)^{k}{5\choose k}x^{2k-4}
 \end{align*}$$
- Seja $\Gamma_{i}(\Sigma) = \{A \subseteq \Sigma \mid |A| = i \}$, Seja $x_{i} = \Gamma_{i}(\Sigma), i =1,2,..., |\Sigma|$ uma sequência denotando os com
+  Seja $\Gamma_{i}(\Sigma) = \{A \subseteq \Sigma \mid |A| = i \}$, Seja $x_{i} = \Gamma_{i}(\Sigma), i =1,2,..., |\Sigma|$ uma sequência denotando os subconjuntos de comprimento $i$ antigos das strings, seja $y_{j} = \Gamma_{i}(\Sigma), j =1,2,..., |\Sigma|$, uma sequência denotando os subconjuntos de $\Sigma$  de comprimento $j$ após a compressão. Há pelo menos um elemento $x$ tal que $|f(x)| \lt |x|$, Seja $k$ esse elemento. Logo $k$ pertenceria a um dos subconjuntos da Sequência $\Gamma_a(\Sigma), a=1,2,...,|k|- 1$. Porém note que há elemento $z$   
