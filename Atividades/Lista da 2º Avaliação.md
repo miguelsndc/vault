@@ -40,11 +40,8 @@ $$\begin{align*}
 \end{align*}$$
 Expandindo $(x^{2}-1)^{5} = x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2}$:
 $$\begin{align*}
-{20 \choose 10}=3^{10}2^{10}x^{10}y^{10}(x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2})
+&{20 \choose 10}3^{10}2^{10}x^{10}y^{10}(x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2})\\
+&{20 \choose 10}6^{10}x^{14}y^{10}(x^{6}-5x^{4}+10x^{2}-10+5x^{-2}-x^{-4})
+
 \end{align*}$$
-O único coeficiente da expansão de $(x^{2}-1)^{5}$ que consegue nos entregar o $x^{14}$ é $-10 \implies x^{10}x^{4}=x^{14}$. Desconsiderando os outros coeficientes, teremos, então:
-$$\begin{align*}
--{20\choose10}3^{10}2^{10}x^{14}y^{10}\cdot10  \implies -{20\choose10}3^{10}2^{10}\cdot10
-\end{align*}$$
-Que é o coeficiente de $x^{14}y^{10}$.
 ___
