@@ -48,6 +48,6 @@ $$\begin{align*}
 $$\begin{align*}
 {20 \choose 10}6^{10}x^{14}y^{10}\sum\limits_{k=0}^{5}(-1)^{k}{5\choose k}x^{2k-4}
 \end{align*}$$
-  Seja $\Gamma_{i}(\Sigma) = \{A \in \Sigma \mid |A| \le i \}$, com $i \ge 0$,  um função que define um subconjunto de $\Sigma$ que contém as strings de comprimento menor ou igual a $i$. Há pelo menos um elemento $x \in \Sigma$ tal que $|f(x)| \lt |x|$, $\forall f$. Seja $k$ esse elemento. Logo $f(k)$ pertence à $B = \Gamma_{|k|-1}(\Sigma)$, 
+  Seja $\Gamma_{i}(\Sigma) = \{A \in \Sigma \mid |A| \le i \}$, com $i \ge 0$,  um função que define um subconjunto de $\Sigma$ que contém as strings de comprimento menor ou igual a $i$. Há pelo menos um elemento $x \in \Sigma$ tal que $|f(x)| \lt |x|$, $\forall f$. Seja $k$ esse elemento. Logo $f(k)$ pertence à $B = \Gamma_{|k|-1}(\Sigma)$.
   Caso $f: B \rightarrow B$ não seja sobrejetiva, não existe $f^{-1}$ e a prova está concluída.
-  Caso $f$ seja sobrejetiva então $\forall b \in B \exists c \in B \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in b$, $\exists c \mid f(c)=f(k)$ e $k \ne c$. Logo a função não é injetiva e não pode haver inversa, e a prova está concluída.w
+  Caso $f$ seja sobrejetiva então $\forall b \in \rm{dom}(B) \exists c \in \rm{codom}(B) \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in B$, $\exists c \in B \mid f(c)=f(k)$ e $k \ne c$. Logo a função não é injetiva e não pode haver inversa, e a prova está concluída.
