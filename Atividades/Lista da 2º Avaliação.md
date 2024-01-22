@@ -54,4 +54,3 @@ $$\begin{align*}
   Caso $f:\Sigma \rightarrow \Sigma$ seja sobrejetiva então $\forall b \in \Sigma \exists c \in\Sigma \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in B$, $\exists c \in B \mid f(c)=f(k)$ e $k \ne c$. Logo não há inversa e o algoritmo não existe.
 
 
-Existem $2^{\Sigma}$ possíveis 
