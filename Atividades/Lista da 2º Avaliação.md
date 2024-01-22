@@ -53,4 +53,4 @@ $$\begin{align*}
   Caso $f: \Sigma \rightarrow \Sigma$ não seja sobrejetiva, não existe $f^{-1}$ e a prova está concluída.
   Caso $f:\Sigma \rightarrow \Sigma$ seja sobrejetiva então $\forall b \in \Sigma \exists c \in\Sigma \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in B$, $\exists c \in B \mid f(c)=f(k)$ e $k \ne c$. Logo não há inversa e o algoritmo não existe.
 
-Existem $2^{\Sigma}$ possíveis bit strings, suponha que exista uma string $x$ que após a compressão tenha tamanho $y$ tal que $y \lt x$. logo existem no máximo $2^{\Sigma-1}$ elementos no contradomínio. Pelo princípio da casa dos pombos existem pelo menos dois elementos $a,b\mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
+Existem $2^{|\Sigma|}$ possíveis bit strings, suponha que exista uma string $x \in \Sigma$ que após a compressão tenha tamanho $y$ tal que $y \lt |x|$. logo existem no máximo $2^{|\Sigma|-1}$ strings no contradomínio. Pelo princípio da casa dos pombos existem pelo menos dois elementos $a,b\in \Sigma \mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
