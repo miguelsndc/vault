@@ -48,5 +48,4 @@ $$\begin{align*}
 $$\begin{align*}
 {20 \choose 10}6^{10}x^{14}y^{10}\sum\limits_{k=0}^{5}(-1)^{k}{5\choose k}x^{2k-4}
 \end{align*}$$
- 
-Seja $x_{i}, i=1,2,\cdots,n$ uma sequência denotando os comprimentos antigos e $y_{j},j=1,2,\cdots,n$ denotar os novos comprimentos após aplicada a função $f$.
+ Seja $\Gamma_{i}(\Sigma) = \{A \subseteq \Sigma \mid |A| = i \}$, Seja $x_{i} = \Gamma_{i}(\Sigma), i =1,2,..., |\Sigma|$ uma sequência denotando os com
