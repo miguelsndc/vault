@@ -52,3 +52,6 @@ $$\begin{align*}
   Seja $\Gamma_{i}(\Sigma) = \{A \in \Sigma \mid |A| \le i \}$, com $i \ge 0$,  um função que define um subconjunto de $\Sigma$ que contém as strings de comprimento menor ou igual a $i$. Há pelo menos um elemento $x \in \Sigma$ tal que $|f(x)| \lt |x|$, $\forall f$. Seja $k$ esse elemento. Logo $f(k)$ pertence à $B = \Gamma_{|k|-1}(\Sigma)$.
   Caso $f: \Sigma \rightarrow \Sigma$ não seja sobrejetiva, não existe $f^{-1}$ e a prova está concluída.
   Caso $f:\Sigma \rightarrow \Sigma$ seja sobrejetiva então $\forall b \in \Sigma \exists c \in\Sigma \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in B$, $\exists c \in B \mid f(c)=f(k)$ e $k \ne c$. Logo não há inversa e o algoritmo não existe.
+
+
+Existem $2^{\Sigma}$ possíveis 
