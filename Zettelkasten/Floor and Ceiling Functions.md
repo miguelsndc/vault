@@ -1,4 +1,4 @@
----
+	---
 tags: functions
 aliases: floor, ceil, ceiling
 ---
