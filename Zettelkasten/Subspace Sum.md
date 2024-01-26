@@ -17,4 +17,6 @@ v&= v_{1}+\vec{0}=v_{1}\implies S_{1}\subset S_{1}+S_{2}\\
 v&= \vec{0}+v_{2}=v_{2}\implies S_{2}\subset S_{1}+S_{2}\\
 &\therefore S_{1}\cup S_{2}\subset S_{1}+S_{2}
 \end{align*}$$
-2. $S$
+1. $S_{1}+S_{2}$ is the smallest subspace containing the union.
+___
+$\rm{Ex:}$ *Consider two subspaces of $\mathbb{R}^{3}$ described by a [[Homogeneous System]]. find $S_{1}+S_{2}$ also described by a [[Homogeneous System]].* 
