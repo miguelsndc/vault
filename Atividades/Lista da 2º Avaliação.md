@@ -41,16 +41,15 @@ $$\begin{align*}
 Expandindo $(x^{2}-1)^{5} = x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2}$:
 $$\begin{align*}
 &{20 \choose 10}3^{10}2^{10}x^{10}y^{10}(x^{10}-5x^{8}+10x^{6}-10x^{4}+5x^{2}-x^{2})\\
-&{20 \choose 10}6^{10}x^{14}y^{10}(x^{6}-5x^{4}+10x^{2}-10+5x^{-2}-x^{-4})
-
 \end{align*}$$
-
+O único coeficiente que nos dá $x^{14}$ e $y^{10}$ ao mesmo tempo é $-10x^{4}$, descartando os outros, temos que o coeficiente de $x^{14}y^{10}$ é:
 $$\begin{align*}
-{20 \choose 10}6^{10}x^{14}y^{10}\sum\limits_{k=0}^{5}(-1)^{k}{5\choose k}x^{2k-4}
+&-{20 \choose 10}10\cdot6^{10}x^{14}y^{10}\\
+&\therefore-{20 \choose 10}10\cdot6^{10}
 \end{align*}$$
   ___
-  Seja $\Gamma_{i}(\Sigma) = \{A \in \Sigma \mid |A| \le i \}$, com $i \ge 0$,  um função que define um subconjunto de $\Sigma$ que contém as strings de comprimento menor ou igual a $i$. Há pelo menos um elemento $x \in \Sigma$ tal que $|f(x)| \lt |x|$, $\forall f$. Seja $k$ esse elemento. Logo $f(k)$ pertence à $B = \Gamma_{|k|-1}(\Sigma)$.
-  Caso $f: \Sigma \rightarrow \Sigma$ não seja sobrejetiva, não existe $f^{-1}$ e a prova está concluída.
-  Caso $f:\Sigma \rightarrow \Sigma$ seja sobrejetiva então $\forall b \in \Sigma \exists c \in\Sigma \mid f(b)=c$. Portanto como $k \notin B$ e $f(k) \in B$, $\exists c \in B \mid f(c)=f(k)$ e $k \ne c$. Logo não há inversa e o algoritmo não existe.
+> [!faq] Questão
+> Um algoritmo de compressão de dados é dito sem perdas se os dados originais podem ser unicamente reestruturados a partir dos dados comprimidos, ou seja, se existe função inversa bem definida. Vendo algoritmos de compressão de dados como funções $f:\Sigma \rightarrow \Sigma$ onde $\Sigma$  é o conjunto das strings binárias (sequências de 0’s e 1’s) de tamanho finito, prove que não existe algoritmo de compressão de dados sem perdas onde $|f(x)| ≤ |x|$ para todo $x \in \Sigma$, com $|x|$ denotando o comprimento da string $x$. P.S.: No contexto do problema, para todo algoritmo $f$, existirá pelo menos um $x$ tal que $|f(x)| < |x|$, já que é um algoritmo de compressão.
 
 Existem $2^{|\Sigma|}$ possíveis bit strings, suponha que exista uma string $x \in \Sigma$ que após a compressão tenha tamanho $y$ tal que $y \lt |x|$. logo existem no máximo $2^{|\Sigma|-1}$ strings no contradomínio. Pelo princípio da casa dos pombos existem pelo menos dois elementos $a,b\in \Sigma \mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
+___
