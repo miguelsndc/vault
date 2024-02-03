@@ -121,7 +121,7 @@ $$\begin{align*}
 &= 23(11)-28(9) \\
 &= 23(11)+28(-9)
 \end{align*}$$
-Logo os coeficientes são $11 e -9$, então temos:
+Logo os coeficientes são $11$$ e $-9$, então temos:
 $$\begin{align*}
 23(11) + 28(-9) &= 1\\
 23(8349) + 28(-6831)&= 759
@@ -132,11 +132,18 @@ c &= -6831 + 23t\\
 n&= 8349 -28t\\
 \end{align*}$$
 Apesar de podermos testar valores utilizando a forma paramétrica, é fácil perceber que $\frac{759}{23}=33$, logo Claudino pode assistir $33$ vídeos do neymar para alcançar sua meta.
+___
+>[!faq] Questão
+>Se Iasmin retira bolas de futebol de um saco de $2, 3,4,5$ e $6$ por vez, restam, respectivamente, $1,2,3,4$ e $5$ bolas. Mas se as bolas são retiradas de $7$ em $7$,
+ não resta nenhuma bola. Qual é o menor número de bolas de futebol que poderia ter no saco ?
+
+Podemos expressar o problema como um sistema de congruências lineares, 
+
 ___ 
 >[!faq] Questão
 >Mostre que $42$ divide $n^{7} - n$ sendo $n$ um número inteiro positivo.
 
-Note que $42 = 2 \cdot 3 \cdot 7$, pelo Pequeno teorema de Fermat, $n^{7}\equiv n \pmod{7}$, e que $n^{7}-n$ é par, já que ambos possuem a mesma paridade. Para demonstrar que é divisível por $3$, podemos notar, pelo mesmo princípio:
+Note que $42 = 2 \cdot 3 \cdot 7$, pelo Pequeno teorema de Fermat, $n^{7}\equiv n \pmod{7}$, logo $7 \mid n^{7}- n$ e $n^{7}-n$ é par, já que ambos $n$ e $n^{7}$ possuem a mesma paridade. Para demonstrar que é divisível por $3$, podemos notar que, pelo mesmo princípio:
 $$\begin{align*}
 n^{3} &\equiv n \pmod{3}\\
 n^{6} &\equiv n^{2} \pmod{3}\\
@@ -145,4 +152,5 @@ n^{7} &\equiv n^{3} \equiv n\pmod{3}\\
 n^{7} &\equiv n\pmod{3}\\\\
 &\therefore 3 \mid n^{7}- n
 \end{align*}$$
-Pelo Teorema fundamental da Ari
+Pelo Teorema fundamental da Aritmética, $n^{7} - n = 2\cdot 3 \cdot 7 \cdots$, e como $42 = 2 \cdot 3 \cdot 7$, $42$ divide $n^{7}- n$ para todo $n$ positivo.
+___
