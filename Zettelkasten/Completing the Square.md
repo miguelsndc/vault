@@ -2,7 +2,6 @@
 tags:
   - quadratics
 date: 2023-09-14
-"
 pages: 49
 ---
 If a [[Quadratic Equation]] does not factor readily, we can solve it by **completing the square**.

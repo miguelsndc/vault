@@ -3,7 +3,6 @@ tags:
   - quadratics
   - equations
 date: 2023-09-14
-"
 page: 50
 aliases:
   - quadratic formula
