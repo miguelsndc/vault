@@ -139,13 +139,18 @@ ___
 
 Podemos expressar o problema como um sistema de congruências lineares, onde $x$ é a quantidade de bolas no saco:
 $$\begin{align*}
-x \equiv 1 \pmod{2}\\
-x \equiv 2 \pmod{3}\\
-x \equiv 3 \pmod{4}\\
-x \equiv 4 \pmod{5}\\
-x \equiv 5 \pmod{6}\\
-x \equiv 0 \pmod{7}\\
+&(I) \;\; &x \equiv 1 \pmod{2}\\
+&(II) \;\; &x \equiv 2 \pmod{3}\\
+&(III)\;\; &x \equiv 3 \pmod{4}\\
+&(IV) \;\; &x \equiv 4 \pmod{5}\\
+&(V) \;\; &x \equiv 5 \pmod{6}\\
+&(VI)\;\; &x\equiv 0 \pmod{7}\\
 \end{align*}$$
+Comecemos com $VI:$ $x= 7k$, substituindo em $V$ temos $7k \equiv 5 \pmod{6} \implies k \equiv 5 \pmod{6} \therefore k=6k_{1} + 5$,
+logo: $x = 7(6k_{1} + 5) = 42k_{1}+5$, sub. em $IV$:
+$42_{1}+35 \equiv 4 \pmod{5} \implies 2k_{1} \equiv -31 \pmod 5 \implies k_{1} \equiv 2 \pmod{5} \therefore k_{1}= 5k_{2}+2$
+logo $x=42(5k_{2}+2)+35=210k_{2}+119$. sub em $III$:
+$210k_{2}+119 \equiv 3 \pmod{4} \implies 210k_{2}\equiv-116 \pmod{4} \implies 2k_{2}\equiv 4 \pmod{4}$
 
 ___ 
 >[!faq] Questão
