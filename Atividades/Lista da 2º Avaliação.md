@@ -73,4 +73,4 @@ $$\begin{align*}
 i^{2}-3i -19&\equiv0\pmod{289}\\
 \end{align*}$$
 Podemos tentar resolvê-la da seguinte forma:
-Assuma que $i^{2}-3i - 19 = 289n \implies i^{2} - 3i - 19 - 289n = 0$, logo $\Delta = b^{2}-4ac = (-3)^{2}-4(1)(-19-289n) = 9+76+1156n = 85 + 1156n$, precisamos que $17 \mid 85 + 1156n \implies 17 \mid 17(5+ 4\times17n)$, ou seja $(5+ 4\times17n)$ tem que ser um quadrado perfeito, então $5+4*17n \equiv 0 \pmod{17} \implies 5 \equiv 0 \pmod{19}$, o que é uma contradição. 
+Assuma que $i^{2}-3i - 19 = 289n \implies i^{2} - 3i - 19 - 289n = 0$, logo $\Delta = b^{2}-4ac = (-3)^{2}-4(1)(-19-289n) = 9+76+1156n = 85 + 1156n = 17(5 + 4\times 17n)$ ou seja $(5+ 4\times17n)$ tem que ser um quadrado perfeito, então $5+4*17n \equiv 0 \pmod{17} \implies 5 \equiv 0 \pmod{19}$, o que é uma contradição. 
