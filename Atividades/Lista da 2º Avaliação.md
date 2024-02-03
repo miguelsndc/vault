@@ -147,11 +147,22 @@ $$\begin{align*}
 &(VI)\;\; &x\equiv 0 \pmod{7}\\
 \end{align*}$$
 Comecemos com $VI:$ $x= 7k$, substituindo em $V$ temos $7k \equiv 5 \pmod{6} \implies k \equiv 5 \pmod{6} \therefore k=6k_{1} + 5$,
-logo: $x = 7(6k_{1} + 5) = 42k_{1}+5$, sub. em $IV$:
+logo: $x = 7(6k_{1} + 5) = 42k_{1}+5$.
+sub. em $IV$:
 $42_{1}+35 \equiv 4 \pmod{5} \implies 2k_{1} \equiv -31 \pmod 5 \implies k_{1} \equiv 2 \pmod{5} \therefore k_{1}= 5k_{2}+2$
-logo $x=42(5k_{2}+2)+35=210k_{2}+119$. sub em $III$:
-$210k_{2}+119 \equiv 3 \pmod{4} \implies 210k_{2}\equiv-116 \pmod{4} \implies 2k_{2}\equiv 4 \pmod{4}$
-
+logo $x=42(5k_{2}+2)+35=210k_{2}+119$. 
+sub em $III$:
+$210k_{2}+119 \equiv 3 \pmod{4} \implies 210k_{2}\equiv-116 \pmod{4} \implies 2k_{2}\equiv 4 \pmod{4}$.
+$\rm{MDC}(4,2)=2$, dividindo tudo por $2$ temos:
+$k_{2}  \equiv 2 \pmod{2} \therefore k_{2} = 2k_{3}$.
+logo $x=420k_{3} + 119$.
+sub em $II$:
+$420k_{3} + 119 \equiv 2\pmod{3} \implies 420k_{3}\equiv -117 \pmod{3} \implies k_{3}\equiv 0 \pmod{3}$
+$\therefore k_{3}= 3k_{4}$
+logo, $x = 1260k_{4}+119$.
+sub em $I$:
+$1260k_{4} + 119 \equiv 1 \pmod{2} \implies k_{4}\equiv 0 \pmod{2}$.
+logo $x = 2520k_{4}+119$, portanto $x$ é da forma: $x \equiv 119 \pmod{2520}$, sendo o menor número que satisfaz essa congruência o próprio $119$.
 ___ 
 >[!faq] Questão
 >Mostre que $42$ divide $n^{7} - n$ sendo $n$ um número inteiro positivo.
