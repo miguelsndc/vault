@@ -75,7 +75,8 @@ i^{2}-3i -19&\equiv0\pmod{289}\\
 Podemos tentar resolvê-la da seguinte forma:
 $$\begin{align*}
 i^{2}-3i-19 &\equiv 0 \pmod{17^{2}} \text{ Multiplicar por 4}a\\
-4i^{2}
+4i^{2}-12i-76 &\equiv 0 \pmod{17^{2}} \text{ Completando os Quadrados}\\
+(2i-3)^{2} &\equiv 85 \pmod{17^{2}} \text{ Somando 9 dos dois lados}
 \end{align*}$$
 
 
