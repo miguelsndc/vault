@@ -136,3 +136,13 @@ ___
 >[!faq] Questão
 >Mostre que $42$ divide $n^{7} - n$ sendo $n$ um número inteiro positivo.
 
+Note que $42 = 2 \cdot 3 \cdot 7$, pelo Pequeno teorema de Fermat, $n^{7}\equiv n \pmod{7}$, e que $n^{7}-n$ é par, já que ambos possuem a mesma paridade. Para demonstrar que é divisível por $3$, podemos notar, pelo mesmo princípio:
+$$\begin{align*}
+n^{3} &\equiv n \pmod{3}\\
+n^{6} &\equiv n^{2} \pmod{3}\\
+n^{7} &\equiv n^{3}\pmod{3}\\
+n^{7} &\equiv n^{3} \equiv n\pmod{3}\\
+n^{7} &\equiv n\pmod{3}\\\\
+&\therefore 3 \mid n^{7}- n
+\end{align*}$$
+Pelo Teorema fundamental da Ari
