@@ -90,5 +90,34 @@ $$\begin{align*}
 10^{2}-3(10)-19 &\equiv 0 \pmod{289}\\
 51 &\equiv 0 \pmod{289}
 \end{align*}$$
-Oque é uma contradição, logo não há inteiro que satisfaça as condições necessárias.
+O que é uma contradição, logo não há inteiro que satisfaça as condições necessárias.
 ___
+>[!faq] Questão
+ 	Um jogador de futebol chamado Claudino, tem uma meta exata de $759$ gols a ser cumprida na sua carreira. Porém um homem do futuro viu que Claudino terá $0$ gols na carreira. Contudo, ele pode mudar isso, já que sempre que ele assiste um vídeo completo do Cristiano Ronaldo ele muda o futuro e acrescente $28$ gols à sua carreira, e sempre que ele assiste um vídeo completo do Neymar ele muda o futuro e acrescenta $23$ gols à sua carreira. Liste todas as maneiras possíveis (quantos vídeos de cada jogador ele tem que assistir) para Claudino cumprir a meta exata de $759$ gols na carreira.
+
+Claudino não sabe mas ele quer uma solução positiva para a equação diofantina:
+$$\begin{align*}
+28c + 23n &= 759
+\end{align*}$$
+Onde $c =$ número de vídeos do CR7 e $n=$ número de vídeos de Neymar.
+Logo, temos:
+$$\begin{align*}
+28c+23n &= \gcd(28, 23)\\
+(28,23) &\implies\\
+28 &= 23\cdot1 + 5\\
+23 &= 5\cdot4+3\\
+5 &= 3\cdot1 + 2\\
+3&= 2 \cdot 1 + 1\\
+2 &= 2 \cdot 1
+\end{align*}$$
+Encontrando os coeficientes de Bezoút:
+$$\begin{align*}
+1&= 3- 2\cdot1\\
+&= 3- (5-3)\\
+&= 3(2)-5\\
+&= (23-5\cdot4)(2) - 5\\
+&= 23(2)-5(9)\\
+&= 23(2)- (28 - 23)(9)\\
+
+\end{align*}$$
+
