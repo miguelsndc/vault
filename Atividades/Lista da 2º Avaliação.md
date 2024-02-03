@@ -72,3 +72,11 @@ Para $i$ ser divisível por $289$, a congruência $i^{2}-3i-19\equiv 0 \pmod{289
 $$\begin{align*}
 i^{2}-3i -19&\equiv0\pmod{17}\\
 \end{align*}$$
+$$\begin{align*}
+i^{2}-3i - 19 &\equiv 0 \pmod{17}\\
+i^{2}-3i &\equiv 19 \pmod{17} \text{ Multiplicar por 4}a\\
+4i^{2}-12i &\equiv 76 \pmod{17} \text{ Completar os Quadrados}\\
+4i^{2}-12i + 9 &\equiv 85 \pmod{17} \text{ Fatorar }\\
+(2i-3)^{2} &\equiv 85 \pmod{17}\\
+(2i-3)^{2} &\equiv0 \´pmod{}
+\end{align*}$$
