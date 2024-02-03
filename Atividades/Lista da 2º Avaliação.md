@@ -74,9 +74,8 @@ i^{2}-3i -19&\equiv0\pmod{289}\\
 \end{align*}$$
 Podemos tentar resolvê-la da seguinte forma:
 $$\begin{align*}
-4(i^{2}-3i-19) &\equiv 0 \mod(289)\\
-4i^{2}-12i-76 &\equiv0 \mod(289)\\
-4i^{2}-12i &\equiv76 \mod(289)
+i^{2}-3i-19 &\equiv 0 \pmod{17^{2}} \text{ Multiplicar por 4}a\\
+4i^{2}
 \end{align*}$$
 
 
