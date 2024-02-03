@@ -72,6 +72,7 @@ Para $i$ ser divisível por $289$, a congruência $i^{2}-3i-19\equiv 0 \pmod{289
 $$\begin{align*}
 i^{2}-3i -19&\equiv0\pmod{17}\\
 \end{align*}$$
+Como $289 = 17^{2}$ eu posso checar divisibilidade por $17$:
 $$\begin{align*}
 i^{2}-3i - 19 &\equiv 0 \pmod{17}\\
 i^{2}-3i &\equiv 19 \pmod{17} \text{ Multiplicar por 4}a\\
@@ -86,5 +87,8 @@ i &\equiv10 \pmod{17}
 Logo $i = 17k + 10$ então:
 $$\begin{align*}
 (17k+10)^{2}-3(17k +10)-19 &\equiv 0 \pmod{289}\\
-10 - 3(10)-19&\equiv 0 
+10^{2}-3(10)-19 &\equiv 0 \pmod{289}\\
+51 &\equiv 0 \pmod{289}
 \end{align*}$$
+Oque é uma contradição, logo não há inteiro que satisfaça as condições necessárias.
+___
