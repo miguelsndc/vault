@@ -128,8 +128,8 @@ $$\begin{align*}
 \end{align*}$$
 Porém assistir $-6831$ vídeos do neymar soa meio estranho, vamos ajudar Claudino encontrando uma solução positiva utilizando a forma paramétrica, então:
 $$\begin{align*}
-c &= -6831 + 23t\\
-n&= 8349-28t\\
+c &= 8349 + 23t\\
+n&= -6831 -28t\\
 \end{align*}$$
 
 
