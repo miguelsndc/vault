@@ -78,5 +78,12 @@ i^{2}-3i &\equiv 19 \pmod{17} \text{ Multiplicar por 4}a\\
 4i^{2}-12i &\equiv 76 \pmod{17} \text{ Completar os Quadrados}\\
 4i^{2}-12i + 9 &\equiv 85 \pmod{17} \text{ Fatorar }\\
 (2i-3)^{2} &\equiv 85 \pmod{17}\\
-(2i-3)^{2} &\equiv0 \´pmod{}
+(2i-3)^{2} &\equiv0 \pmod{17} \text { Tecnicamente eu posso elevar a }\frac{1}{2}\\
+2i &\equiv 3 \pmod{17}\\
+18i &\equiv 27 \pmod{17}\\
+i &\equiv10 \pmod{17}
+\end{align*}$$
+Logo $i = 17k + 10$ então:
+$$\begin{align*}
+i^{2}-3i- 19 &= (17k + 10)^{2}-3(17k + 10) - 19
 \end{align*}$$
