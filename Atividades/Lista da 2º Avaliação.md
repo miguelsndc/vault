@@ -56,13 +56,21 @@ Como $30 = 2\cdot3\cdot5$, todo número $k$ onde $k\in [1,1387]$ **não** pode t
 Há $\lfloor\frac{1387}{2} \rfloor = 693$ números pares, desses, $\lfloor \frac{693}{3} \rfloor = 231$ são divisíveis por $3$. 
 Há $\lfloor \frac{1387}{3} \rfloor = 462$ números divisíveis por $3$, desses $\lfloor \frac{462}{5} \rfloor = 92$ são divisíveis por $5$
 Há $\lfloor \frac{1387}{5} \rfloor = 277$ números divisíveis por $5$, desses, $\lfloor \frac{277}{2}\rfloor =138$ são pares.
-Há $1387$
- 
+Há $\lfloor \frac{1387}{30} \rfloor =46$ números divisíveis por $30$.
 
-
+Logo, há $1387 - 693 - 462 - 277  + 231 + 92 + 138 + 46 = 370$ números relativamente primos à $30$ no intervalo $[1, 1387]$.
 ___
 > [!faq] Questão
 > Um algoritmo de compressão de dados é dito sem perdas se os dados originais podem ser unicamente reestruturados a partir dos dados comprimidos, ou seja, se existe função inversa bem definida. Vendo algoritmos de compressão de dados como funções $f:\Sigma \rightarrow \Sigma$ onde $\Sigma$  é o conjunto das strings binárias (sequências de 0’s e 1’s) de tamanho finito, prove que não existe algoritmo de compressão de dados sem perdas onde $|f(x)| ≤ |x|$ para todo $x \in \Sigma$, com $|x|$ denotando o comprimento da string $x$. P.S.: No contexto do problema, para todo algoritmo $f$, existirá pelo menos um $x$ tal que $|f(x)| < |x|$, já que é um algoritmo de compressão.
 
 Existem $2^{|\Sigma|}$ possíveis bit strings, suponha que exista uma string $x \in \Sigma$ que após a compressão tenha tamanho $y$ tal que $y \lt |x|$ e que todas as outras $x' \in \Sigma$ tenham seu tamanho $|x'|$ menor ou igual ao de antes da compressão. logo existem no máximo $2^{|\Sigma|-1}$ strings no contradomínio. Pelo princípio da casa dos pombos existem pelo menos duas strings diferentes que vão ter a mesma string como resultado da compressão, ou seja: existe $a,b\in \Sigma \mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
 ___
+> [!faq] Questão
+> Encontre um inteiro $i$ tal que $i^{2} - 3i - 19$ é divisível por $289$ ou prove que este inteiro não existe.
+
+Para $i$ ser divisível por $289$, a congruência 
+
+
+
+
+
