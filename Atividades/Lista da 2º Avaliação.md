@@ -52,8 +52,12 @@ $$\begin{align*}
 > Encontre quantos números no intervalo $[1, 1387]$ são relativamentos primos à $30$:
 > 
 
-Como $30 = 2\cdot3\cdot5$, todo número $k$ onde $k\in [1,1387]$ ****
-
+Como $30 = 2\cdot3\cdot5$, todo número $k$ onde $k\in [1,1387]$ **não** pode ter fatores $2$ ou $3$ $ou$ 5.
+Há $\lfloor\frac{1387}{2} \rfloor = 693$ números pares, desses, $\lfloor \frac{693}{3} \rfloor = 231$ são divisíveis por $3$. 
+Há $\lfloor \frac{1387}{3} \rfloor = 462$ números divisíveis por $3$, desses $\lfloor \frac{462}{5} \rfloor = 92$ são divisíveis por $5$
+Há $\lfloor \frac{1387}{5} \rfloor = 277$ números divisíveis por $5$, desses, $\lfloor \frac{277}{2}\rfloor =138$ são pares.
+Há $1387$
+ 
 
 
 ___
