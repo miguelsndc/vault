@@ -118,6 +118,19 @@ $$\begin{align*}
 &= (23-5\cdot4)(2) - 5\\
 &= 23(2)-5(9)\\
 &= 23(2)- (28 - 23)(9)\\
-
+&= 23(11)-28(9) \\
+&= 23(11)+28(-9)
 \end{align*}$$
+Logo os coeficientes são $11 e -9$, então temos:
+$$\begin{align*}
+23(11) + 28(-9) &= 1\\
+23(8349) + 28(-6831)&= 759
+\end{align*}$$
+Porém assistir $-6831$ vídeos do neymar soa meio estranho, vamos ajudar Claudino encontrando uma solução positiva utilizando a forma paramétrica, então:
+$$\begin{align*}
+c &= -6831 + 23t\\
+n&= 8349-28t\\
+\end{align*}$$
+
+
 
