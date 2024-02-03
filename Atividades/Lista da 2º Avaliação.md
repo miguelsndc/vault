@@ -85,5 +85,6 @@ i &\equiv10 \pmod{17}
 \end{align*}$$
 Logo $i = 17k + 10$ então:
 $$\begin{align*}
-i^{2}-3i- 19 &= (17k + 10)^{2}-3(17k + 10) - 19
+(17k+10)^{2}-3(17k +10)-19 &\equiv 0 \pmod{289}\\
+10 - 3(10)-19&\equiv 0 
 \end{align*}$$
