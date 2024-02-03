@@ -68,8 +68,10 @@ ___
 > [!faq] Questão
 > Encontre um inteiro $i$ tal que $i^{2} - 3i - 19$ é divisível por $289$ ou prove que este inteiro não existe.
 
-Para $i$ ser divisível por $289$, a congruência 
-
+Para $i$ ser divisível por $289$, a congruência $i^{2}-3i-19\equiv 0 \pmod{289}$ deve ser satisfeita para algum inteiro $i$.
+$$\begin{align*}
+i^{2}-3i \equiv 19\pmod{289}
+\end{align*}$$
 
 
 
