@@ -49,7 +49,16 @@ $$\begin{align*}
 \end{align*}$$
   ___
 > [!faq] Questão
+> Encontre quantos números no intervalo $[1, 1387]$ são relativamentos primos à $30$:
+> 
+
+Como $30 = 2\cdot3\cdot5$, todo número $k$ onde $k\in [1,1387]$ ****
+
+
+
+___
+> [!faq] Questão
 > Um algoritmo de compressão de dados é dito sem perdas se os dados originais podem ser unicamente reestruturados a partir dos dados comprimidos, ou seja, se existe função inversa bem definida. Vendo algoritmos de compressão de dados como funções $f:\Sigma \rightarrow \Sigma$ onde $\Sigma$  é o conjunto das strings binárias (sequências de 0’s e 1’s) de tamanho finito, prove que não existe algoritmo de compressão de dados sem perdas onde $|f(x)| ≤ |x|$ para todo $x \in \Sigma$, com $|x|$ denotando o comprimento da string $x$. P.S.: No contexto do problema, para todo algoritmo $f$, existirá pelo menos um $x$ tal que $|f(x)| < |x|$, já que é um algoritmo de compressão.
 
-Existem $2^{|\Sigma|}$ possíveis bit strings, suponha que exista uma string $x \in \Sigma$ que após a compressão tenha tamanho $y$ tal que $y \lt |x|$. logo existem no máximo $2^{|\Sigma|-1}$ strings no contradomínio. Pelo princípio da casa dos pombos existem pelo menos dois elementos $a,b\in \Sigma \mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
+Existem $2^{|\Sigma|}$ possíveis bit strings, suponha que exista uma string $x \in \Sigma$ que após a compressão tenha tamanho $y$ tal que $y \lt |x|$ e que todas as outras $x' \in \Sigma$ tenham seu tamanho $|x'|$ menor ou igual ao de antes da compressão. logo existem no máximo $2^{|\Sigma|-1}$ strings no contradomínio. Pelo princípio da casa dos pombos existem pelo menos duas strings diferentes que vão ter a mesma string como resultado da compressão, ou seja: existe $a,b\in \Sigma \mid a\ne b$  $f(a)=f(b)$,  logo não pode haver função inversa e o algoritmo é impossível.
 ___
