@@ -131,6 +131,8 @@ $$\begin{align*}
 c &= -6831 + 23t\\
 n&= 8349 -28t\\
 \end{align*}$$
-
-
+Apesar de podermos testar valores utilizando a forma paramétrica, é fácil perceber que $\frac{759}{23}=33$, logo Claudino pode assistir $33$ vídeos do neymar para alcançar sua meta.
+___ 
+>[!faq] Questão
+>Mostre que $42$ divide $n^{7} - n$ sendo $n$ um número inteiro positivo.
 
