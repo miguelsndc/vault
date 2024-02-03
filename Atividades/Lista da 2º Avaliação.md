@@ -53,10 +53,10 @@ $$\begin{align*}
 > 
 
 Como $30 = 2\cdot3\cdot5$, todo número $k$ onde $k\in [1,1387]$ **não** pode ter fatores $2$ ou $3$ $ou$ 5.
-Há $\lfloor\frac{1387}{2} \rfloor = 693$ números pares, desses, $\lfloor \frac{693}{3} \rfloor = 231$ são divisíveis por $3$. 
-Há $\lfloor \frac{1387}{3} \rfloor = 462$ números divisíveis por $3$, desses $\lfloor \frac{462}{5} \rfloor = 92$ são divisíveis por $5$
-Há $\lfloor \frac{1387}{5} \rfloor = 277$ números divisíveis por $5$, desses, $\lfloor \frac{277}{2}\rfloor =138$ são pares.
-Há $\lfloor \frac{1387}{30} \rfloor =46$ números divisíveis por $30$.
+Há $\lfloor\frac{1387}{2} \rfloor = 693$ números pares, desses, $\lfloor \frac{693}{3} \rfloor = 231$ são divisíveis por $3$,
+$\lfloor \frac{1387}{3} \rfloor = 462$ números divisíveis por $3$, desses $\lfloor \frac{462}{5} \rfloor = 92$ são divisíveis por $5$,
+$\lfloor \frac{1387}{5} \rfloor = 277$ números divisíveis por $5$, desses, $\lfloor \frac{277}{2}\rfloor =138$ são pares,
+e $\lfloor \frac{1387}{30} \rfloor =46$ números divisíveis por $30$.
 
 Logo, há $1387 - 693 - 462 - 277  + 231 + 92 + 138 + 46 = 370$ números relativamente primos à $30$ no intervalo $[1, 1387]$.
 ___
@@ -121,7 +121,7 @@ $$\begin{align*}
 &= 23(11)-28(9) \\
 &= 23(11)+28(-9)
 \end{align*}$$
-Logo os coeficientes são $11$$ e $-9$, então temos:
+Logo os coeficientes são $11$ e $-9$, então temos:
 $$\begin{align*}
 23(11) + 28(-9) &= 1\\
 23(8349) + 28(-6831)&= 759
@@ -131,7 +131,10 @@ $$\begin{align*}
 c &= -6831 + 23t\\
 n&= 8349 -28t\\
 \end{align*}$$
-Apesar de podermos testar valores utilizando a forma paramétrica, é fácil perceber que $\frac{759}{23}=33$, logo Claudino pode assistir $33$ vídeos do neymar para alcançar sua meta.
+Apesar de podermos testar valores utilizando a forma paramétrica, é fácil perceber que $\frac{759}{23}=33$, logo Claudino pode assistir $33$ vídeos do neymar para alcançar sua meta, e todas as possíveis soluções são da forma:
+$$\begin{align*}
+28(-6831 + 23t) +23(8349-28t) &= 759 \;\;\forall t\in\mathbb{Z}
+\end{align*}$$
 ___
 >[!faq] Questão
 >Se Iasmin retira bolas de futebol de um saco de $2, 3,4,5$ e $6$ por vez, restam, respectivamente, $1,2,3,4$ e $5$ bolas. Mas se as bolas são retiradas de $7$ em $7$,
