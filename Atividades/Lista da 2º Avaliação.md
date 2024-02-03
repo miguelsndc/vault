@@ -137,7 +137,15 @@ ___
 >Se Iasmin retira bolas de futebol de um saco de $2, 3,4,5$ e $6$ por vez, restam, respectivamente, $1,2,3,4$ e $5$ bolas. Mas se as bolas são retiradas de $7$ em $7$,
  não resta nenhuma bola. Qual é o menor número de bolas de futebol que poderia ter no saco ?
 
-Podemos expressar o problema como um sistema de congruências lineares, 
+Podemos expressar o problema como um sistema de congruências lineares, onde $x$ é a quantidade de bolas no saco:
+$$\begin{align*}
+x \equiv 1 \pmod{2}\\
+x \equiv 2 \pmod{3}\\
+x \equiv 3 \pmod{4}\\
+x \equiv 4 \pmod{5}\\
+x \equiv 5 \pmod{6}\\
+x \equiv 0 \pmod{7}\\
+\end{align*}$$
 
 ___ 
 >[!faq] Questão
