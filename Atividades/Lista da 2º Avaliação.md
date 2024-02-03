@@ -72,7 +72,12 @@ Para $i$ ser divisível por $289$, a congruência $i^{2}-3i-19\equiv 0 \pmod{289
 $$\begin{align*}
 i^{2}-3i -19&\equiv0\pmod{289}\\
 \end{align*}$$
-$3 \pm \sqrt{9 - 4}$ 
+Podemos tentar resolvê-la da seguinte forma:
+$$\begin{align*}
+4(i^{2}-3i-19) &\equiv 0 \mod(289)\\
+4i^{2}-12i-76 &\equiv0 \mod(289)\\
+4i^{2}-12i &\equiv76 \mod(289)
+\end{align*}$$
 
 
 
