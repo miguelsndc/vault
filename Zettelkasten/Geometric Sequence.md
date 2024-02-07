@@ -19,4 +19,22 @@ $$\begin{align*}
 \end{align*}$$
 Which is indeed the fourth term.
 ___
-We can also find the total sum of terms of 
+We can also find the total sum of terms of a geometric sequence as such:
+$$\begin{align*}
+S_{n}=a_{1}\left(\frac{1-r^{n}}{1-r}\right)
+\end{align*}$$
+Where:
+- $a_{1}$ is the first term of the sequence, or the **scale factor**.
+- $r$ is the common ratio.
+- $n$ is the total number of terms in the sequence
+Notice that if a sequence starts from $ar^{0}$ and goes through $ar^{n}$, it has $n+1$ terms, since the zero is present.
+The sequence $10,30,90,270$, has a sum of:
+$$\begin{align*}
+S_{n}&= 10\left(\frac{1 - 3^{4}}{1-3}\right)\\
+&= 10\left(\frac{1-81}{-2}\right)\\
+&= \frac{10-810}{-2}\\
+&= \frac{-800}{-2}=400
+\end{align*}$$
+And indeed $10+30990+270 = 400$.
+____
+We can find the ratio by dividing the $n$th term with the $n-1$ term, and keep dividing until we are certain of the ratio. Geometric sequences usually involve powers, and it's quite easy to see them and notice the ratios.
