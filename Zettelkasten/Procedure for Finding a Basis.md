@@ -36,5 +36,5 @@ z=t
 \end{align*}$$
 So a basis for $S$ is $(\frac{-1}{3},\frac{-4}{3},1)$.
 
-It goes the same for Polynomials and Mat
+It goes the same for Polynomials and Matrices, you just gotta do some more work to translate the restrictions to a [[Augmented Matrix]] but the thing really goes the same, with matrices, you can assign every cell to a row in a [[Vector Matrix Form|column vector]] and operate, with polynomials the only difference are the plus signs and the unknowns that are really arbitrary and dont impact on anything.
 
