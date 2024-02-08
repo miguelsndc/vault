@@ -2,8 +2,6 @@
 tags:
   - geometry/analytic
 date: 2023-09-19
-"
-page: 93
 aliases:
   - distance
 ---

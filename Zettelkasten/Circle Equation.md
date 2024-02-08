@@ -25,7 +25,7 @@ It's quite hard to see that this is circle. But look at $x$ factors $x^{2}, -6x$
 
 #### Deriving
 
-By definition, a circle with center $C(h,k)$ and radius $r$ is the set of all points $P(x,y)$ whose distance from the center is the radius, $d(C,P) = r$, so, by the [[Distance Formula]] we have:
+By definition, a circle with center $C(h,k)$ and radius $r$ is the set of all points $P(x,y)$ whose distance from the center is the radius, $d(C,P) = r$, so, by the [[Euclidean Distance]] we have:
 $$\begin{align*}
 \sqrt{(x-h)^{2}+(y-k)^{2}}&= r\\
 (x-h)^{2}+(y-k)^{2}&=r^2
