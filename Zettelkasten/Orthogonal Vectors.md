@@ -17,7 +17,7 @@ And if $\theta = 90\degree$, the $\cos(90\degree)=0$, it follows that:
 $$\begin{align*}
 \frac{u\cdot v}{||u|| \cdot ||v||}=0 
 \end{align*}$$
-Since [[Vector Norm|magnitude]] are always positive, and denominator of fractions can't equal $0$, it follows that the numerator is $0$ instead, so:
+Since [[Vector Norm|magnitude]]s are always positive, and denominator of fractions can't equal $0$, it follows that the numerator is $0$ instead, so:
 $$
 u \cdot v = 0
 $$
