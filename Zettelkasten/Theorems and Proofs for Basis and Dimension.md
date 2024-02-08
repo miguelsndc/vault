@@ -1,5 +1,6 @@
 ---
 tags: spaces
+aliases: basis, dimension
 ---
 Let $V$ be a [[Vector Space]], a set of vectors $S = \{v_{1},v_{2},\cdots, v_{n}\}$ is called a **basis** of $V$ [[If and Only if]] $\span(S) = V$ and $S$ is [[Linear (In)dependence.|linearly independent]]. The **dimension** of a vector space is the number of elements in the basis. if $\dim(V) = n$ and $S$ is a basis of $V$, then $|S| = n$. 
 
@@ -45,7 +46,7 @@ a_{1r}x_{1}+a_{2r}x_{2}+ \cdots +a_{mr}x_{m}&= 0
 \end{align*}$$
 We now have a [[Homogeneous System]] with $r$ equations and $m$ unknowns, and since $r \le n \lt m$ than, it admits a non-trivial solution, that menns, there is a solution for some $x_{i}$ non-zero, therefore $w_{1}, w_{2}, \cdots, w_{m}$ are $\rm{L.D}$.
 
-> Theorem: Any basis of a vecotr space always got the same number of elements. This number is called the **dimension** of $V$, denoted by $\dim(V)$.
+> Theorem: Any basis of a vector space always got the same number of elements. This number is called the **dimension** of $V$, denoted by $\dim(V)$.
 
 ## Proof
 Let $\{v_{1}, v_{2}, \cdots, v_{n}\}$ and $\{w_{1}, w_{2}, \cdots, w_{n}\}$ be a basis for $V$. By the previous theorem, since $\span(\{v_{1}, v_{2}, \cdots, v_{n}\}) = V$ and $w_{1}, w_{2}, \cdots, w_{m}$ is $\rm{L.I}$, then $m \le n$. However, since $\span(\{w_{1}, w_{2}, \cdots, w_{m}\})=V$ and $v_{1}, v_{2}, \cdots, v_{n}$ is $\rm{L.I}$, then $n \le m$. Therefore $n = m$.
