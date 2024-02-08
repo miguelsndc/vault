@@ -55,4 +55,15 @@ ___
 > Theorem: Any set of [[Linear (In)dependence.|linearly independent]] vectors of a vector space $V$ can be filled to form a [[Theorems and Proofs for Basis and Dimension|basis]] of $V$.
 
 ## Proof
-Let $\dim(V) = n$ and $v_{1}, \cdots, v_{r}$ $\rm{L.I}$ vectors. if $\span\{v_{1}, \cdots, v_{r}\}= V$ then $\{v_{1}, \cdots, v_{r}\}$ form a basis and we are done. Otherwise, if exists some vector $v_{r+1} \in V$ with $v_{r+1} \notin \{v_{1}, \cdots, v_{r}\}$, 
+Let $\dim(V) = n$ and $v_{1}, \cdots, v_{r}$ $\rm{L.I}$ vectors. if $\span\{v_{1}, \cdots, v_{r}\}= V$ then $\{v_{1}, \cdots, v_{r}\}$ form a basis and we are done. Otherwise, if exists some vector $v_{r+1} \in V$ with $v_{r+1} \notin \span\{v_{1}, \cdots, v_{r}\}$, such that $\span\{v_{1},\cdots, v_{r}, v_{r+1}\}$ is $\rm{L.I}$ and then form a basis. If it isn't then there is some $v_{r+2}\in V$ with $v_{r+2}\notin \span\{v_{1}, v_{r}, v_{r+1}\}$ such that $\span\{v_{1}, \cdots, v_{r+1},v_{r+2}\}$ is $\rm{L.I}$. If it isn't we can keep on doing this and after a finite number of steps since $\dim(V)= n$ and $r \le n$ there will be some vectors $v_{i1}, \cdots, v_{in}$ that forms a basis for $V$.
+
+> Theorem: If $\dim(V) = n$, and set of $n$ [[Linear (In)dependence.|linearly independent]] vectors will form a basis for $V$.
+
+## Proof
+If it didn't form a basis, from the last theorem we could fill this set until we have one, and we'll end up having a basis with more than $n$ elements which is absurd.
+
+___
+> Theorem: If $U$ and $W$ are [[Linear Subspaces|subspaces]] of a finite-dimensional [[Vector Space]] $V$, Then $\dim(U) \le \dim(V)$ and $\dim(W) \le \dim(V)$. and by the [[Inclusion-Exclusion Principle]]: 
+> $\dim(U+W) = \dim(U) + \dim(W) - \dim(U \cap W)$.
+
+Not gon prove this.

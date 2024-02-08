@@ -35,3 +35,6 @@ z=t
 \;\;\;\;\;\,,t\in\mathbb{R}
 \end{align*}$$
 So a basis for $S$ is $(\frac{-1}{3},\frac{-4}{3},1)$.
+
+It goes the same for Polynomials and Mat
+
