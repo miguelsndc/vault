@@ -1,6 +1,6 @@
 ---
 tags: systems, spaces, matrix
-aliases: parameterization
+aliases: parameterization, parameterize
 ---
 With $Ax=b$ [[Definition of a System of Linear Equations|system]], by trying to read off the solutions we come across some cases, consider the homogeneous case: $Ax=0$ for the following [[Definition of a System of Linear Equations|system]]:
 $$\begin{align*}
