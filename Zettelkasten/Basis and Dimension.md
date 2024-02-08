@@ -14,4 +14,20 @@ v_{n}&= \left(\frac{-x_{1}}{x_{n}}\right)v_{1}+\left(\frac{-x_{2}}{x_{n}}v_{2}\r
 \end{align*}$$
 If $v_{1}, \cdots, v_{n-1}$ is linearly **de**pendent, then there is a vector that is a linear combination of them, we can extract this vector like we did, and keeping doing this, after a **finite** amount of steps we reach a subset of $\{v_{1},\cdots,v_{n}\}$ with $r$ independent vectors ($r\le n$), $v_{i1},v_{i2},\cdots,v_{ir}$ that still span $V$. and they are form a basis. 
 
-> Theorem: Let $V$ be a vector space spanned by a finite set of vectors $v_{1},v_{2},\cdots, v_{n}$. Let $v_{1}, \cdots, v_{r}, r\le n$ 
+> Theorem: Let $V$ be a vector space spanned by a finite set of vectors $v_{1},v_{2},\cdots, v_{n}$. Then, any set with more than $n$ vectors is automatically linearly **dependent** (And, therefore, any linearly **independent** set has at most $n$ vectors)>
+
+Since $\span(v_{1},v_{2}, \cdots, v_{n}) = V$, by the previous theorem we can extract a basis from it, Let $v_{1}, v_{2}, \cdots, v_{r}, r\le n$ be that basis. Consider now $w_{1}, w_{2}, \cdots, w_{n}$, $m$ vectors from $V$, with $m \gt n$. Then, there exists [[Scalar|scalars]] $a_{ij}$, such that:
+$$(I) \;\;\; \begin{cases}
+w_{1}= a_{11}v_{1}+a_{12}v_{2}+ \cdots a_{1r}v_{r}\\
+w_{2}= a_{21}v_{1}+a_{22}v_{2}+ \cdots a_{2r}v_{r}\\
+\vdots\\
+w_{m}= a_{m1}v_{1}+a_{m2}v_{2}+ \cdots a_{mr}v_{r}
+\end{cases}$$
+Now suppose a linear combination of $w_{1}, \cdots, w_{m}$ giving $\vec{0}$:
+$$(II)\;\;\;\begin{align*}
+x_{1}w_{1}+x_{2}w_{2}+\cdots+x_{m}w_{m}&= \vec{0}
+\end{align*}$$
+Now substituting and collecting terms from the substitution of $I$ in $II$ we get:
+$$\begin{align*}
+
+\end{align*}$$
