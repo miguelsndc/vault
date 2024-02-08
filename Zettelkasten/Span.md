@@ -1,9 +1,9 @@
 ---
 tags: spaces, vector
 ---
-A [[Vector Space]] or [[Linear Subspaces|subspace]] $V$ is *spanned* by a [[Sets|set]] of [[Vector|vectors]] $S = \{v_{1},v_{2},\cdots,v_{n}\}$, [[If and Only if|if and only if]] $\span(S) = V$, if so, then every vector in that space can be written as a [[Linear Combinations|linear combination]] of $S$. If those vectors are linearly [[Linear (In)dependence.|independent]] then this set is called a [[Basis and Dimension]], otherwise, just a *spanning set* of $V$.   
+A [[Vector Space]] or [[Linear Subspaces|subspace]] $V$ is *spanned* by a [[Sets|set]] of [[Vector|vectors]] $S = \{v_{1},v_{2},\cdots,v_{n}\}$, [[If and Only if|if and only if]] $\span(S) = V$, if so, then every vector in that space can be written as a [[Linear Combinations|linear combination]] of $S$. If those vectors are linearly [[Linear (In)dependence.|independent]] then this set is called a [[Theorems and Proofs for Basis and Dimension]], otherwise, just a *spanning set* of $V$.   
 For example, two linearly [[Linear (In)dependence.|independent]] vectors span a [[Plane]] and three span a space.
-There's infinetly many spanning sets for the same space, as well as infinitely many [[Basis and Dimension]].
+There's infinetly many spanning sets for the same space, as well as infinitely many [[Theorems and Proofs for Basis and Dimension]].
 Let $$
 V= \Bigg\{(x,y,z,w) \in R^{4}\mid \begin{cases}
 x+y+z=0 \\
