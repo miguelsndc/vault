@@ -48,5 +48,5 @@ We now have a [[Homogeneous System]] with $r$ equations and $m$ unknowns, and si
 > Theorem: Any basis of a vecotr space always got the same number of elements. This number is called the **dimension** of $V$, denoted by $\dim(V)$.
 
 ## Proof
-Let $\{v_{1}, v_{2}, \cdots, v_{n}\}$ and $\{w_{1}, w_{2}, \cdots, w_{n}\}$ be a basis for $V$. By the previous theorem, since $\span(\{v_{1}, v_{2}, \cdots, v_{n}\}) = V$ and $w_{1}, w_{2}, \cdots, w_{m}$ is $\rm{L.I}$, then $m \le n$. However, since $\span(\{w_{1}, w_{2}, \cdots, w_{m}\})=V$ and $v_{1}, v_{2}, \cdots, v_{n}$ is $\rm{L.I}$
+Let $\{v_{1}, v_{2}, \cdots, v_{n}\}$ and $\{w_{1}, w_{2}, \cdots, w_{n}\}$ be a basis for $V$. By the previous theorem, since $\span(\{v_{1}, v_{2}, \cdots, v_{n}\}) = V$ and $w_{1}, w_{2}, \cdots, w_{m}$ is $\rm{L.I}$, then $m \le n$. However, since $\span(\{w_{1}, w_{2}, \cdots, w_{m}\})=V$ and $v_{1}, v_{2}, \cdots, v_{n}$ is $\rm{L.I}$, then $n \le m$. Therefore $n = m$.
 
