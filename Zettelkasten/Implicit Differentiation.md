@@ -1,7 +1,7 @@
 ---
 tags: derivatives
 ---
-Implicit differentation is a technique used to find [[Derivatives]] of [[Implicit and Explicit forms of a Equations|implicit]] equations.
+Implicit differentation is a technique used to find [[Derivative Definition]] of [[Implicit and Explicit forms of a Equations|implicit]] equations.
  We can find tangent lines and solve derivative problems in implicitly defined curves that **aren't functions**. To achieve so, we **derive** both sides of this equation in respect to some variable, let's say $x$, and everywhere we derive a $y$ we add a $\frac{dy}{dx}$ or $y'$, to ensure [[Chain Rule]] usage, see:
 
 $$\begin{align*}

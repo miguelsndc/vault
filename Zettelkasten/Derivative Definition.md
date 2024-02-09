@@ -1,5 +1,6 @@
 ---
 tags: derivatives
+aliases: derivative, derivatives
 ---
 First we introduce a [[Functions in Discrete Math|function]] $f$ and a open interval $(a,b)$, we let $x$ and $x+h$ lie in this interval, we wish to calculate the rate of change from $x$ from $x+h$, so we introduce the [[Difference Quotient]], See:
 $$\begin{align*}

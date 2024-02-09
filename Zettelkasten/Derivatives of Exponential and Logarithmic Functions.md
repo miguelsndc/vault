@@ -1,7 +1,7 @@
 ---
 tags: derivatives
 ---
-Quick Cheatsheet of [[Derivatives]] of [[Exponential Functions]].
+Quick Cheatsheet of [[Derivative Definition]] of [[Exponential Functions]].
 - $\frac{d}{dx}(\rm{e}^{x})=\rm{e}^{x}$
 - $\frac{d}{dx}(\ln{x}) = \frac{[x]'}{x}$
 - $\frac{d}{dx}(a^{x})=a^{x}\ln{a}$ 
