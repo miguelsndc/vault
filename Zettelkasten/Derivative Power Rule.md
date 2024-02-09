@@ -33,6 +33,9 @@ ___
 $f(x)=x^{\frac{1}{n}=\sqrt[n]{x}}\implies f'(x)=\frac{1}{n}x^{\frac{1}{n}-1}=\frac{1}{\sqrt[n]{x^{n-1}}}$, using the [[Derivative Definition|derivative]] definition we have:
 $$\begin{align*}
 f'(x) &= \lim_{h\rightarrow0} \frac{\sqrt[n]{x+h}- \sqrt[n]{x}}{h} \;\;\text{Let}\;x+h=t\;\text{with}\;(t \rightarrow x \implies h\rightarrow 0)\\
-&= \lim_{h\rightarrow0} \frac{\sqrt[n]{t}-\sqrt[n]{x}}{t-x} \;\; \text{Let}\; u=\sqrt[n]{t}\;\text{and}\;v=\sqrt[n]{x}\;\text{with}\;(u\rightarrow v \implies t \rightarrow x)\\
-&= \lim_{h\rightarrow0} \frac{u-v}{u^{n}-v^{n}}= 1/(u^{n}-v^{n})
+&= \lim_{t\rightarrow x} \frac{\sqrt[n]{t}-\sqrt[n]{x}}{t-x} \;\; \text{Let}\; u=\sqrt[n]{t}\;\text{and}\;v=\sqrt[n]{x}\;\text{with}\;(u\rightarrow v \implies t \rightarrow x)\\
+&= \lim_{u\rightarrow v} \frac{u-v}{u^{n}-v^{n}}= \frac{\frac{1}{u^{n}-v^{n}}}{u-v}=\frac{1}{nv^{n-1}} \;\; \\
+&\text{Therefore for } x\ne0 \text{ in } D(f)\\
+f'(x)&= \frac{1}{n\sqrt[n]{x^{n-1}}}=\frac{1}{n}\cdot x^{\frac{1}{n}-1}
 \end{align*}$$
+Hence all the powers rules are proven.
