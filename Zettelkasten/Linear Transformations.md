@@ -1,5 +1,6 @@
 ---
 tags: linear-transformations
+aliases: linear transformation, transformation
 ---
 Let $V$ and $U$ be [[Vector Space|vector spaces]], and a "mapping" $A: E \rightarrow F$ is called *a **linear transformation*** if:
 - $A(u+v) = A(u) + A(v)$
