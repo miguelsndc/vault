@@ -33,9 +33,13 @@ f'(x)&= \lim_{h\rightarrow0} \frac{a^{(x+h)}-a^{x}}{h}\\
 &= a^{x} \cdot\ln{a}
 \end{align*}$$
 > $[e^{x}]'=e^{x}$ only because $\ln{e}=1$.
-___
-$f(x)=\log_{a}x \implies f'(x)=\frac{1}{x\ln{a}}$.
 
-Therefore: 
-- $[e^{x}]'=e^{x}$ 
-- $[\ln{x}]'=\frac{1}{x}$ 
+___
+ $f(x)=\log_{a}x \implies f'(x)=\frac{1}{x\ln{a}}$. If $a\gt 0$ and $a \ne 1$.
+
+$$\begin{align*}
+f'(x)&= \lim_{h\rightarrow0} \frac{\log_a(x+h)-\log_{a}{x}}{h}\\
+&= \lim_{h\rightarrow0} \frac{1}{h}\cdot \log_{a} \left[1+\frac{h}{x}\right]\\
+&\text{Let } u=\frac{h}{x}\\
+&= \lim_{u\rightarrow0} \frac{1}{h} \log_{a}[1+u]  
+\end{align*}$$
