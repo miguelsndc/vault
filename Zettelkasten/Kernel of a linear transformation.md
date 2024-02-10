@@ -1,5 +1,6 @@
 ---
 tags: linear-transformations
+aliases: kernel
 ---
 The Kernel of a [[Linear Transformations]] $T: V \rightarrow W$ are those vectors from $V$ that are mapped to the **origin of $W$** denoted $\nu(T) or \ker(T)$. The definition is:
 $$\begin{align*}
@@ -14,7 +15,6 @@ Let $\lambda \in \mathbb{R}$, $u \in \nu(T)$, then $T(u) = \vec{0}$, so $\lambda
 ___
 ## How to find it
 By the definition $\nu(T)$ is all $T(v) = \vec{0}$, to find it, set every rule of the [[Linear Transformations|transformation]] to $0$ and you have a [[Linear Subspaces|subspace]] defined by a [[Homogeneous System]], you might want to check for [[Linear (In)dependence.|linear dependence]] or find a [[Span]]ning set, but that's trivial. Example:
-Let $T_{2}:\mathbb{R}^{2}\rightarrow\mathbb{R}^{3} \mid T(x,y)=(x+y, x-y, x-y)$, then $\nu(T)=\{(x,y)\}$
-
+Let $T:\mathbb{R}^{2}\rightarrow\mathbb{R}^{3} \mid T(x,y)=(x+y, x-y, x-y)$, then $\nu(T)=\{(x,y) \in \mathbb{R}^{2} \mid T(x,y) = (0,0,0)\}$, therefore we have: $(x+y, x-y, x-y) = (0,0,0)$ which forms: $\begin{cases} x+y=0\\ x-y = 0 \end{cases} \therefore \nu(T)= \{\vec{0}\}$. 
 
 
