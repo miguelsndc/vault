@@ -13,4 +13,6 @@ $$\begin{align*}
 2. Let $w_{2} \in \im(T)$ this implies that $w_{1}=T(v_{1})$. for some $v_{1}\in V$, let also $\lambda \in \mathbb{R}$, then $\lambda w_{1}=\lambda T(v_{1})$, since $T$ is a [[Linear Transformations|transformation]], $\lambda T(v_{1})=T(\lambda v_{1}) \implies T(\lambda v_{1}) \in \im(T)$ therefore the image is closed under scalar multiplication.
 ___
 ## How to find it
-Recall by the definition that $\im(T) = \{w \in W \mid T(v) = w, v\in V\}$.
+Recall by the definition that $\im(T) = \{w \in W \mid T(v) = w, v\in V\}$, to describe the image either as a [[Homogeneous System]] or as a [[Span|spanning set]], we apply a generic vector $(x_{1},x_{2},\cdots,x_{n})$ on a transformation $T$ and let it equals another generic vector $y_{1},y_{2},\cdots, y_{n}$ on the [[Domain]] and based on the rules of $T$ we define $y_{1},y_{2}, \cdots, y_{n}$ as [[Linear Combinations]] of the coefficients of $x_{i}$, then we can find a [[Theorems and Proofs for Basis and Dimension|basis]] for something like that.
+Example:
+Let $T:P_{2}\rightarrow R^{2}\mid T(a_{0} + a_{1}X + a_{2}X^{2})=(2a_{0} - a_{1}+a_{2}, 2a_{0}+3a_{1}+5a_{2})$, now we set a generic vector from the [[Domain]] to a generic vector on the [[Image of a linear transformation|image]], $T(a_{0}+a_{1}X+ a_{2}X^{2})=(x,y)$, now replace $T$ with it's rules, $(2a_{0}-a_{1}+a_{2},2a_{0}+3a_{1}+5a_{2})=(x,y)$, now express it as combinations of the coefficients of $P_{2}$: $a_{0}(2,2) + a_{1}(-1,3)+a_{2}(1,5)=(x,y)$. Therefore $\im(T) = [()]$

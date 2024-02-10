@@ -1,5 +1,6 @@
 ---
 tags: spaces, vector
+aliases: span, spanning set
 ---
 A [[Vector Space]] or [[Linear Subspaces|subspace]] $V$ is *spanned* by a [[Sets|set]] of [[Vector|vectors]] $S = \{v_{1},v_{2},\cdots,v_{n}\}$, [[If and Only if|if and only if]] $\span(S) = V$, if so, then every vector in that space can be written as a [[Linear Combinations|linear combination]] of $S$. If those vectors are linearly [[Linear (In)dependence.|independent]] then this set is called a [[Theorems and Proofs for Basis and Dimension]], otherwise, just a *spanning set* of $V$.   
 For example, two linearly [[Linear (In)dependence.|independent]] vectors span a [[Plane]] and three span a space.
@@ -36,4 +37,4 @@ z&=z\\
 w&=w\\
 \end{cases},\;\;\;\; z,w\in\mathbb{R}
 \end{align*}$$
-And the vectors are $z(\frac{-1}{3}, \frac{2}{3},1,0)+w(0,0,0,1)$. We say that $\span\left(\left(\frac{-1}{3}, \frac{2}{3},1,0\right), (0,0,0,1)\right)= V$. 
+And the vectors are $z(\frac{-1}{3}, \frac{2}{3},1,0)+w(0,0,0,1)$. We say that $\span\left(\left(\frac{-1}{3}, \frac{2}{3},1,0\right), (0,0,0,1)\right)= V$. or for shortness's sake $[(\frac{-1}{3}, \frac{2}{3},1,0), (0,0,0,1)]=V$ with square brackets.  
