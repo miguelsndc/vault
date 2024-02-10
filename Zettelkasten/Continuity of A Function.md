@@ -2,7 +2,7 @@
 tags:
 - function
 - limits
-aliases: continuity
+aliases: continuity, continuous
 ---
 In [[Epsilon-Delta Definition of a Limit|limits]] we discuss what happens when a [[Functions in Discrete Math|function]] $f$ approaches a point $p$, it is not necessary that $f$ exists at $p$ since in the definition we state that $x \ne p$, but, for a limit $lim_{x\to p}f(x)=A$ when the limit **exists** at $p$ and is indeed equal to $A$ we say that **$f$ is continuous at $p$**, $i.e$ we have the definition:
 

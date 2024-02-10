@@ -41,5 +41,11 @@ $$\begin{align*}
 f'(x)&= \lim_{h\rightarrow0} \frac{\log_a(x+h)-\log_{a}{x}}{h}\\
 &= \lim_{h\rightarrow0} \frac{1}{h}\cdot \log_{a} \left[1+\frac{h}{x}\right]\\
 &\text{Let } u=\frac{h}{x}\\
-&= \lim_{u\rightarrow0} \frac{1}{h} \log_{a}[1+u]  
+&= \lim_{h\rightarrow0} \frac{1}{h} \log_{a}[1+u]\\
+&= \lim_{h\rightarrow0} \log_{a}[1+u]^{\frac{1}{xu}}\\
+&= \lim_{h\rightarrow0} \frac{1}{x} \log_{a}[1+u]^{\frac{1}{u}}\\
+&= \frac{1}{x} \cdot \log_{a}[\lim_{u\rightarrow0} (1+u)^\frac{1}{u}]\\
+&= \frac{1}{x}\cdot \log_{a}{\rm{e}}\\
+&= \frac{1}{x}\cdot \frac{1}{\log_{e{a}}}\\
+&= \frac{1}{x\ln{a}} 
 \end{align*}$$
