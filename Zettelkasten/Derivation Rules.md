@@ -1,20 +1,12 @@
 ---
 tags: derivatives
 ---
-Quick Cheatsheet for [[Derivative Definition]]:
-- Derivation of a constant $c$: $\frac{d}{dx}(c)=0$    
-- Power Rule: $\frac{d}{dx}(x^{n})=nx^{n-1}$
-- Constant Multiple Rule: $\frac{d}{dx}[cf(x)]=c \frac{d}{dx} f(x)$.
-- Sum and Difference Rules:
+Let $f$ and $g$ be [[Differentiability and Continuity|differentiable]] at $p$ and let $k$ be a constant. Then $f+g$, $kf$ and $f\cdot g$ are differentiable at $p$, and we have:
+- $D_{1}:$ $(f+g)'(p) = f'(p) + g'(p)$.
+- $D_{2}:$ $(kf)'(p)=k\cdot f'(p)$.
+- $D_{3}:$ $(f\cdot g)'(p)=f'(p)\cdot g(p) + f(p)\cdot g'(p)$.
+## Proofs
+$D_{1}:$
 $$\begin{align*}
-\frac{d}{dx}(f(x)+g(x))&= \frac{d}{dx}f(x) + \frac{d}{dx}g(x)\\
-\frac{d}{dx}(f(x)-g(x))&= \frac{d}{dx}f(x) - \frac{d}{dx}g(x)
-\end{align*}$$
-- Product Rule: *if $f$ and $g$ are both differentiable [[Functions in Discrete Math|functions]], then*
-$$\begin{align*}
-\frac{d}{dx}[f(x)\cdot g(x)]&= \frac{d}{dx}[f(x)] \cdot g(x) + f(x) \cdot \frac{d}{dx}[g(x)]
-\end{align*}$$
-- Quotient Rule, *if $f$ and $g$ are both differentiable [[Functions in Discrete Math|functions]], then*:
-$$\begin{align*}
-\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]&= \frac{\frac{d}{dx}[f(x)] \cdot g(x) - f(x) \cdot \frac{d}{dx}[g(x)]}{[g(x)]^{2}}
+(f+g)'(p)&= \lim_{x\rightarrow p} \frac{([f(x + g(x)]- [f(p) - g(p)]}{h}
 \end{align*}$$

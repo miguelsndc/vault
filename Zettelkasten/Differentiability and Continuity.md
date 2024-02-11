@@ -1,7 +1,8 @@
 ---
 tags: derivatives, limits
+aliases: differentiability, differentiable, continuous
 ---
-The [[Functions in Discrete Math|function]] $f(x)=|x|$ isn't *differentiable* in $p=0$, $i.e$ the [[Derivative Definition|derivative]] $f'(0)$ does not exist; However, this function **is** [[Continuity of A Function|continuous]] in $p=0$. Which shows us that a function can be continuous at a point but not differentiable in this point; Which leads to two conclusions:
+The [[Functions in Discrete Math|function]] $f(x)=|x|$ isn't *differentiable* in $p=0$, $i.e$ the [[Derivative Definition|derivative]] $f'(0)$ does not exist (the [[Epsilon-Delta Definition of a Limit|limit]] of the [[Derivative Definition|derivative]] does not exist); However, this function **is** [[Continuity of A Function|continuous]] in $p=0$. Which shows us that a function can be continuous at a point but not differentiable in this point; Which leads to two conclusions:
 - Continuitiy does not imply differentiability.
 - However, **differentiability implies continuity**, as the following theorem states:
 > Theorem: if $f(x)$ is differentiable in $p$, then $f(x)$ is continuous at $p$.
