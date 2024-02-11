@@ -33,6 +33,19 @@ x-y+z&= 0 \\
 Checking [[Linear (In)dependence.|dependence]]:
 $$\begin{align*}
 \begin{pmatrix}
-
+1 & 1 & -1\\
+1 & -1 & 1\\
+-1 & 2 & 0
+\end{pmatrix}\implies
+\begin{pmatrix}
+1 & 0 & 0\\
+1 & -1 & 1\\
+0 & 2 & 0
+\end{pmatrix}\implies
+\begin{pmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1
 \end{pmatrix}
 \end{align*}$$
+Therefore $\nu(T) = \{\vec{0}\} \therefore T$ is injective.
