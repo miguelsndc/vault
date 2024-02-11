@@ -12,4 +12,27 @@ Consider $\nu(T)$; $u \in \nu(T) \implies u = \vec{0}$, $T(\vec{0}) = \vec{0}$
 $T(u) = T(v) \implies u = \vec{0}$ (since $T$ is one to one).
 $\implies \nu(T) = \{\vec{0}\}$.
 Coming: 
-Consider $\nu(T) = \{\vec{0}\}
+Consider $\nu(T) = \{\vec{0}\}$, we want to prove that $T$ is injective.
+Let $u,v \in V \mid T(u) = T(v)$.
+$T(u) - T(v) = \vec{0}$
+$T(u-v) = \vec{0}$, Therefore $u - v \in \nu(T)$.
+Como $\nu(T) = \{\vec{0}\} \implies u - v = \vec{0} \implies u = v$.
+___
+## How to know if it is
+Since $\nu(T) = \vec{0}$, then the [[Homogeneous System]] defining the [[Kernel of a linear transformation|kernel]] of $T$ *must* have a unique solution, this means, all [[Vector|vectors]] must be [[Linear (In)dependence.|linearly independent]]. Therefore build the system and put it in [[Row Reduced Echelon Form]].
+$\rm{Example}:$ 
+Let $T: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ defined by $T(x,y,z)=(x+y-z,x-y+z,-x+2y)$, determine wheter $T$ is injective or not.
+$\nu(T) = \{(x,y,z) \in \mathbb{R}^{3} \mid T(x,y,z) = (0,0,0) \}$. Therefore:
+$$\begin{align*}
+\nu(T)&= \begin{cases}
+x+y-z&= 0\\
+x-y+z&= 0 \\
+-x+2y&= 0 
+\end{cases}
+\end{align*}$$
+Checking [[Linear (In)dependence.|dependence]]:
+$$\begin{align*}
+\begin{pmatrix}
+
+\end{pmatrix}
+\end{align*}$$
