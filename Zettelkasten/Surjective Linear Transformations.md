@@ -7,4 +7,6 @@ So let $\{v_{1},v_{2},\cdots, v_{n}\}$ be a [[Theorems and Proofs for Basis and 
 ## How to find it
 We want to know whether the [[Theorems and Proofs for Basis and Dimension|dimension]] of both $\im(T)$ and $W$ on $T:V \rightarrow W$, are the same, so, when defining a [[Linear Transformations|linear transformation]] we usually know which space it's being mapped to which space, therefore knowing it's dimension. Therefore, simply finding a [[Theorems and Proofs for Basis and Dimension|basis]] for $\im(T)$ will do the job, and if the number of elements in the basis of $\im(T)$ is equal to the dimension of $W$ then they are the same hence $T$ is [[Surjective Functions|surjective]].
 $\rm{Example}:$ 
-Let $$
+Let $T:P_{2}\rightarrow \mathbb{R}^{3}$ : $T(a_{0}+a_{1}X +a_{2}X^{2}) = (a_{0}-a_{2}, a_{1}+a_{2}, a_{0}+ a_{1})$
+$\im(T) = \{(x,y,z) \in \mathbb{R}^{3} \mid T(a_{0} + a_{1}X + a_{2}X^{2}) = (x,y,z) \}$, for some $(a_{0} + a_{1}X + a_{2}X^{2}) \in P_{2}$.
+$(a_{0}-a_{2}, a_{1}+a_{2}, a_{0}+ a_{1}) = (x,y,z) \implies a_{0}(1,0,1) + a_{1}(0,1,1) + a_{2}(-1,1,0)$ which implies that $[()]$ 
