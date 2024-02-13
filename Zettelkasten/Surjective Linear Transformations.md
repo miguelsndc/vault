@@ -32,3 +32,5 @@ $$\begin{align*}
 [(1,0,1), (0,1,1)] &= \im(T)
 \end{align*}$$
 Because $\dim[\im(T)] \lt \dim(\mathbb{R}^{3}) \implies$ $T$ is not surjective. [[Rank of a Matrix|rank]] of the [[Augmented Matrix]] of $T$ must be equal the number of columns.
+___
+From the [[Kernel-Image Theorem]], the case where $\dim(V) \lt \dim(W)$ for a [[Linear Transformations|transformation]] $T: V\rightarrow W$, since $\dim[\nu(T)] + \dim[\im(T)] = \dim(V)$, even if we reduce the [[Theorems and Proofs for Basis and Dimension|dimension]] of $\nu(T)$ to $0$, $\dim[\im(T)] = \dim(V)$ which is **less than** the dimension of $W$, $\dim[\im(T)] = V \lt \dim(W)$. this means, *if $\dim(V) \lt \dim(W)$ **$T$ can't be surjective.***. 

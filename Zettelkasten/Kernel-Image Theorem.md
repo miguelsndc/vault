@@ -19,4 +19,5 @@ $$\begin{align*}
 a_{r+1}v_{r+1}+ a_{r+2}v_{r+2}+\cdots+a_{n}v_{n} &= a_{1}v_{1}+a_{2}v_{2}+\cdots a_{r}v_{r}\\
 a_{1}v_{1}+a_{2}v_{2}+\cdots a_{r}v_{r}-a_{r+1}v_{r+1}- a_{r+2}v_{r+2}-\cdots-a_{n}v_{n} &= \vec{0}
 \end{align*}$$
-The vectors $v_{1},v_{2},\cdots, v_{r},v_{r+1}, v_{r+2}, \cdots, v_{n}$ form a basis for $V$
+The vectors $v_{1},v_{2},\cdots, v_{r},v_{r+1}, v_{r+2}, \cdots, v_{n}$ form a basis for $V$, therefore they're [[Linear (In)dependence.|independent]], $\implies a_{1}=a_{2}=\cdots=a_{r}=a_{r+1}=\cdots=a_{n}=0$.
+Therefore $\{T(v_{r+1}), T(v_{r+2}), \cdots, T(v_{n})\}$ is $L.I$ therefore is a [[Theorems and Proofs for Basis and Dimension|basis]] for $\im(T)$ and hence, $\dim[\im(T)]=\dim(V)-\dim[\nu(T)] \implies \dim(V) = \dim[\im(T)] + \dim[\nu(T)]$.

@@ -49,3 +49,11 @@ $$\begin{align*}
 \end{pmatrix}
 \end{align*}$$
 Therefore $\nu(T) = \{\vec{0}\} \therefore T$ is injective.
+___
+From the [[Kernel-Image Theorem]], specifically the case where $\dim(V) \gt \dim(W)$ for a [[Linear Transformations|transformation]] $T:V\rightarrow W$. Since: $\dim[\nu(T)] + \dim[\im(T)] = \dim(V)$, then:
+$$\begin{align*}
+\dim[\nu(T)]&= \dim(V) - \dim[\im(T)]
+\end{align*}$$
+But $\dim(V) \gt \dim[\im(T)]$, therefore $\dim(\nu(T)) \gt 0$ and therefore $T$ can't be injective.
+
+> $T$ is injective if and only if the [[Theorems and Proofs for Basis and Dimension|dimension]] of the [[Domain]] is less or equal the dimension of the [[Range]].
