@@ -9,4 +9,26 @@ We want to know whether the [[Theorems and Proofs for Basis and Dimension|dimens
 $\rm{Example}:$ 
 Let $T:P_{2}\rightarrow \mathbb{R}^{3}$ : $T(a_{0}+a_{1}X +a_{2}X^{2}) = (a_{0}-a_{2}, a_{1}+a_{2}, a_{0}+ a_{1})$
 $\im(T) = \{(x,y,z) \in \mathbb{R}^{3} \mid T(a_{0} + a_{1}X + a_{2}X^{2}) = (x,y,z) \}$, for some $(a_{0} + a_{1}X + a_{2}X^{2}) \in P_{2}$.
-$(a_{0}-a_{2}, a_{1}+a_{2}, a_{0}+ a_{1}) = (x,y,z) \implies a_{0}(1,0,1) + a_{1}(0,1,1) + a_{2}(-1,1,0)$ which implies that $[()]$ 
+$(a_{0}-a_{2}, a_{1}+a_{2}, a_{0}+ a_{1}) = (x,y,z) \implies a_{0}(1,0,1) + a_{1}(0,1,1) + a_{2}(-1,1,0)$ which implies that $[(1,0,1), (0,1,1), (-1,1,0)] = \im(T)$, but we need to check for [[Linear (In)dependence.|linear dependence]] to ensure it's a valid [[Theorems and Proofs for Basis and Dimension|basis]].
+$$\begin{align*}
+\begin{pmatrix}
+1 & 0 & 1\\
+0 & 1 & 1\\
+-1 & 1 & 0
+\end{pmatrix}
+\implies
+\begin{pmatrix}
+1 & 0 & 1 \\
+0 & 1 & 1\\
+0 & 1 & 1 
+\end{pmatrix}
+\implies
+\begin{pmatrix}
+1 & 0 & 1 \\
+0 & 1 & 1\\
+0 & 0 & 0
+\end{pmatrix}
+\implies
+[(1,0,1), (0,1,1)] &= \im(T)
+\end{align*}$$
+Because $\dim[\im(T)] \lt \dim(\mathbb{R}^{3}) \implies$ $T$ is not surjective. [[Rank of a Matrix|rank]] of the [[Augmented Matrix]] of $T$ must be equal the number of columns.
