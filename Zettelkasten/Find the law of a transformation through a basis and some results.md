@@ -32,4 +32,46 @@ T(-1,1,0)&= (0,0)\\
 T(1,0,1)&= (0,0)\\
 T(0,0,1)&= (2,1)
 \end{align*}$$
-We can put the vectors suffering 
+We can put the vectors suffering the transformation next to the basis in a matrix and find the [[Row Reduced Echelon Form]], since they're [[Linear (In)dependence.|linearly independent]], it'll always reach the [[Identity Matrix]], By doing so we find what the transformation is doing to the canonical vectors, and it's easier to reason and to calculate.
+$$\begin{align*}
+\begin{pmatrix}
+-1 & 1 & 0  & \mid & 0 & 0 \\
+1 & 0 & 1 & \mid & 0 & 0\\
+0 & 0 & 1 & \mid & 2 & 1
+\end{pmatrix}
+\implies
+\begin{pmatrix}
+-1 & 1 & 0 & \mid & 0 & 0\\
+0 & 1 & 1 & \mid & 0 & 0\\
+0 & 0 & 1 & \mid & 2 & 1\\
+\end{pmatrix}\\\\
+\implies
+\begin{pmatrix}
+1 & -1 & 0 & \mid & 0 & 0\\
+0 & 1 & 0 & \mid & -2 & -1\\
+0 & 0 & 1 & \mid & 2 & 1\\
+\end{pmatrix}
+\implies
+\begin{pmatrix}
+1 & 0 & 0 & \mid & -2 & -1\\
+0 & 1 & 0 & \mid & -2 & -1\\
+0 & 0 & 1 & \mid & 2 & 1
+\end{pmatrix}
+\end{align*}$$
+Thefore:
+$$\begin{align*}
+T(1,0,0)&= (-2,-1)\\
+T(0,1,0)&= (-2,-1)\\
+T(0,0,1)&= (2,1)\\
+\end{align*}$$
+Describing a general vector $(x,y,z)$ in terms of the canonical is trivial, that's why we convert it, see:
+$$\begin{align*}
+(x,y,z)&= x(1,0,0)+y(0,1,0)+z(0,0,1)\\
+T(x,y,z)&= xT(1,0,0)+yT(0,1,0)+zT(0,0,1)
+\end{align*}$$
+Substituting:
+$$\begin{align*}
+T(x,y,z)&= x(-2,-1) + y(-2,-1)+z(2,1)\\
+&= (-2x-2y+2z,-x-y+z)
+\end{align*}$$
+Therefore $T$ is defined by $T(x,y,z) = (-2x-2y+2z,-x-y+z)$. There are infinitely many such [[Linear Transformations]], since the [[Linear Transformations]] from one space to another is itself a [[Linear Subspaces|subspace]]. We can choose multiple of them by playing with different [[Theorems and Proofs for Basis and Dimension|basis]] for $\nu(T)$ and $\im(T)$ and also with the [[Linear (In)dependence.|linearly independent]] vectors at the end. But the initial condition is fulfilled and **the problem is solved**, finding the correct transformation depends on the situation.
