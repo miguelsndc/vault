@@ -22,8 +22,15 @@ $$\begin{align*}
 S \circ T&=  ((x+y+z) + (2x-z), (x+y+z) - (2x-z), 2(2x-z))\\
 &= (3x+y,-x+y+2z,4x-2z) 
 \end{align*}$$
-From now on i
-
+From now on it's just a regular transformation, we can find [[Kernel of a linear transformation|kernel]], [[Image of a linear transformation|image]], [[Theorems and Proofs for Basis and Dimension|basis]] and all that. One thing to notice about the kernel and the image of a composite transformation is that:
+$$\begin{align*}
+T:V \rightarrow W\\
+S:W \rightarrow U\\
+\nu(S\circ T) \supseteq \nu(T)\\
+\im(S \circ T) \subseteq \im(T)
+\end{align*}$$
+The kernel of $T$ is taking all vectors to the $\vec{0}$ on $W$, and then being taken to the $\vec{0}$ in $U$. However, there might be some vectors, not in $\nu(T)$ that get taken from $W$ to the zero in $U$.
+But $\im(S\circ T)$ cannot be larger than $\im(S)$, but it can be equal or smaller, so its **contained** in $\im(S)$.
 
 
 
