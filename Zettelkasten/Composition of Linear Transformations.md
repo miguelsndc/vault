@@ -1,5 +1,6 @@
 ---
 tags: linear-transformations
+aliases: compose, composite, composition
 ---
 Consider two [[Linear Transformations]] $T:V \rightarrow W$ and $S:W\rightarrow U$, the *composition of $S$ with $T$*, $S\circ T$, is defined as $S \circ T : V \rightarrow U$, $S(T(v)), v \in V$. The concept works similarly to [[Composite Functions]].
 
