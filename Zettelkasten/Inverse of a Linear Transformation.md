@@ -21,4 +21,50 @@ ___
 ## How to find it
 Let $T: \mathbb{R^{3}} \rightarrow P_{2}$, given by: $T(x-y-z) = (x-y) + (2x-z)X+(x-y-z)X^{2}$.
 1. Step 1: Show $T$ is bijective. We can do this by finding [[Kernel of a linear transformation|kernel]] or the [[Image of a linear transformation|image]] of $T$, and if $\dim(\im(T)) = 3 = \dim(P_{2}) \implies \dim(\nu(T)) = 0$, hence $T$ is [[Bijective]] or the other way around. both work. finding both is unnecessary.
-2. Step 2: Find the inverse 
+2. Step 2: Find the inverse:
+Remember we can [[Find the law of a transformation through a basis and some results]], we can find some results of+  $T$ itself through a [[Theorems and Proofs for Basis and Dimension|basis]], most convinently the [[Canonical Vectors|canonical]] basis. So:
+$$\begin{align*}
+T(1,0,0) &= 1+2X+X^{2}\\
+T(0,1,0)&= -1-X^{2}\\
+T(0,0,1)&= -X-X^{2}
+\end{align*}$$
+Therefore:
+$$\begin{align*}
+T^{-1}(1+2X+X^{2})&= (1,0,0)\\
+T^{-1}(-1-X^{2})&= (0,1,0)\\
+T^{-1}(-X-X^{2})&= (0,0,1)
+\end{align*}$$
+We can now put all this in a big [[Matrix Definition|matrix]] with the inputs and the images side by side, and find the [[Inverse Matrix]]:
+$$\begin{align*}
+\begin{pmatrix}
+1 & 2 & 1 & \mid & 1 & 0 & 0 \\
+-1 & 0 & -1 & \mid & 0 & 1 & 0 \\
+0 & -1 & -1 & \mid & 0 & 0 & 1
+\end{pmatrix}
+\end{align*}$$
+In [[Row Reduced Echelon Form]] it becomes:
+$$\begin{align*}
+\begin{pmatrix}
+1 & 0 & 0 & \mid & \frac{1}{2}& \frac{-1}{2} & 1\\
+0 & 1 & 0 & \mid & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 1 & \mid & \frac{-1}{2} & \frac{-1}{2} & -1
+\end{pmatrix}
+\end{align*}$$
+The [[Matrix Definition|matrix]] on the right side is the [[Transposes|transpose]] of the [[Matrix Definition|matrix]] that represents $T^{-1}$, so the expression is defined by:
+$$\begin{align*}
+\frac{1}{2}\begin{pmatrix}
+1 & 1 & -1\\
+-1 & 1 & -1 & \\
+2 & 0 & -2
+\end{pmatrix}
+\begin{pmatrix}
+a_{0}\\
+a_{1}\\
+a_{2} 
+\end{pmatrix}
+&= \frac{1}{2}(a_{0} +a_{1}-a_{2}, -a_{0}+a_{1}-a_{2}, 2a_{0}-2a_{2})
+\end{align*}$$
+Therefore:
+$$\begin{align*}
+T^{-1}(a_{0} + a_{1}X + a_{2}X^{2})=\frac{1}{2}(a_{0} +a_{1}-a_{2}, -a_{0}+a_{1}-a_{2}, 2a_{0}-2a_{2})
+\end{align*}$$
