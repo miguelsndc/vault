@@ -1,0 +1,1 @@
+Let $T:V \rightarrow W$ be a [[Bijective Linear Transformations|bijective]] [[Linear Transformations|linear transformation]], Let $\alpha = \{v_{1},v_{2}, \cdots, v_{n}\} \subset V$ be a [[Theorems and Proofs for Basis and Dimension|basis]]of the [[Domain]] $V$.  
