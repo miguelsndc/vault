@@ -1,5 +1,6 @@
 ---
 tags: linear-transformations
+aliases: injective
 ---
 [[Linear Transformations]] are special [[Functions]] that preserve addition and [[Multiplication by Scalar|scalar multiplication]] after application on [[Vector Space|vector spaces]], and as a function, transformations also share common properties with functions, such as being [[Injective Functions|injective]] (or one-to-one) functions.
 Let $T: V \rightarrow W$ be a [[Linear Transformations|linear transformation]] and $V$ and $W$ vector spaces. $T$ is *injective* if $T(u) = T(v) \implies u = v$ for all $u,v \in V$, the [[Domain]].
