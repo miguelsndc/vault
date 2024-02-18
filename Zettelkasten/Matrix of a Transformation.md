@@ -53,6 +53,30 @@ c_{m1} & \cdots & c_{mn}
 \begin{pmatrix}
 a_{1}\\
 \vdots\\
-
+a_{n}
 \end{pmatrix}
 \end{align*}$$
+Where the columns of the first are each $[Tv_{i}]$ with coordinates in $\beta$, and the right in just the coordinates of $[v]_{\alpha}$, and the first is denoted by $[T]^{\alpha}_{\beta}$, the matrix will be $m \times n$ where:
+- $m$ is the dimension of the [[Range in Discrete Math|range]] $W$
+- $n$ is the [[Theorems and Proofs for Basis and Dimension|dimension]] of the [[Domain]] $V$ 
+___
+## Application
+Let $T:\mathbb{R}^{3} \rightarrow \mathbb{R}^{2}$,  given by $S(x,y,z) = (x+y+z, x-y+z)$, and Let $\alpha = \{(1,0,1), (1,1,0), (2,1,0)\}$, $\beta = \{(2,1), (1,2)\}$ be [[Theorems and Proofs for Basis and Dimension|basis]].
+Find $[S]^{\alpha}_{\beta}$, let $[v]_{\alpha}=\begin{pmatrix}2\\-4\\3\end{pmatrix}$, find $[S(v)]_{\beta}$.
+So we're going to:
+- Find the image of each vector of $\alpha$.
+- Find a generical representation of $\beta$ over some $(x,y)$ vector.
+- Write every [[Image of a linear transformation|image]] in $\beta$ coordinates
+- Put each in a column, and we have $[S]^{\alpha}_{\beta}$.
+
+The images are:
+$$\begin{align*}
+S(1,0,1) &= (2,2)\\
+S(1,1,0) &= (2,0)\\
+S(2,1,0) &= (3,1)
+\end{align*}$$
+The generical representation will go like:
+$$\begin{align*}
+(x,y) &= a()
+\end{align*}$$
+
