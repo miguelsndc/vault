@@ -77,6 +77,40 @@ S(2,1,0) &= (3,1)
 \end{align*}$$
 The generical representation will go like:
 $$\begin{align*}
-(x,y) &= a()
+(x,y) &= a(2,1)+b(1,2)\\
+(x,y)&= (2a+b, a+2b)\\\\
+&\begin{pmatrix}
+2 & 1 & \mid & x\\
+1 & 2 & \mid & y
+\end{pmatrix}
+\implies
+\begin{pmatrix}
+1 & 0 & \mid & \frac{2x-y}{3}\\
+0 & 1 & \mid & \frac{2y-x}{3}
+\end{pmatrix}
 \end{align*}$$
-
+Hence the coordinates of a generical vector $(x,y)$ in $\beta$ is:
+$$\begin{align*}
+[(x,y)]_{\beta}=\begin{pmatrix}\frac{2x-y}{3}\\ \frac{2y-x}{3}\end{pmatrix}
+\end{align*}$$
+Finding every image in $\beta$ coordinates:
+$$\begin{align*}
+[(2,2)]_{\beta}&= \begin{pmatrix} \frac{2}{3} \\ \frac{2}{3} \end{pmatrix}\\
+[(2,0)]_{\beta}&= \begin{pmatrix} \frac{4}{3}\\ \frac{-2}{3} \end{pmatrix}\\
+[(3,1)]_\beta &= \begin{pmatrix} \frac{5}{3} \\ \frac{-1}{3} \end{pmatrix}
+\end{align*}$$
+Therefore:
+$$\begin{align*}
+[S]^{\alpha}_{\beta}=\frac{1}{3} \begin{pmatrix}
+2 & 4 & 5\\
+2 & -2 & 1
+\end{pmatrix}
+\end{align*}$$
+and:
+$$\begin{align*}
+[S(v)]_{\beta}&= [S]^{\alpha}_{\beta}\cdot [v]_{\beta}\\
+&= \frac{1}{3}\begin{pmatrix}2 & 4 & 5\\
+2 & -2 & -1\end{pmatrix} \begin{pmatrix}2\\-4\\3\end{pmatrix}\\
+&= \begin{pmatrix}1\\3\end{pmatrix}
+\end{align*}$$
+$\rm{Q.E.D}$.
