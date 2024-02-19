@@ -13,4 +13,4 @@ $$\begin{align*}
 A \subset B \land B \subset C &\implies A \subset C\\
 a \mid b \land b \mid c &\implies a \mid c\\
 a \lt b \land b \lt c &\implies a\lt c
-\end{align*}$$.
+\end{align*}$$
