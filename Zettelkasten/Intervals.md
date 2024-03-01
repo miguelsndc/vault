@@ -2,7 +2,6 @@
 tags:
   - intervals
 date: 2023-09-14
-"
 pages: 6
 aliases:
   - interval

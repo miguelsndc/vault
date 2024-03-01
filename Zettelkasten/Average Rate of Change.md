@@ -2,7 +2,6 @@
 tags:
   - functions
 date: 2023-10-05
-"
 page: 184
 aliases:
   - rate of change
