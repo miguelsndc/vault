@@ -10,13 +10,15 @@ g'(x) =3x^{2}-4x+1\\
 \end{align*}$$
 Set $g'(x) = 0$ and solve for $x$, which gives $x'=1$ and $x'' = \frac{1}{3}$. Since:
 $$\begin{align*}
-\lim_{x\rightarrow -\infty} g'(x)&= \infty\\
-\lim_{x\rightarrow +\infty} g'(x)&= \infty
+f'(0)&= 1 \gt0\\
+f(\frac{1}{2})&= -\frac{3}{4}\lt 0\\ 
+f(2)&= 5 \gt 0
 \end{align*}$$
 We see that:
 $$\begin{align*}
 \begin{cases}
 g'(x) \gt 0 \;\forall x \in \left(-\infty, \frac{1}{3}\right)\cup(1, \infty)\\
-g'(x) \lt 0
+g'(x) \lt 0 \; \forall x \in (\frac{1}{3},1)
 \end{cases}
 \end{align*}$$
+Therefore, $g$ is [[Increasing and Decreasing intervals|strictly increasing]] in $\left(-\infty, \frac{1}{3}\right)\cup(1, \infty)$, and [[Increasing and Decreasing intervals|strictly decreasing]] in $(\frac{1}{3}, 1)$.
