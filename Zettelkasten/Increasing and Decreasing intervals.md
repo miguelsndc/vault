@@ -1,5 +1,6 @@
 ---
 tags: functions, derivatives
+aliases: increasing, decreasing, strictly increasing, strictly decreasing, rate of change
 ---
 The growth of [[Functions]] can be described by the [[Derivative Definition|derivatives]], Let $f$ be [[Differentiability and Continuity|differentiable]] on a interval $(a,b)$.
 - $f$ is  ***strictly** increasing* if $s \lt t \implies f(s) \lt f(t)$ 
