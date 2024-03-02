@@ -6,3 +6,4 @@ Let $f$ be [[Differentiability and Continuity|differentiable]] and [[Differentia
 Let $T(x) = f(p) + f'(p)(x-p)$.
 - $f$ is *concave up* if $f(x) > T(x)$ for any $x,p \in I$ with $x\ne p$.
 - $f$ is *concave down* if $f(x) \lt T(x)$ for any $x,p \in I$ with $x \ne p$. 
+Concavity can be found through the [[Second Derivative Test]].

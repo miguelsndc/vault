@@ -4,6 +4,7 @@ tags: functions, derivatives
 Let $f$ be a [[Functions in Discrete Math|function]] [[Differentiability and Continuity|differentiable]] up to $2$nd order on some [[Intervals|interval]] $I$.
 - If $f''(x) \gt 0$ in $I$, then $f$ is [[Concavity|concave up]] in $I$
 - If $f''(x) \lt 0$ in $I$, then $f$ is [[Concavity|concave down]] in $I$.
+[[Inflexion Points]] can be found through setting $f''(x)$ to $0$ and finding points where $f''$ either equals $0$ or does not exist, once found, one can test points *within those intervals* and the **sign of those points** will determine the sign for the whole interval. That's the second derivative test.
 ## Proof
 Let $p$ be a [[Real Numbers|real]] in $I$, we must prove that for any $x \in I$, $x\ne p$:
 $$\begin{align*}
@@ -24,3 +25,6 @@ g'(x) \gt 0 \text{ for } x \gt p\\
 g'(x) \lt 0 \text{ for } x \lt p\\
 \end{cases}
 \end{align*}$$
+it follows that $g$ is [[Increasing and Decreasing intervals|strictly decreasing]] in $\{x \in I \mid x \lt p\}$ and [[Increasing and Decreasing intervals|strictly decreasing]] in $\{x \in I \mid x \gt p\}$, since $g(p) = 0$, this results in $g(x) \gt 0$ for all $x \in I \; x \ne p$.
+
+The other proof is analogous.
