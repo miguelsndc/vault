@@ -2,7 +2,6 @@
 tags:
   - functions
 date: 2023-09-30
-"
 page: 176
 aliases:
   - function
