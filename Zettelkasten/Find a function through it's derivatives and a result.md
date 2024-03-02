@@ -11,5 +11,7 @@ y(0)=1
 \end{align*}$$
 *Find $y=y(x)$*
 $$\begin{align*}
-\frac{dy}{dx}=2t-1 \iff y(x)=\int 2t-1\;dt
-\end{align*}
+\frac{dy}{dx}=2t-1 \iff y(x)=\int 2t-1\;dt=t^{2}-t+C\\
+\end{align*}$$
+Also $y(0)=1 \iff C=1$, therefore $y(x)=t^{2}-t+1$.
+This is extremely useful in some physics problems.
