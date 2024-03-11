@@ -1,4 +1,5 @@
 ---
+
 tags: derivatives
 ---
 If $f$ is [[Differentiability and Continuity|continuous]] on $[a,b]$ and [[Differentiability and Continuity|differentiable]] on $(a,b)$, then there will be at least one $c \in (a,b)$ such that:
