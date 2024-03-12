@@ -23,4 +23,20 @@ a-b &= 3(q+t)
 ## Grafo
 Listando os pares:
 1. $(i,i), i = 2,3,4,5,6,7,8$ e $(2,5),(5,2),(3,6),(6,3),(4,7),(7,4),(5,8),(8,5), (8,2), (2,8)$.
+
 ![[grafo_1_.excalidraw]]
+
+$\text{2 Questão}$
+
+- *Reflexiva e simétrica, mas não transitiva*;
+$S = \{1,2,3\}$
+$R = \{(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)\}$
+$R$ não é transitiva pois $(1,3) \notin R$.
+- *Não reflexiva nem simétrica, mas transitiva*;
+$S=\{1,2,3\}$
+$R= \{(1,2),(2,3), (1,3)\}$
+$R$ não é reflexiva pois $(1,1) \notin R$, e $R$ não é simétrica pois $(2,1) \notin R$.
+- *Reflexiva mas não simétrica nem transitiva*
+$S = \{1,2,3\}$
+$R = \{(1,1), (2,2), (3,3), (1,2), (2,3)\}$.
+$R$ não é simétrica pois $(2,1) \notin R$ e nem transitiva po
