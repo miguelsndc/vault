@@ -87,7 +87,7 @@ $\text{c)}$ A Classe de equivalência de $\frac{1}{2}$ são todos os pares $(\fr
 - $q=\frac{-5}{2} \implies \frac{1}{2}-\left(- \frac{5}{2} \right)= \frac{6}{2}=3$
 - $q = 2 \implies \frac{1}{2}- \frac{4}{2}= \frac{-3}{2}$ 
 - $q = \frac{7}{8} \implies \frac{1}{2} -  \frac{7}{8} = \frac{-3}{8}$ 
-Precisamos de um número ímpar com denominador $2$ para completar um inteiro, veja:
+Precisamos de um número ímpar com denominador $2$ para completar um inteiro:
 Seja $\frac{m}{2} \in \mathbb{R}$, com $m \in \mathbb{Z}$ e $m$ ímpar. logo $m= 2k+1$ para algum $k \in \mathbb{Z}$.
 $$
 \begin{align*}
