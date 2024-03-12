@@ -65,7 +65,7 @@ Temos que o fecho transitivo de $R$ é: $R \cup \{(A,C), (A,E), (B,A), (B,B), (B
 ____
 $\text{5 Questão}$
 $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
-## *Provando que a relação é de equivalência:*
+$\text{a)}$ ## *Provando que a relação é de equivalência:*
 - Reflexividade:
   Seja $a \in R$, então $(a,a) \in R \iff a-a \in \mathbb{Z}$, como $a-a=0$ e $0 \in \mathbb{Z}$, $(a,a) \in R$.
   Portanto, $R$ é reflexiva.
@@ -74,18 +74,28 @@ $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
 - Transitividade
   Seja $(a,c) \in R$ tal que $a-c = x,\;\; x \in \mathbb{Z}$ e $(c,b) \in R$ tal que $c-b = y, \;\; y \in \mathbb{Z}$. Somando as duas expressões temos: $(a-c)+(c-b) = a-b = x + y$. Como $x+y \in \mathbb{Z}$, $(a,b) \in R$logo $R$ é transitiva.
 
-A Classe de equivalencia de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
+$\text{b)}$ A Classe de equivalencia de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
 - $s = -1 \implies 1-(-1) = 2$
 - $s = 1 \implies 1- 1 = 0$
 - $s =0 \implies 1-0 = 1$
 Contanto que $s \in \mathbb{Z}$, $1- (-s) = 1 + s \in \mathbb{Z}$, e $1-s \in \mathbb{Z}$
 Portanto $[1]_{R} = \mathbb{Z}$.
 
-A Classe de equivalência de $\frac{1}{2}$ são todos os pares $(\frac{1}{2}, q)$, tal que $\frac{1}{2}-q \in \mathbb{Z}$, Note que:
+$\text{c)}$ A Classe de equivalência de $\frac{1}{2}$ são todos os pares $(\frac{1}{2}, q)$, tal que $\frac{1}{2}-q \in \mathbb{Z}$, Note que:
 - $q=0 \implies \frac{1}{2}-0 = \frac{1}{2}$, sabemos logo que $0 \notin [\frac{1}{2}]_{R}$.
 - $q=\frac{3}{2} \implies \frac{1}{2} - \frac{3}{2} = \frac{-2}{2}=-1$.
 - $q=\frac{-5}{2} \implies \frac{1}{2}-\left(- \frac{5}{2} \right)= \frac{6}{2}=3$
 - $q = 2 \implies \frac{1}{2}- \frac{4}{2}= \frac{-3}{2}$ 
 - $q = \frac{7}{8} \implies \frac{1}{2} -  \frac{7}{8} = \frac{-3}{8}$ 
-Precisamos de um número com denominador $2$ para completar um inteior
-Seja $m \in \mathbb{Z}$, com $m$ ímpar.
+Precisamos de um número ímpar com denominador $2$ para completar um inteiro, veja:
+Seja $\frac{m}{2} \in \mathbb{R}$, com $m \in \mathbb{Z}$ e $m$ ímpar. logo $m= 2k+1$ para algum $k \in \mathbb{Z}$.
+$$
+\begin{align*}
+\frac{m}{2} + \frac{1}{2}&= n\\
+\frac{2k+1}{2} + \frac{1}{2}&= n\\
+\frac{2k+2}{2}&= n\\
+\frac{2(k+1)}{2} &= n\\
+k+1 &= n 
+\end{align*}
+$$
+Como $k \in \mathbb{Z}$, $k+1$ também pertence aos inteiros, portanto, a classe de equivalência de $\frac{1}{2}$ é $[\frac{1}{2} ]_{R} = \{\cdots, \frac{-3}{2}, \frac{-1}{2}, \frac{1}{2}, \frac{3}{2}, \frac{5}{2}, \cdots\}$, ou $\{\frac{m}{2} \text{ com }m \in \mathbb{Z} \mid m \text{ é impar e diferente de zero}\}$.
