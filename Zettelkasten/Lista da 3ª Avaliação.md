@@ -67,5 +67,14 @@ $\text{5 Questão}$
 $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
 ## *Provando que a relação é de equivalência:*
 - Reflexividade:
-  Seja $a \in R$, então $(a,a) \in R \iff a-a \in \mathbb{Z}$, porém como $a-a=0$ e $0 \in \mathbb{Z}$, $(a,a) \in R$.
+  Seja $a \in R$, então $(a,a) \in R \iff a-a \in \mathbb{Z}$, como $a-a=0$ e $0 \in \mathbb{Z}$, $(a,a) \in R$.
   Portanto, $R$ é reflexiva.
+- Simetria: 
+  Seja $(a,b) \in R$, com $a-b = n, \;\; n \in \mathbb{Z}$. então $(b,a) \implies b-a = -n$, como $-n \in \mathbb{Z}$, $R$ é simétrica.
+- Transitividade
+  Seja $(a,c) \in R$ tal que $a-c = x,\;\; x \in \mathbb{Z}$ e $(c,b) \in R$ tal que $c-b = y, \;\; y \in \mathbb{Z}$. Somando as duas expressões temos: $(a-c)+(c-b) = a-b = x + y$. Como $x+y \in \mathbb{Z}$, $(a,b) \in R$logo $R$ é transitiva.
+
+A Classe de equivalencia de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
+- $1-(-1) = 2$
+- $1- 1 = 0$
+- $1-0 = 1$
