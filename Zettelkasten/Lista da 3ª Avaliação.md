@@ -22,4 +22,5 @@ a-b &= 3(q+t)
 3. Portanto $(a,b) \in R$ e $R$ é transitiva, consequentemente, $R$ é uma relação de equivalência.
 ## Grafo
 Listando os pares:
-1. $(a_{i},a-), $
+1. $(i,i), i = 2,3,4,5,6,7,8$ e $(2,5),(5,2),(3,6),(6,3),(4,7),(7,4),(5,8),(8,5), (8,2), (2,8)$.
+![[grafo_1_.excalidraw]]
