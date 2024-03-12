@@ -55,9 +55,17 @@ Logo o fecho transitivo é:$R \cup \{(1,1), (1,3),(1,4),(2,2),(2,4),(3,4), (3,2)
 ___
 $\text{4 Questão}$
 $S={A,B,C,D,E}$
-Pelo grafo, a relação $R$ é $R= \{(A,A), (A,D), (A,B), (B,E), (B,C), (C,C), (C,B), (C,E), (D,E), (E,E), (E,A), (E,C), (E,D)\}$Portanto o fecho transitivo de $R$ é:
+Pelo grafo, a relação $R$ é $R= \{(A,A), (A,D), (A,B), (B,E), (B,C), (C,C), (C,B), (C,E), (D,E), (E,E), (E,A), (E,C), (E,D)\}$Com:
 $A:A,B,C,D,E$
 $B:C,E,A,B,D$
 $C:B,C,E,A,D$
 $D:E,A,B,C,D$
 $E:A,D,E,B,C$
+Temos que o fecho transitivo de $R$ é: $R \cup \{(A,C), (A,E), (B,A), (B,B), (B,D), (C,E),(C,A),(C,D),(D,A),(D,B),(D,C),(D,D),(E,B),(E,C)\}$
+____
+$\text{5 Questão}$
+$R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
+## *Provando que a relação é de equivalência:*
+- Reflexividade:
+  Seja $a \in R$, então $(a,a) \in R \iff a-a \in \mathbb{Z}$, porém como $a-a=0$ e $0 \in \mathbb{Z}$, $(a,a) \in R$.
+  Portanto, $R$ é reflexiva.
