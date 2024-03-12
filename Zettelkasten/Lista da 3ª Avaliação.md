@@ -75,6 +75,17 @@ $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
   Seja $(a,c) \in R$ tal que $a-c = x,\;\; x \in \mathbb{Z}$ e $(c,b) \in R$ tal que $c-b = y, \;\; y \in \mathbb{Z}$. Somando as duas expressões temos: $(a-c)+(c-b) = a-b = x + y$. Como $x+y \in \mathbb{Z}$, $(a,b) \in R$logo $R$ é transitiva.
 
 A Classe de equivalencia de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
-- $1-(-1) = 2$
-- $1- 1 = 0$
-- $1-0 = 1$
+- $s = -1 \implies 1-(-1) = 2$
+- $s = 1 \implies 1- 1 = 0$
+- $s =0 \implies 1-0 = 1$
+Contanto que $s \in \mathbb{Z}$, $1- (-s) = 1 + s \in \mathbb{Z}$, e $1-s \in \mathbb{Z}$
+Portanto $[1]_{R} = \mathbb{Z}$.
+
+A Classe de equivalência de $\frac{1}{2}$ são todos os pares $(\frac{1}{2}, q)$, tal que $\frac{1}{2}-q \in \mathbb{Z}$, Note que:
+- $q=0 \implies \frac{1}{2}-0 = \frac{1}{2}$, sabemos logo que $0 \notin [\frac{1}{2}]_{R}$.
+- $q=\frac{3}{2} \implies \frac{1}{2} - \frac{3}{2} = \frac{-2}{2}=-1$.
+- $q=\frac{-5}{2} \implies \frac{1}{2}-\left(- \frac{5}{2} \right)= \frac{6}{2}=3$
+- $q = 2 \implies \frac{1}{2}- \frac{4}{2}= \frac{-3}{2}$ 
+- $q = \frac{7}{8} \implies \frac{1}{2} -  \frac{7}{8} = \frac{-3}{8}$ 
+Precisamos de um número com denominador $2$ para completar um inteior
+Seja $m \in \mathbb{Z}$, com $m$ ímpar.
