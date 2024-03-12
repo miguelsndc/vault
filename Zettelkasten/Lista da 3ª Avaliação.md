@@ -46,3 +46,18 @@ $S = \{1,2,3,4,5\}$ e $R$ em $S$ com $R = \{(1,2), (2,1), (2,3), (3,4) (4,1), (5
 - Fecho Reflexivo de $R$: $R \cup \{(1,1), (2,2), (3,3), (4,4), (5,5)\}$
 - Fecho Simétrico de $R$: $R \cup$ $\{(3,2), (4,3), (1,4), (1,5),(4,5)\}$.
 - Fecho Transitivo:
+$1:2,1,3,4$
+$2:1,3,2,4$
+$3:4,1,2,3$
+$4:1,2,3,4$
+$5:1,4,2,3$
+Logo o fecho transitivo é:$R \cup \{(1,1), (1,3),(1,4),(2,2),(2,4),(3,4), (3,2), (3,3), (4,2), (4,3), (4,4), (5,2),(5,3)\}$.
+___
+$\text{4 Questão}$
+$S={A,B,C,D,E}$
+Pelo grafo, a relação $R$ é $R= \{(A,A), (A,D), (A,B), (B,E), (B,C), (C,C), (C,B), (C,E), (D,E), (E,E), (E,A), (E,C), (E,D)\}$Portanto o fecho transitivo de $R$ é:
+$A:A,B,C,D,E$
+$B:C,E,A,B,D$
+$C:B,C,E,A,D$
+$D:E,A,B,C,D$
+$E:A,D,E,B,C$
