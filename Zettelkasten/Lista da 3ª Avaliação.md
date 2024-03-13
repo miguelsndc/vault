@@ -131,10 +131,13 @@ O Primeiro par é isormorfo.
 O segundo grafo não é isomorfo pois o primeiro possui dois vértices de grau $2$ e o outro apenas $1.$
 ___
 $\text{8 Questão}$
-Suponha um grafo $G$, conexo, tal que $G$ possui $n \ge 3$ vértices e um número de arestas **menor ou igual a** $\frac{(n-1)(n-2)}{2}$. Suponha um caminho: $(e_{0}, e_{1}, \cdots, e_{n-1})$ que percorre todas as arestas de $G$ e os vértices $v_{1},v_{2},\cdots,v_{n}$ Como $G$ é conexo, isso é possível e será alcançado após um número finito de passos. Note que para isso ser necessário, $G$ precisa pelo menos $n-1$ arestas. Pois há uma aresta entre $(v_{1}, v_{2})$, uma aresta entre $(v_{2}, v_{3})$, até $v_{n-1}, v_{n}$, sendo $n-1$ vezes no total.
+Suponha por contradição um grafo $G$, conexo, tal que $G$ possua $n \ge 3$ vértices e um número de arestas **menor ou igual a** $\frac{(n-1)(n-2)}{2}$. Suponha um caminho: $(e_{0}, e_{1}, \cdots, e_{m})$ que percorre todas as arestas de $G$ e os vértices $v_{1},v_{2},\cdots,v_{n}$. Como $G$ é conexo, isso é possível e será alcançado após um número finito $m$ de passos. Note que para isso ser necessário, $G$ precisa ter pelo menos $n-1$ arestas, pois há uma aresta entre $(v_{1}, v_{2})$, uma aresta entre $(v_{2}, v_{3})$, até $v_{n-1}, v_{n}$, sendo $n-1$ vezes no total. Logo, $\frac{(n-1)(n-2)}{2}$ precisa ser maior ou igual a $n-1$ para $n \ge 3$. Vamos checar:
 Para $n=3$:
 $$
 \begin{align*}
-n-1 &=  \frac{(n-1)(n-2)}{2}\\
-n-1 = \
+n-1 &\le  \frac{(n-1)(n-2)}{2}\\
+n-1 &\le \frac{n^{2}-3n+2}{2}\\
+2&\le \frac{9-9+2}{2}=0\\
+2 &\le 0
 \end{align*}$$
+Como o caso ba
