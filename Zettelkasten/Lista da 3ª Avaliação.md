@@ -108,4 +108,15 @@ Diagrama de Hasse:
 - *a)* maximais: $100$; minimais: $1$
 - *b)* existe um máximo: $100$; existe um mínimo: $1$
 - *c)* Limitantes superiores de $\{10,25\} \implies \{100\}$ 
-- 
+- *d)* Supremo: $100$
+- *e)* Limitantes inferiores de $\{10 ,100\}: \{1,2,4,5,10\}$
+- *f)* Ínfimo de $\{10, 100\} \implies 10$
+___
+$\text{7 Questão}$
+Primeiro par:
+![[Drawing 2024-03-13 20.01.36.excalidraw]]
+Checandos as invariantes, temos:
+- Ambos **não** são bipartidos;
+- Possuem $5$ vértices e $6$ arestas;
+- Possuem $2$ vértices de grau $3$ e $3$ de grau $2$;
+Então a função $\phi(G) \rightarrow H$ 
