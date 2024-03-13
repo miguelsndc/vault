@@ -136,8 +136,15 @@ Para $n=3$:
 $$
 \begin{align*}
 n-1 &\le  \frac{(n-1)(n-2)}{2}\\
-n-1 &\le \frac{n^{2}-3n+2}{2}\\
-2&\le \frac{9-9+2}{2}=0\\
-2 &\le 0
+n-1 &\le (2)\frac{1}{2}\\
+2&\le 1
 \end{align*}$$
-Como o caso ba
+Bom, o caso base falha, mas pelo bem dos deuses da indução, seja $n = k + 1:$
+$$\begin{align*}
+(k+1)-1 &\le \frac{((k+1)-1)((k+1)-2)}{2}\\
+k&\le \frac{k(k-1)}{2}\\
+2k&\le k(k-1)\\
+2k &\le k^{2}-k\\
+2k+k &\le k^{2}\\
+2(k+1)&\le k^{2}
+\end{align*}$$
