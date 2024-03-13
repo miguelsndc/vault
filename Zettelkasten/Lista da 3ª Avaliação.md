@@ -131,20 +131,4 @@ O Primeiro par é isormorfo.
 O segundo grafo não é isomorfo pois o primeiro possui dois vértices de grau $2$ e o outro apenas $1.$
 ___
 $\text{8 Questão}$
-Suponha por contradição um grafo $G$, conexo, tal que $G$ possua $n \ge 3$ vértices e um número de arestas **menor ou igual a** $\frac{(n-1)(n-2)}{2}$. Suponha um caminho: $(e_{0}, e_{1}, \cdots, e_{m})$ que percorre todas as arestas de $G$ e os vértices $v_{1},v_{2},\cdots,v_{n}$. Como $G$ é conexo, isso é possível e será alcançado após um número finito $m$ de passos. Note que para isso ser necessário, $G$ precisa ter pelo menos $n-1$ arestas, pois há uma aresta entre $(v_{1}, v_{2})$, uma aresta entre $(v_{2}, v_{3})$, até $v_{n-1}, v_{n}$, sendo $n-1$ vezes no total. Logo, $\frac{(n-1)(n-2)}{2}$ precisa ser maior ou igual a $n-1$ para $n \ge 3$. Vamos checar:
-Para $n=3$:
-$$
-\begin{align*}
-n-1 &\le  \frac{(n-1)(n-2)}{2}\\
-n-1 &\le (2)\frac{1}{2}\\
-2&\le 1
-\end{align*}$$
-Bom, o caso base falha, mas pelo bem dos deuses da indução, seja $n = k + 1:$
-$$\begin{align*}
-(k+1)-1 &\le \frac{((k+1)-1)((k+1)-2)}{2}\\
-k&\le \frac{k(k-1)}{2}\\
-2k&\le k(k-1)\\
-2k &\le k^{2}-k\\
-2k+k &\le k^{2}\\
-2(k+1)&\le k^{2}
-\end{align*}$$
+Suponha por contradição um grafo $G$ não conexo tal que $G$ possua $n \ge 3$ vértices e um número de arestas maior do que $\frac{(n-1)(n-2)}{2}$. o número mínimo de arestas que um grafo conexo deve possuir é $n-1$
