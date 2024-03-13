@@ -91,11 +91,21 @@ Precisamos de um número ímpar com denominador $2$ para completar um inteiro:
 Seja $\frac{m}{2} \in \mathbb{R}$, com $m \in \mathbb{Z}$ e $m$ ímpar. logo $m= 2k+1$ para algum $k \in \mathbb{Z}$.
 $$
 \begin{align*}
-\frac{m}{2} + \frac{1}{2}&= n\\
-\frac{2k+1}{2} + \frac{1}{2}&= n\\
-\frac{2k+2}{2}&= n\\
-\frac{2(k+1)}{2} &= n\\
-k+1 &= n 
+\frac{m}{2} + \frac{1}{2}&\\
+\frac{2k+1}{2} + \frac{1}{2}&\\
+\frac{2k+2}{2}&\\
+\frac{2(k+1)}{2} &\\
+k+1& 
 \end{align*}
 $$
 Como $k \in \mathbb{Z}$, $k+1$ também pertence aos inteiros, portanto, a classe de equivalência de $\frac{1}{2}$ é $[\frac{1}{2} ]_{R} = \{\cdots, \frac{-3}{2}, \frac{-1}{2}, \frac{1}{2}, \frac{3}{2}, \frac{5}{2}, \cdots\}$, ou $\{\frac{m}{2} \text{ com }m \in \mathbb{Z} \mid m \text{ é impar e diferente de zero}\}$.
+___
+$\text{6 Questão}$
+$D_{100} = \{1,2,4,5,10,20,25,50,100\}$
+Diagrama de Hasse:
+![[hasse.excalidraw]]
+
+- *a)* maximais: $100$; minimais: $1$
+- *b)* existe um máximo: $100$; existe um mínimo: $1$
+- *c)* Limitantes superiores de $\{10,25\} \implies \{100\}$ 
+- 
