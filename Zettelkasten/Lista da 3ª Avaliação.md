@@ -119,4 +119,16 @@ Checandos as invariantes, temos:
 - Ambos **não** são bipartidos;
 - Possuem $5$ vértices e $6$ arestas;
 - Possuem $2$ vértices de grau $3$ e $3$ de grau $2$;
-Então a função $\phi(G) \rightarrow H$ 
+Então a função $\phi(G) \rightarrow H$ onde $G$ é o grafo da esquerda e $H$ o da direita é:
+$$\begin{align*}
+\phi(G) \rightarrow W=\begin{pmatrix}
+A & B & C & D & E\\
+3 & 1 & 2 & 4 & 1
+\end{pmatrix}
+\end{align*}$$
+O Primeiro par é isormorfo.
+
+O segundo grafo não é isomorfo pois o primeiro possui dois vértices de grau $2$ e o outro apenas $1.$
+___
+$\text{8 Questão}$
+Suponha um grafo $G$, conexo, tal que $G$ possui $n$ vértices e um número de arestas **menor ou igual a** $\frac{(n-1)(n-2)}{2}$. Suponha um caminho: $(e_{0}, e_{1},)$
