@@ -1,4 +1,5 @@
 $\text{1 Questão}$:
+
 $A = \{2,3,4,5,6,7,8\}$.
 $xRy \iff x-y =3n$ para $n \in \mathbb{Z}$.
 ## *Verificando se é uma Relação de Equivalência*:
@@ -29,41 +30,57 @@ ___
 $\text{2 Questão}$
 
 - *Reflexiva e simétrica, mas não transitiva*;
+
 $S = \{1,2,3\}$
 $R = \{(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)\}$
 $R$ não é transitiva pois $(1,3) \notin R$.
+
 - *Não reflexiva nem simétrica, mas transitiva*;
+
 $S=\{1,2,3\}$
 $R= \{(1,2),(2,3), (1,3)\}$
 $R$ não é reflexiva pois $(1,1) \notin R$, e $R$ não é simétrica pois $(2,1) \notin R$.
+
 - *Reflexiva mas não simétrica nem transitiva*
+
 $S = \{1,2,3\}$
 $R = \{(1,1), (2,2), (3,3), (1,2), (2,3)\}$.
 $R$ não é simétrica pois $(2,1) \notin R$ e nem transitiva pois $(1,3) \notin R$.
 ___
 $\text{3 Questão}$
+
 $S = \{1,2,3,4,5\}$ e $R$ em $S$ com $R = \{(1,2), (2,1), (2,3), (3,4) (4,1), (5,1),(5,4)\}$.
 - Fecho Reflexivo de $R$: $R \cup \{(1,1), (2,2), (3,3), (4,4), (5,5)\}$
 - Fecho Simétrico de $R$: $R \cup$ $\{(3,2), (4,3), (1,4), (1,5),(4,5)\}$.
 - Fecho Transitivo:
 $1:2,1,3,4$
+
 $2:1,3,2,4$
+
 $3:4,1,2,3$
+
 $4:1,2,3,4$
+
 $5:1,4,2,3$
 Logo o fecho transitivo é:$R \cup \{(1,1), (1,3),(1,4),(2,2),(2,4),(3,4), (3,2), (3,3), (4,2), (4,3), (4,4), (5,2),(5,3)\}$.
 ___
 $\text{4 Questão}$
+
 $S={A,B,C,D,E}$
 Pelo grafo, a relação $R$ é $R= \{(A,A), (A,D), (A,B), (B,E), (B,C), (C,C), (C,B), (C,E), (D,E), (E,E), (E,A), (E,C), (E,D)\}$Com:
-$A:A,B,C,D,E$
+$A:A,B,C,D,E$ 
+
 $B:C,E,A,B,D$
+
 $C:B,C,E,A,D$
+
 $D:E,A,B,C,D$
+
 $E:A,D,E,B,C$
 Temos que o fecho transitivo de $R$ é: $R \cup \{(A,C), (A,E), (B,A), (B,B), (B,D), (C,E),(C,A),(C,D),(D,A),(D,B),(D,C),(D,D),(E,B),(E,C)\}$
 ____
 $\text{5 Questão}$
+
 $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
 ## *Provando que a relação é de equivalência:*
 - **Reflexividade**:
@@ -101,6 +118,7 @@ $$
 Como $k \in \mathbb{Z}$, $k+1$ também pertence aos inteiros, portanto, a classe de equivalência de $\frac{1}{2}$ é $[\frac{1}{2} ]_{R} = \{\cdots, \frac{-3}{2}, \frac{-1}{2}, \frac{1}{2}, \frac{3}{2}, \frac{5}{2}, \cdots\}$, ou $\{\frac{m}{2} \text{ com }m \in \mathbb{Z} \mid m \text{ é impar e diferente de zero}\}$.
 ___
 $\text{6 Questão}$
+
 $D_{100} = \{1,2,4,5,10,20,25,50,100\}$
 Diagrama de Hasse:
 ![[hasse.excalidraw]]
@@ -113,6 +131,7 @@ Diagrama de Hasse:
 - *f)* Ínfimo de $\{10, 100\} \implies 10$
 ___
 $\text{7 Questão}$
+
 Primeiro par:
 ![[Drawing 2024-03-13 20.01.36.excalidraw]]
 Checandos as invariantes, temos:
@@ -131,6 +150,7 @@ O Primeiro par é isormorfo.
 O segundo grafo não é isomorfo pois o primeiro possui dois vértices de grau $2$ e o outro apenas $1.$
 ___
 $\text{8 Questão}$
+
 Suponha por contradição um grafo $G$ não conexo tal que $G$ possua $n \ge 3$ vértices e um número de arestas maior que $\frac{(n-1)(n-2)}{2}$. o número mínimo de arestas que um grafo conexo deve possuir é $n-1$. Portanto, devemos *provar ou desprovar* que $\frac{(n-1)(n-2)}{2} \lt n-1$ para $n \ge 3$
 Para $n = 3$
 $$\begin{align*}
@@ -149,7 +169,8 @@ k^{2}&\lt 3k
 O que é sempre falso para $n \ge 3$. Portanto $G$ **deve** ser conexo.
 ___
 $\text{9 Questão}$
-Estamos falando de um grafo com $15$ vértices, *(os indivíduos)*, onde cada um tem exatamente três amigos. Sendo a amizade uma aresta entre dois vértices representado um amigo, Cada vértice tem grau $3$, como há $15$ vértices, pelo teorema do aperto de mão:
+
+Estamos falando de um grafo com $15$ vértices, *(os indivíduos)*, onde cada um tem exatamente três amigos. Sendo a amizade uma aresta entre dois vértices, dada vértice tem grau $3$, como há $15$ vértices, pelo teorema do aperto de mão:
 $$\begin{align*}
 2\cdot|E| &= 45\\
 |E| &= \frac{45}{2}
@@ -157,6 +178,7 @@ $$\begin{align*}
 O grafo teria que possuir "$\frac{45}{2}$" arestas, o que é impossível, portanto este grafo não existe.
 ___
 $\text{10 Questão}$
+
 ![[Pasted image 20240313212650.png]]
 - Não possui circuito euleriano pois $c$ é ímpar.
 - Possui caminho euleriano pois apenas $c$ e $a$ são ímpares, o caminho é, representado as arestas com pares: $(a,e), (e,b), (b,a), (a,f), (f,e), (e,c), (c,f), (f,d), (d,c)$.
@@ -173,4 +195,4 @@ ___
 
 
 
-*Desculpa pela formatação ruim, não consegui arrumar, o Obsidian não foi feito pra pdf's.*
+*Desculpa pela formatação ruim, não consegui arrumar, o Obsidian não foi feito pra pdf's. :C*
