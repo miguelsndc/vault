@@ -8,7 +8,7 @@ $xRy \iff x-y =3n$ para $n \in \mathbb{Z}$.
    Seja $(a,b)$ tal que $a-b = 3n$ e $a \gt b$. 
    Assume-se $a \ne b$ pois se $a = b$, pela reflexividade, tem-se que $(a,a) \in R$.
    Portanto o bar $(b,a)$ será tal que $b - a = -3n$, que é igual a $3(-n)$. Logo, para todo $n$ que satisfaz $(a,b)$, $-n$ satisfará $(b,a)$. Caso assumíssemos $a \lt b$, a demonstração é análoga, com a conclusão invertida.
-3. **Transitividade**
+3. **Transitividade**:
    Seja $(a,c) \in R$ e $(c,b) \in R$. Logo temos as seguintes expressões
 $$\begin{align*}
 a - c&= 3q, \;\; q \in \mathbb{Z}\\
@@ -65,16 +65,16 @@ Temos que o fecho transitivo de $R$ é: $R \cup \{(A,C), (A,E), (B,A), (B,B), (B
 ____
 $\text{5 Questão}$
 $R = \{(x,y) \mid x - y \in \mathbb{Z}\}$, relação em $\mathbb{R}$.
-$\text{a)}$ ## *Provando que a relação é de equivalência:*
-- Reflexividade:
+## *Provando que a relação é de equivalência:*
+- **Reflexividade**:
   Seja $a \in R$, então $(a,a) \in R \iff a-a \in \mathbb{Z}$, como $a-a=0$ e $0 \in \mathbb{Z}$, $(a,a) \in R$.
   Portanto, $R$ é reflexiva.
-- Simetria: 
+- **Simetria**: 
   Seja $(a,b) \in R$, com $a-b = n, \;\; n \in \mathbb{Z}$. então $(b,a) \implies b-a = -n$, como $-n \in \mathbb{Z}$, $R$ é simétrica.
-- Transitividade
+- **Transitividade**:
   Seja $(a,c) \in R$ tal que $a-c = x,\;\; x \in \mathbb{Z}$ e $(c,b) \in R$ tal que $c-b = y, \;\; y \in \mathbb{Z}$. Somando as duas expressões temos: $(a-c)+(c-b) = a-b = x + y$. Como $x+y \in \mathbb{Z}$, $(a,b) \in R$logo $R$ é transitiva.
 
-$\text{b)}$ A Classe de equivalencia de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
+$\text{b)}$ A Classe de equivalência de $1$ são todos os pares $(1,s)$ tal que $1 -s \in \mathbb{Z}$. Note que:
 - $s = -1 \implies 1-(-1) = 2$
 - $s = 1 \implies 1- 1 = 0$
 - $s =0 \implies 1-0 = 1$
@@ -169,3 +169,8 @@ $\text{10 Questão}$
 - Não possui caminho euleriano pois existem mais do que dois vértices com grau ímpar: $0,1$ e $7$ por exemplo.
 - Não possui ciclo hamiltoniano pois seria necessário ir e voltar pelo vértice $2$ para alcançar a segunda "porção" do grafo.
 - Caminho hamiltoniano: $0,1,9,3,4,2,6,5,8,7,10$
+___
+
+
+
+*Desculpa pela formatação ruim, não consegui arrumar, o Obsidian não foi feito pra pdf's.*
