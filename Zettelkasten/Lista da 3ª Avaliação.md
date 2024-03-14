@@ -2,13 +2,13 @@ $\text{1 Questão}$:
 $A = \{2,3,4,5,6,7,8\}$.
 $xRy \iff x-y =3n$ para $n \in \mathbb{Z}$.
 ## *Verificando se é uma Relação de Equivalência*:
-1. Reflexividade
+1. **Reflexividade**:
    Seja algum $a \in A$, o par $(a,a) \in R$ se $a-a = 3n$, o que se traduz em $0 = 3n$, e que é verdade para $n=0$, logo $R$ é reflexiva.
-2. Simetria
+2. **Simetria**:
    Seja $(a,b)$ tal que $a-b = 3n$ e $a \gt b$. 
    Assume-se $a \ne b$ pois se $a = b$, pela reflexividade, tem-se que $(a,a) \in R$.
    Portanto o bar $(b,a)$ será tal que $b - a = -3n$, que é igual a $3(-n)$. Logo, para todo $n$ que satisfaz $(a,b)$, $-n$ satisfará $(b,a)$. Caso assumíssemos $a \lt b$, a demonstração é análoga, com a conclusão invertida.
-3. Transitividadade
+3. **Transitividade**
    Seja $(a,c) \in R$ e $(c,b) \in R$. Logo temos as seguintes expressões
 $$\begin{align*}
 a - c&= 3q, \;\; q \in \mathbb{Z}\\
@@ -158,4 +158,14 @@ O grafo teria que possuir "$\frac{45}{2}$" arestas, o que é impossível, portan
 ___
 $\text{10 Questão}$
 ![[Pasted image 20240313212650.png]]
-- Não possui 
+- Não possui circuito euleriano pois $c$ é ímpar.
+- Possui caminho euleriano pois apenas $c$ e $a$ são ímpares, o caminho é, representado as arestas com pares: $(a,e), (e,b), (b,a), (a,f), (f,e), (e,c), (c,f), (f,d), (d,c)$.
+- Ciclo hamiltoniano: $d,c,e,b,a,f,d$
+- Caminho hamiltoniano: $d,c,e,b,a,f$.
+
+![[Pasted image 20240313213247.png]]
+
+- Não possui ciclo euleriano porque o grau de $0$ é ímpar.
+- Não possui caminho euleriano pois existem mais do que dois vértices com grau ímpar: $0,1$ e $7$ por exemplo.
+- Não possui ciclo hamiltoniano pois seria necessário ir e voltar pelo vértice $2$ para alcançar a segunda "porção" do grafo.
+- Caminho hamiltoniano: $0,1,9,3,4,2,6,5,8,7,10$
