@@ -131,18 +131,21 @@ O Primeiro par é isormorfo.
 O segundo grafo não é isomorfo pois o primeiro possui dois vértices de grau $2$ e o outro apenas $1.$
 ___
 $\text{8 Questão}$
-Suponha por contradição um grafo $G$ não conexo tal que $G$ possua $n \ge 3$ vértices e um número de arestas maior do que $\frac{(n-1)(n-2)}{2}$. o número mínimo de arestas que um grafo conexo deve possuir é $n-1$. Portanto, se $\frac{(n-1)(n-2)}{2} \lt n-1$ para $n\ge 3$, $G$ é de fato não conexo.
+Suponha por contradição um grafo $G$ não conexo tal que $G$ possua $n \ge 3$ vértices e um número de arestas maior que $\frac{(n-1)(n-2)}{2}$. o número mínimo de arestas que um grafo conexo deve possuir é $n-1$. Portanto, se $\frac{(n-1)(n-2)}{2} \gt n-1$ para $n\ge 3$, $G$ será conexo, casto cont 
 Para $n = 3$
 $$\begin{align*}
 \frac{(3-1)(3-2)}{2}\lt 2\\
 \frac{2}{2}\lt 2\\
 1 \lt 2
 \end{align*}$$
-Como $G$ tem *mais* do que $\frac{(n-1)(n-2)}{2}$, $G$, então, para $n=3$, tem *pelo menos* $2$ arestas, o que transforma a expressão em $2<2$, o que é falso, mas pelo bem dos deuses da indução:
+Como $G$ tem *mais* do que $\frac{(n-1)(n-2)}{2}$ arestas, $G$, então, para $n=3$, tem *pelo menos* $2$ arestas, o que transforma a expressão em $2<2$, o que é falso, mas pelo bem dos deuses da indução:
 Assuma que é válido para $n=k$, portanto, seja $n = k+1$
 $$\begin{align*}
-\frac{k(k-1)}{2} \lt k \\
-k^{2}-k \lt 2k\\
-k^{2}\lt 3k
+\frac{((k+1)-1)((k+1)-2)}{2} &\lt (k+1)-1\\
+\frac{k(k-1)}{2} &\lt k \\
+k^{2}-k &\lt 2k\\
+k^{2}&\lt 3k
 \end{align*}$$
 O que é falso para $n \ge 3$. Portanto $G$ deve ser conexo.
+___
+$\text{9 Questão}$
