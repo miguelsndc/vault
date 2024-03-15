@@ -46,3 +46,9 @@ $$
 $$
 Solutions are: $\{\frac{1+\sqrt(13)}{2}, \frac{1 - \sqrt(13)}{2} \}$. So this is the eigenvalue [[Sets|set]]. To find the eigenvectors associated, we replace $\lambda$ in the system by these values one by one and find it. However, one can take advantage of [[Matrix Definition|matrices]] .
 ## Matrix Definition
+Suppose $T:V \rightarrow V$ is a [[Linear maps|linear map]]. Let $\alpha$ be a [[Theorems and Proofs for Basis and Dimension|basis]] of $V$. Hence, the matrix $[T]^{\alpha}_{\alpha}$ is a [[Square Matrix]]. A vector $[T(v)]_{\alpha} = [T]^{\alpha}_{\alpha} \cdot [v]_{\alpha}$. Let $A = [T]^{\alpha}_{\alpha}$ and $v = [v]_{\alpha}$. Suppose now $v \ne \vec{0}$ is an eigenvector of $T$ (eigenvector of $A$), therefore:
+$$\begin{align*}
+Av&= \lambda v, \;\;\; \lambda \in \mathbb{Rr}\\
+Av - \lambda v&=  0
+\end{align*}$$
+One might be tempted to facor
