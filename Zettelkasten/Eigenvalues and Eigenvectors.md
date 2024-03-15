@@ -32,9 +32,17 @@ $$\begin{align*}
 \begin{pmatrix}2-\lambda & 1\\
 1 & -1-\lambda\end{pmatrix} \implies
 \begin{pmatrix}
- 
+ 1 & -1-\lambda\\
+0 & (\lambda - 2)(-1 - \lambda)+1 
 \end{pmatrix}
 \end{align*}$$
-$$\begin{align*}
-
-\end{align*}$$
+So, to have infintely many solutions, $T_{2,2}$ needs to equal zero, so:
+$$
+\begin{align*}
+(\lambda -2)(- 1 - \lambda) + 1 &= 0\\
+-\lambda^{2} + \lambda + 3 &= 0\\
+\lambda^{2} - \lambda -3&= 0
+\end{align*}
+$$
+Solutions are: $\{\frac{1+\sqrt(13)}{2}, \frac{1 - \sqrt(13)}{2} \}$. So this is the eigenvalue [[Sets|set]]. To find the eigenvectors associated, we replace $\lambda$ in the system by these values one by one and find it. However, one can take advantage of [[Matrix Definition|matrices]] .
+## Matrix Definition
