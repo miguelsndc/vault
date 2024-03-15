@@ -14,8 +14,27 @@ T(x,y) &= \lambda v\\
 Here we have three unknows, $\lambda$, the eigenvalue, $x$, and, $y$. Treat $\lambda$ as a constant, (it actually is):
 $$\begin{align*}
 (2x+y,x-y) &= \lambda(x,y)\\
-\begin{cases}
+&\begin{cases}
 2x+y&= \lambda x\\
 x-y&= \lambda y
+\end{cases}\\
+&\begin{cases}
+2x+y- \lambda x&= 0\\
+x-y- \lambda y&= 0
+\end{cases}\\
+&\begin{cases}
+(2-\lambda)x+y=0\\
+x+(-1-\lambda)y=0
 \end{cases}
+\end{align*}$$
+Notice we need $v \ne 0$ so it can be an eigenvector, so we **are not interested in systems with unique solutions**, we're gonna solve the system trying to force it to have **infinetely many** solutions:
+$$\begin{align*}
+\begin{pmatrix}2-\lambda & 1\\
+1 & -1-\lambda\end{pmatrix} \implies
+\begin{pmatrix}
+ 
+\end{pmatrix}
+\end{align*}$$
+$$\begin{align*}
+
 \end{align*}$$
