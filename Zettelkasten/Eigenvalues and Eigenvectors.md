@@ -51,4 +51,17 @@ $$\begin{align*}
 Av&= \lambda v, \;\;\; \lambda \in \mathbb{Rr}\\
 Av - \lambda v&=  0
 \end{align*}$$
-One might be tempted to facor
+One might be tempted to factor $v$, however, $\lambda$ is a [[Scalar|scalar]] and $A$ is a [[Matrix Definition|matrix]], we can't do that. However, $Iv = v$, where $I$ is the [[Identity Matrix]], so we can use this little hack to solve our problem:
+$$\begin{align*}
+Av- \lambda v&= 0\\
+Av- \lambda Iv&= 0\\
+v(A-\lambda I) &= 0 
+\end{align*}$$
+$A$ is a $n \times n$ square matrix, then $I$ must be the $n \times n$ identity. And notice this also is a [[Homogeneous System]], and that's exactly the system we want to have infinetly many solutions.
+The matrix $A - \lambda I$ needs to be non-inversible, If it is, then:
+$$\begin{align*}
+P &= 0\\
+P^{-1}P&= P^{-1}\cdot 0\\
+I&= 0
+\end{align*}$$
+And it has unique solutions. One key factor is: if the determinant of a matrix equals zero, it doesn't have an
