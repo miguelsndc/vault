@@ -64,4 +64,42 @@ P &= 0\\
 P^{-1}P&= P^{-1}\cdot 0\\
 I&= 0
 \end{align*}$$
-And it has unique solutions. One key factor is: if the determinant of a matrix equals zero, it doesn't have an
+And it has unique solutions. One key factor is: if the determinant of a matrix equals zero, it doesn't have an inverse. We'll use this restriction to force what we want, see:
+$$\begin{align*}
+A^{-1}A&= I\\
+\det(A^{-1}A)&= \det(I) = 1\\
+\det(A^{-1})\cdot \det(A)&= 1\\
+\det(A^{-1})&= \frac{1}{\det(A)}
+\end{align*}$$
+So, to admit eigenvectors, the determinant must equal zero, so the above expression has no solutions.
+The eigenvectors are the roots of the [[Polynomials|polynomial]] $\det(A-\lambda I)$. This polynomial is called the **characteristic polynomial** of $A$ and of $T$. So, an example is:
+For $T(x,y,z)=(2x-y+z,x-z,3x-y)$ find the eigenvalues/vectors.
+$$\begin{align*}
+[T]^{\epsilon}_{\epsilon}&= \begin{pmatrix}
+2 & -1 & 1 \\
+1 & 0 & -1 \\
+3 & -1 & 0 
+\end{pmatrix}\\
+\begin{pmatrix}
+2 & -1 & 1 \\
+1 & 0 & -1 \\
+3 & -1 & 0 
+\end{pmatrix} - \begin{pmatrix}
+\lambda  & 0 & 0\\
+0 & \lambda & 0\\
+0 & 0 & \lambda
+\end{pmatrix}&\implies \begin{pmatrix}
+2 - \lambda  & -1 & 1\\
+1 & -\lambda & -1\\
+3 & -1 & -\lambda
+\end{pmatrix} 
+\end{align*}$$
+So:
+$$\begin{align*}
+\det(A - \lambda I) =0 \implies \det\begin{pmatrix}
+2 - \lambda  & -1 & 1\\
+1 & -\lambda & -1\\
+3 & -1 & -\lambda
+\end{pmatrix}=0
+\end{align*}$$
+So after calculating determinants with whatever method, the expression becomes $\lambda(\lambda^{2}-2\lambda -3)=0$ , the inner expression can be factored into $(\lambda + 1)(\lambda - 3) = 0$, So the eigenvalues are $\{0, -1, 3\}$. Replace $\lambda$ in the $A - \lambda I$ to find the 

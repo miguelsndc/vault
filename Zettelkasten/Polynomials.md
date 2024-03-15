@@ -2,7 +2,6 @@
 tags:
   - polynomials
 date: 2023-09-14
-"
 page: 25
 aliases:
   - polynomial
