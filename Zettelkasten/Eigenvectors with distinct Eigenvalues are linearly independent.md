@@ -14,4 +14,6 @@ a_{1}(\lambda_{1}- \lambda_{2})v_{1} + a_{2}(\lambda_{2} - \lambda_{2})&= 0
 Since $a_{2}(\lambda_{2} - \lambda_{2}) = 0$, we get $a_{1}(\lambda_{1}- \lambda_{2})v_{1} = 0$. Since $\lambda_{1} \ne \lambda_{2}$ and $v_{1} \ne 0$, it follows that $a_{1} = 0$. From applying $T - \lambda_{1}I$ to the original equation we obtain:
 $$\begin{align*}
 a_{1}(\lambda_{1} - \lambda_{1})v_{1}+ a_{2}(\lambda_{2} - \lambda_{1})v_{2}
-&= 0\end{align*}$$
+&= 0\\
+\end{align*}$$
+From the same reason we see $a_{2}= 0$. So the two vectors are [[Linear (In)dependence.|linearly independent]]. The general case is analogous but way to cumbersome, the main ideas are covered here.
