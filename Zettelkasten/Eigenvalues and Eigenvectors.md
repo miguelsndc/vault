@@ -102,4 +102,4 @@ $$\begin{align*}
 3 & -1 & -\lambda
 \end{pmatrix}=0
 \end{align*}$$
-So after calculating determinants with whatever method, the expression becomes $\lambda(\lambda^{2}-2\lambda -3)=0$ , the inner expression can be factored into $(\lambda + 1)(\lambda - 3) = 0$, So the eigenvalues are $\{0, -1, 3\}$. Replace $\lambda$ in the $A - \lambda I$ to find the 
+So after calculating determinants with whatever method, the expression becomes $\lambda(\lambda^{2}-2\lambda -3)=0$ , the inner expression can be factored into $(\lambda + 1)(\lambda - 3) = 0$, So the eigenvalues are $\{0, -1, 3\}$. Replace $\lambda$ in the $A - \lambda I$ to find the solutions, and then multiply $T$ by those vectors, and there you have it, the eigenvectors.
