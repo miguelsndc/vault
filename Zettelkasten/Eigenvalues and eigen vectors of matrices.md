@@ -6,4 +6,4 @@ Using the matrix definiton we can find them with the expression:
 $$\begin{align*}\\
 \det(A- \lambda I)=0
 \end{align*}$$
-
+Which yields the [[Characteristic polynomial]] of $A$.
