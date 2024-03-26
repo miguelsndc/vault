@@ -30,7 +30,7 @@ $$\begin{align*}
 0  & 0 & \cdots & \lambda_{n}
 \end{pmatrix}
 \end{align*}$$
-It's necessarily required that all the $\lambda_{i}$ eigenvalues are *distinct*, actually, an eigenvalue will appear in the main diagonal as many times as there is [[Linear (In)dependence.|linearly independent]] [[Eigenvalues and Eigenvectors|eigenvectors]] associated to it. 
+It's not necessarily required that all the $\lambda_{i}$ eigenvalues are *distinct*, actually, an eigenvalue will appear in the main diagonal as many times as there is [[Linear (In)dependence.|linearly independent]] [[Eigenvalues and Eigenvectors|eigenvectors]] associated to it. 
 If there exists a basis $\gamma = {u_{1}, u_{2}, \cdots, u_{n}}$ of $V$ such that:
 $$\begin{align*}
 [T]^{\gamma}_{\gamma}=
