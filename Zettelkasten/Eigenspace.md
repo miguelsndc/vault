@@ -13,4 +13,10 @@ T(u+v) &= \lambda(u+v)
 \end{align*}$$
 Therefore $u + v \in E$.
 - Closure under [[Scalar]] multiplication
-Let $\alpha \in \mathbb{R}$ and $u \in E$
+Let $\alpha \in \mathbb{R}$ and $u \in E$, then:
+$$\begin{align*}
+T(u) &= \lambda u\\
+\alpha T(u)&= \alpha\lambda u\\
+T(\alpha u) &= \lambda(\alpha u)
+\end{align*}$$
+Therefore $\alpha u \in E$, so $E$ is a subspace.
