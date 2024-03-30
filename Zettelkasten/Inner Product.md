@@ -16,15 +16,20 @@ $$\begin{align*}
 \innp{f_{1},f_{2}}=\int_{0}^{1} f_{1}(t)f_{2}(t) dt\\
 \end{align*}$$
 Is a inner product, proof:
+- $\innp{v, v} \ge 0 \;\; \forall v \in V$. also $\innp{u,v}= 0 \iff v = \vec{0}$;
 $$\begin{align*}
-\innp{p_{1},p_{1}} &= \int_{0}^{1}{p_{1}^{2}(t)\,dt}\\
-&= \frac{{p_{1}^{3}(t)}}{3}
-\left\lvert
-\begin{matrix}
-1 \\ \\ 2
-\end{matrix}
-\right.
-\end{align*}
-$$
+\innp{p(x), p(x)} &= \int_{0}^{1}p^{2}(x) \, dx \ge 0
+\end{align*}$$
+- $\innp{\alpha v, v} = \alpha \innp{v,v}$, for all $\alpha \in \mathbb{R}$;
+$$\begin{align*}
+\innp{\alpha p(x), p(x)} &= \int_{0}^{1}\alpha p^{2}(x) \, dx\\
+&= \alpha \int_{0}^{1}p^{2}(x) \, dx\\
+&= \alpha \innp{p(x), p(x)}
+\end{align*}$$
 
-
+- $\innp{v_{1} + v_{2}, v_{3}} = \innp{v_{1}, v_{3}} + \innp{v_{2}, v_{3}}$;
+$$\begin{align*}
+\innp{p(x) + q(x), r(x)} &= \int_{0}^{1}(p(x)+q(x))r(x) \, dx\\
+&= \int_{0}^{1}p(x)r(x) \, dx + \int_{0}^{1}q(x)r9x \, dx
+=- 
+\end{align*}$$
