@@ -20,7 +20,7 @@ T(v_{2})& = 0 \cdot v_{1}+ \lambda_{2}\cdot v_{2}+\cdots+0 \cdot v_{n}\\
 T(v_{n})&=  0 \cdot v_{1}+ 0\cdot v_{2}+\cdots+ \lambda_{n}\cdot v_{n}\\
 \end{align*}
 $$
-The [[Coordinate|coordinates]] of each [[Vector|vector]] of this [[Theorems and Proofs for Basis and Dimension|basis]] is it's own eigenvalue. Since each column of the matrix is formed by the coordinates of each column vector on the specified basis, $T$ will be a *diagonal* [[Matrix Definition|matrix]], where each element of the main diagonal are the eigenvalues $\lambda_{i}$ of $T$.
+The [[Vector Coordinates|coordinates]] of each [[Vector|vector]] of this [[Theorems and Proofs for Basis and Dimension|basis]] is it's own eigenvalue. Since each column of the matrix is formed by the coordinates of each column vector on the specified basis, $T$ will be a *diagonal* [[Matrix Definition|matrix]], where each element of the main diagonal are the eigenvalues $\lambda_{i}$ of $T$.
 $$\begin{align*}
 [T]^{\beta}_{\beta}&= 
 \begin{pmatrix}
