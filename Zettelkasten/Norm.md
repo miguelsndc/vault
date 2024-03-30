@@ -7,12 +7,12 @@ $$\begin{align*}
 \end{align*}$$
 If $\norm{v} = 1$, then $v$ is **normalized**, and is called a [[Vector Normalization|unitary vector]], Every non-zero vector can be normalized by doing $u = \frac{v}{\norm{v}}$.
 Some **properties** are:
-- 
-
-
-
-
-
+- $\norm{v} \ge 0$ and $\norm{v} = 0 \iff v = \vec{0}$ .
+From the properties of inner product we have: $\norm{v} \ge 0$ because $\sqrt{\innp{v,v}}= 0 \implies \innp{v,v}= 0 \implies v = \vec{0}$. and obviously $\innp{v,v} \ge 0$ if $v \ne \vec{0}$
+- $\norm{\alpha v} = \abs{\alpha} \cdot \norm{v}$ for $\alpha \in \R$.
+  $\norm{\alpha v}= \sqrt{\innp{\alpha v, \alpha v}}= \sqrt{\alpha^{2} \innp{v,v}}= \abs{\alpha} \cdot \innp{v,v}$.  
+- $\abs{\innp{v,w}} \le \norm{v} \cdot \norm{w}$; proof is by magic.
+- $\norm{v + w} \le \norm{v} + \norm{w}$; proof is by faith in me.
 
 ## Where this comes from
 This notion comes from the euclidean $2$D or $3$D space, where the length of a vector can be found through the [[Pythagorean Theorem]]. Let $v = (x,y)$ be rooted at the origin.
