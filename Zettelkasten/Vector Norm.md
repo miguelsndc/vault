@@ -1,70 +1,22 @@
 ---
-tags:
-  - vector
-aliases:
-  - magnitude
-  - cauchy-schwarz inequality
-date: 2023-10-26
+tags: vector
+aliases: magnitude
 ---
-The **magnitude, length or norm** $a$ of a [[Vector]] $\vec{v}$ plotted within a two-dimensional system is:
+The *norm* of a [[Vector]] denotes the **length** of that vector according to some [[Inner Product|inner product]] $\innp{,}$. Let $V$ be a [[Vector|vector]] space with inner product $\innp{,}$. Then the norm of $V$ with respect to this $i.p$ is given by:
 $$\begin{align*}
-\vec{v} &= (x_{1},y_{1})\\
-||\vec{v}||^{2} &= x_{1}^{2} + y_{1}^{2}\\
-||\vec{v}|| &= \sqrt{x_{1}^{2} + y_{1}^{2}\\}
+\norm{v}&= \sqrt{\innp{v,v}}
 \end{align*}$$
+If $\norm{v} = 1$, then $v$ is **normalized**, and is called a [[Vector Normalization|unitary vector]], Every non-zero vector can be normalized by doing $u = \frac{v}{\norm{v}}$.
+Some **properties** are:
+- $\norm{v} \ge 0$ and $\norm{v} = 0 \iff v = \vec{0}$ .
+From the properties of inner product we have: $\norm{v} \ge 0$ because $\sqrt{\innp{v,v}}= 0 \implies \innp{v,v}= 0 \implies v = \vec{0}$. and obviously $\innp{v,v} \ge 0$ if $v \ne \vec{0}$
+- $\norm{\alpha v} = \abs{\alpha} \cdot \norm{v}$ for $\alpha \in \R$.
+  $\norm{\alpha v}= \sqrt{\innp{\alpha v, \alpha v}}= \sqrt{\alpha^{2} \innp{v,v}}= \abs{\alpha} \cdot \innp{v,v}$.  
+- $\abs{\innp{v,w}} \le \norm{v} \cdot \norm{w}$ is the [[Schwarz Inequality]].
+- $\norm{v + w} \le \norm{v} + \norm{w}$; proof is by faith in me.
 
-The $||\vec{v}||$ syntax stands for **norm**, note that the result of this pythagorean theorem is exactly the [[Scalar Product]] of $\vec{v}$ with itself, so we can say that:
-
-> The norm of a vector $\vec{v}$ is the square root of the scalar product of $\vec{v}$ with itself.
-
-Or
-
-> The norm of a vector $\vec{v}$ is the distance from the origin to the endpoint of $\vec{v}$. 
-> $dist(O, v) = ||\vec{v}||$
-
-Since the distance from the origin and self scalar product leads to the same return value.
-
-With $\mathbb{R}^{3}$ it's:
-$$\begin{align*}
-||\vec{v}|| &= \sqrt{x_{1}^{2}+ y_{1}^{2}+ z_{1}^{2}}
-\end{align*}$$
-#### Properties
-1. $||\vec{u}|| \ge 0$ 
-$$\begin{align*}
-||\vec{u}|| &= \sqrt{\vec{u} \cdot \vec{u}} \\\
-\sqrt{\vec{u} \cdot \vec{u}} &= 0 \iff \vec{u}=(0,0) \therefore ||\vec{u}|| \ge 0
-\end{align*}$$
-2. $||K \cdot \vec{v}||$ = $|K| \cdot ||\vec{v}||$
-$$\begin{align*}
-||K\cdot \vec{v}||&= \sqrt{(K\cdot\vec{u})(K\cdot\vec{u})}\\
-&= \sqrt{K^{2}}\cdot\sqrt{\vec{u} \cdot \vec{u}}\\
-&= |K| \cdot ||\vec{u}||
-\end{align*}$$
-1. *Cauchy-Schwarz Inequality*: $|\vec{u} \cdot \vec{v}| \le ||\vec{u}|| \cdot ||\vec{v}||$
-Let the vectors $\vec{u}$ and $\vec{v}$ and $\overrightarrow{u -v}$ form a non-right triangle in a two-dimensional plane, with $\theta$ as the angle that $\vec{u}$ and $\vec{v}$ form together, Let the sides **be their norms**. By the law of cosines we have, Here well ignore the upper arrow notation for readability purposes.
-$$
-\begin{align*}
-&||u-v||^{2} =  ||u||^{2}+||v||^{2}-2||u||\cdot||v||\cos{\theta}\\
-&\text{Simplify } ||u-v||^{2}\\
-&||u-v||^{2}= u(u-v) + (u-v)(-v)\\
-&= u\cdot u - vu -vu+v \cdot v\\
-&= ||u||^{2}-2vu+||v||^{2}\\
-&\text{Now we have:}\\
-&||u||^{2}-2u\cdot{v}+||v||^{2}= ||u||^{2}+||v||^{2}-2||u||\cdot ||v||\cos(\theta)\\
-&u\cdot v= ||u||\cdot||v||\cos(\theta)\\
-&\cos{\theta}= \frac{u\cdot{v}}{||u||\cdot{||v||}}\\
-&\text{We know that:}\\
-&-1 \le \cos{\theta} \le 1\\
-&|\cos{\theta}| \le 1\\
-&\text{So:}\\
-&\mid \frac{u\cdot{v}}{||u||\cdot{||v||}}\mid \le 1\\
-&\frac{1}{||u||\cdot{||v||}} \cdot |u\cdot{v}| \le 1\\
-&|u\cdot{v}| \le ||u|| \cdot ||v||
-\end{align*}
-$$
-From here we take a few identities, like:
-$$\begin{align*}
-&\cos{\theta}= \frac{u\cdot{v}}{||u||\cdot{||v||}}\\
-\end{align*}$$
-
-	
+## Where this comes from
+This notion comes from the euclidean $2$D or $3$D space, where the length of a vector can be found through the [[Pythagorean Theorem]]. Let $v = (x,y)$ be rooted at the origin.
+the $y$ component of $v$ is the height of a [[Right Triangle]]. 
+the $x$ component of $v$ is the base of the right triangle.
+Therefore the hypothenuse, or the length of the vector, is given by: $\sqrt{x^{2}+y^{2}}$. This also works for $3$D space, the length will be $\sqrt{x^{2} + y^{2} + z^{2}}$, but notice that if we are equipped with a regular [[Scalar Product|dot product]], this is just the square root of the dot product of $v$ with itself, generalizing for $n$-dimensional space and for a arbitrary [[Inner Product|inner product]], this will be $\sqrt{\innp{v,v}}$.
