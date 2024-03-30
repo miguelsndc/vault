@@ -14,4 +14,4 @@ $$\begin{align*}
 \innp{w,v_{i}}&= x_{i}\innp{v_{i}, v_{i}}\\
 \therefore x_{i}&= \frac{\innp{w, v_{i}}}{\innp{v_{i},v_{i}}}
 \end{align*}$$
-The $i$-th [[Vector Coordinates|coordinate]] of $w$ is  
+The $i$-th [[Vector Coordinates|coordinate]] of $w$ is called the *Fourier Coefficient*, and can be easily obtained through the inner product. The advantage of this approach is the possibililty of lazily getting coordinates, with the regular approach, one would have to solve a system and find all coordinates, whereas with this approach only one step is needed. 
