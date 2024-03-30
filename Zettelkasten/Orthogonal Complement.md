@@ -10,4 +10,5 @@ Even though $S$ might not be a subspace, $S^{\perp}$ is, see:
 - Let $v_{1},v_{2}\in S^{\perp}$ and $v \in S$, so $v_{1}\perp v$ and $v_{2} \perp v$, from the properties defined in [[Orthogonality]], $v_{1}+ v_{2}\perp v$.
 - Let $\alpha \in \R$, let $v_{1} \in S^{\perp}$ and $v \in S$. $\alpha v_{1} \perp v$ trivially.
 
-Therefore $S^{\perp}$ is a [[Linear Subspaces|subspace]].+
+Therefore $S^{\perp}$ is a [[Linear Subspaces|subspace]]. 
+
