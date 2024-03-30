@@ -13,6 +13,18 @@ The [[Scalar Product|dot product]] itself satifies these properties and therefor
 
 Let $V$ be the space of [[Differentiability and Continuity|continuous]] functions in the [[Intervals|interval]] $[0,1]$. Given $f_{1}, f_{2}\in V$:
 $$\begin{align*}
-\innp{f_{1},f_{2}}=\int
+\innp{f_{1},f_{2}}=\int_{0}^{1} f_{1}(t)f_{2}(t) dt\\
 \end{align*}$$
+Is a inner product, proof:
+$$\begin{align*}
+\innp{p_{1},p_{1}} &= \int_{0}^{1}{p_{1}^{2}(t)\,dt}\\
+&= \frac{{p_{1}^{3}(t)}}{3}
+\left\lvert
+\begin{matrix}
+1 \\ \\ 2
+\end{matrix}
+\right.
+\end{align*}
+$$
+
 
