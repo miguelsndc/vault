@@ -22,5 +22,7 @@ $$\begin{align*}
 &= \det(P) \cdot \det([A]^{\gamma}_{\gamma}) \cdot \det(P^{-1})\\
 &= \det(P\cdot P^{-1}) \cdot \det([A]^{\gamma}_{\gamma})\\
 &= \det(I) \cdot \det([A]^{\gamma}_{\gamma})\\
-&=  \det([A]^{\gamma}_{\gamma})
+&=  \det([A]^{\gamma}_{\gamma})\\
+&= \prod_{i=1}^{n}\lambda_{i}
 \end{align*}$$
+So it's proven that regardless of the [[Theorems and Proofs for Basis and Dimension|basis]] $A$ is written in, if $A$ is diagonalizable, the determinant of $A$ is the product of it's [[Eigenvalues and Eigenvectors|eigenvalues]].
