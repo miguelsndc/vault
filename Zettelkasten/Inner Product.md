@@ -30,6 +30,7 @@ $$\begin{align*}
 - $\innp{v_{1} + v_{2}, v_{3}} = \innp{v_{1}, v_{3}} + \innp{v_{2}, v_{3}}$;
 $$\begin{align*}
 \innp{p(x) + q(x), r(x)} &= \int_{0}^{1}(p(x)+q(x))r(x) \, dx\\
-&= \int_{0}^{1}p(x)r(x) \, dx + \int_{0}^{1}q(x)r9x \, dx
-=- 
+&= \int_{0}^{1}p(x)r(x) \, dx + \int_{0}^{1}q(x)r9x \, dx\\
+&= \innp{p(x),r(x)} + \innp{q(x), r(x)}
 \end{align*}$$
+- Commutativty is trivial.
