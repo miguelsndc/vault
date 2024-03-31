@@ -48,6 +48,20 @@ $$
 $$
 Which results in a [[Real Numbers|real number]], the actual inner product, this operation can be generalized to the following:
 $$\begin{align*}
-\innp{u,v}&= ([u]_{\alpha})^{T}\cdot G_{\alpha}\cdot[v]_{\alpha} 
+\begin{pmatrix}a_{1} & a_{2} & \cdots & a_{n}\end{pmatrix}\cdot
+\begin{pmatrix}
+\innp{v_{1},v_{1}} & \cdots & \innp{v_{1},v_{n}}\\
+\innp{v_{2},v_{1}} & \cdots & \innp{v_{2},v_{n}}\\
+\vdots &   & \vdots\\
+\innp{v_{n},v_{1}} & \cdots & \innp{v_{n},v_{n}}\\
+\end{pmatrix} \cdot
+\begin{pmatrix}
+b_{1} \\ \vdots \\ b_{n}
+\end{pmatrix}
 \end{align*}$$
-Where $G_{\alpha}$ is the **inner product matrix**. Notice the inner p. is always the same regardless of the basis.
+$$
+\begin{align*}
+=\innp{u,v}&= ([u]_{\alpha})^{T}\cdot G_{\alpha}\cdot[v]_{\alpha} 
+\end{align*}
+$$
+Where $G_{\alpha}$ is the **inner product matrix**. Notice the result is always the same regardless of the basis. The cost of computing $G_\alpha$ might worth it if too many computations that involve the inner product are being done.
