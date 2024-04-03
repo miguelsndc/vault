@@ -1,6 +1,6 @@
 ---
 tags: integrals, antiderivatives, functions
-aliases: antiderivative, indefinite integral, integral, indefinite
+aliases: antiderivative, indefinite integral, integral, indefinite, integrals
 ---
 Let $f$ be a [[Functions|function]] defined over some interval $I$. A *antiderivative* of $f$ in $I$ is a function $F$, defined in $I$ such that:
 $$\begin{align*}
