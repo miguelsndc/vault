@@ -16,5 +16,8 @@ I &= \int^{\frac{\pi}{2}_{0}} \frac{1}{1+ (\tan{x})^{\pi}} \, dx\\
 &= \int^{\frac{\pi}{2}}_{0} \frac{1}{1+ \frac{1}{(\tan{x})^{\pi}}}  \, dx\\
 &= \int^{\frac{\pi}{2}}_{0} \frac{(\tan{x})^{\pi}}{(\tan{x})^\pi+1}  \, dx\\
 &= \int^{\frac{\pi}{2}}_{0} \frac{(\tan{x})^{\pi}+1-1}{(\tan{x})^\pi+1}  \, dx\\
-&= \int^{\frac{\pi}{2}_{0}}
+&= \int^{\frac{\pi}{2}}_{0} dx- \int^{\frac{\pi}{2}_{0}} \frac{1}{1+ (\tan{x})^{\pi}} \, dx\\
+&= \frac{\pi}{2}-I\\
+2I&= \frac{\pi}{2}\\
+I&= \frac{\pi}{4}
 \end{align*}$$
