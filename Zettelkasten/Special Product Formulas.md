@@ -4,7 +4,6 @@ tags:
 date: 2023-09-14
 page: 30
 aliases:
-  - notable products
   - cube products
 ---
 Inverse of [[Special Factoring Formulas]]
