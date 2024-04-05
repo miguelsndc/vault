@@ -2,4 +2,4 @@
 tags: stats
 aliases: qualitative, categorical
 ---
-Categorical or qualitative variables represent types of data that can be divided **into groups**, data that is non-numerical, 
+Categorical or qualitative variables represent types of data that can be divided **into groups**, data that is non-numerical, like race, gender, religion, etc.
