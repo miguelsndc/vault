@@ -11,3 +11,4 @@ $$\begin{align*}
 k&= \frac{\innp{u,v}}{\innp{v,v}}\\
 \end{align*}$$
 Therefore, $\proj{v}{w}=k \cdot v= \frac{\innp{u,v}}{\innp{v,v}}v$ 
+This can also be done using just matrices, since the projection is merely a [[Linear Transformations|transformation]], it can be expressed with matrices. This [[Matrix Definition|matrix]] is: $\frac{u\cdot u^{T}}{u^{T}u}$. The numerator will be a matrix and the denominator a scalar. Note that $u$ is a [[Vector Matrix Form|column vector]] and $u^{T}$ is a [[Vector Matrix Form|row vector]]. This will give a matrix $P$ such that $\proj{v}{u}=Pv$.

@@ -19,4 +19,4 @@ v_{3}'&= v_{3}- \frac{\innp{v_{3},v_{1}'}}{\innp{v_{1}', v_{1}'}}v_{1} - \frac{\
 \vdots\\
 v_{n}'&= v_{n} - \frac{\innp{v_{n},v_{1}'}}{\innp{v_{1}', v_{1}'}}v_{1}'- \cdots-\frac{\innp{v_{n},v_{n-1}'}}{\innp{v_{n-1}', v_{n-1}'}}v_{n-1}'
 \end{align*}$$
-This is the process. Choose a pivot $v_{1}'$, then build new [[Orthogonality|orthogonal]] vectors by subtracting the current pivot from it's [[Orthogonal Projections]] of the already orthogonalized vectors. 3
+This is the process. Choose a pivot $v_{1}'$, then build new [[Orthogonality|orthogonal]] vectors by subtracting the current pivot from it's [[Projection onto a line]] of the already orthogonalized vectors. 3
