@@ -15,4 +15,36 @@ Let's find a formula for projecting a vector onto a [[Plane]], that is, if the p
 
 Instead of doing everything through [[Linear Combinations|linear combinations]], we'll find a matrix that does the projection. So, let $A = [a_{1},a_{2}]$, a matrix whose columns are the [[Theorems and Proofs for Basis and Dimension|basis]] for the plane, we can confidently say that the column space of $A$ is the plane. 
 
-So, we know that $p$, our projection, is a combination of $a_{1}$ and $a_{2}$, like $p = \hat{x}_{1}a_{1} + \hat{x}_{2}a_{2}$, but we are really running away from this dei
+So, we know that $p$, our projection, is a combination of $a_{1}$ and $a_{2}$, like $p = \hat{x}_{1}a_{1} + \hat{x}_{2}a_{2}$, but we are really running away from this definition, instead, let's say that $p$ is the matrix $A$ times some number $\hat{x}$ we don't really know, $p= A\hat{x}$. Then the error $e$ is $b - A\hat{x}$. We also know that $e$ must be orthogonal to $a_{1}$ and $a_{2}$ so:
+$$\begin{align*}
+{a_{1}}^{T}(b-A\hat{x})=0 \;\; {a_{2}}^{T}(b-A\hat{x})=0
+\end{align*}$$
+This can also be written as:
+$$\begin{align*}
+\begin{pmatrix}
+{a_{1}}^{T}\\
+{a_{2}}^{T}
+\end{pmatrix}(b-A\hat{x})=0
+\end{align*}$$
+However this is just equal to $A^{T}$, therefore we have:
+$$\begin{align*}
+A^{T}(b-Ax)=0
+\end{align*}$$
+Which implies that $e$ is orthogonal to $A^{T}$, since $A^{T}e$ is in the [[Kernel of a linear transformation|null space]] of $A^{T}$, and the nullspace of $A^{T}$ is [[Orthogonal Vectors|orthogonal]] to the [[Image of a linear transformation|column space]] of $A$, therefore $e$ is orthogonal to the column space of $A$ and also orthogonal to the whole plane! Now we just solve for $\hat{x}$:
+$$\begin{align*}
+A^{T}(b- A\hat{x})&= 0\\
+A^{T}b-A^{T}A\hat{x}&= 0\\
+A^{T}A\hat{x}&= A^{T}b\\
+(A^{T}A)^{-1}(A^{T}A)\hat{x}&= (A^{T}A)^{-1}A^{T}b\\
+\hat{x}&= (A^{T}A)^{-1}A^{T}b
+\end{align*}$$
+Since $p= A\hat{x}$, and we've found $\hat{x}$, $p$ therefore is:
+$$\begin{align*}
+p&= A(A^{T}A)^{-1}A^{T}b\\
+\text{Let }P&=  A(A^{T}A)^{-1}A^{T}\\
+\therefore p&= Pb
+\end{align*}$$
+And that's the projection of $b$ onto the column space of $A$.
+## Disclaimer and Geometric interpretation
+Notice that if we develop $(A^{T}A)^{-1}$ we find out that $P$ is the [[Identity Matrix]], then something should be wrong right ?
+NOt
