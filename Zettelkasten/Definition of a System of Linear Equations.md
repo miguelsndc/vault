@@ -1,6 +1,6 @@
 ---
 tags: systems
-aliases: system of linear equations, system, system of equations
+aliases: system of linear equations, system, system of equations, systems
 ---
 
 A System of linear [[Equation|equations]] is a structure defined when multiple equations that share that same variables are forced to cohexist in order to force a common solution that solves all equations at the same time.
