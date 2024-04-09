@@ -46,5 +46,5 @@ p&= A(A^{T}A)^{-1}A^{T}b\\
 \end{align*}$$
 And that's the projection of $b$ onto the column space of $A$.
 ## Disclaimer and Geometric interpretation
-Notice that if we develop $(A^{T}A)^{-1}$ we find out that $P$ is the [[Identity Matrix]], then something should be wrong right ?
-NOt
+Notice that if we develop $(A^{T}A)^{-1}$ we find out that $P$ is the [[Identity Matrix]], so something should be wrong right ?
+Notice that $A$ being invertible means that $A$ is a [[Square Matrix]]. Since we're in $n$-dimensional space and $A$ is a matrix whose columns are [[Theorems and Proofs for Basis and Dimension|basis]] vectors for the [[Linear Subspaces|subspace]] being projected onto, if $A$ is square, $A$ is $n \times n$ and therefore $A$ [[Span|span]]s the whole $n$-dimensional space. Projecting a vector onto the space it already belongs, it's just the vector itself, and $A$ being the identity makes sense.
