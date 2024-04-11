@@ -48,6 +48,14 @@ Clustering algorithms divides data into groups with related features. A Hierarch
 
 Visualization algorithms are fed a lot of complex, unlabeled and high-dimensional data and output a 2D or 3D representation of the data that can be easily plotted.
 
+Dimensionality reduction takes high-dimensional data and tries to simplify the data as much as possible without losing too much information. One example is to merge correlated features, $e.g$, a car's mileage may be very well correlated with it's age, a dimensionality reduction algorithm will merge these features into one that represents the whole thing.
+
+Anomaly detection, as said, detects anomalies/outliers in data, for example, to prevent frauds or automatically remove outliers from data. The system's trained with normal instances and when it sees a new instance it can tell whether it **looks like a normal one** or is an anomaly.
+
+Association rule learning digs into large amounts of data and detects relations between attributes.
+
+**Semisupervised learning**: Some algorithms can deal with partially labeled training data, 
+
 
 
 
