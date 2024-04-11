@@ -14,7 +14,8 @@ Machine learning is great for:
 - Problems that are either too complex or don't have a good solution at all using a traditional approach; *a machine learning algorithm can find a decent solution*.
 - Fluctuating environments, machine learning systems adapt to new data
 - Getting insights about complex problems and large amounts of data.
-
+___
+Types of training.
 # Unsupervised/Supervised Learning
 
 There are four types of learning: ***supervised, unsupervised, semisupervised and reinforcement learning***. 
@@ -69,30 +70,17 @@ Online or incremental learning: you train the system incrementally by feeding it
 - Reduces computational costs by a fair amount
 - Good for systems that require continuous flow
 - Can be used to train huge datasets that may not fit in a computer's memory
-How fast it should adapt to new data is defined by a parameter called *learning rate*, if the learning rate is high, it adapts quickly to new data, but may forget old data. If set low, the system wi
+How fast it should adapt to new data is defined by a parameter called *learning rate*, if the learning rate is high, it adapts quickly to new data, but may forget old data. If set low, the system will learn slower and have more inertia, that is, it'll be less sensitive to outliers. It's possible to
 
+# Instance vs. Model based learning
 
+How it generalizes
 
+On instance based learning the algorithm learns everything by heart, for example it could flag as spam only emails that are identical to the already flagged ones, or could use some **similarity measure** such as the count of words, or some common words that appear in spams. Basically it learns the examples by heart, then generalizes to new cases using a similarity measure.
 
+Another way to generalize is to build a model of these examples, then use to model to make predictions. You first analyze and understand the data to detect patterns and trends, then you choose an algorithm that better exploits these patterns and build a model out of it, then use that model to predict new values.
 
+# What can go wrong ?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Insufficient amounts of data.
+- Nonrepresentative data, that is, the data you gathered may not represent the reality due to 
