@@ -30,8 +30,23 @@ Examples are:
 - Decision Trees and Random Forests
 - Neural Networks (Although some variants may be unsupervised)
 
+**Unsupervised learning**: The training data is unlabeled and the algorithm learns without a teacher. Examples of unsupervised learning algorithms:
+- Clustering
+	- k-Means
+	- Hierarchical Cluster Analysis (HCA)
+	- Expectation Minimization
+- Visualization and *Dimensionality Reduction*:
+	- Principal Component Analysis (PCA)
+	- Kernel PCA
+	- Locally-Linear Embedding (LLE)
+	- t-distributed Stochastic Neighbor Embedding (t-SNE)
+- Association Rule Learning
+	- Apriori
+	- Eclat
 
+Clustering algorithms divides data into groups with related features. A Hierarchical clustering algorithm may also subdivide each group into smaller subgroups.
 
+Visualization algorithms are fed a lot of complex, unlabeled and high-dimensional data and output a 2D or 3D representation of the data that can be easily plotted.
 
 
 
