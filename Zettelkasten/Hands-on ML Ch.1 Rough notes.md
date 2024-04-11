@@ -83,4 +83,22 @@ Another way to generalize is to build a model of these examples, then use to mod
 # What can go wrong ?
 
 - Insufficient amounts of data.
-- Nonrepresentative data, that is, the data you gathered may not represent the reality due to 
+- Nonrepresentative data, that is, the data you gathered may not represent the reality due to [[Sample|sample]] problems. For example, if the sample is too small, you may have *sampling noise*, but even very large samples can be nonrepresentative, if the sampling method is flawed. this is called **sampling bias**.
+- Poor quality data
+- Irrelevant Features.
+
+# Overfitting
+The model performs well on trained data, but it does not generalize well. If the data is noisy and full of errors, an algorithm may detect patterns the noise itself.
+
+Overfitting happens when the model is too complex relative to the amount and the noisiness of the data. this can be fixed by:
+- Simplifying the model by choosing one with fewer parameters.
+- Gather more training data
+- Reduce the noise of training data (removing outliers for example).
+
+Regularization are constraints set to the model to make it simpler and reduce the risk of overfitting. The amount of regularization is controlled by a **hyperparameter** which is a parameter *given to the algorithm*, not the model itself, and must be given prior to training
+
+# Undefitting
+The opposite of overfitting, when the model is too simple to learn the underlying structures and patterns of the data. To fix:
+- Choose a more powerful model, with more parameters
+- Feeding better features to the learning algorithm
+- Reducing constraints on the model
