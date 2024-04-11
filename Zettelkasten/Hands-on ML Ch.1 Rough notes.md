@@ -102,3 +102,19 @@ The opposite of overfitting, when the model is too simple to learn the underlyin
 - Choose a more powerful model, with more parameters
 - Feeding better features to the learning algorithm
 - Reducing constraints on the model
+
+# Testing and Validating
+
+A good option of testing is to split the data into two complementary subsets, **training and testing data**. The model is trained with the training data and then validated with the testing data.
+
+If the model performs well on training data but generalizes poorly, it is very likely **overfitting**. The error rate on new cases is called *generalization error* or *out-of-sample* error.
+
+***How to choose between models ?***
+
+To choose between, let's say, a linear or a polynomial model, you can test both and see how well the generalize using the testing set.
+Suppose the linear model generalizes better, but you want some **regularization** to avoid overfitting, how to choose a hyperparameter ? Well, one option is to test $100$ different hyperparemeter values and see which one produces a model with the lowest generalization error.
+Now suppose you get $5$% error on testing set, then you launch and get $15$% error, the problem is that you tuned the parameters and adapted the model to perform well **on that set**. So it's unlikely to perform well on unseen data.  
+
+Another solution is to holdout a second set just for that, called the **validation set**.
+
+"To avoid “wasting” too much training data in validation sets, a common technique is to use **cross-validation:** the training set is split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts. Once the model type and hyperparameters have been selected, a final model is trained using these hyperparameters on the full training set, and the generalized error is measured on the test set."
