@@ -17,7 +17,18 @@ Machine learning is great for:
 
 # Unsupervised/Supervised Learning
 
+There are four types of learning: ***supervised, unsupervised, semisupervised and reinforcement learning***. 
 
+**Supervised Learning**: The training data you feed the algorithm includes the desired solutions, called **labels**. Two typical supervised learning tasks are **classification:** where the algorithm is given a set of examples and their respective labels/classes, and the algorithm must be able to classify new data into one of those classes.
+Another is regression, where the goal is to **predict a target numeric value** given a set of **features** called *predictors*, for example, an algorithm that learns to predict a car price given it's mileage, age, brand, etc.
+
+Examples are:
+- k-Nearest neighbors
+- Linear Regression
+- Logistic Regression
+- Support Vector Machines (SVM's)
+- Decision Trees and Random Forests
+- Neural Networks (Although some variants may be unsupervised)
 
 
 
