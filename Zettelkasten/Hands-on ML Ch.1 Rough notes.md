@@ -54,7 +54,27 @@ Anomaly detection, as said, detects anomalies/outliers in data, for example, to 
 
 Association rule learning digs into large amounts of data and detects relations between attributes.
 
-**Semisupervised learning**: Some algorithms can deal with partially labeled training data, 
+**Semisupervised learning**: Some algorithms can deal with partially labeled training data. Most semisupervised algorithms are combinations of supervised and unsupervised algorithms. deep belief networks DBN's for example.
+
+
+**Reinforcement learning**: The learning system, called an agent can observe the environment, select and perform actions, and get *rewards* in return (or *penalties* in form of negative rewards). It must then learn by itself what's the best strategy to get the most reward of time.
+
+# Online/Batch Learning
+
+On batch learning the system must be trained from scratch with all the available data, then it is launched into production and doesn't learn anymore, just applies what it has learned, this is called **batch learning**.
+
+- Requires a lot of CPU, Network I/O, disk I/O and memory resources.
+
+Online or incremental learning: you train the system incrementally by feeding it data instances sequentially, either individually or by small groups called *mini-batches*.
+- Reduces computational costs by a fair amount
+- Good for systems that require continuous flow
+- Can be used to train huge datasets that may not fit in a computer's memory
+How fast it should adapt to new data is defined by a parameter called *learning rate*, if the learning rate is high, it adapts quickly to new data, but may forget old data. If set low, the system wi
+
+
+
+
+
 
 
 
