@@ -51,4 +51,12 @@ $$\begin{align*}
 \end{align*}$$
 
 Propriedades de Operadores AutoAdjuntos
-Seja $V$ um espaço vetorial com p.i, e $T:V \rightarrow V$ linear. então $T$ auto-adjunto implica que $\innp{Tv,w}= \innp{v, Tw}$ para todo $v,w \in V$. Isso é uma consequência natural de matrizes simétricas.
+Seja $V$ um espaço vetorial com p.i, e $T:V \rightarrow V$ linear. então $T$ auto-adjunto implica que $\innp{Tv,w}= \innp{v, Tw}$ para todo $v,w \in V$. Isso é uma consequência natural da simetria de $T$.
+Pensando $Tv$ e $Tw$ não como um vetor individual, mas como a multiplicação de duas matrizes, e usando a definição matricial de produto interno, temos:
+$$\begin{align*}
+\innp{a,b}&= a^{T}b\\
+\innp{Tv, w}&= (Tv)^{T}w\\
+&= v^{T}T^{T}w\\
+&= v^{T}Tw\\
+&= \innp{v, Tw}
+\end{align*}$$
