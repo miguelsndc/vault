@@ -1,4 +1,4 @@
-# Where to find real world data 
+otehere to find real world data 
 Open data repositories:
 - [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
