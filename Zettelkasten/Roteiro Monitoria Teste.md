@@ -45,5 +45,10 @@ $$\begin{align*}
 [T]^{\beta}_{\beta}&= ([I]^{\beta}_{\alpha})^{-1}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}\\
 &= ([I]^{\beta}_{\alpha})^{T}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}\\
 ([T]^{\beta}_{\beta})^{T}&=(([I]^{\beta}_{\alpha})^{T}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}) ^{T}\\
-&= ([I]_{\alpha}^{\beta})^{T}([T]_{\alpha}^{\alpha})^{T}[I]^{\beta}_{\beta}
+&= ([I]_{\alpha}^{\beta})^{T}([T]_{\alpha}^{\alpha})^{T}[I]^{\beta}_{\alpha}\\
+&= ([I]_{\alpha}^{\beta})^{T}([T]_{\alpha}^{\alpha})[I]^{\beta}_{\alpha}\\
+&= [T]^{\beta}_{\beta}
 \end{align*}$$
+
+Propriedades de Operadores AutoAdjuntos
+Seja $V$ um espaço vetorial com p.i, e $T:V \rightarrow V$ linear. então $T$ auto-adjunto implica que $\innp{Tv,w}= \innp{v, Tw}$ para todo $v,w \in V$. Isso é uma consequência natural de matrizes simétricas.
