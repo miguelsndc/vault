@@ -39,4 +39,11 @@ Seja V um espaço vetorial com p.i, $\alpha$ uma base ortonormal e $T:V \rightar
 - $T$ é chamado de operador auto-adjunto se $[T]^{\alpha}_{\alpha}$ é uma matriz simétrica.
 - $T$ é chamado de operador ortogonal se $[T]^{\alpha}_{\alpha}$ é uma matriz ortogonal.
 
+Esses operadores estão bem definidos no sentido de um operador ser autoadjunto ou ortogonal não depende da base escolhida, isto é se $[T]_{\alpha}^{\alpha}$ for simétrica ou ortogonal numa base ortogonal $\alpha$, então $[T]^{\beta}_{\beta}$ também será simétrica para qualquer outra base ortonormal $\beta$, demonstração:
 
+$$\begin{align*}
+[T]^{\beta}_{\beta}&= ([I]^{\beta}_{\alpha})^{-1}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}\\
+&= ([I]^{\beta}_{\alpha})^{T}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}\\
+([T]^{\beta}_{\beta})^{T}&=(([I]^{\beta}_{\alpha})^{T}[T]_{\alpha}^{\alpha}[I]^{\beta}_{\alpha}) ^{T}\\
+&= ([I]_{\alpha}^{\beta})^{T}([T]_{\alpha}^{\alpha})^{T}[I]^{\beta}_{\beta}
+\end{align*}$$
