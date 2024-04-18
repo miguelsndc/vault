@@ -34,3 +34,9 @@ Uma matriz $A$ é ortogonal em se e somente se, com relação a alguma base $\al
 - No caso das colunas, isso acontece pois, escrevendo uma matriz genérica $A$, e fazendo o produto $A^{T}A$, os elementos da diagonal $AA^{T}_{ii}$ serão o produto do vetor coluna $i$ de $A$, transposto, com ele mesmo, e pela definição de ortonormalidade, e como independente do p.i, o p.i se comporta como produto escalar, teremos o elemento $A^{T}A_{ii}= 1$, e para elementos fora da diagonal, o produto interno será $0$, pois eles serão ortogonais, o que resulta na identidade. O caso das linhas é análogo, fazendo $AA^{T}$ é possível provar.
 
 Se $\alpha$ e $\beta$ são duas bases ortonormais de um espaço qualquer de $V$, então a matriz de mudança de base $[I]^{\alpha}_{\beta}$ é ortogonal, o que implica que $([I]^{\alpha}_{\beta})^{T}=$
+____
+Seja V um espaço vetorial com p.i, $\alpha$ uma base ortonormal e $T:V \rightarrow V$ um operador linear.
+- $T$ é chamado de operador auto-adjunto se $[T]^{\alpha}_{\alpha}$ é uma matriz simétrica.
+- $T$ é chamado de operador ortogonal se $[T]^{\alpha}_{\alpha}$ é uma matriz ortogonal.
+
+
