@@ -34,6 +34,13 @@ Uma matriz $A$ é ortogonal em se e somente se, com relação a alguma base $\al
 - No caso das colunas, isso acontece pois, escrevendo uma matriz genérica $A$, e fazendo o produto $A^{T}A$, os elementos da diagonal $AA^{T}_{ii}$ serão o produto do vetor coluna $i$ de $A$, transposto, com ele mesmo, e pela definição de ortonormalidade, e como independente do p.i, o p.i se comporta como produto escalar, teremos o elemento $A^{T}A_{ii}= 1$, e para elementos fora da diagonal, o produto interno será $0$, pois eles serão ortogonais, o que resulta na identidade. O caso das linhas é análogo, fazendo $AA^{T}$ é possível provar.
 
 Se $\alpha$ e $\beta$ são duas bases ortonormais de um espaço qualquer de $V$, então a matriz de mudança de base $[I]^{\alpha}_{\beta}$ é ortogonal, o que implica que $([I]^{\alpha}_{\beta})^{T}=$
+
+O determinante ser $\pm 1$ implica que, com o determinante podendo ser $1$, a transformação descrita pela matriz não muda a orientação dos vetores no espaço, mas pode envolver rotações ou translações (mas aí não seria linear), por exemplo, rotações tem determinante $1$.
+
+Determinante $-1$ implica que a transformação descrita pela matriz inverte a orientação do espaço, reflexões sobre eixos são exemplos desse tipo de transformação.
+
+O determinante unitário implica que o espaço não é nem esticado nem encolhido pela transformação, ou seja, matrizes ortogonais preservam o tamanho das coisas. Veremos isso mais à frente.
+
 ____
 Seja V um espaço vetorial com p.i, $\alpha$ uma base ortonormal e $T:V \rightarrow V$ um operador linear.
 - $T$ é chamado de operador auto-adjunto se $[T]^{\alpha}_{\alpha}$ é uma matriz simétrica.
