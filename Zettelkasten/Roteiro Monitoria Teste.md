@@ -67,3 +67,4 @@ $$\begin{align*}
 &= v^{T}Tw\\
 &= \innp{v, Tw}
 \end{align*}$$
+Operadores Ortogonais estão associados a movimentos _rígidos_. Por exemplo, nos restrigindo ao $\R^{2}$, rotações de um ângulo qualquer ou reflexões sobre retas pela origem ou alguma composição dessas duas. 
