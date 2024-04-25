@@ -20,3 +20,4 @@ C(n) &= \frac{1}{2}n(n-1) =\frac{1}{2}n^{2} - \frac{1}{2}n\approx \frac{1}{2}n^{
 \frac{T(2n)}{T(n)}&=\frac{\frac{1}{2}(2n)^{2}}{\frac{1}{2}n^{2}}=4
 \end{align*}$$
 So the answer is: about $4$ times longer.
+## Orders of Growth
