@@ -7,3 +7,16 @@ Space efficiency or space *complexity* refers to the amount of memory units requ
 ## Units for measuring running time
 Counting an algorithm running time on seconds is prone to failure, since execution time in seconds or any unit of time is prone to external factors like: speed of the computer, the quality of the program written, the compiler used to generate machine code, and the difficulty of clocking the actual running time of the algorithm.
 Also counting each operation the algorithm does is a *excessivily difficult task* and usually unnecessary. The thing to do is to count how many times the **basic operation** of the algorithm runs. The basic operation is *usually* the most time-consuming task in the algorithm's innermost loop.
+
+## The analysis framework
+
+The usual analysis framework is run by counting how many times the basic operation of the algorithm runs on inputs of size $n$. For example, let $c_{op}$ be the execution time of an algorithm's basic operation on a particular computer, and let $C(n)$ be the number of times this operation needs to be executed for this algorithm. Then we can estimate the running time $T(n)$ with:
+$$\begin{align*}
+T(n) &\approx c_{op}C(n)
+\end{align*}$$
+This formula should be used with caution, since $c_{op}$ is an approximation whose reliability is not always easy to assess, and $C(n)$ is also an approximation that **does not contain operations that are not basic**. However, using this approach, questions like *"How much longer the algorithm will take to run if we double it's input size ? ""*, Assuming $C(n) = \frac{1}{2}n(n-1)$, and for all but very small values of n:
+$$\begin{align*}
+C(n) &= \frac{1}{2}n(n-1) =\frac{1}{2}n^{2} - \frac{1}{2}n\approx \frac{1}{2}n^{2}\\
+\frac{T(2n)}{T(n)}&=\frac{\frac{1}{2}(2n)^{2}}{\frac{1}{2}n^{2}}=4
+\end{align*}$$
+So the answer is: about $4$ times longer.
