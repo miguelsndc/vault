@@ -37,4 +37,4 @@ These things exist to give an idea of the behaviour of an algorithm at it's best
 
 **Amortized efficiency**
 
-Amortized complexity doesn't apply to a single run of an algorithm but rather to a sequence of operations performed on the same data structure. It turns out that in some situations 
+Amortized complexity doesn't apply to a single run of an algorithm but rather to a sequence of operations performed on the same data structure. It turns out that in some situations the total time for an entire sequence of $n$ such operations is always smaller then a worst-case single operation multiplyed by $n$, thus we can "amortize" the high cost of a worst-case occurrence over the entire sequence 
