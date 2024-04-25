@@ -21,3 +21,8 @@ C(n) &= \frac{1}{2}n(n-1) =\frac{1}{2}n^{2} - \frac{1}{2}n\approx \frac{1}{2}n^{
 \end{align*}$$
 So the answer is: about $4$ times longer.
 ## Orders of Growth
+Why consider only the **order of growth** of the operations and roughly discard constants and smaller members ? The running time of an algorithm when the inputs are small is barely recognizable, shit gets real when the input grows arbitrarily, remember the concept of [[Epsilon-Delta Definition of a Limit|limits]] at infinity, if a rational polynomial with tons of factors and degree $n$, if there's a element of degree $n$ on both numerator and denominator, they'll cancel out and all the other terms are irrelevant when input grows to infinity, that's somewhat what happens here. The term with the highest order of growth **dominates** the running time and eventually other terms become so small compared to it that it's not even worth counting.
+
+> "Algorithms that require an exponential number of operations are practical for solving only problems of very small sizes."
+
+Logarithmic growing operations will run **blazingly fast** for any reasonable input size, because, when input double
