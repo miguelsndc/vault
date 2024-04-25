@@ -25,4 +25,6 @@ Why consider only the **order of growth** of the operations and roughly discard 
 
 > "Algorithms that require an exponential number of operations are practical for solving only problems of very small sizes."
 
-Logarithmic growing operations will run **blazingly fast** for any reasonable input size, because, when input double
+Logarithmic growing operations will run **blazingly fast** for any reasonable input size, because basically, when the input doubles in size, the algorithm only adds up one operation, for $n=10^{6}$ a $\log_{2}n$ algorithm will do $\approx 20$ operations.
+
+## Wor
