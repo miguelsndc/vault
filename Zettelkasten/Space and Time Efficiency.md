@@ -27,4 +27,14 @@ Why consider only the **order of growth** of the operations and roughly discard 
 
 Logarithmic growing operations will run **blazingly fast** for any reasonable input size, because basically, when the input doubles in size, the algorithm only adds up one operation, for $n=10^{6}$ a $\log_{2}n$ algorithm will do $\approx 20$ operations.
 
-## Wor
+## Worst-case Best-case and Average-case 
+
+The running time of an algorithm not exclusively depends on the size of the input, but also on some specifics of the input, how it's distributed, organized, etc. For example, on *Sequential Search*, where the algorithm traverses each element of the list until it finds some target $T$, There's some cases:
+- Worst-case: The worst possible arrangement of the input is when the target is the last element of the list, therefore bringing the time complexity to $C_{worst}(n)$.
+- Best-case: The most optimistic case is when the target is the first element of the list, so the algorithm will only run once: $C_{best}(n)=1$.
+- Average-case: The average case is $\frac{n+1}{2}$, the element is somewhere in the middle. Considering some probabilty distributions depending on the input and some other complicated stuff we can derive that.
+These things exist to give an idea of the behaviour of an algorithm at it's best, worst, and average cases. It also gives some notion that **not only the worst possible case exists**, and a algorithm efficiency is much clearer analyzing these three situations. Sometimes an overly pessimistic worst case has such a small chance of happening that it almost never happens. If there were only worst case analysis, developers would miss such important insights on analysis.
+
+**Amortized efficiency**
+
+Amortized complexity doesn't apply to a single run of an algorithm but rather to a sequence of operations performed on the same data structure. It turns out that in some situations 
