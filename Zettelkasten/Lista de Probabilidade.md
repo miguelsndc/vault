@@ -3,4 +3,8 @@ $a)$ Assumindo que todas as bolas tem a mesma probabilidade de serem escolhidas,
 $b)$ A probabilidade de escolher uma bola branca numa urna cheia é $\frac{5}{11}$, A probabilidade de **não** escolher uma bola branca, supondo que a primeira foi escolhida, e que a ordem não importa, é de $1 - \frac{4}{10} = \frac{6}{10}$ e $1 - \frac{4}{9}=\frac{5}{9}$, então a probabilidade é $\frac{5}{11} * \frac{6}{10} * \frac{5}{9} = 0.15$.
 $c)$ A probabilidade de todas as bolas serem pretas foi discutida na alternativa $a)$, para que **pelo menos uma** das bolas sejam pretas, basta encontrar a probabilidade do evento complementar de $a)$, sendo este $1 - 0.09 = 0.91$.
 
-$4)$ Seja $A$ o evento que denota uma peça 
+$4)$ Seja $A$ o evento que denota uma peça da caixa $A$ ser defeituosa, e $B$ o evento que denota uma peça da caixa $B$ ser defeituosa. Temos de antemão que 3 de $A$ são defeituosas e $2$ de $B$ também. Podemos dizer que $p(A) = \frac{3}{8}$ e $p(B) = \frac{2}{5}$.
+
+$a)$ A probabilidade de $A$ não ser defeituosa é dada por $p(A^{c})$ e de $B$ não ser defeituosa é dada por $p(B^{c})$. a probabilidade de ambas não serem defeituosas é dada por $p(A^{c} \cap B^{c})=\frac{5}{8}\cdot \frac{3}{5}= 0.37$. 
+
+$b)$ Como não foi especificada qual caixa viria defeituosa
