@@ -7,4 +7,14 @@ $4)$ Seja $A$ o evento que denota uma peça da caixa $A$ ser defeituosa, e $B$ o
 
 $a)$ A probabilidade de $A$ não ser defeituosa é dada por $p(A^{c})$ e de $B$ não ser defeituosa é dada por $p(B^{c})$. a probabilidade de ambas não serem defeituosas é dada por $p(A^{c} \cap B^{c})=\frac{5}{8}\cdot \frac{3}{5}= 0.37$. 
 
-$b)$ Como não foi especificada qual caixa viria defeituosa
+$b)$ Como não foi especificada de qual caixa a peça viria defeituosa ou não, faremos assim:
+A probabilidade de $A$ vir defeituosa é dada por $p(A\cap B^{c})$ e de $B$ vir defeituosa é dada por $p(A^{c}\cap B)$, logo temos:
+$$\begin{align*}
+p((A \cap B^{c}) \cup (A^{c} \cap B))=p(A \cap B^{c}) + p(A^{c}\cap B) - (A\cap B^{c} \cap A^{c} \cap B^{c})\\
+
+\end{align*}$$
+O último termo é vazio. logo temos:
+$$\begin{align*}
+p((A \cap B^{c}) \cup (A^{c} \cap B)) &= \left(\frac{3}{8} \cdot \frac{3}{5}\right)+ \left(\frac{5}{8} \cdot \frac{2}{5}\right)= 0.47
+\end{align*}$$
+Que é a probabilidade
