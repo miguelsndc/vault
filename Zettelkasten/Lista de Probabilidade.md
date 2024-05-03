@@ -1,0 +1,2 @@
+$1)$ 
+$a)$ Assumindo que todas as bolas tem a mesma probabilidade de serem escolhidas, A probabilidade de escolher a primeira bola é $\frac{6}{11}$, a segunda $\frac{1}{2}$, e a terceira $\frac{1}{3}$, dado que não há reposição, então a probabilidade é $\frac{6}{11}\cdot \frac{1}{2}\cdot \frac{1}{3}= 0.09$. 
