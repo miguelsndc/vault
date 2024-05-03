@@ -17,4 +17,10 @@ O último termo é vazio. logo temos:
 $$\begin{align*}
 p((A \cap B^{c}) \cup (A^{c} \cap B)) &= \left(\frac{3}{8} \cdot \frac{3}{5}\right)+ \left(\frac{5}{8} \cdot \frac{2}{5}\right)= 0.47
 \end{align*}$$
-Que é a probabilidade
+Que é a probabilidade de uma peça de uma caixa vir defeituosa e outra não.
+
+$c)$ Dado que uma peça é defeituosa e outra não, sendo $C$ esse evento, como dito anteriormente, $p(c) = 0.47$, a probabilidade que ela venha de $A$ é dada por:
+$$\begin{align*}
+p(A\mid C) &= \frac{p(C \mid A)p(A)}{p(C)}
+\end{align*}$$
+sabemos que $p(A) = \frac{3}{8}$ e $p(C) = 0.47$, $p(C\mid A)= \frac{p(A \cap C)}{P(A)}$, $p(A\cap C)$ é a probabilidade da peça defeituosa ser de $A$, sendo ela $p()$   
