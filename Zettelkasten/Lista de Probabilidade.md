@@ -6,6 +6,7 @@ $c)$ A probabilidade de todas as bolas serem pretas foi discutida na alternativa
 $2)$ 
 $a)$ Dado que há $270$ alunos no total e $90$ alunos de S.I, a probabilidade é $p(SI)=0.33$. 
 $b)$ $p(CC_{linkedin})= \frac{28}{90}= 0.31$. Dado que, de $90$ alunos de $CC$, $28$ preferem o linkedin.
+$c)$ A probabilidade de um aluno de EC preferir o $X$ é dado por $p(EC_{X})=\frac{1}{10}$, os que **não** preferem o $X$ é dada por $p(EC_{X}^{c})=1- \frac{1}{10}= \frac{9}{10}=0.9$. 
 
 $4)$ Seja $A$ o evento que denota uma peça da caixa $A$ ser defeituosa, e $B$ o evento que denota uma peça da caixa $B$ ser defeituosa. Temos de antemão que 3 de $A$ são defeituosas e $2$ de $B$ também. Podemos dizer que $p(A) = \frac{3}{8}$ e $p(B) = \frac{2}{5}$.
 
