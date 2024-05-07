@@ -1,4 +1,5 @@
 ---
-tags: combinatorics
+tags: combinatorics, probability, statistics
 ---
-The Sample Space of a problem is all possible outcomes for the problem, similiar to the [[Range in Discrete Math|range]] of a [[Functions in Discrete Math|function]].
+Denote by *random phenomena* situations or occurences whose outcomes can't be accurately predicted. 
+We call by "Sample Space" the [[Sets|set]] of all possible outcomes of a phenomena. Representend by the big omega $(\Omega)$.
