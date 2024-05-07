@@ -1,5 +1,6 @@
 ---
 tags: probability, statistics
+aliases: event, events
 ---
 Events are [[Subsets]] of the [[Sample Space]] of some phenomena, they represent one or more possible outcomes. They're represented by capital letters $A,B, \cdots$, the [[Empty Set|empty set]], as usual, is represented by $\emptyset$.
 The [[Union]] of two *events* $A$ and $B$ represent occurrence of either $A$, $B$, or both.

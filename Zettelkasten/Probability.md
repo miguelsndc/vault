@@ -1,6 +1,6 @@
 ---
 tags: probability
-aliases: probability
+aliases: probability, probabilities
 ---
 A [[Functions|function]] $P$ is called  *probability* if it satisfies the following conditions:
 - $0 \le P \le 1, \; \forall A \subset \Omega$.
