@@ -1,2 +1,5 @@
 Clustering se refere ao leque de estratégias para encontrar *subgrupos* ou *clusters* dentro de um conjunto de dados. 
-Procura-se particionar em subconjuntos disjuntos tais que as observações *(features)* dentro de cada subconjunto são 
+Procura-se particionar em subconjuntos disjuntos tais que as observações *(features)* dentro de cada subconjunto são similares, e observações em clusters diferentes são razoavelmente diferentes.
+Claro que para isso se concretizar, se faz necessário definir o que significa ser "similar" e "diferente", isso é uma decisão específica do domínio sendo trabalhado, e deve ser feita a partir do conhecimento dos dados estudados.
+
+Suponha que temos um conjunto de $n$ amostras, cada uma com $p$ variáveis. As $n$ amostras poderiam corresponder à $n$ amostras de tecido dos tumores de pacientes com câncer de mama *(a nível de exemplo)*, e cada uma das $p$ variáveis, algum tipo de medição clínica, como grau ou estágio do tumor
