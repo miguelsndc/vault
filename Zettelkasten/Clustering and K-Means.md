@@ -24,5 +24,7 @@ A variação dentro do cluster para um cluster $C_{k}$ é uma medida $W(C_{k})$ 
 $$
 \min\limits_{C_{1}, \cdots, C_{k}} \bigg\{\sum\limits_{k=1}^{K} W(C_{k}\bigg\} 
 $$
-O que essa fórmula diz é que queremos particionar as amostras em $K$ clusters de tal forma que a soma de todas as $K$ variações dentro dos clusters, 
+O que essa fórmula diz é que queremos particionar as amostras em $K$ clusters de tal forma que a soma de todas as $K$ variações dentro dos clusters seja a menor possível.
+Resolver esse treco aí parece uma ideia razoável, mas antes, é preciso definir como será calculada essa variação dos clusters, Existem muitas formas de fazer isso, mas de longe a escolha mais comum é pura e simples **distância euclidiana**,
 
+Então, seguindo a lógica, como a distância euclidiana é uma operação que recebe apenas dois vetores como parâmetro, precisamos calcular a distância entre **todos os pares de ve**
