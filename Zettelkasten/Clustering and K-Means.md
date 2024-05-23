@@ -1,0 +1,2 @@
+Clustering se refere ao leque de estratégias para encontrar *subgrupos* ou *clusters* dentro de um conjunto de dados. 
+Procura-se particionar em subconjuntos disjuntos tais que as observações *(features)* dentro de cada subconjunto são 
