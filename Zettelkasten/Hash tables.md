@@ -46,12 +46,18 @@ Nesta estratégia, cada célula do array corresponde à uma linked-list, e caso 
 - Caso mantenha a lista desordenada:
 	- Pior busca; melhor inserção. $O(n)$, caso não exista na lista é preciso percorrer todos os elementos, e para inserir basta inserir no final da lista.
 Caso haja a colisão: Seja $K$ a chave que queremos encontrar tal que $h(K) = x$, vamos até a $x$-ésima lista ligada e procuramos pela chave $K$, e caso exista, retornamos o valor associado, seja ele $Y$, caso não, retornamos algum valor impossível tipo $-1$, então:
+
 ```
 procedure get(key K)
-hash = h(K)
-llist = container[hash]
-traverse llist
-	if element == K
-		return Y
-return -1
+	hash = h(K)
+	llist = container[hash]
+	traverse llist
+		if element == K
+			return Y
+	return -1
 ```
+
+## Dúvidas
+- Onde os valores ficam guardados ?
+- Como posso implementar uma função de hash que leve em conta um possível crescimento da capacidade do container (array) ?
+- 
