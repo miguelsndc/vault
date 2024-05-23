@@ -63,3 +63,4 @@ procedure get(key K)
 
 # Closed Hashing
 
+Nesta política de resolução de colisões, os elementos são **guardados dentro do próprio hashmap**. Enquanto que no *open hashing*, os elementos ficam guardados em s
