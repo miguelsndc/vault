@@ -2,7 +2,6 @@
 tags:
   - polynomials
 date: 2023-10-16
-"
 page: 271
 aliases:
   - remainder theorem
