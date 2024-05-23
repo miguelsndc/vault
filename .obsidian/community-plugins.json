@@ -1,20 +1,13 @@
 [
-  "calendar",
-  "dataview",
   "obsidian-excalidraw-plugin",
   "quick-latex",
-  "table-editor-obsidian",
   "omnisearch",
-  "nldates-obsidian",
-  "note-refactor-obsidian",
   "obsidian-git",
-  "obsidian-tasks-plugin",
   "pane-relief",
-  "obsidian-outliner",
-  "templater-obsidian",
   "tabout",
-  "periodic-notes",
   "obsidian-relative-line-numbers",
   "obsidian-latex",
-  "code-styler"
+  "code-styler",
+  "obsidian-discordrpc",
+  "obsidian-outliner"
 ]

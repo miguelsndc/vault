@@ -36,7 +36,7 @@ int hash(string K) {
 
 # Collisions
 
-Colisões de chaves acontecem quando a função de hashing joga dois valores na mesma posição, colisões são comuns em hashmaps, por isso existem duas formas "padrão" de lidar:
+Colisões de chaves acontecem quando a função de hashing joga duas chaves na mesma posição, colisões são comuns em hashmaps, por isso existem duas formas "padrão" de lidar:
 
 ## Open Hashing (Separate Chaining)
 
@@ -59,6 +59,7 @@ procedure get(key K)
 
 ## Dúvidas
 - Como posso implementar uma função de hash que leve em conta um possível crescimento da capacidade do container (array) ?
+	>Simplesmente rehasheie e copie tudo para outro array de tamanho maior.
 
 # Closed Hashing
-	Nesta po´lit
+
