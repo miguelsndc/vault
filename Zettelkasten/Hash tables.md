@@ -40,4 +40,18 @@ Colisões de chaves acontecem quando a função de hashing joga dois valores na 
 
 ## Open Hashing (Separate Chaining)
 
-Nesta estratégia
+Nesta estratégia, cada célula do array corresponde à uma linked-list, e caso hajam colisões em uma posição j, a j-ésima linked list terá a chave inserida em si.
+- Caso mantenha a lista ordenada: 
+	- Melhor Busca; Pior inserção. $O(\log n)$ e $O(n)$, caso utilize o binary-search 
+- Caso mantenha a lista desordenada:
+	- Pior busca; melhor inserção. $O(n)$, caso não exista na lista é preciso percorrer todos os elementos, e para inserir basta inserir no final da lista.
+Caso haja a colisão: Seja $K$ a chave que queremos encontrar tal que $h(K) = x$, vamos até a $x$-ésima lista ligada e procuramos pela chave $K$, e caso exista, retornamos o valor associado, seja ele $Y$, caso não, retornamos algum valor impossível tipo $-1$, então:
+```
+procedure get(key K)
+hash = h(K)
+llist = container[hash]
+traverse llist
+	if element == K
+		return Y
+return -1
+```
