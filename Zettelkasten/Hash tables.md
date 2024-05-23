@@ -76,6 +76,19 @@ Se há uma colisão na posição $j$, uma estratégia de linear probing checa a 
 
 >Obviamente deve se manter o tamanho da tabela, dado que não é possível inserir numa tabela lotada
 
+```
+if (size < m) and find(k) == null then // we have space
+	pos = hash(K)
+	if collision detected
+		i = 1
+		do
+			pos = (pos + i) mod m
+		while table[pos] != null
+	entry = new_entry(key, value)
+	table[pos] = entry
+	size++
+```
+
 - Pseudo-random probing
 Ao instanciar a tabela, cria-se um "array de permutações", que vai de $1$ até $m-1$, onde $m$ é o tamanho da tabela, note que:
 - Um deslocamento de $0$, devolveria a posição de colisão, o que náo faz sentido.
@@ -85,14 +98,13 @@ Ao detectar colisão numa posição $j$, itera-se sobre o array de permutações
 
 ```
 if (size < m) and find(k) == null then
-
+	pos = hash(K)
 	if collision_detected
-		pos = hash(K)
 		i = 0
 		do
 			i++
 			offset = permutations[i - 1]
-			new_insertion_pos = (pos + offset) % m;
+			new_insertion_pos = (pos + offset) mod m;
 		while table[new_insertion_pos] != null
 		pos = new_pos
 	entry = new_entry(key, value)
