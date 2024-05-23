@@ -9,7 +9,7 @@ Possíveis estruturas para implementação de uma hash-table:
 Com arrays a função de hash precisa distribuir as chaves sobre os índices do array.
 Soluções triviais:
 - Inteiros:
-Com #number-theory  flashbacks, o módulo de um inteiro $n$ por outro inteiro $m$ **sempre será** um número entre $0$ e $m - 1$, **nem sempre isso é verdade, dada as implementações em certas linguagens**. mas a nível de exemplo, suponha que seja, então, uma possível função de hash utiliza o módulo como forma de colocar as chaves numa posição acessível ao array interno.
+Com #number-theory  flashbacks, o módulo de um inteiro $n$ por outro inteiro $m$ **sempre será** um número entre $0$ e $m - 1$, **nem sempre isso é verdade, dada as implementações em certas linguagens**. mas a nível de exemplo, suponha que seja, então, uma possível função de hash utiliza o módulo como forma de colocar os valores numa posição acessível ao array interno.
 
 ```cpp
 m = SOME_CONSTANT_VALUE;
@@ -36,3 +36,8 @@ int hash(string K) {
 
 # Collisions
 
+Colisões de chaves acontecem quando a função de hashing joga dois valores na mesma posição, colisões são comuns em hashmaps, por isso existem duas formas "padrão" de lidar:
+
+## Open Hashing (Separate Chaining)
+
+Nesta estratégia
