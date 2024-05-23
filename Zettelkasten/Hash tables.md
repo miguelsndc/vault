@@ -58,6 +58,7 @@ procedure get(key K)
 ```
 
 ## Dúvidas
-- Onde os valores ficam guardados ?
 - Como posso implementar uma função de hash que leve em conta um possível crescimento da capacidade do container (array) ?
-- 
+
+# Closed Hashing
+Nesta po´lit
