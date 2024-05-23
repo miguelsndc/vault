@@ -27,4 +27,14 @@ $$
 O que essa fórmula diz é que queremos particionar as amostras em $K$ clusters de tal forma que a soma de todas as $K$ variações dentro dos clusters seja a menor possível.
 Resolver esse treco aí parece uma ideia razoável, mas antes, é preciso definir como será calculada essa variação dos clusters, Existem muitas formas de fazer isso, mas de longe a escolha mais comum é pura e simples **distância euclidiana**,
 
-Então, seguindo a lógica, como a distância euclidiana é uma operação que recebe apenas dois vetores como parâmetro, precisamos calcular a distância entre **todos os pares de ve**
+Então, se temos $n$ amostras e $p$ variáveis, seguindo a lógica, como a distância euclidiana é uma operação que recebe apenas dois vetores como parâmetro, precisamos calcular a distância entre **todos os pares de vetores para cada variável $p$**, e depois encontrar a média dividindo o resultado pelo número de amostras, pra facilitar a vida vamos usar a distância ao quadrado, então fica mais ou menos assim:
+
+$$\begin{align*}
+W(C_{k}) &= \frac{1}{|C_{k}|} \sum\limits_{i,i' \in C_{k}}\sum\limits_{j=1}^{p}(x_{ij}-x_{i'j})^{2}
+\end{align*}$$
+Então, falando chique, a variação dentro dos clusters é a soma dos quadrados de todas as distâncias euclidianas entre as amostras no $k$-ésimo cluster, dividido pelo número de observações nesse cluster, então combinando tudo, ficamos com o problema de otimização (c1 flashbacks):
+
+$$\begin{align*}
+\min\limits_{C_{1}, \cdots, C_{k}} \bigg\{\sum\limits_{k=1}^{K} \frac{1}{|C_{k}|} \sum\limits_{i,i' \in C_{k}}\sum\limits_{j=1}^{p}(x_{ij}-x_{i'j})^{2} \bigg\} 
+\end{align*}$$
+esse treco aí é o k-means. agora, en
