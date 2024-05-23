@@ -63,4 +63,17 @@ procedure get(key K)
 
 # Closed Hashing
 
-Nesta política de resolução de colisões, os elementos são **guardados dentro do próprio hashmap**. Enquanto que no *open hashing*, os elementos ficam guardados em s
+Nesta política de resolução de colisões, os elementos são **guardados dentro do próprio hashmap**. Enquanto que no *open hashing*, os elementos ficam guardados em listas ligadas. 
+Um detalhe que reuqer atenção é que, na estratégia de open hashing, caso a hashtable tivesse $n$ "slots", pode-se guardar bem mais do que $n$ entradas, obviamente isso degenera a performance da tabela, mas é possível.
+Em closed hashing, temos $n$ posições no array, e podemos armazenar **somente** $n$ elementos. Dito isto:
+
+A partir do momento que é detectada uma colisão, utiliza-se de alguma estratégia que nos retorna um **offset** ou um **deslocamento**, ao qual devemos checar se há espaço livre no lugar retornado pelo deslocamento, e fazemos isto até conseguirmos inserir o elemento, algumas estratégias padrão, são:
+
+**Uma estratégia de deslocamento deve garantir que todos os endereços de hashing podem ser alcançados, para resolver a colisão.**
+
+- Linear probing
+Se há uma colisão na posição $j$, uma estratégia de linear probing checa a posição $j + 1,j+2,\cdots,j+k$, *(parecido com uma busca sequencial)*, e segue até o $k$-ésimo slot adjacente até encontrar um vazio. usando a ideia de aritmética modular, ao chegar ao final da lista é possível retornar ao começo e continuar a busca.
+
+>Obviamente deve se manter o tamanho da tabela, dado que não é possível inserir numa tabela lotada
+
+- Pseudo-random probing
