@@ -1,3 +1,8 @@
+---
+tags: data-structures
+---
+
+
 Key-value mapping for quick read-write operations, access done key-wise.
 
 Para encontrar em que posição deve-se colocar o valor associado a uma chave utiliza-se uma função de **hash** cujo objetivo é transformar a chave num valor único que possa ser guardado na estrutura por trás da hash table e acessado em $O(1)$ amortizado.
