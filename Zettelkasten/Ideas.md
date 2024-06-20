@@ -9,6 +9,8 @@ The main goal of the app is:
 - Better stock management
 - Quick sales
 
+Email / Password authentication for now
+
 The main features are:
 - Register a new product
 	- The product should have:
@@ -36,5 +38,9 @@ The main features are:
 		- The total money spent
 		- The money per product
 - See in real time what was sold and in what time
-	- Progress bar indicating how 
+	- Progress bar indicating how much time of the event has passed
 - Be able to access later what the total sales and the products sold
+- Sales report
+	- What products were sold
+	- In which hour they were sold
+	- Graphs about time and shit like that
