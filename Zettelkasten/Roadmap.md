@@ -1,2 +1,13 @@
 Não garanto a qualidade nem garanto que esse tal roadmap esteja completo, estou me baseando em como *eu* aprendi. e, o que funciona *pra mim*, talvez não funcione pra outras pessoas.
 
+A maioria dos conteúdos que tem aqui eu vi em cadeiras da faculdade, tudo ao mesmo tempo, mas, se eu pudesse inventar uma espécie de ordem, seria essa:
+- Precalculus - James Stewart
+Cobre todo o básico e te dá uma boa base para o que vem a seguir, talvez você ache que sabe tudo o que tem aqui, mas pode ser que não, e é **fundamental** cobrir quaisquer lacunas que hajam. Não precisa ir até o fim, até o capítulo 7 é suficiente. Se você estiver totalmente confiante que sabe o que está sendo falado, pule pros exercícios e faça todos. Se não conseguir, já sabe que **não** **sabe**.
+- Discrete Mathematics and it's applications - Kenneth Rosen
+Te dá conhecimentos absolutamente fundamentais, como provas matemáticas e lógica, que vão te perseguir pro resto da vida, (é sério, vão te perseguir mesmo). E cobre um monte de outras coisas interessantes, é um livro que vale a pena ir até o final. Talvez os 2 últimos capítulos sejam meio sem nexo, pode pular se quiser.
+
+> A partir daqui, conclua pelo menos os capítulos de lógica e provas do Kenneth Rosen e tenha certeza que sabe entender uma prova.
+
+- Geometria Analítica - (Paulo Winrtele / Reis e Silva)
+Eu ouvi falar muito bem do livro o Winterle, eu aprendi com o Reis e Silva, você pode escolher o que achar melhor. Cobre toda a geometria bidimensional e **tri**dimensional necessária, vetores, planos, retas, distâncias e tudo mais.
+- Algébra linear
