@@ -2,7 +2,6 @@
 tags:
   - complex
 date: 2023-09-14
-"
 page: 61
 ---
 The division of complex numbers is much like [[Rationalize the Denominator]] of [[Rational Expressions]].
