@@ -1,6 +1,6 @@
 ---
 tags: differential-equations
-aliases: constants
+aliases: constant
 ---
 Consideremos a equação de variáveis [[Equações Diferenciais Separáveis de 1a Ordem|separáveis]]:
 $$\begin{align*}

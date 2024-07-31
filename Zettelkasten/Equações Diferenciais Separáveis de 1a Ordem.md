@@ -1,6 +1,6 @@
 ---
 tags: differential-equations
-aliases: separável, separáveis
+aliases: separável, separáveis, separable
 ---
 Por uma equação diferencial de primeira ordem *separável*, entendemos uma equação da forma:
 $$\begin{align*}
