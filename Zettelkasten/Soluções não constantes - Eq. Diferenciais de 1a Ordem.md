@@ -37,4 +37,5 @@ $$
 \begin{align*}
 x(t) &= H^{-1}(G(t)+k)
 \end{align*}
+
 $$
