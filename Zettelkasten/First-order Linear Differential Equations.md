@@ -35,3 +35,15 @@ $$
 Which is in fact the solutions of $(1)$. When actually solving this we use a method similar to the proof instead of fucking pluging everything into this big ass formula. See:
 ___
 ## Example
+
+*Solve $\frac{d}{dx}=3x +4$.* 
+
+In this case, $g(t) = 3$ and $f(t) = 4$. So we can proceed as follows:
+- Put the equation in standard form $$\frac{d}{dx}-3x=4$$
+- The integrating factor $\mu(t)$ in this case is $e^{-\int g(t)\, dt} = e^{- \int 3\,dt}= e^{-3t}$. So multiply both sides:$$e^{-3t}\left[\frac{dx}{dt}-3x\right]=4e^{-3t}$$
+- Collapse the derivative with respect to $t$: $$\frac{d}{dt}[xe^{-3t}]=4e^{-3t}$$
+- Integrate and solve: $$\begin{align*}
+xe^{-3t}&= k+\int4e^{-3t}\,dt\\
+xe^{-3t}&= k - \frac{4}{3} e^{-3t}\\
+x&= ke^{3t} - \frac{4}{3}.
+\end{align*}$$
