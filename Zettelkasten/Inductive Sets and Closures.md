@@ -46,3 +46,10 @@ Since $X^{+}$ is the [[Intersection]] of all inductive sets of $X$ and $F$, it s
 - $X_{+}$ is closed under the functions of $F$.
 	We want to show that for all $f\in F$ and for all $w_{1},\cdots,w_{k} \in X_{+}, f(w_{1},\cdots,w_{k})\in X_{+}$. By definition there is some $i$ such that $w_{1}, \cdots, w_{k} \in X_{i}$ and $f(w_{1},\cdots, w_{k}) \in X_{i+1}$. Como $X_{i}$ and $X_{i+1}\subseteq X_{+}$. $X_{+}$ is closed under the functions of $F$.
 $(ii)$ $X_{+} \subseteq X^{+}$ 
+Since $X_{+}$ is defined as the [[Union]] of sets $X_{i}, i\ge 0$, we want to show that for all $i$, $X_{i}\subseteq X^{+}$. Let's do a inductive proof over $i$:
+- Basis step: $(i=0): X_{0}\subseteq X^{+}$.
+	Since $X^{+}$ is inductive over $X$ and $F$ and $X_{0}= X$, $X_{0}\subseteq X^{+}$ 
+- Inductive Hypothesis: $X_{n}\subseteq X^{+}$
+- Thesis: $X_{n+1}\subseteq X^{+}$
+	By definition, $X_{n+1}= X_{n}\cup \{f(w_{1},\cdots,w_{k})\mid f \in F, \text{ arity}(f) = k, \;\; w_{1},\cdots,w_{k} \in X_{n}\}$ By the Inductive Hypothesis, $X_{n}\subseteq X^{+}$. Since $X^{+}$ is inductive and closed under $F$, and, therefore, the second part is also contained in $X^{+}$. Therefore we prove the thesis.
+The proof is complete.
