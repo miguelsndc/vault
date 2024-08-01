@@ -39,3 +39,10 @@ Let $F$ be the family of generator functions over $X$, then we can:
  
 # Proof: Lemma $X_{+}=X^{+}$
 We want to show that $(i)$ $X_{+}\subseteq X^{+}$ and $(ii)$ $X^{+}\subseteq X_{+}$.
+$(i)$ $X^{+}\subseteq X_{+}$
+Since $X^{+}$ is the [[Intersection]] of all inductive sets of $X$ and $F$, it suffices to show that $X_{+}$ is inductive of $X$ and $F$.
+- $X_{+}$ contains $X$:
+	By definition $X_{+}$ contains $X_{0}=X$. Therefore $X_{+}$ contains $X$
+- $X_{+}$ is closed under the functions of $F$.
+	We want to show that for all $f\in F$ and for all $w_{1},\cdots,w_{k} \in X_{+}, f(w_{1},\cdots,w_{k})\in X_{+}$. By definition there is some $i$ such that $w_{1}, \cdots, w_{k} \in X_{i}$ and $f(w_{1},\cdots, w_{k}) \in X_{i+1}$. Como $X_{i}$ and $X_{i+1}\subseteq X_{+}$. $X_{+}$ is closed under the functions of $F$.
+$(ii)$ $X_{+} \subseteq X^{+}$ 
