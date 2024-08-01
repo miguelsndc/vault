@@ -28,4 +28,10 @@ However deterministic algorithms are a must in string matching, sorting, hashing
 
 *1.1-6 Describe a real-world problem in which sometimes the entire input is available before you need to solve the problem, but other times the input is not entirely available in advance and arrives over time.*
 
-Well let's say you have to read a file and do some statistical analysis there, usually this data is collected within some time period with a handful of people, all the data is there, you
+Well let's say you have to read a file and do some statistical analysis there, usually this data is collected within some time period with a handful of people, all the data is there, and will not change.
+
+Realtime applications have to deal with incoming data, for example, let's say im a process manager in my computer, if i have a list of processes where each has a certain priority, i will run the processes with biggest priority first, and as the user messes around in the computer, priorities might change depending on where he's looking at, where he is typing, which window is being focused and so on, i need to account for that.
+
+*1.2-1 Give an example of an application that requires algorithmic content at the application level, and discuss the function of the algorithms involved.*
+
+Ever played agar.io ? that fun little shitty game where you are a ball and you eat other people's balls ? yeah, it has a ranking containing the player's with the biggest balls, and that list is being sorted in real time, using whether a heap, or sorting the entire list of players every frame, which is pretty wild to be honest, or whete
