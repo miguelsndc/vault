@@ -29,10 +29,13 @@ Let $I$ be the family of all inductive sets of $X$ over $F$. Then the following 
 $$\begin{align*}
 \bigcap_{i=0}^{\infty}I_{i}=X^{+}
 \end{align*}$$
-Where $X^{+}$ is the inductive closure. Mathematically, this is perfectly valid, however, **computationally speaking** we can't really list all inductive sets since there's infinitely many of them. So we use the bottom-up approach:
+Where $X^{+}$ is the inductive closure. Notice that the intersection is non-empty since $\Sigma^{*}$ itself is inductive over $X$ and $F$. Mathematically, this is perfectly valid, however, **computationally speaking** we can't really list all inductive sets since there's infinitely many of them. So we use the bottom-up approach:
 
 **Bottom-up** 
-Let $X_{0}$ be the basis $X$, let $F$ be the family of generator functions over $X$, then we can do something like:
-$$\begin{align*}
-X_{1}&= X_{0}\cup
-\end{align*}$$
+Let $F$ be the family of generator functions over $X$, then we can:
+- Let $X_{0}=X$
+- $X_{i+1}=X_{i}\cup \{f(w_{1},w_{2},\cdots,w_{k}) \mid f \in F$ arity $(f)=k\;\; w_{1},w_{2},\cdots,w_{k}\in F\}$ 
+ - Then take $X_{+}= \bigcup_{i=0}^{\infty}X_{i}$.
+ 
+# Proof: Lemma $X_{+}=X^{+}$
+We want to show that $(i)$ $X_{+}\subseteq X^{+}$ and $(ii)$ $X^{+}\subseteq X_{+}$.
