@@ -1,6 +1,6 @@
 ---
 tags: logic
-aliases: alphabet, syntax, language
+aliases: alphabet, syntax, language, basis
 ---
 Here we provide some basic definitions of logic. 
 - **Consistent [[Sets|set]]**: A set where there is at least one case where the [[Proposition|propositions]] line up and all become true. See the example:
@@ -25,3 +25,5 @@ We can define $\Sigma^{*}$ recursively:
 - $\epsilon \in \Sigma^{*}$ ($\epsilon$ is the empty string)
 - Every symbol $s \in \Sigma$ also belongs to $\Sigma^{*}$
 - If $s \in \Sigma$ and $t \in \Sigma$, $s.t \in \Sigma^{*}$, where "$.$" is the concatenation operator.
+___
+- A **basis** is the set of variables united to constants.
