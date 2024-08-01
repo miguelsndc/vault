@@ -53,7 +53,8 @@ so for values where $n < 8\log n$, insertion sort is faster.
 
 We want values of $n$ where $100n^{2} < 2^{n}$, since both functions are again monotonicaly increasing, and obviously $2^{n}$ grows much faster, there must be some point where they both touch and never meet again, so all points after this point are what we want:
 $$\begin{align*}
-100n^{2}<2^{n}\\
-\log_{2}(100n^{2})=\log_{2}(2^{n})\\
-&= 
+100n^{2}&< 2^{n}\\
+\log_{2}(100n^{2})&< \log_{2}(2^{n})\\
+\log_{2}(100)+\log_{2}(n^{2})<n
 \end{align*}$$
+So for values where this [[Inequality]] holds, $100x^{2}$ runs faster than $2^{n}$.
