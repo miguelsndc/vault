@@ -57,4 +57,4 @@ $$\begin{align*}
 \log_{2}(100n^{2})&< \log_{2}(2^{n})\\
 \log_{2}(100)+\log_{2}(n^{2})<n
 \end{align*}$$
-So for values where this [[Inequality]] holds, $100x^{2}$ runs faster than $2^{n}$.
+So for values where this [[Inequality]] holds, $100x^{2}$ runs faster than $2^{n}$.L
