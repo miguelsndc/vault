@@ -35,3 +35,15 @@ Realtime applications have to deal with incoming data, for example, let's say im
 *1.2-1 Give an example of an application that requires algorithmic content at the application level, and discuss the function of the algorithms involved.*
 
 Ever played agar.io ? that fun little shitty game where you are a ball and you eat other people's balls ? yeah, it has a ranking containing the player's with the biggest balls, and that list is being sorted in real time, using whether a heap, or sorting the entire list of players every frame, which is pretty wild to be honest, or whether they are using a binary tree, something is going on there, new players arrive, players eat each other, that requires some thought about how to do it, if you only allow $100$ players or so on each game, we can sort the list every frame and be cool with it, but if you allow $1000000$ players, shit gets real, (i don't even know if the browser or the server can handle that much simultaneous connections, but for curiosity sake, assuming that number) you might need a much better system to handle the ranking, you might want to benefit the structure of the data to do that, or something else, maybe realize that only small changes happen within the data structure, a player never really goes from $0$ points to $100000$ points outta nowhere, you only need tiny swaps between nodes, and account for deletions when a player dies, you can run something like a insertion sort every frame, since it runs best on somewhat sorted lists, a linked-list might not be the best case, because accounting for the overhead of pointers and the lack of locality of reference might not worth it, and c'mon, a player with a bazillion points rarely gets killed, you almost never have to move everything up one position.
+
+
+*1.2-2 Suppose that for inputs of size $n$ on a particular computer, insertion sort runs in $8n^{2}$ steps and merge sort runs in $64 n \log n$ steps. For which values of $n$ does insertion sort beat merge sort?*
+
+Let $i(n)$ and $m(n)$ be the respective functions for insertion sort and merge sort, since both and monotonically increasing (you never sort a list of $100$ elements faster than a list of $1000$ elements), we can find a intersection point and from the point above the merge sort is faster, so: 
+$$\begin{align*}
+8n^{2}&= 64n\log n\\
+n^{2}&= 8n\log n\\
+n &= 8\log n\\
+\frac{n}{8}&= \log n\\
+2^{\frac{n}{8}=}n
+\end{align*}$$
