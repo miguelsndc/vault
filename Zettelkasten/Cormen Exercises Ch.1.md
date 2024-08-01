@@ -10,5 +10,12 @@ Shortest-Path -  The maze problem is a classic, you have a grid where each cell 
 
 *1.1-2 Other than speed, what other measures of efficiency might you need to consider in a real-world setting?*
 
-Depending on your scenario, you might want to consider the individual characteristics of your input, the memory the 
+Depending on your scenario, you might want to consider the individual characteristics of your input, the memory spent, the time obviously, which worst/average/best case efficiency trade-up is most suitable for your problem, if you need a online of offline algorithm, whether you can tradeoff space and time, your hardware (cache and stuff like that), and so on and so forth.
 
+*1.1-3 Select a data structure that you have seen, and discuss its strengths and limitations.*
+
+The Binary Search tree gives a good balance between lookups and insertions, striking a good average case of logarithmic time in a ideal scenario, being a more stable alternative to the hash tables, where the lookup time is amortized constant time depending on the hash function, but the collisions might take that time up to linear time in a poorly designed hash table, however binary trees are much more versatile, allowing a much wider range of use cases, such as collision systems in quake III for example. However it has a pretty wild limitation, balanced trees have height logarithmically proportional to the input, but depending on the input, or even depending on the order of the input, the tree might strike a height of $n$, and be as bad as a linked list, there are alternatives that try to minimize this problem, but introduce overheads, like rotations and coloring.
+
+*1.1-4 How are the shortest-path and traveling-salesperson problems given above similar? How are they different?*
+
+The traveling-salesperson is similar to the shortest path problem in the sense that the ideal solution to the traveling-salesperson is a shortest path in a weighted grea
