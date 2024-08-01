@@ -41,9 +41,19 @@ Ever played agar.io ? that fun little shitty game where you are a ball and you e
 
 Let $i(n)$ and $m(n)$ be the respective functions for insertion sort and merge sort, since both and monotonically increasing (you never sort a list of $100$ elements faster than a list of $1000$ elements), we can find a intersection point and from the point above the merge sort is faster, so: 
 $$\begin{align*}
-8n^{2}&= 64n\log n\\
-n^{2}&= 8n\log n\\
-n &= 8\log n\\
-\frac{n}{8}&= \log n\\
-2^{\frac{n}{8}=}n
+8n^{2}&< 64n\log n\\
+n^{2}&< 8n\log n\\
+n &< 8\log n\\
+\frac{n}{8}&< \log n\\
+2^{\frac{n}{8}}& < n
+\end{align*}$$
+so for values where $n < 8\log n$, insertion sort is faster.
+
+*1.2-3 What is the smallest value of $n$ such that an algorithm whose running time is $100n^{2}$ runs faster than an algorithm whose running time is $2^{n}$ on the same machine?*
+
+We want values of $n$ where $100n^{2} < 2^{n}$, since both functions are again monotonicaly increasing, and obviously $2^{n}$ grows much faster, there must be some point where they both touch and never meet again, so all points after this point are what we want:
+$$\begin{align*}
+100n^{2}<2^{n}\\
+\log_{2}(100n^{2})=\log_{2}(2^{n})\\
+&= 
 \end{align*}$$
