@@ -20,3 +20,11 @@ The index $i$ indicates the "current card" being inserted into our hand, while t
 These properties of $A[1:i-1]$ are the [[Loop Invariants]] of the algorithm, let's define it.
 
 The loop [[Loop Invariants|invariant]]: *At the start of each iteration of the for loop on lines $2$-$9$, the subarray $A[1:i-1]$ consists of the elements originally in $A[1:i-1]$, but in sorted order*.
+## (Informal) Proof of Correctness
+
+Here we show the correctness of Insertion Sort through the loop invariant previously defined.
+- **Initialization**: Here we show that the invariant holds before the first loop iteration, when $i = 2$. he subarray $A[1:i-1]$ consists of just the element $A[1]$, which is sorted.
+- **Maintenance**: Showing that the loop maintains the invariant on each iteration. Informally, the body of the for loop works by moving elements $A[i-1], A[i-2], A[i-3]$ to the right until it finds a suited position for $A[i]$, so the subarray $A[1:i]$ consits of elements previously in $A[i]$ but in sorted order. Notice that after the iteration the $i$ increases, preserving the loop invariant.
+- **Termination**: Finally, we examine the loop termination. The loop starts at $2$ and increases by $1$ every iteration, once $i$'s value exceed $n$, the loop terminates. That is, the loop terminates once $i=n+1$, substituting in the invariant yields the subarray $A[1:n]$, which is previously $A[1:n]$ but in sorted order, therefore the algorith **is correct**.
+
+Please notice we also need a loop invariant for the *while* loop, and a more formal proof is more bullet-proof, this is a sketch.
