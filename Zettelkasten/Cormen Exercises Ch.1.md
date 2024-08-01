@@ -18,4 +18,14 @@ The Binary Search tree gives a good balance between lookups and insertions, stri
 
 *1.1-4 How are the shortest-path and traveling-salesperson problems given above similar? How are they different?*
 
-The traveling-salesperson is similar to the shortest path problem in the sense that the ideal solution to the traveling-salesperson is a shortest path in a weighted grea
+The traveling-salesperson is similar to the shortest path problem in the sense that the ideal solution to the traveling-salesperson is a shortest path in a weighted graph, however, it's not only a path, it's a hamiltonian cycle, where each vertex is visited exactly once. This introduces a wild change in perspective, we can try a heuristic like a minimum spanning tree, but it might not suffice, all of these minimum-weight stuff in graph derive from the idea of having a path with minimum weight, which is in fact what the shortest path problem describes.
+
+*1.1-5 Suggest a real-world problem in which only the best solution will do. Then come up with one in which "approximately" the best solution will do.*
+
+Everytime we deal with uncertainty and probabilities, algorithms that strike a good balance between speed/space and can output a plausible solution most likely will do, such a example is the clustering problem, where we have a shit ton of strategies that try to minimize the error function, however the most used is the "k-means" algorithm that has a simple iterative solution and does not fuck up your computer, also in situations where the entire search space needs to be considered and we have fucking $2^{n}$ possibilites, we can try heuristics to push that down, in the knapsack problem for example.
+
+However deterministic algorithms are a must in string matching, sorting, hashing/dehashing, etc, imagine someone getting your password right just because the password system is only "good enough" ? that's wild.
+
+*1.1-6 Describe a real-world problem in which sometimes the entire input is available before you need to solve the problem, but other times the input is not entirely available in advance and arrives over time.*
+
+Well let's say you have to read a file and do some statistical analysis there, usually this data is collected within some time period with a handful of people, all the data is there, you
