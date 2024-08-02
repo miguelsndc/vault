@@ -64,3 +64,19 @@ procedure ADD-BINARY-INTEGERS(A,B,n)
 	C[i] = carry
 	return C
 ```
+
+*2.2-1 Express the function $\frac{n^{3}}{1000}+100n^{2}-100n+3$ in terms of $\Theta$ notation.*
+
+Let $F(n)$ be the function in the statement, notice that the leading coefficient of $F$ has degree $3$, which belongs to the order of $\Theta(n^{3})$, since:
+$$\begin{align*}
+\lim_{n\rightarrow\infty}\frac{F(n)}{n^{3}}&= \frac{\frac{n^{3}}{1000}+100n^{2}-100n+3}{n^{3}} \\
+&= \lim_{n\rightarrow\infty} \frac{n^3(\frac{1}{1000} + 100 \frac{1}{n} - 100 \frac{1}{n^{2}} + 3 \frac{1}{n^{3}})}{n^{3}}\\
+&= \lim_{n\rightarrow\infty} \frac{n^{3}}{n^{3}}=1
+\end{align*}$$
+Therefore $F(n) \in \Theta(n^{3})$.
+
+$2.2-2$
+```
+procedure SELECTION-SORT(A,n)
+	
+```
