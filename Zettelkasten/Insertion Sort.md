@@ -54,4 +54,9 @@ procedure insertion_sort(A, n)
 | 5    | $c_4$ | $n-1$                            | $c_3(n-1)$                          |
 | 6    | $c5$  | $\sum\limits_{i=2}^{n}t_{i}$     | $c_5\sum\limits_{i=2}^{n}t_{i}$     |
 | 7    | $c_6$ | $\sum\limits_{i=2}^{n}(t_{i}-1)$ | $c_6\sum\limits_{i=2}^{n}(t_{i}-1)$ |
-|      |       |                                  |                                     |
+| 8    | $c_7$ | $\sum\limits_{i=2}^{n}(t_{i}-1)$ | $c_7\sum\limits_{i=2}^{n}(t_{i}-1)$ |
+| 9    | $c_8$ | $n-1$                            | $c_8(n-1)$                          |
+
+So the total time is:
+$T(n) = c_{1}n+c_{2}(n-1)+c_{3}(n-1)+c_{5}\sum\limits_{i=2}^{n}t_{i}+c_{6}\sum\limits_{i=2}^{n}(t_{i}-1)+c_{7}\sum\limits_{i=2}^{n}(t_{i} - 1)+c_{8}(n-1)$.
+Even for inputs of a given size, the runnig time might depend on *which* input wa
