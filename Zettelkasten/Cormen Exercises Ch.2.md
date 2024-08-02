@@ -76,7 +76,16 @@ $$\begin{align*}
 Therefore $F(n) \in \Theta(n^{3})$.
 
 $2.2-2$
+
 ```
 procedure SELECTION-SORT(A,n)
-	
+	for i = 1 to n - 1
+		small_i = i + 1
+		for j = i + 1 to n - 1
+			if A[j] < A[small_i]
+				small_i = j
+		swap(A[i], A[small_i])
 ```
+
+[[Loop Invariants]]: After each iteration, the subarray $A[1:i-1]$ is sorted.
+Inner loop: After each iteration, `small_i` contains the index of the smallest element in the subarray $A[i+1:n]$.
