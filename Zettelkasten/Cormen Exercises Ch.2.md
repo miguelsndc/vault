@@ -59,5 +59,8 @@ procedure ADD-BINARY-INTEGERS(A,B,n)
 	carry  = 0
 	C[0:n] = 0 // filled with zeroes
 	for i = 0 to n - 1
-		
+		C[i] = (A[i] xor B[i]) xor carry
+		carry =(A[i] and B[i]) or (carry and (B[i] or A[i]))
+	C[i] = carry
+	return C
 ```
