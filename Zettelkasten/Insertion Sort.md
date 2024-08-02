@@ -59,4 +59,13 @@ procedure insertion_sort(A, n)
 
 So the total time is:
 $T(n) = c_{1}n+c_{2}(n-1)+c_{3}(n-1)+c_{5}\sum\limits_{i=2}^{n}t_{i}+c_{6}\sum\limits_{i=2}^{n}(t_{i}-1)+c_{7}\sum\limits_{i=2}^{n}(t_{i} - 1)+c_{8}(n-1)$.
-Even for inputs of a given size, the runnig time might depend on *which* input wa
+## The Best Case
+
+Even for inputs of a given size, the runnig time might depend on *which* input was given, in insertion sort, the **best** input is when the array is already sorted, because the condition on line $6$ will always lead to false, since $A[i]$ is already greater than $A[j]$, so the time for lines $6-8$ is $0$, and the `while` loop always exits in the first test, the total time becomes:
+$T(n) = c_{1}n + c_{2}(n-1)+c_{4}(n-1)+c_{5}(n-1)+c_{8}(n-1)$
+$T(n) = (c_{1}+c_{2}+c_{4}+c_{5}+c_{8})n - (c_{2}+c_{4}+c_{5}+c_{8})$.
+We can express the total time by a function $an+b$, whene $a=(c_{1}+c_{2}+c_{4}+c_{5}+c_{8})$ and $b=-(c_{2}+c_{4}+c_{5}+c_{8})$, So therefore this case is a [[Linear Function]] of the input.
+
+## The Worst Case
+
+The worst case for insertion sort is when the array is sorted in **reverse** order of the order intended in the algorithm, in this case, the `while` loop will run every time until $j$ becomes $0$
