@@ -28,3 +28,30 @@ Here we show the correctness of Insertion Sort through the loop invariant previo
 - **Termination**: Finally, we examine the loop termination. The loop starts at $2$ and increases by $1$ every iteration, once $i$'s value exceed $n$, the loop terminates. That is, the loop terminates once $i=n+1$, substituting in the invariant yields the subarray $A[1:n]$, which is previously $A[1:n]$ but in sorted order, therefore the algorith **is correct**.
 
 Please notice we also need a loop invariant for the *while* loop, and a more formal proof is more bullet-proof, this is a sketch.
+___
+# Analysis
+
+Consider the conventions defined in the [[Running Time Conventions]] note.
+Let $T(n)$ represent the time taken by insertion sort, Let also $t_{i}$ represent the time taken by the `while` loop.
+
+```
+procedure insertion_sort(A, n)
+	for i = 2 to n
+		key = A[i]
+		// insert A[i] into the sorted subarray A[1:i-1]
+		j = i - 1
+		while j > 0 and A[j] > key
+			A[j + 1] = A[j]
+			j = j - 1
+		A[j + 1] = key
+```
+
+| Line | Cost  | Executions                       | Total time                          |
+| ---- | ----- | -------------------------------- | ----------------------------------- |
+| 2    | $c_1$ | $n$                              | $c_{1}n$                            |
+| 3    | $c_2$ | $n-1$                            | $c_2(n-1)$                          |
+| 4    | $0$   | $0$                              | $0$                                 |
+| 5    | $c_4$ | $n-1$                            | $c_3(n-1)$                          |
+| 6    | $c5$  | $\sum\limits_{i=2}^{n}t_{i}$     | $c_5\sum\limits_{i=2}^{n}t_{i}$     |
+| 7    | $c_6$ | $\sum\limits_{i=2}^{n}(t_{i}-1)$ | $c_6\sum\limits_{i=2}^{n}(t_{i}-1)$ |
+|      |       |                                  |                                     |
