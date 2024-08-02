@@ -68,4 +68,16 @@ We can express the total time by a function $an+b$, whene $a=(c_{1}+c_{2}+c_{4}+
 
 ## The Worst Case
 
-The worst case for insertion sort is when the array is sorted in **reverse** order of the order intended in the algorithm, in this case, the `while` loop will run every time until $j$ becomes $0$
+The worst case for insertion sort is when the array is sorted in **reverse** order of the order intended in the algorithm, in this case, the `while` loop will run until $j$ becomes $0$, the procedure must compare each element inserted with the entire subarray $A[1:i-1]$, to insert it a the first position. Noting that:
+$$\begin{align*}
+\sum\limits_{i=2}^{n}i=\left(\sum\limits_{i=1}^{n}i\right)-1=\frac{n(n+1)}{2}-1
+\end{align*}$$
+and Also that 
+$$\begin{align*}
+\sum\limits_{i=2}^{n}(i-1)=\sum\limits_{i=1}^{n-1}i=\frac{n(n-1)}{2}
+\end{align*}$$
+We find out that in the worst case the running time is:
+$$\begin{align*}
+T(n)&= c_{1}n +c_{2}(n-1) + c_{4}(n-1) + c_{5}\left(\frac{n(n+1)}{2}-1\right)+ \\ &+c_{6} \left(\frac{n(n-1)}{2}\right)+c_{7} \left(\frac{n(n-1)}{2}\right)+ c_{8}(n-1)\\
+&= \left(\frac{c_{5}}{2}+ \frac{c_{6}}{2} + \frac{c_{7}}{2}\right)n^{2}+ (c_{1}+c_{2}+c_{4} + \frac{c_{5}}{2}- \frac{c_{6}}{2} - \frac{c_{7}}{2}+c_{8})n -(c_{2}+c_{4}+c_{5}+c_{8})
+\end{align*}$$Which we can express as a function $an^{2}+bn+c$ for constants $a, b$ and $c$ that again depend on the statement costs $c_{k}$, The running time is a [[Quadratic Function]] of $n$.
