@@ -18,7 +18,7 @@ procedure SUM-ARRAY(A,n)
 Loop [[Loop Invariants|invariant]]: At the start of every iteration, the $\rm{sum}$ variable contains the sum of all elements in the subarray $A[1:i-1]$. 
 
 - **Initialization**: Before the first iteration, the sum variable contains the sum of all elements in the subarray $A[1:0]$, which does not exist and therefore is empty, and the sum is $0$.
-- **Maintenance**: On each iteration, the sum variable consists of the sum of elements from $A[1:i-1]$, on the body we add sum to itself plus $A[i]$, denoting the sum of all elements from $A[1:i-1]$ and $A[i]$, therefore being the sum of the subarray $A[1:i]$, at the end $i$ increments and the sum corresponds to the sum of elements of $A[1:i-1]$, therefore preserving loop invariance.
+- **Maintenance**: On each iteration,  on the body we add sum to itself plus $A[i]$, denoting the sum of all elements from $A[1:i-1]$ and $A[i]$, therefore being the sum of the subarray $A[1:i]$, at the end $i$ increments and the sum corresponds to the sum of elements of $A[1:i-1]$, therefore preserving loop invariance.
 - **Termination**: The loop runs from $1$ to $n$, and since the invariant states that sum holds the sum of elements in $A[1:i-1]$, when the loop ends, $i$ is $n+1$, and substituing that into the invariant, sum corresponds now to the sum of elements of $A[1:n]$, therefore the algorithm is correct.
 
 *2.1-3 Rewrite the INSERTION-SORT procedure to sort into monotonically decreasing instead of monotonically increasing order.*
@@ -47,4 +47,8 @@ procedure LINEAR_SEARCH(A,n,x)
 
 Loop [[Loop Invariants|invariant]]: At the start of each iteration, the `index` variable contains the last index of occurrence of value $x$ or `NIL` otherwise.
 
-- **Initialization**: Before the first iteration, the `index` variable contains NIL,
+> This fulfills the requirements of the question, however, it'd be more clever to break the loop once we fond the index, however i'll take advantage from this lack of information lol.
+
+- **Initialization**: Before the first iteration, the `index` variable contains `NIL`, since we have scanned no subarray yet, we can say we scanned the empty subarray, and the empty subarray does not contain $x$, therefore initialization holds.
+- **Maintenance**: At the start of every iteration we compare `A[index]` to `x`, If it is equal, then the `index` contains the last occurrence of `x` in the subarray $A[1:i]$, if it isn't, then `index` contains either `NIL` or the last occurrence of `x` in the subarray $A[1:i-1]$ of previous iteration, and after the iteration it contains the last occurrence of `x` in subarray $A[1:i-1]$, therefore maintaning invariance.
+- **Termination**: After the last iteration, $i$ will be $n + 1$, and since the invariant is maintained,`index` will contain the last occurrence of `x` in the subarray $A[1:n]$, therefore the algorithm is correct.
