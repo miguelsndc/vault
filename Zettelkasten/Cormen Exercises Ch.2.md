@@ -52,3 +52,12 @@ Loop [[Loop Invariants|invariant]]: At the start of each iteration, the `index` 
 - **Initialization**: Before the first iteration, the `index` variable contains `NIL`, since we have scanned no subarray yet, we can say we scanned the empty subarray, and the empty subarray does not contain $x$, therefore initialization holds.
 - **Maintenance**: At the start of every iteration we compare `A[index]` to `x`, If it is equal, then the `index` contains the last occurrence of `x` in the subarray $A[1:i]$, if it isn't, then `index` contains either `NIL` or the last occurrence of `x` in the subarray $A[1:i-1]$ of previous iteration, and after the iteration it contains the last occurrence of `x` in subarray $A[1:i-1]$, therefore maintaning invariance.
 - **Termination**: After the last iteration, $i$ will be $n + 1$, and since the invariant is maintained,`index` will contain the last occurrence of `x` in the subarray $A[1:n]$, therefore the algorithm is correct.
+
+*2.1-5*
+```
+procedure ADD-BINARY-INTEGERS(A,B,n)
+	carry  = 0
+	C[0:n] = 0 // filled with zeroes
+	for i = 0 to n - 1
+		
+```
