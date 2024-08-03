@@ -42,3 +42,14 @@ Atomic expressions contribute with $1$ to the count of total symbols, the functi
 
 Subexpressions are the [[Sets|set]] containing the individual pieces of each expression, the atomic expressions, each operator and it's argument, as well as the whole expression, since a set is always [[Subsets|subset]] of itself.
 
+$s: PROP \rightarrow P(PROP)$ where $P$ is the [[Power Set]].
+$s(\phi) = \{\phi\}$ where $\phi$ is an atomic expression.
+$s((\lnot \psi)) = s(\psi) \cup \{(\lnot \psi)\}$ 
+$s((\phi \lor \theta)) = s(\phi) \cup s(\theta) \cup \{(\phi \lor \theta)\}$ 
+$s((\phi \land \theta)) = s(\phi) \cup s(\theta) \cup \{(\phi \land \theta)\}$ 
+$s((\phi \implies \theta)) = s(\phi) \cup s(\theta) \cup \{(\phi \implies \theta)\}$ 
+
+Every subexpression contributes with itself plus it's own subexpressions to the [[Sets|set]], so, for example: $s((x \lor (\lnot y)))= \{x, y, (\lnot y), (x \lor (\lnot y))\}$. 
+
+$$\begin{align*}
+\end{align*}$$
