@@ -5,13 +5,40 @@ Since [[PROP is Freely Generated]], $PROP$ being the [[Inductive Sets and Closur
 
 As notation we'll use the greek letters $\phi,\psi, \rho$ and $\theta$ to represent the expressions.
 
-## Number of parenthses
+## Number of parentheses
 
 $f: PROP \rightarrow \N$ 
-$f(\phi) = 0$ if $\phi$ is atomic, i.e $\phi \in X$ where $X$ is the [[Theorems and Proofs for Basis and Dimension|basis]].
+$f(\phi) = 0$ if $\phi$ is atomic, i.e $\phi \in X$ where $X$ is the [[Definitions of Logic|basis]] .
 $f((\lnot \psi))= f(\psi) + 2$;
 $f((\rho \land \theta))= f(\rho) + f(\theta) + 2$;
 $f((\rho \lor \theta)) = f(\rho) + f(\theta) + 2$;
 $f((\rho \implies \theta)) = f(\rho) + f(\theta) + 2$;
 
 Atomic expressions do not contribute to the number of parentheses of an expression, while every operator contributes with $2$ parentheses, see the example for $f((x \lor (\lnot y))) = f(x) + f(\lnot y) + 2 = f(x) + f(y) + 2 + 2= 0+0 +2+2=4$. 
+
+## Number of operators
+
+$f: PROP \rightarrow \N$ 
+$f(\phi) = 0$ if $\phi$ is atomic, i.e $\phi \in X$ where $X$ is the basis.
+$f((\lnot \psi)) = f(\psi) + 1$
+$f((\rho \lor \theta)) = f(\rho) + f(\theta) + 1$
+$f((\rho \land \theta)) = f(\rho) + f(\theta) + 1$
+$f((\rho \implies \theta)) = f(\rho) + f(\theta) + 1$
+
+Atomic expressions do not contribute to the number of operators because there are no operators at all within them. every generator function contributes with $1$ operator, it's own.
+
+## Number of Symbols
+
+$f:PROP \rightarrow \N$ 
+$f(\phi) = 1$ if $\phi$ is atomic, i.e $\phi \in X$ where $X$ is the basis.
+$f((\lnot \psi)) = f(\psi) + 3$
+$f((\rho \lor \theta)) = f(\rho) + f(\theta) + 3$
+$f((\rho \land \theta)) = f(\rho) + f(\theta) + 3$
+$f((\rho \implies \theta)) = f(\rho) + f(\theta) + 3$
+
+Atomic expressions contribute with $1$ to the count of total symbols, the functions contribute with $3$ symbols, the two parantheses and the operator.
+
+## Subexpressions
+
+Subexpressions are the [[Sets|set]] containing the individual pieces of each expression, the atomic expressions, each operator and it's argument, as well as the whole expression, since a set is always [[Subsets|subset]] of itself.
+
