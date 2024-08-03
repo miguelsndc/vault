@@ -51,5 +51,10 @@ $s((\phi \implies \theta)) = s(\phi) \cup s(\theta) \cup \{(\phi \implies \theta
 
 Every subexpression contributes with itself plus it's own subexpressions to the [[Sets|set]], so, for example: $s((x \lor (\lnot y)))= \{x, y, (\lnot y), (x \lor (\lnot y))\}$. 
 
-$$\begin{align*}
-\end{align*}$$
+## Syntax Tree
+
+> Can't write trees on obsidian.
+
+![[Pasted image 20240803193206.png]]
+
+So each atomic expression contributes with a node containing itself, and every operator contributes with a subtree with the operator at the root and it's children being the subexpressions within.
