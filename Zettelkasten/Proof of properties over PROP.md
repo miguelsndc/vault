@@ -68,3 +68,11 @@ $$\begin{align*}
 |s(\psi)|&\le 2f(\psi)+1+2
 \end{align*}$$
 By the I.H, $|s(\psi)| \le 2f(\psi) + 1$, and obviously, $|s(\psi)| \le 2f(\psi) + 1 + 2$.
+- Inductive step:
+	- Hypothesis: $(1)$ $|s(\rho)| \le 2f(\rho) + 1$; $(2)$ $|s(\theta)| \le 2f(\theta) + 1$.
+	- Thesis: $|s(\rho \sqsep \theta)| \le 2f(\rho \sqsep \theta)+1$ where $\sqsep = \{\implies, \lor, \land\}$.
+By the definitions, we want to show that:
+$$\begin{align*}
+|s(\rho \sqsep \theta)| &\le2f(\rho \sqsep \theta)+1\\
+|s(\rho)\cup s(\theta)\cup \{(\rho \sqsep \theta)\}| &\le 2(f(\rho)+f(\theta)+1)+1
+\end{align*}$$
