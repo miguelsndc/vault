@@ -106,3 +106,6 @@ $$\begin{align*}
 \end{align*}$$
 *$2.2-3$ Consider linear search again (see Exercise 2.1-4). How many elements of the input array need to be checked on the average, assuming that the element being searched for is equally likely to be any element in the array? How about in the worst case? using $\Theta$ notation, give the average-case and worst-case running times of linear search. Justify your answers.*
 
+Since the elements are equally likely to be selected, we can assume the probability of a element lying in a position "$i$" is given by a uniform distribution, and it should be somewhere in the average, since the average of a uniform distribution is given by: $\frac{1}{2}(a + b)$ where $a$ and $b$, in this context is the first and last index of the array, we can expect the element to be in the middle, and we need to check $\frac{n}{2}$ elements to get it.
+
+In the worst case the element is at the last index, and we need to perform $n$ checks.
