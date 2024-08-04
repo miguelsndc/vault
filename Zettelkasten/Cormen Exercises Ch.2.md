@@ -81,11 +81,13 @@ $2.2-2$
 procedure SELECTION-SORT(A,n)
 	for i = 1 to n - 1
 		small_i = i + 1
-		for j = i + 1 to n - 1
+		for j = i + 1 to n
 			if A[j] < A[small_i]
 				small_i = j
 		swap(A[i], A[small_i])
 ```
 
-[[Loop Invariants]]: After each iteration, the subarray $A[1:i-1]$ is sorted.
-Inner loop: After each iteration, `small_i` contains the index of the smallest element in the subarray $A[i+1:n]$.
+[[Loop Invariants]]: After each iteration, the subarray $A[1:i]$ is sorted.
+Inner loop: After each iteration, `small_i` contains the index of the smallest element in the subarray $A[i+1:j]$.
+
+- **Initialization**: For the inner loop, prior to the first iteration, $j$ contains $i + 1$, since $i=1$, `small_i` contains the smallest element of $A[i + 1: j]=A[2:2]$ which is $A[2]$ itself. Prior to the first iteration, $i=1$ and the subarray is $A[1:A[1: i]$
