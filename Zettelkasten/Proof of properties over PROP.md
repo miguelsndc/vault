@@ -74,5 +74,11 @@ By the I.H, $|s(\psi)| \le 2f(\psi) + 1$, and obviously, $|s(\psi)| \le 2f(\psi)
 By the definitions, we want to show that:
 $$\begin{align*}
 |s(\rho \sqsep \theta)| &\le2f(\rho \sqsep \theta)+1\\
-|s(\rho)\cup s(\theta)\cup \{(\rho \sqsep \theta)\}| &\le 2(f(\rho)+f(\theta)+1)+1
+|s(\rho)\cup s(\theta)\cup \{(\rho \sqsep \theta)\}| &\le 2(f(\rho)+f(\theta)+1)+1\\
+|s(\rho)| + |s(\theta)|+|\{\rho \sqsep \theta\}| - |s(\rho) \cap s(\theta)|-|s(\rho) \cap \{(\rho \sqsep \theta)\}| - |s(\theta) \cap \{(p \sqsep \theta)\}|+|s(\rho) \cap s(\theta) \cap \{(\rho \sqsep \theta)\}| &\le 2f(\rho) + 2f(\theta) + 1 + 1 + 1
 \end{align*}$$
+The four [[Intersection]]s are empty, because the [[Sets|sets]] are pairwise-[[Disjoint Set|disjoint]], since $PROP$ is a [[Freely Generated Sets|freely generated set]]. So the expression reduces to 
+$$\begin{align*}
+|s(\rho)| + |s(\theta)| + 1 &\le (2f(\rho)+1) + (2f(\theta)+1)+1
+\end{align*}$$
+By the I.H $(1)$, $|s(\rho)| \le 2f(\rho) + 1$ and by the I.H $(2)$, $|s(\theta)| \le 2f(\theta) + 1$, So, the thesis is proven since adding $1$ to the right side does not affect the inequality.
