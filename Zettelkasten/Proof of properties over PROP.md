@@ -61,4 +61,10 @@ By definition, $s((\neg\psi))=s(\psi)\cup\{\psi\}$ and $f((\neg\psi)) = f(\psi) 
 $$\begin{align*}
 |s(\psi) \cup \{\psi\}\ | &= |s(\psi)| +|\{\psi\}| - |s(\psi) \cap \{\psi\}|\\
 \end{align*}$$
-and $2f((\neg\psi))+1 = 2(f(\psi) + 1) + 1= 2(f(\psi)) +1+2$ ,
+and $2f((\neg\psi))+1 = 2(f(\psi) + 1) + 1= 2(f(\psi)) +1+2$, So we want to show that:
+$$\begin{align*}
+|s(\psi)| +|\{\psi\}| - |s(\psi) \cap \{\psi\}| &\le 2f(\psi) + 1 + 2\\
+|s(\psi)| + |\{\psi\} - |\{\psi\} \cap \{\psi\}| &\le 2(f(\psi)) + 1 + 2\\
+|s(\psi)|&\le 2f(\psi)+1+2
+\end{align*}$$
+By the I.H, $|s(\psi)| \le 2f(\psi) + 1$, and obviously, $|s(\psi)| \le 2f(\psi) + 1 + 2$.
