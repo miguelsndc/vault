@@ -90,4 +90,13 @@ procedure SELECTION-SORT(A,n)
 [[Loop Invariants]]: After each iteration, the subarray $A[1:i]$ is sorted.
 Inner loop: After each iteration, `small_i` contains the index of the smallest element in the subarray $A[i+1:j]$.
 
-- **Initialization**: For the inner loop, prior to the first iteration, $j$ contains $i + 1$, since $i=1$, `small_i` contains the smallest element of $A[i + 1: j]=A[2:2]$ which is $A[2]$ itself. Prior to the first iteration, $i=1$ and the subarray is $A[1:A[1: i]$
+- **Initialization**: For the inner loop, prior to the first iteration, $j$ contains $i + 1$, since $i=1$, `small_i` contains the smallest element of $A[i + 1: j]=A[2:2]$ which is $A[2]$ itself. Prior to the first iteration, $i=1$ and the subarray is $A[1:1]$ which is sorted.
+- After the start of each iteration $j = i + 1$ up to $n$ and we scan the subarray $A[i+1:j]$ looking for the smallest element.  For the outer loop, once the inner loop finds the smallest element in $A[i+1:n]$ we swap it with $A[i]$, keeping the subarray $A[1:i]$ sorted.
+- Once the inner finishes, we find the smallest element of subarray $A[i+1:n]$ which is the smallest of the unsorted part, since the outer loop goes only to $n - 1$, we find the smallest element in $A[n-1:n]$, and swap with $A[n-1]$, keeping the subarray $A[n-1:n]$ sorted, one the loop finishes, $A[1:n]$ is sorted.
+
+It only needs to run $n-1$ times because the inner loop will scan through the remaining subarray, and swap the $n$ element with the $n - 1$ element if needed, if we went all the way up to $n$ in the outer loop, one iteration is wasted.
+
+There's no difference between the best case and the worst case since there's no stopping condition in the inner loop, it'll always scan the entire subarray no matter what, keeping a time of, ignoring the inner lines constant execution time:
+$$\begin{align*}
+\sum\limits_{i=1}^{n-1}
+\end{align*}$$
