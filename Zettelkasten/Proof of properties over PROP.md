@@ -51,4 +51,14 @@ By the definition of $\max$, and since $f$ can't output negative values, $\max(f
 
 > **Lemma**: For all propositions $\phi \in PROP$, the number of [[Recursive Functions over PROP|subexpressions]] of $\phi$ is at most $2n + 1$ where $n$ is the number of operators of $\phi$.
 
-We want to show that for all $\phi \in PROP$, $|s(\phi)| \le 2f(\phi) +1$. where $|$
+We want to show that for all $\phi \in PROP$, $|s(\phi)| \le 2f(\phi) +1$. where $||$ represents the [[Cardinality]] of a [[Sets|set]], since $s(\phi)$ outputs a set, not a number.
+
+- Base case: ($\phi$ is atomic), in this case: $s(\phi) = \{\phi\}$ and $|s(\phi)| = 1$, and $f(\phi)= 0$, so $2f(\phi) + 1= 2*0 + 1 = 1$, and $1\le 1$, so the base case holds.
+- Inductive step:
+	- Hypothesis: $|s(\psi)| \le 2f(\psi) + 1$.
+	- Thesis: $|s((\neg \psi))| \le 2f((\neg\psi)) + 1$ 
+By definition, $s((\neg\psi))=s(\psi)\cup\{\psi\}$ and $f((\neg\psi)) = f(\psi) + 1$, therefore:
+$$\begin{align*}
+|s(\psi) \cup \{\psi\}\ | &= |s(\psi)| +|\{\psi\}| - |s(\psi) \cap \{\psi\}|\\
+\end{align*}$$
+and $2f((\neg\psi))+1 = 2(f(\psi) + 1) + 1= 2(f(\psi)) +1+2$ ,
