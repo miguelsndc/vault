@@ -98,5 +98,11 @@ It only needs to run $n-1$ times because the inner loop will scan through the re
 
 There's no difference between the best case and the worst case since there's no stopping condition in the inner loop, it'll always scan the entire subarray no matter what, keeping a time of, ignoring the inner lines constant execution time:
 $$\begin{align*}
-\sum\limits_{i=1}^{n-1}
+\sum\limits_{i=1}^{n-1}\sum\limits_{j=i+1}^{n}1&= \sum\limits_{i=1}^{n-1}n-(i+1)+1\\
+&= \sum\limits_{i=1}^{n-1} n-i\\
+&= \left(\sum\limits_{i=1}^{n}(n-i)\right)-(n-i)\\
+\frac{(n-i)(n-i+1)}{2}-(n-i)\\
+&\in \Theta(n^{2})
 \end{align*}$$
+*$2.2-3$ Consider linear search again (see Exercise 2.1-4). How many elements of the input array need to be checked on the average, assuming that the element being searched for is equally likely to be any element in the array? How about in the worst case? using $\Theta$ notation, give the average-case and worst-case running times of linear search. Justify your answers.*
+
