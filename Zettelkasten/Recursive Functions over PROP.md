@@ -1,5 +1,6 @@
 ---
 tags: logic
+aliases: parentheses, operators, subexpression, subexpressions, operator, operators, rank, posto, tree, syntax tree, syntax
 ---
 Since [[PROP is Freely Generated]], $PROP$ being the [[Inductive Sets and Closures|inductive closure]] of all expressions of #propositional-logic  and thus representing the [[Sets|set]] of all legitimate expressions; We can define **recursive** functions over $PROP$, since it has the property of unique reading, implying that the process of defining recursive functions over it is mathematically safe.
 
