@@ -37,5 +37,18 @@ g((\neg \psi)) &= g(\psi) + 1\\
 \end{align*}$$
 By the I.H $f(\psi) \le g(\psi)$ and since $1 \le 1$ the thesis is proven.
 - Inductive step:
-	- Inductive hypothesis $f(\rho) +f(\theta ) \le g(\rho) + \Box \, \theta)$  where $\Box = \{\implies, \lor, \land\}$.
-	
+	- Inductive hypothesis $f(\rho) +f(\theta ) \le g(\rho) + g(\theta)$, where $\Box = \{\implies, \lor, \land\}$.
+	- Thesis: $f(\rho \,\Box\, \theta) \le g(\rho \, \Box \, \theta)$
+By the definitions of the functions themselves:
+$$\begin{align*}
+f(\rho \,\Box\, \theta)&= \max(f(\rho),f(\theta)) + 1\\
+g(\rho \,\Box\, \theta)&= g(\rho)+g(\theta)+1
+\end{align*}$$We want to show that:
+$$\begin{align*}
+\max(f(\rho),f(\theta)) + 1 \le g(\rho)+g(\theta)+1
+\end{align*}$$
+By the definition of $\max$, and since $f$ can't output negative values, $\max(f(\rho),f(\theta)) \le f(\rho) + f(\theta)$, and by the $I.H$ $f(\rho) + f(\theta) \le g(\rho) + g(\theta)$, and $1 \le 1$, by transitivity, $\max(f(\rho), f(\theta)) + 1\le g(\rho) + g(\theta) + 1$.
+
+> **Lemma**: For all propositions $\phi \in PROP$, the number of [[Recursive Functions over PROP|subexpressions]] of $\phi$ is at most $2n + 1$ where $n$ is the number of operators of $\phi$.
+
+We want to show that for all $\phi \in PROP$, $|s(\phi)| \le 2f(\phi) +1$. where $|$
