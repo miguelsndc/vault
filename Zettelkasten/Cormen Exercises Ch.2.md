@@ -109,3 +109,17 @@ $$\begin{align*}
 Since the elements are equally likely to be selected, we can assume the probability of a element lying in a position "$i$" is given by a uniform distribution, and it should be somewhere in the average, since the average of a uniform distribution is given by: $\frac{1}{2}(a + b)$ where $a$ and $b$, in this context is the first and last index of the array, we can expect the element to be in the middle, and we need to check $\frac{n}{2}$ elements to get it.
 
 In the worst case the element is at the last index, and we need to perform $n$ checks.
+
+In the worst case, assuming that checking takes a constant time $c$:
+$$\begin{align*}
+\sum\limits_{i=1}^{n}c=c\sum\limits_{i=1}^{n}1=c(n-1+1)=cn \in \Theta(n)
+\end{align*}$$
+In the average case, we'd only need to loup through half the array. So with the same assumptions as before:
+$$\begin{align*}
+\sum\limits_{i=1}^\frac{n}{2}c=c\sum\limits_{i=1}^{\frac{n}{2}}1=
+c\left(\frac{n}{2}-1+1\right)=\frac{cn}{2}\in  \Theta(n)
+
+\end{align*}$$
+*2.2-4 How can you modify any sorting algorithm to have a good best-case running time?*
+
+In a world of rainbows and cats and ignoring all probabilities, we could naively check if the array is already sorted in $\Theta(n)$ time and only proceed otherwise. This way we'd have the ideal best case.
