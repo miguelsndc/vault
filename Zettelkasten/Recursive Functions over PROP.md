@@ -58,3 +58,15 @@ Every subexpression contributes with itself plus it's own subexpressions to the 
 ![[Pasted image 20240803193206.png]]
 
 So each atomic expression contributes with a node containing itself, and every operator contributes with a subtree with the operator at the root and it's children being the subexpressions within.
+
+## Rank (Posto)
+Rank is the height of the syntax tree of an expression.
+
+$p: PROP \rightarrow \N$ 
+$p(\phi) = 0$ if $\phi$ is an atomic expression.
+$p((\neg \psi) = p(\psi) + 1$ 
+$p((\rho \lor \theta)) = max(p(\rho), p(\theta)) + 1$  
+$p((\rho \land \theta)) = max(p(\rho), p(\theta)) + 1$  
+$p((\rho \implies \theta)) = max(p(\rho), p(\theta)) + 1$  
+
+A atomic expression only adds a node to the tree, therefore not contributing to the total height, every operator adds $1$ to the total count, since the operator has it's children as the subexpressions. for example, $p((x \lor (\neg y))) = max(p(x), p(\neg y))+ 1 = max(p(x), p(y) + 1) + 1 = max(0, 1) + 1 = 1 + 1 = 2$  
