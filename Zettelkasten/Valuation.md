@@ -23,3 +23,9 @@ v(Q)=0\\
 &=\textrm{OR}(\textrm{IMPLIES}(v(P), v(R)),\textrm{NEG}(v(Q)))\\
 &=\textrm{OR}(\textrm{IMPLIES}(1, 1),\textrm{NEG}(0))
 \end{align*}$$
+So given the [[Semantical Value of PROP Expressions]], we reduce this to:
+$$\begin{align*}
+\textrm{OR}(\textrm{IMPLIES}(1, 1),\textrm{NEG}(0))&= 
+\f{max(\f{max}(1-1,1),1-0)}\\
+&= \f{max}(1,1)=1
+\end{align*}$$
