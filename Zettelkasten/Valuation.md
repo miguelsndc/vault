@@ -11,9 +11,15 @@ The $v$ function assignes values to atomic expressions, while the $\hat{v}$, $v$
 
 For example, the value of $((P \implies R) \lor (\neg Q))$ is:
 $$\begin{align*}
+\begin{cases}
+v(P)=1\\
+v(R)=1\\
+v(Q)=0\\
+\end{cases}\\
 \\
 
 \hat{v}(((P \implies R) \lor (\neg Q)))&= \textrm{OR}(\hat{v}((P \implies R)), \hat{v}((\neg Q)))\\
-&= \textrm{OR}(\textrm{IMPLIES}(\hat{v}(P), \hat{v}(R),\textrm{NEG}(\hat{v}(Q)))\\
-&=\textrm{OR}(\textrm{IMPLIES}(v(P), v(R),\textrm{NEG}(v(Q)))
+&= \textrm{OR}(\textrm{IMPLIES}(\hat{v}(P), \hat{v}(R)),\textrm{NEG}(\hat{v}(Q)))\\
+&=\textrm{OR}(\textrm{IMPLIES}(v(P), v(R)),\textrm{NEG}(v(Q)))\\
+&=\textrm{OR}(\textrm{IMPLIES}(1, 1),\textrm{NEG}(0))
 \end{align*}$$
