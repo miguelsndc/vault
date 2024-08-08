@@ -34,6 +34,6 @@ $(a)$ $\phi$ satisfiable $\implies$ $\neg \phi$ refutable:
 $(a)$ $\neg\phi$ refutable $\implies$ $\phi$ satisfiable:
 
 1. Suppose that $\neg \phi$ is refutable, therefore $\exists v \mid \hat{v}((\neg \phi))=0$, let $f$ be that [[Valuation]] 
-2. This implies that, since $f((\neg \phi)) = \f{NEG}(\hat{f}(\phi))=0$, this means that:  
+2. This implies that, since $f((\neg \phi)) = \f{NEG}(\hat{f}(\phi))=0$:  
 3. If we negate both sides of $\f{NEG}(\hat{f}(\phi))=0$ we obtain $\hat{f}(\phi) = 1$.
 4. Therefore $\phi$ is satisfiable
