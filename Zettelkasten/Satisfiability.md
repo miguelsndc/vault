@@ -1,5 +1,6 @@
 ---
 tags: logic
+aliases: satisfiable, unsatisfiable, consistent, inconsistent, refutable, logical consequence, logical consequences
 ---
 Some useful concepts pop up when we discuss [[Valuation]] in [[Proposition|propositions]]:
 
