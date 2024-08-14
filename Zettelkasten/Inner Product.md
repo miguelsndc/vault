@@ -9,7 +9,7 @@ The *inner product* over some [[Vector Space|vector space]] $V$ is a [[Functions
 - $\innp{v_{1} + v_{2}, v_{3}} = \innp{v_{1}, v_{3}} + \innp{v_{2}, v_{3}}$;
 - $\innp{v_{1},v_{2}} = \innp{v_{2}, v_{1}}$.
   
-The [[Scalar Product|dot product]] itself satifies these properties and therefore is a *inner product*, having a special name: The *usual* inner product. But any function that satisfy the axioms will be a valid inner product, Examples are:
+The [[Dot Product|dot product]] itself satifies these properties and therefore is a *inner product*, having a special name: The *usual* inner product. But any function that satisfy the axioms will be a valid inner product, Examples are:
 
 Let $V$ be the space of [[Differentiability and Continuity|continuous]] functions in the [[Intervals|interval]] $[0,1]$. Given $f_{1}, f_{2}\in V$:
 $$\begin{align*}

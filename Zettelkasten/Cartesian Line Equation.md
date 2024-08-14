@@ -26,4 +26,4 @@ By subtracting  $Ax_{0}+By_{0}+C=0$ from $Ax+By+C=0$ We get:
 $$\begin{align*}
 A(x-x_0)+B(y-y_0)=0
 \end{align*}$$
->Interpreting this as a [[Scalar Product|Scalar Product]] between vectors $(A,B)$ and $(x-x_0,y-y_0,z-z_0)$, we see that the solutions for this are all points $(x,y)$ where those vectors are [[Orthogonal Vectors|orthogonal]] to each other, meaning this line contains $(x_0,y_0)$ and has the direction of vector $(-B,A)$
+>Interpreting this as a [[Dot Product|Dot Product]] between vectors $(A,B)$ and $(x-x_0,y-y_0,z-z_0)$, we see that the solutions for this are all points $(x,y)$ where those vectors are [[Orthogonal Vectors|orthogonal]] to each other, meaning this line contains $(x_0,y_0)$ and has the direction of vector $(-B,A)$

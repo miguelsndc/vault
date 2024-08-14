@@ -15,7 +15,7 @@ Our first row will be: $\begin{pmatrix}1&0&0\end{pmatrix}$, we leave row $1$ as 
 
 Our third row will be $\begin{pmatrix}0&0&1\end{pmatrix}$, since we don't change row $3$ by zeros everywhere that is not column $3$, where we add $1$.
 
-Our second column is the trick, it has to multiply row $1$ by $-3$ and add to row $2$, since columns in multiplication get combined with rows in a [[Scalar Product|dot product]] kind of way, can do row $2$ like: $\begin{pmatrix}-3&1&0\end{pmatrix}$, since we are multiplying row $1$ by $-3$ and adding to row $2$ that is just there, the resulting dot product will be the new row $2$, so our operation looks like:
+Our second column is the trick, it has to multiply row $1$ by $-3$ and add to row $2$, since columns in multiplication get combined with rows in a [[Dot Product|dot product]] kind of way, can do row $2$ like: $\begin{pmatrix}-3&1&0\end{pmatrix}$, since we are multiplying row $1$ by $-3$ and adding to row $2$ that is just there, the resulting dot product will be the new row $2$, so our operation looks like:
 $$\begin{align*}
 \begin{pmatrix}
 1 & 0 & 0\\
