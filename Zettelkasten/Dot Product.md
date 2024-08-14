@@ -43,4 +43,5 @@ From this we get a ton of useful tricks:
 	- $a \cdot b = 0 \implies \theta = 90^{\circ}=\frac{\pi}{2}$ 
 	- $a \cdot b < 0 \implies \theta > \frac{\pi}{2}=90^{\circ}$.
 	If two vectors point somewhat in the same direction their dot product is $\gt 0$. If they're orthogonal, $0$, if pointing in different directions, $\lt 0$.
-We can even de
+- We can even come up with a definition for planes, by letting a plane $\pi$ be the [[Sets|set]] of all vectors such that $a$ (a known vector) $\cdot$ $b$ (unknown vector) is $0$. Let $a=\innp{1, 2, 3}$ and $b = \innp{x,y,z}$, The equation $a \cdot b = 0$ or $x+2y+3z=0$ describes a flat plane in space with $a$ perpendicular to that flat plane, and all vectors there satisfying the equation.
+![[plane]]
