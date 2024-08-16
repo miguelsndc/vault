@@ -12,11 +12,11 @@ $$\begin{align*}
 \f{Vol}&= \norm{b \times c} (a \cdot \hat{n})\\
 &= \norm {b \times c} (a \cdot \frac{b \times c}{\norm{b \times c}})\\
 &= a \cdot (b \times c)\\
-&= a \cdot \det\begin{pmatrix}
+&= a \cdot \begin{matrix}
 \hat{i} & \hat{j} & \hat{k}\\
 b_{1} & b_{2} & b_{3}\\
 c_{1} & c_{2} & c_{3}
-\end{pmatrix}\\
+\end{matrix}\\
 &= a \cdot (
 \hat{i}\det\begin{pmatrix}b_{2} & b_{3}\\ c_{2} & c_{3}\end{pmatrix}
 - \hat{i}\det\begin{pmatrix}b_{1} &b_{3} \\ c_{1} & c_{3}\end{pmatrix}
