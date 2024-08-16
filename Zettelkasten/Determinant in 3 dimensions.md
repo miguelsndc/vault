@@ -32,6 +32,6 @@ b_{1} & b_{2} & b_{3}\\
 c_{1} & c_{2} & c_{3}
 \end{pmatrix}
 \end{align*}$$
-Thus we have shown that $\det(a,b,c)$ is the volume of the parallelepiped created by them.
+Thus we have shown that $\det(a,b,c)$ is the volume of the parallelepiped created by them.c
 
 
