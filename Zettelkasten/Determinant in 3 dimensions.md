@@ -17,5 +17,21 @@ $$\begin{align*}
 b_{1} & b_{2} & b_{3}\\
 c_{1} & c_{2} & c_{3}
 \end{pmatrix}\\
-&= a \cdot 
+&= a \cdot (
+\hat{i}\det\begin{pmatrix}b_{2} & b_{3}\\ c_{2} & c_{3}\end{pmatrix}
+- \hat{i}\det\begin{pmatrix}b_{1} &b_{3} \\ c_{1} & c_{3}\end{pmatrix}
+  + \hat{k} \det\begin{pmatrix} b_{1} & b_{2}\\ c_{1} & c_{2}  \end{pmatrix}
+)  \\
+&= a \cdot (\hat{i}(b_{2}c_{3}-b_{3}c_{2})-\hat{j}(b_{1}c_{3}+b_{3}c_{1})+ \hat{k}(b_{1}c_{2}- b_{2}c_{1}))\\
+&= a \cdot \innp{b_{2}c_{3}-b_{3}c_{2},b_{3}c_{1}-b_{1}c_{3},b_{1}c_{2}-b_{2}c_{1}}\\
+&= \innp{a_{1},a_{2},a_{3}} \cdot \innp{b_{2}c_{3}-b_{3}c_{2},b_{3}c_{1}-b_{1}c_{3},b_{1}c_{2}-b_{2}c_{1}}\\
+&= a_{1}b_{2}c_{3}-a_{1}b_{3}c_{2}+a_{2}b_{3}c_{1}-a_{2}b_{1}c_{3}+a_{3}b_{1}c_{2}-a_{3}b_{2}c_{1}\\
+&= \det\begin{pmatrix}
+a_{1} & a_{2} & a_{3} \\
+b_{1} & b_{2} & b_{3}\\
+c_{1} & c_{2} & c_{3}
+\end{pmatrix}
 \end{align*}$$
+Thus we have shown that $\det(a,b,c)$ is the volume of the parallelepiped created by them.
+
+
