@@ -26,4 +26,14 @@ OP \cdot n&= ax+by+cz\\
 |OP\cdot n| &= |-d|\\
 OP \cdot n &= |d|
 \end{align*}$$
-Since $OP \cdot n$ is the distance, $d$
+Since $OP \cdot n$ is the distance, $d$ is the distance also.
+___
+Planes can intersect in:
+- A point.
+- A line.
+- A plane.
+- or don't intersect at all.
+if we're dealing with three planes, the [[Determinant in 2 dimensions|determinant]] of the normals $n_{1},n_{2},n_{3}$ will determine the type of intersection, if $\det(n_{1},n_{2},n_{3})\ne0$ then there exists a unique solution, since the matrix $M$ whose columns are the normals is [[Inverse Matrix|invertible]], thus $M$ is a [[Bijective Linear Transformations|bijective]] [[Linear Transformations|transformation]]
+
+If $\det(M) = 0$ we can have either infinitely many solutions or no solutions at all, $n_{1},n_{2}$ and $n_{3}$ are **coplanar** because the volume of the parallelepiped formed is $0$. We can even take the [[Cross Product]] between two of them and determine the plane they're contained in the also the line, parametrically, with direction vector $n_{i}\times n_{j}$. We can either have the intersection of three different combinations of the same plane, and if it isn't, the line is contained in the planes;
+
