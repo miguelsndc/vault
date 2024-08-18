@@ -18,3 +18,12 @@ $$\begin{align*}
 Or we could have simply said all vectors $\vec{v}$ such that $\hat{n} \cdot v = \hat{n}\cdot \vec{OP_{0}}$ and since $\hat{n}\cdot \vec{OP_{0}}=3$, we let $d = 3$ and the equation is just $x+5y+10z+3=0$.
 ___
 The constant $d$ **roughly** tell us how far we've moved from the origin; there is a special case when $\hat{n}$ is a [[Vector Normalization|unitary vector]], the constant $d$, if $\ne 0$ is **exactly the distance of the plane from the origin**.
+
+Because if $\hat{n}$ is unitary then the component of any vector $OP$ from the origin to any point $P$ in the plane along the normal is exactly $OP \cdot \hat{n}$, since $\hat{n}$ is unitary:
+$$\begin{align*}
+ax+by+cz&=-d\\
+OP \cdot n&= ax+by+cz\\
+|OP\cdot n| &= |-d|\\
+OP \cdot n &= |d|
+\end{align*}$$
+Since $OP \cdot n$ is the distance, $d$
