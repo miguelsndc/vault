@@ -5,7 +5,7 @@ tags:
 aliases: 
 date: 2023-11-15
 ---
-With [[Parametric Line Equation|parametric lines]] we use a [[Vector|vector]] and a point to determine the line. As such:
+With [[Parametric Lines|parametric lines]] we use a [[Vector|vector]] and a point to determine the line. As such:
 $$\begin{align*}
 x&= x_{0}+at\\
 y&= y_{0}+bt

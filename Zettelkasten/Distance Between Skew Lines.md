@@ -7,7 +7,7 @@ aliases:
   - distance
 date: 2023-11-16
 ---
-The distance between skew lines can be given by the [[Scalar Triple Product]] of two [[Parametric Line Equation|parametric lines]] [[Vector|vector]] components and a difference between two points of each line, divided by the [[Cross Product]] of the vectors. See:
+The distance between skew lines can be given by the [[Scalar Triple Product]] of two [[Parametric Lines|parametric lines]] [[Vector|vector]] components and a difference between two points of each line, divided by the [[Cross Product]] of the vectors. See:
 
 $$\begin{align*}
 \frac{|\vec{Vdr},\vec{Vds},Pr-Ps|}{||\vec{Vdr}\times\vec{Vds}||}

@@ -32,4 +32,4 @@ y(t) &= 2-t\\
 z(t) &= 2+t
 \end{cases}
 \end{align*}$$
-Namely, the point $Q(t)$ is the displacement from starting point $Q_{0}$ when we 
+Namely, the point $Q(t)$ is the displacement $t$ from $Q_{0}$ of $t \cdot Q_{0}Q_{1}$.

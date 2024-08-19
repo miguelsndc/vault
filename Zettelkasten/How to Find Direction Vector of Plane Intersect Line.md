@@ -16,4 +16,4 @@ i&j&k\\
 0&2&3
 \end{bmatrix}
 \end{align*}$$
-Solving the determinant for the above matrix we'll have the coordinates of the direction vector based on the [[Canonical Vectors]], and then you can arbitrate values for $x$ or any other axis to figure out a point and build a [[Parametric Line Equation|parametric line]] from it.
+Solving the determinant for the above matrix we'll have the coordinates of the direction vector based on the [[Canonical Vectors]], and then you can arbitrate values for $x$ or any other axis to figure out a point and build a [[Parametric Lines|parametric line]] from it.
