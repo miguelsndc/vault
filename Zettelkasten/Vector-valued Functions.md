@@ -57,3 +57,5 @@ Since the notion of [[Epsilon-Delta Definition of a Limit|limit]] is well-stabli
 
 ## Tangent lines
 Geometrically, 0the vector $\frac{dF}{dt}(t_{0})$ is the *"tangent vector"* to the trajectory of $F$ at the point $t_{0}$.
+![[tangent vector.excalidraw]]
+Here we see that the vector $F(t) - F(t_{0})$ is parallel to $\frac{F(t)- F(t_{0})}{t- t_{0}}$, when $t $
