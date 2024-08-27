@@ -45,4 +45,15 @@ This basically says that if i choose some [[Intervals|interval]] $\epsilon$ arou
 deltas are little input knobs we can calibrated to go around $t_{0}$ and epsilon will follow that calibration, hence we made the delta infinitesimally small and epsilon gets small too.
 
 So after all this talk:
-Let $F(t)= (F_{1},F_{2},\cdots,F_{n})$ be a vector valued function, 
+Let $F= (F_{1},F_{2},\cdots,F_{n})$ be a vector valued function, and $L=(L_{1},L_{2},\cdots,L_{n}) \in R^{n}$, so:
+$$\begin{align*}
+\lim_{t\rightarrow t_{0}}F(t)=L\iff \lim_{t \rightarrow t_{0}}F_{i}(t)=L_{i},\,\, i=1,2,\cdots,n
+\end{align*}$$
+The limit only exists if the limit of every component function of $F$ also exists and is equal to the matching component of $L$, so, naturally, $F$ is [[Differentiability and Continuity|continuous]] at $t_{0}$ if $\lim_{t \rightarrow t_{0}}F(t)=F(t_{0})$.
+
+## Derivatives
+
+Since the notion of [[Epsilon-Delta Definition of a Limit|limit]] is well-stablished, [[Derivative Definition|derivatives]] are no different, the derivative of a VVF $F:A \rightarrow \R^{n} :=F(t)=(F_{1}(t),\cdots,F_{n}(t))$, defined as $F'(t)= \frac{dF}{dt}=(F_{1}'(t),\cdots,F_{n}'(t))$. The derivative of $F$ is the derivative of each component.
+
+## Tangent lines
+Geometrically, 0the vector $\frac{dF}{dt}(t_{0})$ is the *"tangent vector"* to the trajectory of $F$ at the point $t_{0}$.
