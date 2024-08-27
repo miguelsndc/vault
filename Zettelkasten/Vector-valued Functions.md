@@ -12,5 +12,23 @@ ___
 ## Operations
 Vector valued functions support both [[Vector|vector]] operations and [[Functions|function]] operations.
 
-Let $F, G:A \rightarrow\R^{n}$ be two vector-valued functions, let $f:A\rightarrow \R$ be a [[Real Numbers|real]] function and $k \in \R$ a constant.
+Let $F, G:A \rightarrow\R^{n}$ be two vector-valued functions, let $f:A\rightarrow \R$ be a [[Real Numbers|real]] function and $k \in \R$ a constant, the following operations are defined:
 
+- $F+G:A\rightarrow \R^{n}$ is given by: $(F+G)(t)=F(t)+G(t)$ and is called *the sum* of $F$ and $G$.
+- $kF:A\rightarrow\R^{n}$ is given by: $(kF)(t)=kF(t)$ and is the product of $F$ by the constant $k$.
+- $f\cdot F:A\rightarrow\R^{n}$ is given by: $(f\cdot F)(t)=f(t)F(t)$ is the product of $F$ with the [[Scalar|scalar]] function $f$.
+- $F \cdot G:A \rightarrow \R$ is the [[Dot Product|dot product]] of $F$ and $G$, defined as: $(F\cdot G)(t)=F(t)\cdot G(t)$.
+All the properties such as commutativy, distributivity and others also apply.
+Let $n=3$, in this case:
+- $F \times G:A \rightarrow \R^{3}$ is the [[Cross Product]]  of $F$ and $G$, defined as $(F \times G)(t) = F(t)\times G(t)$:
+$$\begin{align*}
+F(t)&= \innp{F_{1}(t),F_{2}(t),F_{3}(t)}\\
+G(t)&= \innp{G_{1}(t), G_{2}(t), G_{3}(t)}\\
+F \times G&= 
+\begin{vmatrix}
+\hat{i} &  \hat{j} & \hat{k}\\
+F_{1}(t) & F_{2}(t) & F_{3}(t)\\
+G_{1}(t) & G_{2}(t) & G_{3}(t)
+\end{vmatrix}\\
+&= \hat{i}\det\begin{vmatrix}F_{2}(t) & F_{3}(t)\\ G_{2}(t) & G_{3}(t) \end{vmatrix}+\hat{j}
+\end{align*}$$
