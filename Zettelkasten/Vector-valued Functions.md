@@ -30,5 +30,14 @@ F \times G&=
 F_{1}(t) & F_{2}(t) & F_{3}(t)\\
 G_{1}(t) & G_{2}(t) & G_{3}(t)
 \end{vmatrix}\\
-&= \hat{i}\det\begin{vmatrix}F_{2}(t) & F_{3}(t)\\ G_{2}(t) & G_{3}(t) \end{vmatrix}+\hat{j}
+&= \hat{i}\det\begin{vmatrix}F_{2}(t) & F_{3}(t)\\ G_{2}(t) & G_{3}(t) \end{vmatrix}-\hat{j}\det\begin{vmatrix}F_{1}(t) & F_{3}(t) \\ G_{1}(t) & G_{3}(t)\end{vmatrix}
++ \hat{k}\det\begin{vmatrix}F_{1}(t) & F_{2}(t)\\ G_{1}(t) & G_{2}(t) \end{vmatrix}
 \end{align*}$$
+___
+## Limits, Continuity and Derivatives
+
+The formal definition of a limit can be found here: [[Epsilon-Delta Definition of a Limit|limit]], Here we just defined it for VVF's. As you probably guessed:
+$$\begin{align*}
+\lim_{t\rightarrow_{t_{0}}} F(t)=L \iff \forall\epsilon\gt0\,\exists\delta\gt0\mid\forall t\in D_{F},\,\,0\lt|t-t_{0}|<\delta\implies\norm{F(t)-L}\lt\epsilon
+\end{align*}$$
+This basically says that if i choose some value $\epsilon$ a
