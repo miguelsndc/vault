@@ -40,4 +40,9 @@ The formal definition of a limit can be found here: [[Epsilon-Delta Definition o
 $$\begin{align*}
 \lim_{t\rightarrow_{t_{0}}} F(t)=L \iff \forall\epsilon\gt0\,\exists\delta\gt0\mid\forall t\in D_{F},\,\,0\lt|t-t_{0}|<\delta\implies\norm{F(t)-L}\lt\epsilon
 \end{align*}$$
-This basically says that if i choose some value $\epsilon$ a
+This basically says that if i choose some [[Intervals|interval]] $\epsilon$ around the $L$ axis and collapse it closer and closer to $L$, there will be a interval $\delta$ such that $t-\delta$ and $t+\delta$ are arbitrarily close to $t$, *(but never reach $t$)* and the distance between vectors $F(t)$ and $L$ will be arbitrarily small as well, but never $0$, since we do not touch the actual $F(t)$ value. 
+
+deltas are little input knobs we can calibrated to go around $t_{0}$ and epsilon will follow that calibration, hence we made the delta infinitesimally small and epsilon gets small too.
+
+So after all this talk:
+Let $F(t)= (F_{1},F_{2},\cdots,F_{n})$ be a vector valued function, 
