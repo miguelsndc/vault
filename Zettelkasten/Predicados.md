@@ -1,0 +1,1 @@
+Proposições agora são funções que recebem parâmetros, houve a introdução dos quantificadores, existencial e universal.
