@@ -58,4 +58,16 @@ Since the notion of [[Epsilon-Delta Definition of a Limit|limit]] is well-stabli
 ## Tangent lines
 Geometrically, 0the vector $\frac{dF}{dt}(t_{0})$ is the *"tangent vector"* to the trajectory of $F$ at the point $t_{0}$.
 ![[tangent vector.excalidraw]]
-Here we see that the vector $F(t) - F(t_{0})$ is parallel to $\frac{F(t)- F(t_{0})}{t- t_{0}}$, when $t $
+Here we see that the vector $F(t) - F(t_{0})$ is parallel to $\frac{F(t)- F(t_{0})}{t- t_{0}}$, when $t \rightarrow t_0$, $\frac{F(t)- F(t_{0})}{t- t_{0}}$ converges to the "tangent vector" $\frac{dF}{dt}(t_{0})$ to the trajectory of $F$ in $F({t_0})$.
+
+The blue dashed line passing through $\frac{dF}{dt}(t_{0})$ is the tangent [[Parametric Lines|line]] to the trajectory of $F$ at $t_{0}$, defined as:
+$$\begin{align*}
+X(\lambda)&= F(t_{0})+\lambda \frac{dF}{dt}(t_{0})
+\end{align*}$$
+Is just a [[Parametric Lines|parametric line]].
+
+Let $\vec{F}, \vec{G}:A \rightarrow \R^{n}, f:A\rightarrow\R$ be all [[Differentiability and Continuity|differentiable]] in $A$, so:
+- $\frac{d}{dt}(f\cdot \vec{F})=\frac{df}{dt}\cdot \vec{F}+ f\cdot \frac{d\vec{F}}{dt}$.
+- $\frac{d}{dt}(\vec{F}\cdot\vec{G})= \frac{d\vec{F}}{dt}\cdot \vec{G}+ \vec{F}\cdot \frac{d\vec{G}}{dt}$
+-  Let $n=3$; $\frac{d}{dt}(\vec{F} \times \vec{G})= \frac{d\vec{F}}{dt}\times \vec{G}+ \vec{F}\times \frac{d\vec{G}}{dt}$ 
+Are also [[Differentiability and Continuity|differentiable]] in $A$.
