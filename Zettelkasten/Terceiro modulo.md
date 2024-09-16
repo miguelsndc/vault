@@ -22,4 +22,6 @@ A assinatura serve como se fosse uma interface de uma estrutura, caso duas (ou m
  As estruturas obedecendo essa assinatura podem ser facilmente trocadas umas pelas outras, oferecendo diferentes comportamentos.
 
 Estrutura $A,B$:
-O valor de $a^{A}= 1$ e $b^{A}=3$ e $a^{B}=-2$ e $b^{B}=4$, onde a potência indica qual estrutura é trabalhada.  
+O valor de $a^{A}= 1$ e $b^{A}=3$ e $a^{B}=-2$ e $b^{B}=4$, onde a potência indica qual estrutura é trabalhada.
+___
+## Subestrutura
