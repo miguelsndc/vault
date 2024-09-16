@@ -32,3 +32,6 @@ Restrições:
 - As duas tem que implementar a mesma assinatura
 
 Nesse caso, se $A$ e $B$ forem simplesmente conjuntos, basta checar se todos os elementos de $A$ estão em $B$, $A \subseteq B$. 
+___
+## Homomorfismo
+É um tipo de mapeamento entre estruturas, que é definido a partir de uma função do domínio de uma estrutura $A$ para o domínio de outra estrutura $B$
