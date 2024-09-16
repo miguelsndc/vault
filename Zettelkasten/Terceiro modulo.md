@@ -25,3 +25,10 @@ Estrutura $A,B$:
 O valor de $a^{A}= 1$ e $b^{A}=3$ e $a^{B}=-2$ e $b^{B}=4$, onde a potência indica qual estrutura é trabalhada.
 ___
 ## Subestrutura
+
+> Como saber se uma estrutura $A$ é subestrutura de uma estrutura $B$ ?>
+
+Restrições:
+- As duas tem que implementar a mesma assinatura
+
+Nesse caso, se $A$ e $B$ forem simplesmente conjuntos, basta checar se todos os elementos de $A$ estão em $B$, $A \subseteq B$. 
