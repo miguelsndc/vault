@@ -68,4 +68,5 @@ Termos são os argumentos dos predicados, um nome fresco pra parâmetros, porque
 Seja $L$ uma assinatura. O conjunto de termos de $L$ é definido indutivamente como a seguir:
 - Todo símbolo $c$ de constante de $L$ é um termo.
 - Toda variável é um termo.
-- 
+- Para todo símbolo de função n-ária $f$ de $L$, se $t_{1},\cdots,t_{n}$ forem termos, então $f(t_{1},\cdots,t_{n})$ é um termo.
+- Nada mais é um termo
