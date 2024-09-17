@@ -61,3 +61,11 @@ Sejam $A$ e $B$ duas $L$-estruturas. Dizemos que $A$ é uma subestrutura de $B$ 
 - $\f{dom}(A)\subseteq \f{dom}(B)$
 - A função identidade de $\f{dom}(A)$ em $\f{dom}(B)$ é uma imersão.
 ___
+## Termos
+
+Termos são os argumentos dos predicados, um nome fresco pra parâmetros, porque aparentemente tudo tem que ser definido formalmente mesmo sendo estupidamente óbvio.
+
+Seja $L$ uma assinatura. O conjunto de termos de $L$ é definido indutivamente como a seguir:
+- Todo símbolo $c$ de constante de $L$ é um termo.
+- Toda variável é um termo.
+- 
