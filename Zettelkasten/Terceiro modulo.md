@@ -24,15 +24,6 @@ A assinatura serve como se fosse uma interface de uma estrutura, caso duas (ou m
 Estrutura $A,B$:
 O valor de $a^{A}= 1$ e $b^{A}=3$ e $a^{B}=-2$ e $b^{B}=4$, onde a potência indica qual estrutura é trabalhada.
 ___
-## Subestrutura
-
-> Como saber se uma estrutura $A$ é subestrutura de uma estrutura $B$ ?>
-
-Restrições:
-- As duas tem que implementar a mesma assinatura
-
-Nesse caso, se $A$ e $B$ forem simplesmente conjuntos, basta checar se todos os elementos de $A$ estão em $B$, $A \subseteq B$. 
-___
 ## Homomorfismo
 É um tipo de mapeamento entre estruturas, que é definido a partir de uma função do domínio de uma estrutura $A$ para o domínio de outra estrutura $B$.
 Seja $L$ uma assinatura e sejam $A$ e $B$ $L$-estruturas. Seja $h$ uma função de $\f{dom}(A)$ em $\f{dom}(B)$: $(h: \f{dom}(A) \rightarrow \f{dom}(B))$. então $A$ é um **Homomorfismo da estrutura $A$ para $B$** se:
@@ -54,3 +45,19 @@ ___
 - um **Isomorfismo** é uma imersão **sobrejetora**
 - Homomorfismos $f: A\rightarrow A$ são chamados de **endomorfismos de $A$**
 - Isomorfismos $f:A\rightarrow A$ são chamados de **automorfismos de $A$**.
+___
+## Subestrutura
+
+> Como saber se uma estrutura $A$ é subestrutura de uma estrutura $B$ ?>
+
+Restrições:
+- As duas tem que implementar a mesma assinatura
+
+Nesse caso, se $A$ e $B$ forem simplesmente conjuntos, basta checar se todos os elementos de $A$ estão em $B$, $A \subseteq B$. 
+
+Generalizando:
+
+Sejam $A$ e $B$ duas $L$-estruturas. Dizemos que $A$ é uma subestrutura de $B$ $(A\subseteq B)$  se:
+- $\f{dom}(A)\subseteq \f{dom}(B)$
+- A função identidade de $\f{dom}(A)$ em $\f{dom}(B)$ é uma imersão.
+___
