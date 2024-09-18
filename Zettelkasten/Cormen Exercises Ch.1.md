@@ -14,7 +14,7 @@ Depending on your scenario, you might want to consider the individual characteri
 
 *1.1-3 Select a data structure that you have seen, and discuss its strengths and limitations.*
 
-The Binary Search tree gives a good balance between lookups and insertions, striking a good average case of logarithmic time in a ideal scenario, being a more stable alternative to the hash tables, where the lookup time is amortized constant time depending on the hash function, but the collisions might take that time up to linear time in a poorly designed hash table, however binary trees are much more versatile, allowing a much wider range of use cases, such as collision systems in quake III for example. However it has a pretty wild limitation, balanced trees have height logarithmically proportional to the input, but depending on the input, or even depending on the order of the input, the tree might strike a height of $n$, and be as bad as a linked list, there are alternatives that try to minimize this problem, but introduce overheads, like rotations and coloring.
+The Binary Search tree gives a good balance between lookups and insertions, striking a good average case of logarithmic time in a ideal scenario, being a more stable alternative to the hash tables, where the lookup time is amortized constant time depending on the hash function, but the collisions might take that time up to linear time in a poorly designed hash table, binary trees are much more versatile, allowing a much wider range of use cases, such as collision systems in quake III for example. However it has a pretty wild limitation, balanced trees have height logarithmically proportional to the input, but depending on the input, or even depending on the order of the input, the tree might strike a height of $n$, and be as bad as a linked list, there are alternatives that try to minimize this problem, but introduce overheads, like rotations and coloring.
 
 *1.1-4 How are the shortest-path and traveling-salesperson problems given above similar? How are they different?*
 
@@ -28,7 +28,7 @@ However deterministic algorithms are a must in string matching, sorting, hashing
 
 *1.1-6 Describe a real-world problem in which sometimes the entire input is available before you need to solve the problem, but other times the input is not entirely available in advance and arrives over time.*
 
-Well let's say you have to read a file and do some statistical analysis there, usually this data is collected within some time period with a handful of people, all the data is there, and will not change.
+Well let's say you have to read a file and do some statistical analysis here and there, usually this data is collected within some time period with a handful of people, all the data is there, and will not change.
 
 Realtime applications have to deal with incoming data, for example, let's say im a process manager in my computer, if i have a list of processes where each has a certain priority, i will run the processes with biggest priority first, and as the user messes around in the computer, priorities might change depending on where he's looking at, where he is typing, which window is being focused and so on, i need to account for that.
 
@@ -39,7 +39,7 @@ Ever played agar.io ? that fun little shitty game where you are a ball and you e
 
 *1.2-2 Suppose that for inputs of size $n$ on a particular computer, insertion sort runs in $8n^{2}$ steps and merge sort runs in $64 n \log n$ steps. For which values of $n$ does insertion sort beat merge sort?*
 
-Let $i(n)$ and $m(n)$ be the respective functions for insertion sort and merge sort, since both and monotonically increasing (you never sort a list of $100$ elements faster than a list of $1000$ elements), we can find a intersection point and from the point above the merge sort is faster, so: 
+Let $i(n)$ and $m(n)$ be the respective functions for insertion sort and merge sort, since both and monotonically increasing (you never sort a list of $100$ elements faster than a list of $1000$ elements with the exact same procedure), we can find a intersection point and from the point above the merge sort is faster, so: 
 $$\begin{align*}
 8n^{2}&< 64n\log n\\
 n^{2}&< 8n\log n\\
