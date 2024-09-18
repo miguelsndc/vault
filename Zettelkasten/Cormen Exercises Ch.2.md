@@ -36,11 +36,23 @@ procedure INSERTION_SORT(A,n)
 
 *2.1-4 Write pseudocode for linear search, which scans through the array from beginning to end, looking for x. Using a loop invariant, prove that your algorithm is correct. Make sure that your loop invariant fulûlls the three necessary properties.*
 ```
-procedure LINEAR_SEARCH(A, n)
+Input: A list of integers A[1:n], a target `n`
+Outputs: the index i of the first occurence of `n` in the list. NIL otherwise.
+procedure LINEAR_SEARCH(A, n):
+	for i = 1 to n
+		if A[i] == n
+			return i
+	return NIL
 ```
 
+**Loop invariant**: *At the start of each iteration, the subarray `A[1:i-1]`  does not contain the target `n` ,  
 
-*2.1-5*
+- **Initialization:** *(True before the first iteration):* The empty subarray of $A$ does not contain any element, thus not containing `n` as well.
+- **Maintainence:** Prior to the iteration `i`, let's split into cases
+	- If `A[i]` equals `n`, then the procedure terminates
+ 
+ 
+ *2.1-5*
 ```
 procedure ADD-BINARY-INTEGERS(A,B,n)
 	carry  = 0
