@@ -35,23 +35,10 @@ procedure INSERTION_SORT(A,n)
 ```
 
 *2.1-4 Write pseudocode for linear search, which scans through the array from beginning to end, looking for x. Using a loop invariant, prove that your algorithm is correct. Make sure that your loop invariant fulûlls the three necessary properties.*
-
 ```
-procedure LINEAR_SEARCH(A,n,x)
-	index = NIL
-	for i = 1 to n
-		if A[index] == x
-			index = i
-	return index
+procedure LINEAR_SEARCH(A, n)
 ```
 
-Loop [[Loop Invariants|invariant]]: At the start of each iteration, the `index` variable contains the last index of occurrence of value $x$ or `NIL` otherwise.
-
-> This fulfills the requirements of the question, however, it'd be more clever to break the loop once we fond the index, however i'll take advantage from this lack of information lol.
-
-- **Initialization**: Before the first iteration, the `index` variable contains `NIL`, since we have scanned no subarray yet, we can say we scanned the empty subarray, and the empty subarray does not contain $x$, therefore initialization holds.
-- **Maintenance**: At the start of every iteration we compare `A[index]` to `x`, If it is equal, then the `index` contains the last occurrence of `x` in the subarray $A[1:i]$, if it isn't, then `index` contains either `NIL` or the last occurrence of `x` in the subarray $A[1:i-1]$ of previous iteration, and after the iteration it contains the last occurrence of `x` in subarray $A[1:i-1]$, therefore maintaning invariance.
-- **Termination**: After the last iteration, $i$ will be $n + 1$, and since the invariant is maintained,`index` will contain the last occurrence of `x` in the subarray $A[1:n]$, therefore the algorithm is correct.
 
 *2.1-5*
 ```
