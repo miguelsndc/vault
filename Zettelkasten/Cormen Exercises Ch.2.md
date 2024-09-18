@@ -49,8 +49,10 @@ procedure LINEAR_SEARCH(A, n):
 
 - **Initialization:** *(True before the first iteration):* The empty subarray of $A$ does not contain any element, thus not containing `n` as well.
 - **Maintainence:** Prior to the iteration `i`, let's split into cases
-	- If `A[i]` equals `n`, then the procedure terminates
- 
+	- If `A[i]` equals `n`, then the procedure terminates, and the subarray `A[1:i-1]` , in fact, does not contain `n`.
+	- If `A[i]` does not equal `n` from the prior iteration, the subarray `A[1:i-1]` won't contain `n`, once the condition is checked false, the subarray `A[1:i]` won't contain `n`, once the loop skips to the next iteration, `i` increments by $1$, hence making the subarray `A[1:i-1]` not contain `n`, and the invariant remains true.
+- **Termination:** Once the last iteration occurs, the subarray `i` equals `n+1`, and substituting into the subarray formula,$A[1:i-1]= A[1:n+1-1]=A[1:n]$, the entire array does not contain `n`, hence the invariant holds and we return NIL instead.
+   
  
  *2.1-5*
 ```
