@@ -89,4 +89,4 @@ $$\begin{align*}
 \end{align*}$$
 O escopo de $\forall x$ é $P(x) \implies\exists yR(x,y)$.
 ___
-## Variáveis lvi
+## Variáveis livres e ligadas
