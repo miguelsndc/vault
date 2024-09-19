@@ -48,7 +48,7 @@ ___
 ___
 ## Subestrutura
 
-> Como saber se uma estrutura $A$ é subestrutura de uma estrutura $B$ ?>
+> Como saber se uma estrutura $A$ é subestrutura de uma estrutura $B$ ?
 
 Restrições:
 - As duas tem que implementar a mesma assinatura
@@ -70,3 +70,23 @@ Seja $L$ uma assinatura. O conjunto de termos de $L$ é definido indutivamente c
 - Toda variável é um termo.
 - Para todo símbolo de função n-ária $f$ de $L$, se $t_{1},\cdots,t_{n}$ forem termos, então $f(t_{1},\cdots,t_{n})$ é um termo.
 - Nada mais é um termo
+
+___
+## Fórmulas atômicas
+
+Os resultados das relações, os predicados aplicados aos termos btw. se não tem nenhum dos conectivos da lógica proposicional então é uma fórmula atômica.
+
+Seja $L$ uma assinatura.
+- Se $P$ é o símbolo da relação de $L$ com aridade $n$ e $t_{1},\cdots,t_{n}$ são termos de L, então $P(t_{1},\cdots,t_{n})$ é uma fórmula atômica.
+- Se $t_{1}$ e $t_{2}$ são termos de $L$, então $t_{1}=t_{2}$ é uma fórmula atômica.
+___
+## Escopo de um Quantificador
+
+Quantificadores são basicamente funções, o escopo de um quantificador é a expressão que ele recebe como parâmetro, isso é uma forma de limitar onde o quantificador atua, e calcular corretamente o valor das expressões.
+
+$$\begin{align*}
+\forall x(P(x) \implies \exists yR(x,y))
+\end{align*}$$
+O escopo de $\forall x$ é $P(x) \implies\exists yR(x,y)$.
+___
+## Variáveis lvi
