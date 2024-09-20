@@ -123,3 +123,148 @@ c\left(\frac{n}{2}-1+1\right)=\frac{cn}{2}\in  \Theta(n)
 *2.2-4 How can you modify any sorting algorithm to have a good best-case running time?*
 
 In a world of rainbows and cats and ignoring all probabilities, we could naively check if the array is already sorted in $\Theta(n)$ time and only proceed otherwise. This way we'd have the ideal best case.
+___
+## 2.3
+
+*2.3.-1* *Using Figure 2.4 as a model, illustrate the operation of merge sort on an array initially containing the sequence $<3; 41; 52; 26; 38; 57; 9; 49 >$*
+
+Did on paper.
+
+$2.3-2$ *The test in line 1 of the $MergeSort$ procedure reads $\f{if}\,\, p\ge r$ rather than $\f{if}\,\,p \ne r$ .= If $MergeSort$ is called with $p\gt r$ then the subarray $A[p:r]$ is empty.
+Argue that as long as the initial call of $MergeSort(A,1,n)$ has $n\ge 1$, the test
+$\f{if}\,\, p \ne r$ suffices to ensure that no recursive call has $p\gt 0$.*
+
+$p$ is the lower-bound and $r$ is the upper bound of the subarray $A[p:r]$. Notice that when we calculate $q = \lfloor (p + r) / 2 \rfloor$, we calculate the average between $p$ and $r$. The average of two numbers won't ever be smaller than the smallest number and neither greater than the greatest number, the smallest (and greatest) that an average can be is when both numbers are equal, i.e $p=r$.
+As we go down in the recursion tree we get $p$ closer to $r$ more and more, and it bottoms out when they're equal, because, as i said, that's the greatest an average can be.
+That's why checking for $p \ne r$ suffices as long as $n \ge 1$, if you call with $n \lt 0$ then $p \gt r$ and we are triying to sort an empty array. 
+
+$2.3-2$ *State a [[Loop Invariants]] for the while loop of lines $12-18$ of the $Merge$ procedure. Show how to use it, along with the while loops of lines $20-23$ and $24-27$, to prove that the $Merge$ procedure is correct.*
+
+```
+// lines 12-18
+while i < NL and j < NR
+	if L[i] <= R[j]
+		A[k] = L[i]
+		i = i + 1
+	else
+		A[k] = R[j]
+		j = j + 1
+	k = k + 1
+```
+
+**Loop Invariant**: The subarray $A[p:k-1]$ contains the smallest elements of either $L[0:i-1]$ and $R[0:j-1]$ at each position, in sorted order.
+
+**Initialization**: prior to the first iteration, $i=0,j=0$, both $L[0:i-1]$ and $R[0:j-1]$ are empty, and so is $A[p:k-1]$, therefore, trivially it contains the sorted smallest elements.
+**Maintainance**: Assume the invariant holds true for $A[p:k']$  ($L[0:i'],R[0:j']$), let us show that is remains true for $k'+1$. 
+- Assume line $13$ evaluates true
+		Therefore, $L[i'] \le R[j']$, so we take $L[i']$ to fill position $A[k']$, and advance $i$ by 1. (Note that if both are equal, we can take whatever, but to avoid a redundant if-check, we condense both cases into one if).
+- Line $13$ evaluates false
+	- In this case, $R[j'] \lt L[i']$. Therefore we choose $R[j']$ to occupy position $A[k']$, as it is the smallest of the two.
+At the end of both conditions we increment $k'$ by $1$, advancing $k$, therefore, $A[p:k+1]$ is sorted, containing the smallest of $L$ and $R$ at each position, so the invariant remains true.
+**Termination** at the end of the condition, either $L$ or $R$ was exhausted, and $A[p:k]$ contains the sorted elements of all $L$ or (exclusive) all $R$.
+
+So we are left to fill the remaining spaces with what's left of either $L$ or $R$:
+
+```
+// line 20-23
+while i < NL
+	A[k] = L[i]
+	i = i + 1
+	k = k + 1
+// line 24- 27
+while j < NR
+	A[k] = R[j]
+	j = j + 1
+	k = k + 1
+```
+
+*Disclaimer: the cases are symmetric, i'll prove for $L/i$, and the same works for $R/j$.*
+
+**Loop invariant(s)**: Let $u = k$ and $v=i$ before the first iteration, ($k$ and $i$ will increment and $u$ and $v$. will stay the same) The subarray $A[u:k-1]$ contains all the elements of $L[v:i-1]$.
+
+**Initialization**:  The subarrays $A[k:k-1]$ and $L[i:i-1]$ are both empty, therefore, by definition, we can say they contain each other.
+**Maintainance**: Assume as hypothesis that the invariant holds true for $k'$ and $i'$, let us show it remains true for $k'+1$ and $i'+1$.
+After each loop the contents of $L[i']$ are copied to $A[k']$, and both are incremented by one, since $L$ is sorted, the subarray $A[u:k'+1]$ contains the elements of $L[v:i'+1]$, so the invariant remains true.
+**Termination** at the end, the array $A[p:r]$ is sorted, and the proof also works for $j$ by symmetry, therefore the algorithm is correct.
+
+$2.3-4$ *Use mathematical induction to show that when $n\ge 2$ is an exact power of $2$, the solution of the recurrence
+$$\begin{align*}
+T(n)=\begin{cases}
+2 & \f{if}\,\, n = 2,\\
+2T\left(\frac{n}{2}\right)+ n \,\, &\f{if} \,\, n>2
+\end{cases}
+\end{align*}$$
+is $T(n) = n \log n$*
+
+**Base case**: For $n = 2$, $T(n)$ evaluates to $2$, which is equal to $2 \log_{2}(2)=2\cdot1 = 2$. Therefore the base case holds
+**Indutive Hypothesis**: Assume that $T(k)=k \log k$ when $k$ is a power of two.
+**Thesis**: Let us show it holds for $k'=2*k$ *(aka the next power of two)*:
+$$\begin{align*}
+T(k')&= 2T(\frac{k'}{2})+k'\\
+&= 2T(\frac{2\cdot k}{2})+k'\\
+&= 2T(k)+k'\\
+&= 2(k \log k)+k'\\
+&= k'\log k+k'\\
+&= k' \log (\frac{k'}{2})+k'\\
+&= k' (\log(k')-\log(2))+k'\\
+&= k'\log(k')-k'+k'\\
+&= k'\log(k')
+\end{align*}$$Therefore, by the inductive hypothesis, $T(k') =k'\log k'$. Therefore the statement is true for all $n$ power of $2$.
+
+```
+procedure RecursiveInsertionSort(A, p, r)
+	if p > r
+		RecursiveInsertionSort(A, p, r - 1)
+	else
+		key = A[r]
+		j = r - 1
+		while j > 0 and A[j] > key
+			A[j + 1] = A[j]
+			j = j - 1
+		A[j + 1] = key
+	
+```
+
+$$\begin{align*}
+T(n)=\begin{cases}
+c_{1} &\f{if}\,\, n \le 1\\
+T(n-1) + n &\f{otherwise}
+\end{cases}
+\end{align*}$$
+Which goes all the way to $O(n^{2})$  
+
+*$2.3-6$*
+
+```
+procedure BinarySearch (A, p, r, target)
+	q = (p + r) / 2
+	if A[q] == target
+		return q
+	else if A[q] < target
+		BinarySearch(A, q + 1, r, target)
+	else
+		BinarySearch(A, p, q, target)
+	return NIL
+```
+
+The recurrence will look something like:
+$$\begin{align*}
+T(n) &= \begin{cases}
+1 &\f{if}\,\, n = 1,\\
+T\left(\frac{n}{2}\right) + 1 &\f{otherwise}
+\end{cases}
+\end{align*}$$
+Which splits the problem in half on every recursion call, and since the inner procedure takes constant time, the time is $O(\log n)$ overall $T(n) = \log n + 1$. This also can be shown by induction when $n$ is a power of $2$:
+**Base case**:  $n=2$ the cost is $T(\frac{2}{2})+1$ = $T(1) + 1= 1+1 = 2$ which is constant, $\log(2) = 1 + 1=\log2 +1$. 
+**Hypothesis**: assume it works for $k$, $T(k) = \log k +1$
+**Thesis**: lets show it works of $k' = 2\cdot k$
+$$\begin{align*}
+T(k')&=T(\frac{k'}{2})+1\\
+&= T(\frac{2k}{2})+1\\
+&= \log k+1+1\\
+&= \log \frac{k'}{2}+1+1\\
+&= \log k' - \log2 + 1+1\\
+&= \log k' -1  + 1 +1\\
+&= \log k' +1
+\end{align*}$$
+proof is complete, so $\f{BinarySearch}\in O(\lg n)$.
