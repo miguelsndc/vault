@@ -313,4 +313,9 @@ O\left(n\log n + n\log\left(\frac{n}{\log(n)}\right)\right)
 \end{align*}$$
 Since $n\log  n$ grows much faster than $n\log \frac{n}{\log{n}}$, the first term dominates the expression, thus both have (roughly) the same running time.
 
-- We want to choose $k$ such that the modified algorithm has always a smaller runtime than the original
+- We want to choose $k$ such that the modified algorithm has always a smaller runtime than the original merge-sort. We need to keep in mind that the underlying insertion sort will not work for too large lists, we need a reasonable splitting.
+
+- *2-1 d)*  I could not stablish perfectly $k$ as a function of $n$ such that the size is the most optimal, however google says that for lists of $10-20$ elements is where insertion sort does it's business the best. so $k$ should be some value that splits everything into batches of $10-20$. assuming $10$:
+$$\begin{align*}
+
+\end{align*}$$
