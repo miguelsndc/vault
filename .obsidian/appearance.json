@@ -1,9 +1,10 @@
 {
   "accentColor": "",
   "textFontFamily": "Atkinson Hyperlegible",
-  "baseFontSize": 17,
+  "baseFontSize": 15,
   "theme": "obsidian",
-  "interfaceFontFamily": "Inter",
-  "cssTheme": "Things",
-  "translucency": false
+  "interfaceFontFamily": "Roboto",
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "monospaceFontFamily": "Fira Code"
 }
