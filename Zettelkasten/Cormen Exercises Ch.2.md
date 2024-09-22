@@ -271,4 +271,23 @@ proof is complete, so $\f{BinarySearch}\in O(\lg n)$.
 
 *2.3-6*
 
-A rough idea of the algorithm is: use binary search on the elements already "inserted" back into the left portion of the array (the sorted elements). The original insertion sort looks for the correct position and shifts the lemen
+A rough idea of the algorithm is: use binary search on the elements already "inserted" back into the left portion of the array (the sorted elements). The original insertion sort looks for the correct position and shifts the elements up at the same time, with binary search we search faster but still need to shift the other elements up anyway, so the worst case is still $O(n^{2})$.
+
+*2.3-8*
+
+```
+procedure TwoSum(S[1:n], x):
+	i = 0
+	j = n
+	sort(S) // O(n lg n) auxiliary
+	// O(n) main procedure
+	while i < j
+		if S[i] + S[j] == x
+			return true
+		else if S[i] + S[j] > x
+			j--
+		else
+			i++
+	return false
+```
+
