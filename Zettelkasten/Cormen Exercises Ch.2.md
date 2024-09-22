@@ -307,11 +307,10 @@ Where $\frac{n}{k}$ is the amount of lists and $k^{2}$, being $k$ the size o tho
 
 Given that we have $\lg(\frac{n}{k})$ times each with size $k$, the merge procedure can only be applied to pairs of lists, we can only merge two lists at a time, so each level in the merge tree takes $O(n)$ to merge, since there's $n$ items at each level, however we half the number of sublists and double their size, and it takes $\log (\frac{n}{k})$ time to get to a single list of size $n$, therefore the worst-case runtime is $O(n \log (\frac{n}{k}))$. Being more concise, at each level of the tree takes $O(n)$ time to merge all pairs of sublists, and takes $\log(\frac{n}{k})$ time to walk back to the root of the tree, outputting a time of $O(n \log \frac{n}{k})$
 
+- *2-1 c)* We want a value of $k$ such that $O\left(nk + n\log\left(\frac{n}{k}\right)\right)= O(n \log n)$, (not exactly equal, but belong to the same order of growth). We want $k$ as a function of $n$, notice that for $k = \log n$, we have:
 $$\begin{align*}
-nk+n\log\left(\frac{n}{k}\right)&=n\log n\\\\
-n\left(k+\log\frac{n}{k} \right) &= n\log n\\
-k+\log\left(\frac{n}{k}\right)&=\log n\\
-2^{k+\log\left(\frac{n}{k}\right)} &= 2^{\log{n}}\\
-2^{k} \frac{n}{k} &= n \\
-2^{k} n &= kn 
+O\left(n\log n + n\log\left(\frac{n}{\log(n)}\right)\right)
 \end{align*}$$
+Since $n\log  n$ grows much faster than $n\log \frac{n}{\log{n}}$, the first term dominates the expression, thus both have (roughly) the same running time.
+
+- We want to choose $k$ such that the modified algorithm has always a smaller runtime than the original
