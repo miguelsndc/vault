@@ -268,3 +268,7 @@ T(k')&=T(\frac{k'}{2})+1\\
 &= \log k' +1
 \end{align*}$$
 proof is complete, so $\f{BinarySearch}\in O(\lg n)$.
+
+*2.3-6*
+
+A rough idea of the algorithm is: use binary search on the elements already "inserted" back into the left portion of the array (the sorted elements). The original insertion sort looks for the correct position and shifts the lemen
