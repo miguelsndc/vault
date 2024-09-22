@@ -296,4 +296,12 @@ procedure TwoSum(S[1:n], x):
 *2-1* 
 
 - *Show that insertion sort can sort $\frac{n}{k}$ sublists of length $k$ in $O(nk)$ worst-case runtime*
-Given that insertion sort will run in $O(n^{2})$, the running time for sorting **all** $n/k$
+Given that insertion sort will run in $O(n^{2})$, the running time for sorting **all** $\frac{n}{k}$ sublists is given by:
+$$\begin{align*}
+O(\frac{n}{k}\cdot(k² ))
+= O(nk)
+\end{align*}$$
+Where $\frac{n}{k}$ is the amount of lists and $k^{2}$, being $k$ the size o those lists, is the time the algorithm takes to sort each individual list.
+
+- *Show how to merge the sublists in $O(n \log (\frac{n}{k}))$* worst-case time.
+
