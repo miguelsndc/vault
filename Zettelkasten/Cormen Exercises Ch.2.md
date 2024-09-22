@@ -305,4 +305,13 @@ Where $\frac{n}{k}$ is the amount of lists and $k^{2}$, being $k$ the size o tho
 
 - *Show how to merge the sublists in $O(n \log (\frac{n}{k}))$* worst-case time.
 
-Given that we have $\lg(\frac{n}{k})$ times each with size $k$, the merge procedure can only be applied to pairs of lists, we can only merge two lists at a time, so each level in the merge tree takes $O(n)$ to merge, since there's $n$ items at each level, however we half the 
+Given that we have $\lg(\frac{n}{k})$ times each with size $k$, the merge procedure can only be applied to pairs of lists, we can only merge two lists at a time, so each level in the merge tree takes $O(n)$ to merge, since there's $n$ items at each level, however we half the number of sublists and double their size, and it takes $\log (\frac{n}{k})$ time to get to a single list of size $n$, therefore the worst-case runtime is $O(n \log (\frac{n}{k}))$. Being more concise, at each level of the tree takes $O(n)$ time to merge all pairs of sublists, and takes $\log(\frac{n}{k})$ time to walk back to the root of the tree, outputting a time of $O(n \log \frac{n}{k})$
+
+$$\begin{align*}
+nk+n\log\left(\frac{n}{k}\right)&=n\log n\\\\
+n\left(k+\log\frac{n}{k} \right) &= n\log n\\
+k+\log\left(\frac{n}{k}\right)&=\log n\\
+2^{k+\log\left(\frac{n}{k}\right)} &= 2^{\log{n}}\\
+2^{k} \frac{n}{k} &= n \\
+2^{k} n &= kn 
+\end{align*}$$
