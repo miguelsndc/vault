@@ -317,5 +317,5 @@ Since $n\log  n$ grows much faster than $n\log \frac{n}{\log{n}}$, the first ter
 
 - *2-1 d)*  I could not stablish perfectly $k$ as a function of $n$ such that the size is the most optimal, however google says that for lists of $10-20$ elements is where insertion sort does it's business the best. so $k$ should be some value that splits everything into batches of $10-20$. assuming $10$:
 $$\begin{align*}
-
+k=\frac{n}{10}
 \end{align*}$$
