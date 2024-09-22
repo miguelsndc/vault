@@ -291,3 +291,9 @@ procedure TwoSum(S[1:n], x):
 	return false
 ```
 
+## Chapter Problems
+
+*2-1* 
+
+- *Show that insertion sort can sort $\frac{n}{k}$ sublists of length $k$ in $O(nk)$ worst-case runtime*
+Given that insertion sort will run in $O(n^{2})$, the running time for sorting **all** $n/k$
