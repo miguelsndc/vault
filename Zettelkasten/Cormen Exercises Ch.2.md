@@ -305,3 +305,4 @@ Where $\frac{n}{k}$ is the amount of lists and $k^{2}$, being $k$ the size o tho
 
 - *Show how to merge the sublists in $O(n \log (\frac{n}{k}))$* worst-case time.
 
+Given that we have $\lg(\frac{n}{k})$ times each with size $k$, the merge procedure can only be applied to pairs of lists, we can only merge two lists at a time, so each level in the merge tree takes $O(n)$ to merge, since there's $n$ items at each level, however we half the 
