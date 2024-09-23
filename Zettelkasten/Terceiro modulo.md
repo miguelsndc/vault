@@ -142,5 +142,12 @@ Seja $A$ uma $L$-estrutura. O conjunto de todas senteças atômicas de $L$ que s
 O processo de construção é dado por:
 
 1. Para todo símbolo de relação $n$-ária $R$ de $L$, inclua uma sentença atômica da forma $R(t_{1},\cdots,t_n)$ se os elementos $(t_{1}^{A}, \cdots, t_{n}^{A}) \in R^{A}$.
-2. Para todo símbolo de função $n$-ária $f$ de $L$ inclua uma sentença atômica da forma $f(t_{1},\cdots,t_{n})=t_{n+1}$ se, $f^{A}(t_{1}^{A}, \cdots, t_{n}^{A})$
+2. Para todo símbolo de função $n$-ária $f$ de $L$ inclua uma sentença atômica da forma $f(t_{1},\cdots,t_{n})=t_{n+1}$ se, $f^{A}(t_{1}^{A}, \cdots, t_{n}^{A})= t^{A}_{n+1}$ na estrutura $A$ onde $t^{A}_{1}, \cdots, t^{A}_{n}$ são representações dos elementos de $A$.
 
+## Extensão de uma estrutura
+
+Seja $A$ uma $L$-estrutura. Quando desejamos produzir o diagrama positivo de $A$ e $A$ tem elementos "sem nome", definimos uma **extensão** de $A$, chamada $A'$ que admite esses "sem nome", como novos elementos destacados
+
+Isso significa dizer que a assinatura $A'$ é $L' = L \cup \{c_{1},\cdots,c_{n}\}$.
+
+Onde $c_{i}$ é um símbolo de constante para representar o elemento $a_{i}$. Às vezes abreviamos $L \cup \{c_{1},\cdots, c_{n}\}$ como $L(\bar{c})$.
