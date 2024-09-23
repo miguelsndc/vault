@@ -96,3 +96,17 @@ Uma ocorrência de uma varíavel em uma fórmula é ligada se e somente se ela e
 Uma variável é livre numa fórmula se pelo menos uma ocorrência dela é livre na fórmula. Uma variável é ligada se pelo menos uma ocorrência dela é ligada.
 
 Uma variável, como se pode ver, pode ser livre e ligada, ambas definições não são mutuamente exclusivas
+___
+## Fórmulas bem formadas
+
+- Um átomo (fórmula atômica) é uma fórmula;
+- se $F$ e $G$ são fórmulas, então $\neg(F)$, $(F \lor G)$, $(F \land G)$, $(F \implies G)$ e $(F \iff G)$ são fórmulas;
+- Se $F$ é uma fórmula e $x$ é uma variável livre em $F$, então $\forall x F$ e $\exists x F$ são fórmulas;
+- Fórmulas são geradas apenas por um finito número de aplicações das regras acima.
+___
+## Sentenças
+Sentenças são fórmulas sem variáveis livres. Dessa forma, uma sentença atômica é uma fórmula atômica sem variável.
+Exemplos de sentenças:
+- $\forall x P(x)$, $\exists y M(y)$
+Sentenças atômicas:
+- $M(a)$, $P(b)$.
