@@ -157,3 +157,22 @@ Aparentemente o diagrama positivo é só aplicar as relações / funções algum
 Nas funções você estabelece igualdade entre as constantes e algumas funções algumas vezes também, complicação da porra pra dizer isso.
 ![[Pasted image 20240923143021.png]]
 tipo assim tlgd
+
+## Modelo Canônico
+
+é assim q a gente pega um conjunto de sentenças e transforma numa estrutura
+
+![[Pasted image 20240923143738.png]]
+**Pra achar o domínio**:
+Olha as constantes:
+- $k$ e $t$ 
+Olha as funções e todas as possíveis permutações de constantes nessas funções:
+- Nesse caso tem $g$ e $p$ $g$ com $1$ parametro e $p$ com $2$, então a gnt ta atrás dos valores de:
+	- $g(t),g(k),p(k,k),p(k,t),p(t,k),p(t,t)$.
+Aí a gente vai buscar as classes de equivalencia das constantes, caso tenha alguma sentença aí que nao de pra colocar em nenhuma classe de equivalencia a gente abre outra, tem bronca nao:
+$$\begin{align*}
+k^{*} &= \{k, g(t), g(k),p(k,t),  \}\\
+t^{*}&= \{t, p(k,k) \}\\
+p(t,k)^{*} &= \{ p(t,k), p(t,t) \}
+\end{align*}$$
+Aí o $\f{dom}(A) = \{k^{*}, t^{*}, p(t,k)^{*}\}$.
