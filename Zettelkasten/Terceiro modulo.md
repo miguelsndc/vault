@@ -120,3 +120,20 @@ Seja $L$ uma assinatura e $\phi$ uma sentença atômica de $L$. O significado de
 Basicamente nada significa porra nenhuma, tudo depende da interpretação dos termos e das relações, estamos no mundo da fantasia
 
 ![[Pasted image 20240923121652.png]]
+___
+## Modelo de uma sentença atômica
+
+Seja $L$ uma assinatura e $A$ uma $L$-estrutura. Dizemos que $A$ é um modelo de $\phi$ sob uma determinada interpretação de $L$ em $A$ se $\phi^{A}$ for verdadeira.
+## Contra-Modelo de uma sentença atômica
+
+Seja $L$ uma assinatura e $A$ uma $L$-estrutura. Dizemos que $A$ é um contra-modelo de $\phi$ sob uma determinada interpretação de $L$ em $A$ se $\phi^{A}$ for falsa.
+___
+## Sentenças e estruturas
+
+Veremos como passar de uma estrutura para um conjunto de sentenças que a descrevem. E como passar de um conjunto de sentenças para uma estrutura que satisfaz esse conjunto.
+
+1. De estruturas para sentenças;
+2. De sentenças para estruturas.
+
+
+
