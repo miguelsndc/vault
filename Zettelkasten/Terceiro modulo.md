@@ -197,10 +197,13 @@ Se $C$ for um conjunto de sentenças atômicas é só usar o algoritmo dali de c
 
 ## Substituição de variáveis por termos
 
-Aparentemente trocar as letras ajuda de alguma forma, então a sintaxe pra isso, numa FBF *(Fórmula bem formada)* é: $P(x)[a/x]$, no predicado $P(x)$ sai o $x$ e entra o $a$ no lugar, daí aquela mesma história da definição recursiva pra todos os conectivos, então:
+Aparentemente trocar as letras ajuda de alguma forma, então a sintaxe pra isso, numa FBF *(Fórmula bem formada)* é: $P(x)[a/x]$, no predicado $P(x)$ sai o $x$ e entra o $a$ no lugar, daí aquela mesma história da definição recursiva pra todos os conectivos:
 - Se $\phi$ é atômica temos $\phi[t/x]$. É a fórmula resultante da remoção de todas as ocorrências de $x$ e a colocação do termo $t$ nos seus lugares.
 - Se $\phi$ é da forma $\neg \phi:(\neg\phi)[t/x]=\neg(\phi[t/x])$. 
 - Se $\phi$ é da forma $(\delta \land \rho):(\delta\land\rho)[t/x]=(\delta[t/x]\land \rho[t/x]);$  
 - Se $\phi$ é da forma $(\delta \lor \rho):(\delta\lor\rho)[t/x]=(\delta[t/x]\lor \rho[t/x]);$  
 - Se $\phi$ é da forma $(\delta \implies \rho):(\delta\implies\rho)[t/x]=(\delta[t/x]\implies \rho[t/x]);$  
- 
+**Apenas substituem-se variáveis, constantes não.**
+não vou escrever isso nem fudendo
+![[Pasted image 20240923150852.png]]
+Só se aplica substituição em variáveis livres, substituição em variáveis ligadas é inócua.
