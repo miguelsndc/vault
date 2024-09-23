@@ -1,4 +1,4 @@
-	Proposições agora são funções que recebem parâmetros, houve a introdução dos quantificadores, existencial e universal.
+Proposições agora são funções que recebem parâmetros, houve a introdução dos quantificadores, existencial e universal.
 
 Estruturas são os simbolos, é necessário representar os objetos, os predicados e as constantes.
 
@@ -95,7 +95,7 @@ Uma ocorrência de uma varíavel em uma fórmula é ligada se e somente se ela e
 
 Uma variável é livre numa fórmula se pelo menos uma ocorrência dela é livre na fórmula. Uma variável é ligada se pelo menos uma ocorrência dela é ligada.
 
-Uma variável, como se pode ver, pode ser livre e ligada, ambas definições não são mutuamente exclusivas
+Uma variável, como se pode ver, pode ser livre e ligada, ambas definições não são mutuamente exclusivas, se a variável não aparece na declaração de um quantificador ela é livre, se aparece na de outro quantificador, é ligada.
 ___
 ## Fórmulas bem formadas
 
@@ -153,7 +153,7 @@ Isso significa dizer que a assinatura $A'$ é $L' = L \cup \{c_{1},\cdots,c_{n}\
 Onde $c_{i}$ é um símbolo de constante para representar o elemento $a_{i}$. Às vezes abreviamos $L \cup \{c_{1},\cdots, c_{n}\}$ como $L(\bar{c})$.
 
 ## Diagrama positivo
-Aparentemente o diagrama positivo é só aplicar as relações / funções algumas vezes nas constantes, quantas vezes ? quantas seu coração mandar, mas pelo menos umas duas, e faz isso pra cada relação.
+Aparentemente o diagrama positivo é só aplicar as relações / funções algumas vezes nas constantes, quantas vezes ? quantas seu coração mandar, mas pelo menos umas duas, e faz isso pra cada relação/função.
 Nas funções você estabelece igualdade entre as constantes e algumas funções algumas vezes também, complicação da porra pra dizer isso.
 ![[Pasted image 20240923143021.png]]
 tipo assim tlgd
@@ -169,10 +169,28 @@ Olha as constantes:
 Olha as funções e todas as possíveis permutações de constantes nessas funções:
 - Nesse caso tem $g$ e $p$ $g$ com $1$ parametro e $p$ com $2$, então a gnt ta atrás dos valores de:
 	- $g(t),g(k),p(k,k),p(k,t),p(t,k),p(t,t)$.
-Aí a gente vai buscar as classes de equivalencia das constantes, caso tenha alguma sentença aí que nao de pra colocar em nenhuma classe de equivalencia a gente abre outra, tem bronca nao:
+Aí a gente vai buscar as classes de equivalencia das constantes, caso tenha alguma sentença aí que nao dê pra colocar em nenhuma classe de equivalencia a gente abre outra, tem bronca nao:
 $$\begin{align*}
 k^{*} &= \{k, g(t), g(k),p(k,t),  \}\\
 t^{*}&= \{t, p(k,k) \}\\
 p(t,k)^{*} &= \{ p(t,k), p(t,t) \}
 \end{align*}$$
 Aí o $\f{dom}(A) = \{k^{*}, t^{*}, p(t,k)^{*}\}$.
+
+**Destaques**: simplesmente as classes de equivalencia das constantes: $\{k^{*},t^{*}\}$.
+**Relacionamentos**: $\{X^{A}(),Y^{A}(,)\}$.
+Tem que ver quem que está em cada relacionamento, tipo, achar os pares:
+$$\begin{align*}
+X &=\{k^{*}\}\\
+Y &=\{(k^{*}, t^{*}), (k^{*},k^{*})\}
+\end{align*}$$
+Só olhar as sentenças e substituir os valores pelas classes de equivalência e jogar esse par dentro do conjunto.
+**Funções**: $\{g^{A}(), p^{A}(,)\}$, só olhar as funções.
+## Retomando SAT
+ai meus ovo, o sat denovo nao
+
+Dado um conjunto $C$ de sentenças da lógica de primeira ordem. Pergunta-se, $C$ é satisfatível ?
+
+> C tem um modelo ?
+
+Se $C$ for u
