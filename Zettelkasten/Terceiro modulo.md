@@ -155,3 +155,5 @@ Onde $c_{i}$ é um símbolo de constante para representar o elemento $a_{i}$. À
 ## Diagrama positivo
 Aparentemente o diagrama positivo é só aplicar as relações / funções algumas vezes nas constantes, quantas vezes ? quantas seu coração mandar, mas pelo menos umas duas, e faz isso pra cada relação.
 Nas funções você estabelece igualdade entre as constantes e algumas funções algumas vezes também, complicação da porra pra dizer isso.
+![[Pasted image 20240923143021.png]]
+tipo assim tlgd
