@@ -193,4 +193,14 @@ Dado um conjunto $C$ de sentenças da lógica de primeira ordem. Pergunta-se, $C
 
 > C tem um modelo ?
 
-Se $C$ for u
+Se $C$ for um conjunto de sentenças atômicas é só usar o algoritmo dali de cima pra achar o modelo **canônico**, se não for amigo deu merda federal kkkkkkkk. Lembrando que modelos são uma estrutura onde as sentenças interpretadas naquele modelo são verdadeiras, eu chuto que pra ser satisfatível o modelo tem que ser true pra todas as sentenças do conjunto.
+
+## Substituição de variáveis por termos
+
+Aparentemente trocar as letras ajuda de alguma forma, então a sintaxe pra isso, numa FBF *(Fórmula bem formada)* é: $P(x)[a/x]$, no predicado $P(x)$ sai o $x$ e entra o $a$ no lugar, daí aquela mesma história da definição recursiva pra todos os conectivos, então:
+- Se $\phi$ é atômica temos $\phi[t/x]$. É a fórmula resultante da remoção de todas as ocorrências de $x$ e a colocação do termo $t$ nos seus lugares.
+- Se $\phi$ é da forma $\neg \phi:(\neg\phi)[t/x]=\neg(\phi[t/x])$. 
+- Se $\phi$ é da forma $(\delta \land \rho):(\delta\land\rho)[t/x]=(\delta[t/x]\land \rho[t/x]);$  
+- Se $\phi$ é da forma $(\delta \lor \rho):(\delta\lor\rho)[t/x]=(\delta[t/x]\lor \rho[t/x]);$  
+- Se $\phi$ é da forma $(\delta \implies \rho):(\delta\implies\rho)[t/x]=(\delta[t/x]\implies \rho[t/x]);$  
+ 
