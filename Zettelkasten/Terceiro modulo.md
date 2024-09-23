@@ -110,3 +110,13 @@ Exemplos de sentenças:
 - $\forall x P(x)$, $\exists y M(y)$
 Sentenças atômicas:
 - $M(a)$, $P(b)$.
+___
+## Sentenças Atômicas
+
+Sentença é uma fórmula sem variável livre, e se é atômica, não tem variável.
+
+Seja $L$ uma assinatura e $\phi$ uma sentença atômica de $L$. O significado de $\phi$ segundo uma interpretação de $L$ numa estrutura $A$ de assinatura $L$ é determinado pelo resultado da interpretação sobre os termos de $\phi$ e sobre o símbolo de relação $\phi$.
+
+Basicamente nada significa porra nenhuma, tudo depende da interpretação dos termos e das relações, estamos no mundo da fantasia
+
+![[Pasted image 20240923121652.png]]
