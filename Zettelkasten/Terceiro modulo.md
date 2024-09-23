@@ -90,3 +90,9 @@ $$\begin{align*}
 O escopo de $\forall x$ é $P(x) \implies\exists yR(x,y)$.
 ___
 ## Variáveis livres e ligadas
+
+Uma ocorrência de uma varíavel em uma fórmula é ligada se e somente se ela está no escopo de um quantificador aplicado a ela. Ou ela é a ocorrência do quantificador. Uma ocorrência de uma variável numa fórmula é livre se e somente se essa ocorrência não for ligada.
+
+Uma variável é livre numa fórmula se pelo menos uma ocorrência dela é livre na fórmula. Uma variável é ligada se pelo menos uma ocorrência dela é ligada.
+
+Uma variável, como se pode ver, pode ser livre e ligada, ambas definições não são mutuamente exclusivas
