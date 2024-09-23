@@ -135,5 +135,12 @@ Veremos como passar de uma estrutura para um conjunto de sentenças que a descre
 1. De estruturas para sentenças;
 2. De sentenças para estruturas.
 
+## Diagrama positivo (Estruturas $\rightarrow$ Sentenças)
 
+Seja $A$ uma $L$-estrutura. O conjunto de todas senteças atômicas de $L$ que são verdadeiras sob uma determinada interpretação em $A$, (ou seja, a descrição lógica de $A$) é chamado de diagrama positivo de $A$.
+
+O processo de construção é dado por:
+
+1. Para todo símbolo de relação $n$-ária $R$ de $L$, inclua uma sentença atômica da forma $R(t_{1},\cdots,t_n)$ se os elementos $(t_{1}^{A}, \cdots, t_{n}^{A}) \in R^{A}$.
+2. Para todo símbolo de função $n$-ária $f$ de $L$ inclua uma sentença atômica da forma $f(t_{1},\cdots,t_{n})=t_{n+1}$ se, $f^{A}(t_{1}^{A}, \cdots, t_{n}^{A})$
 
