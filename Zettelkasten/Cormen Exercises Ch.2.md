@@ -358,4 +358,22 @@ $A= [1,2,3]$ $n = 3$ $x=  2$; evaluate$P(x) = 1 + 2x+ 3x^{2}$ at $x = 2$.
 - $p = A[1] + 2 * 8 = 1 + 16 = 17$
 - $p = 17$
 - $P(2) = 1 + 4+3*4=17$
-Parenthesi
+Parenthesization: $1 + x(2+3x)$ from inside-out.
+- $a)$ Complexity is $O(n)$ where $n$ is the number of coefficients in the polynomial.
+
+- $b)$
+```
+procedure NaivePolynomial(A, n, x)
+	p = 0
+	for i = 0 to n
+		k = 0
+		for j = 0 to i
+			k += A[i]
+		p += k
+```
+
+Complexity of $O(n^{2})$, $Horner$ is two orders of magnitude faster than the naive implementation.
+
+$c)$ **Loop invariant:** At the start of each iteration, $p = \sum\limits_{k=0}^{n-(i+1)} A[k+i+1]\cdot x^{k}$.
+- **Initialization**: Prior to the first iteration, $p=\sum\limits_{k=0}^{n-n-1}A[k+i+1]\cdot x^{k} =0$.
+- **Maintenance:** Let's assume as hypothesis
