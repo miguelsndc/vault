@@ -341,3 +341,21 @@ $b)$ **Loop Invariant**: The element at the index $A[j]$ will contain the smalle
 - **Mantainance:** Assume the invariant holds for $i = k$, let's show it holds for $i=k+1$. At the end of the inner loop, from the other invariant stated above, the position $A[j]$ is the smallest element at the subarray $A[j:n]$, at the end of that iteration, $j=i$, therefore, by the hypothesis the subarray $A[1:k]$ is sorted, since $k+1$ now contains an element in it's correct sorted position, the subarray $A[1:k+1]=A[1:i]$ is sorted. So the invariant holds
 - **Termination**: At the end of the last iteration $i=n$, so the subarray $A[1:i]=A[1:n]$ is sorted, so the algorithm is correct. 
 *d)* The running time of bubble sort is always $O(n^{2})$ regardless of best/worst case, because the algorithm needs to go through each element in the subarray $A[i+1:j]$ at every iteration. Insertion sort and bubble sort have the same worst case complexity, but insertion sort might do less swapping as less comparisons, and also has a better best case scenario.
+
+___
+
+```
+procedure HORNER(A, n, x)
+	p = 0
+	for i = n down to 0
+		p = A[i] + x * p
+	return p
+```
+$A= [1,2,3]$ $n = 3$ $x=  2$; evaluate$P(x) = 1 + 2x+ 3x^{2}$ at $x = 2$.
+- $p = 0$
+- $p = A[3] + 2 * 0=A[3]$; $p = 3$
+- $p = A[2] + 2 * 3 = 2 + 6 = 8$
+- $p = A[1] + 2 * 8 = 1 + 16 = 17$
+- $p = 17$
+- $P(2) = 1 + 4+3*4=17$
+Parenthesi
