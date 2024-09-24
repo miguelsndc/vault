@@ -376,4 +376,15 @@ Complexity of $O(n^{2})$, $Horner$ is two orders of magnitude faster than the na
 
 $c)$ **Loop invariant:** At the start of each iteration, $p = \sum\limits_{k=0}^{n-(i+1)} A[k+i+1]\cdot x^{k}$.
 - **Initialization**: Prior to the first iteration, $p=\sum\limits_{k=0}^{n-n-1}A[k+i+1]\cdot x^{k} =0$.
-- **Maintenance:** Let's assume as hypothesis
+- **Maintenance:** Let's assume as hypothesis that the invariant holds for $i=t$, let's show it holds for the next iteration: $i=t-1$:
+$$\begin{align*}
+p&= \sum\limits_{k=0}^{n-t-1}A[k+t+1]\cdot x^{k}
+\end{align*}$$
+	On the body of the loop, $p = A[i] + x \cdot p$, so:
+$$\begin{align*}
+p &=A[t-1]+x\cdot\left(\sum\limits_{k=0}^{n-t-1}A[k+t+1]\cdot x^{k}\right)\\
+p&= A[t-1]+\sum\limits_{k=0}^{n-t-1}A[k+t+1]\cdot x^{k+1}\\
+p&= \sum\limits_{k=0}^{n-t}A[k+i+1]\cdot x^{k+1}\\
+\end{align*}$$
+  Therefore the invariant holds (? i think so)
+- **Termination**, when $i=-1$ after the last iteration, $p= \sum\limits_{k=0}^{n}A[k]x^{k}$.
