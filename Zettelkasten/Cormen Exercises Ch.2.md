@@ -397,3 +397,17 @@ pair $(i,j)$ is called an inversion of A.
 $a)$ List the five inversions of $\innp{2,3,8,6,1}$. 
 - $(2,1), (3,1), (8,1), (6,1), (8,6)$.
 $b)$ The array with elements from the set with more inversions is the array sorted in descending order, because each element at position $i$ forms an inversion with all the other elements to the right of it, there are $\frac{n(n-1)}{2}$ inversions.
+$c)$ The insertion sort detects inversions and undoes them by inserting the element at $i$ position at the correct position each iteration, it's undoing all inversions $(j, i)$ (check the code [[Insertion Sort]]). That's why that when the array is in descending order, the insertion sort takes longer, it needs to undo all $\frac{n(n-1)}{2}$ inversions, extending the running time to $O(n^{2})$, and that's also why the algorithm takes $O(n)$ time when the array is sorted, there are no inversions so we smoothly go through the array just making sure that every element is at it's correct place.
+
+$d)$
+
+```
+procedure Count(A, p, q, r)
+	
+
+procedure CountInversions(A, p, r)
+	q = (p + r) / 2
+	CountInversions(A, p, q)
+	CountInversions(A, q + 1, r)
+	Count(A, p, q, r)
+```
