@@ -403,8 +403,23 @@ $d)$
 
 ```
 procedure Count(A, p, q, r)
-	
-
+	nl = q - p + 1
+	nr = r - q
+	Let L[0: nl - 1] and R[0: nr - 1]
+	for i = 0 to nl - 1
+		L[i] = A[p + i]
+	for j = 0 to nr - 1
+		R[j] = A[q + j + 1]
+	i = 0
+	j = 0
+	count = 0
+	while i < nl and j < nr	
+		if L[i] > R[j]
+			count = count + 1
+			i = i + 1
+		else
+			j = j + 1
+		
 procedure CountInversions(A, p, r)
 	q = (p + r) / 2
 	CountInversions(A, p, q)
