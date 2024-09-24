@@ -319,3 +319,17 @@ Since $n\log  n$ grows much faster than $n\log \frac{n}{\log{n}}$, the first ter
 $$\begin{align*}
 k=\frac{n}{10}
 \end{align*}$$
+*2-2 Correctness of bubblesort*
+
+```
+procedure BubbleSort(A,n)
+	for i = 1 to n - 1
+		for j = n down to i + 1
+			if A[j] < A[j-1]
+				exchange A[j] and A[j - 1]
+
+```
+
+*A)* i'll need to say that one needs to stablish two loop invariants for the inner and the outer loop and then conclude by induction that the algorithm is correct.
+
+$b)$ **Loop Invariant**: 
