@@ -385,6 +385,15 @@ $$\begin{align*}
 p &=A[t-1]+x\cdot\left(\sum\limits_{k=0}^{n-t-1}A[k+t+1]\cdot x^{k}\right)\\
 p&= A[t-1]+\sum\limits_{k=0}^{n-t-1}A[k+t+1]\cdot x^{k+1}\\
 p&= \sum\limits_{k=0}^{n-t}A[k+i+1]\cdot x^{k+1}\\
+&\text{Let } k'=k+1\\\\
+p&= \sum\limits_{k'=0}^{n-t}A[k'+t]x^{k'}
 \end{align*}$$
   Therefore the invariant holds (? i think so)
 - **Termination**, when $i=-1$ after the last iteration, $p= \sum\limits_{k=0}^{n}A[k]x^{k}$.
+___
+Let $A[1:n]$ be an array of $n$ distinct numbers. If $i < j$ and $A[i] \gt A[j]$ , then the
+pair $(i,j)$ is called an inversion of A.
+
+$a)$ List the five inversions of $\innp{2,3,8,6,1}$. 
+- $(2,1), (3,1), (8,1), (6,1), (8,6)$.
+$b)$ The array with elements from the set with more inversions is the array sorted in descending order, because each element at position $i$ forms an inversion with all the other elements to the right of it, there are $\frac{n(n-1)}{2}$ inversions.
