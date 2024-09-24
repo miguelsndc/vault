@@ -420,7 +420,7 @@ procedure Count(A, p, q, r)
 		else
 			A[k] = R[j]
 			// from here and onwards everything else is a inversion
-			// since both L and R are sot
+			// since both L and R are sorted
 			count = count + (nl - i)
 			j = j + 1
 	while i < nl
@@ -435,10 +435,10 @@ procedure CountInversions(A, p, r)
 	count = 0
 	if p != r
 		q = (p + r) / 2
-		count = count + CountInversions(A, p, q)
-		count = count + CountInversions(A, q + 1, r)
-		count = count + Count(A, p, q, r)
+		CountInversions(A, p, q)
+		CountInversions(A, q + 1, r)
+		count += Count(A, p, q, r)
 	return count
 ```
 
-This sorts the array in the process also, but honestly who gives a fuck, i'd rather do this than waste even more space to keep a copy of $A$, job is done
+This sorts the array in the process also, but honestly who gives a fuck, the job is done, i'd rather do this than waste even more space to keep a copy of $A$.
