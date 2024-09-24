@@ -334,5 +334,8 @@ procedure BubbleSort(A,n)
 
 $b)$ **Loop Invariant**: The element at the index $A[j]$ will contain the smallest element in subarray $A[j:n]$.
 - **Initialization**: Prior to the first iteration, $j$ is equal to $n$, so the subarray is $A[n:n]$ which consists of a single element, therefore $A[j]$ contains the smallest element in that portion of the array (the only one).
-- **Maintainance**: Assume the invariant holds for $j=k$, let's show it holds for $j'=k-1$. After each iteration, if the element at $A[j]$ is less than the element at $A[j']$, then they're swapped, at this point $A[j'] < j$, but when $j$ decrements itself, the value at index $j$ will be the smallest, hence the invariant holds.
-- **Termination**: From the rules above we infer that at the end of the loop, the smallest element 
+- **Maintainance**: Assume the invariant holds for $j=k$, let's show it holds for $j'=k-1$. After each iteration, if the element at $A[j]$ is less than the element at $A[j']$, then they're swapped, at this point $A[j'] < j$, but when $j$ decrements itself, the value at index $j$ will be the smallest, hence the invariant holds, if it's not then $j$ is simply decremented now assuming the smallest value.
+- **Termination**: From the rules above we infer that at the end of the loop, $j=i$, so  the smallest element at $A[i+1:j]$ is bubbled down to it's correct sorted position accompanied by $j$ doing the hard work.
+*c)* **Loop invariant**: The subarray $A[1:i]$ is sorted.
+- **Initialization**: At the start of the first iteration $i=1$, so the subarray $A[1:i]=A[1:1]$ which contains just a single element therefore it's sorted by definition
+- **Mantainance:** Assume the invariant holds for $i = k$, let's show it holds for $i=k+1$. At the end of the inner loop, from the other invariant stated above, the position $A[j]$ is the smallest element at the subarray $A[j:n]$, at the end of that iteration, $j=i$, therefore the subarray $A[1:k]$
