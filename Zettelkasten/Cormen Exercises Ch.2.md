@@ -414,15 +414,31 @@ procedure Count(A, p, q, r)
 	j = 0
 	count = 0
 	while i < nl and j < nr	
-		if L[i] > R[j]
-			count = count + 1
+		if L[i] <= R[j]:
+			A[k] = L[i]
 			i = i + 1
 		else
+			A[k] = R[j]
+			// from here and onwards everything else is a inversion
+			// since both L and R are sot
+			count = count + (nl - i)
 			j = j + 1
+	while i < nl
+		A[k] = L[i]
+		i = i + 1
+	while j < nr
+		A[k] = R[j]
+		j = j + 1
+	return count
 		
 procedure CountInversions(A, p, r)
-	q = (p + r) / 2
-	CountInversions(A, p, q)
-	CountInversions(A, q + 1, r)
-	Count(A, p, q, r)
+	count = 0
+	if p != r
+		q = (p + r) / 2
+		count = count + CountInversions(A, p, q)
+		count = count + CountInversions(A, q + 1, r)
+		count = count + Count(A, p, q, r)
+	return count
 ```
+
+This sorts the array in the process also, but honestly who gives a fuck, i'd rather do this than waste even more space to keep a copy of $A$, job is done
