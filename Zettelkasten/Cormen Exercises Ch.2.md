@@ -332,4 +332,7 @@ procedure BubbleSort(A,n)
 
 *A)* i'll need to say that one needs to stablish two loop invariants for the inner and the outer loop and then conclude by induction that the algorithm is correct.
 
-$b)$ **Loop Invariant**: 
+$b)$ **Loop Invariant**: The element at the index $A[j]$ will contain the smallest element in subarray $A[j:n]$.
+- **Initialization**: Prior to the first iteration, $j$ is equal to $n$, so the subarray is $A[n:n]$ which consists of a single element, therefore $A[j]$ contains the smallest element in that portion of the array (the only one).
+- **Maintainance**: Assume the invariant holds for $j=k$, let's show it holds for $j'=k-1$. After each iteration, if the element at $A[j]$ is less than the element at $A[j']$, then they're swapped, at this point $A[j'] < j$, but when $j$ decrements itself, the value at index $j$ will be the smallest, hence the invariant holds.
+- **Termination**: From the rules above we infer that at the end of the loop, the smallest element 
