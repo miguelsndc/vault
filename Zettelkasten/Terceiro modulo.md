@@ -265,3 +265,18 @@ ___
 ## Valor verdade de uma fórmula
 
 Para calcular o valor verdade de uma fórmula *(Lembrando que fórmulas possuem variáveis livres, sentenças não)*, precisa-se antes aplicar uma substituição apropriada de variáveis livres por termos fechados da linguagem $L$, isto é, você some com todas as variáveis livres e coloca termos no lugar, para transformar as fórmulas em sentenças e então fazer os bereguejohnson.
+
+## Satisfabilidade de uma fórmula
+
+Seja $\phi(x_{1},\cdots,x_{n})$ uma fórmula da lógica de predicados numa assinatura $L$ na qual aparecem ocorrências livres das variáveis $x_{1}, \cdots, x_{n}$.
+
+- $\phi$ é **satisfatível** se existe uma $L$-estrutura $A$, uma interpretação i:$L \implies A$ e termos $t_{1},\cdots,t_{n}$ tais que $A$ satisfaz $\phi[t_{1}/x_{1},\cdots,t_{n}/x_{n}]$  
+- $\phi$ é **refutável** se existe uma $L$-estrutura $A$, uma interpretação i:$L \implies A$ e termos $t_{1},\cdots,t_{n}$ tais que $A$ não satisfaz $\phi[t_{1}/x_{1},\cdots,t_{n}/x_{n}]$  
+- $\phi$ é **válida** se para toda $L$-estrutura $A$, toda interpretação i:$L \implies A$ e toda n-upla $t_{1},\cdots,t_{n}$ de termos de $L$, $A$ satisfaz $\phi[t_{1}/x_{1},\cdots,t_{n}/x_{n}]$  
+- $\phi$ é **insatisfatível** se para toda $L$-estrutura $A$, toda interpretação i:$L \implies A$ e toda n-upla $t_{1},\cdots,t_{n}$ de termos de $L$, $A$ não satisfaz $\phi[t_{1}/x_{1},\cdots,t_{n}/x_{n}]$.
+___
+## Resolução para lógica de predicados
+Temos os mesmos conceitos: literal, cláusula e forma normal conjuntiva:
+- **Literal**: átomo ou negação de um atómo
+- **Cláusula** disjunção de literais
+- **Forma Normal Conjutiva** é uma conjunção $\land$ de cláusulas
