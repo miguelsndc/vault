@@ -264,3 +264,4 @@ Parece justo.
 ___
 ## Valor verdade de uma fórmula
 
+Para calcular o valor verdade de uma fórmula *(Lembrando que fórmulas possuem variáveis livres, sentenças não)*, precisa-se antes aplicar uma substituição apropriada de variáveis livres por termos fechados da linguagem $L$, isto é, você some com todas as variáveis livres e coloca termos no lugar, para transformar as fórmulas em sentenças e então fazer os bereguejohnson.
