@@ -277,6 +277,15 @@ Seja $\phi(x_{1},\cdots,x_{n})$ uma fórmula da lógica de predicados numa assin
 ___
 ## Resolução para lógica de predicados
 Temos os mesmos conceitos: literal, cláusula e forma normal conjuntiva:
-- **Literal**: átomo ou negação de um atómo
-- **Cláusula** disjunção de literais
-- **Forma Normal Conjutiva** é uma conjunção $\land$ de cláusulas
+- **Literal**: átomo ou negação de um atómo;
+- **Cláusula** disjunção de literais $\lor$;
+- **Forma Normal Conjutiva** é uma conjunção $\land$ de cláusulas.
+___
+## Forma Normal Prenex
+
+**Definição**: Uma fórmula está na forma **normal prenex** se e somente se esta fórmula está na forma:
+$$\begin{align*}
+(Q_{1}x_{1})\cdots(Q_{n}X_{n})(M)
+\end{align*}$$
+Onde cada $(Q_{i}x_{i}), i=1,\cdots,n$ ou é $\forall x_{i}$  ou $\exists x_{i}$, e $M$ é uma fórmula sem quantificadores.
+$(Q_{1}x_{1})\cdots(Q_{n}X_{n})$ é chamada de **prefixo** 
