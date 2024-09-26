@@ -246,3 +246,21 @@ ___
 Seja $L$ uma assinatura, $A$ uma $L$ estrutura e $\phi$ uma sentença de $L$. Dizemos que $A$ satisfaz $\phi$ sob a interpretação i: $L \implies A$, se $\phi^{A}$ for verdadeira, isto é $A$ é modelo para $\phi$.
 
 Usaremos a notação $A \vDash \phi$ .
+
+![[Pasted image 20240926103530.png]]
+
+## Conjunto de sentenças
+
+Suponha que $\Gamma$ seja um conjunto de **sentenças** da assinatura $L$.
+
+- $\Gamma$ é **satisfatível** se existe uma $L$-estrutura $A$ e uma interpretação i:$L \implies A$ tal que $A$ satisfaz cada uma das sentenças de $\Gamma$, claramente.
+- $\phi$ é **consequência lógica** de $\Gamma$ se para toda $L$-estrutura $A$ e toda interpretação i:$L\implies A$, se $A$ satisfaz $\Gamma$ então $A$ satisfaz $\phi$.
+- $\phi$ é **logicamente equivalente a $\psi$** se para toda $L$-estrutura de $A$ e toda interpretação i:$L\implies A$, $A$ satisfaz $\phi$ **se e somente se** $A$ satisfaz $\psi$.
+
+Um conjunto de sentenças é satisfatível se existe uma estrutura que é modelo para todas as suas sentenças.
+Uma sentença é consequência lógica de um conjunto de outras sentenças se toda estrutura que é modelo pro conjunto também é modelo pra esta sentença.
+
+Parece justo.
+___
+## Valor verdade de uma fórmula
+
