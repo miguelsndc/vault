@@ -234,3 +234,15 @@ Seja $L$ uma assinatura, $A$ uma $L$-estrutura e $.^{A}$ uma interpretação dos
 	1. $\phi^{A}$ é verdade se $(\neg\psi)^ {A}$ é $V$ se $\psi^ {A}$ é falsa.
 
 ![[Pasted image 20240926101819.png]]
+___
+## Retomando SAT
+
+Dado um conjunto $C$ de sentenças da lógica de primeira ordem. Pergunta-se: $C$ é satisfatível ? isto é, $C$ tem um modelo ? (Lembrando que um modelo é uma estrutura onde as sentenças são verdadeiras, neste caso, todas serão verdadeiras).
+
+Caso $C$ seja um conjunto de sentenças atômicas, **sim**, é satisfatível. Sabemos como construir o **modelo canônico**.
+___
+## Satisfatibilidade de uma sentença
+
+Seja $L$ uma assinatura, $A$ uma $L$ estrutura e $\phi$ uma sentença de $L$. Dizemos que $A$ satisfaz $\phi$ sob a interpretação i: $L \implies A$, se $\phi^{A}$ for verdadeira, isto é $A$ é modelo para $\phi$.
+
+Usaremos a notação $A \vDash \phi$ .
