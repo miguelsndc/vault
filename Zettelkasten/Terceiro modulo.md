@@ -288,4 +288,4 @@ $$\begin{align*}
 (Q_{1}x_{1})\cdots(Q_{n}X_{n})(M)
 \end{align*}$$
 Onde cada $(Q_{i}x_{i}), i=1,\cdots,n$ ou é $\forall x_{i}$  ou $\exists x_{i}$, e $M$ é uma fórmula sem quantificadores.
-$(Q_{1}x_{1})\cdots(Q_{n}X_{n})$ é chamada de **prefixo** 
+$(Q_{1}x_{1})\cdots(Q_{n}X_{n})$ é chamada de **prefixo** e $M$ de **matriz** da fórmula $\phi$.
