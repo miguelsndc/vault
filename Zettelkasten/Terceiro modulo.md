@@ -207,3 +207,12 @@ Aparentemente trocar as letras ajuda de alguma forma, então a sintaxe pra isso,
 não vou escrever isso nem fudendo
 ![[Pasted image 20240923150852.png]]
 Só se aplica substituição em variáveis livres, substituição em variáveis ligadas é inócua.
+
+Substituções que alteram o significado da fórmula são consideradas inválidas, não se pode substituir uma variável livre por uma variável ligada, como no exempo:
+
+$$\begin{align*}
+(\forall x)(\forall y)(P(x,y) \implies R(z))[y/z]
+\end{align*}$$
+Não se pode substituir o $z$ pelo $y$, pois z ocorria livre, portanto não pode ser substituída por uma variável que ocorre ligada.
+
+**Não se pode mudar o status da variável.**
