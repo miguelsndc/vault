@@ -216,3 +216,17 @@ $$\begin{align*}
 Não se pode substituir o $z$ pelo $y$, pois z ocorria livre, portanto não pode ser substituída por uma variável que ocorre ligada.
 
 **Não se pode mudar o status da variável.**
+___
+## Substituições aplicadas a termos
+
+Pode-se aplicar substituição somente à termos também, usa-se a mesma notação e as mesmas regras se aplicam $s[t/x]$ substituição da variável $x$ pelo termo $t$ so termo $s$.
+
+## Valor-verdade de uma sentença
+
+Seja $L$ uma assinatura, $A$ uma $L$-estrutura e $.^{A}$ uma interpretação dos símbolos de $L$ na $L$-estrutura. O valor-verdade de uma sentença $\phi$ de $L$ é definida indutivamente da seguinte forma:
+
+1. Se $\phi$ é atômica:
+	1. é da forma $R(t_{1},\cdots,t_{n})$:
+			$\phi^{A}$ é verdade se e somente se $(t_{1}^{A}, \cdots, t_{n}^{A}) \in R^{A}$.
+	2. é da forma $t1=t2$
+			$\phi^{A}$ é verdade se e somente se $$
