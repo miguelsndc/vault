@@ -15,4 +15,5 @@ $\Omega$ notation characterizes an *lower bound* on the asymptotic behavior of a
 
 ## $\Theta$ Notation
 
-$\Theta$ notation characterizes an **tight bound** on the asymptotic behavior of a function. It says that a function grows **precisely** at a certain rate, based, once again - on the highest order term -. Put another way   
+$\Theta$ notation characterizes an **tight bound** on the asymptotic behavior of a function. It says that a function grows **precisely** at a certain rate, based, once again - on the highest order term -. Put another way, $\Theta$ notation characterizes a rate of growth to within a constant factor from above and to within a constant factor from below, These two constant factors need not be equal.
+If you can show that a function is both in $O(f(n))$ and $\Omega(f(n))$ for some function $f$ you have shown that this function is in $\Theta(f(n))$. 
