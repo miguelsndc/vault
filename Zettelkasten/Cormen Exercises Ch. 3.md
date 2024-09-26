@@ -25,3 +25,6 @@ procedure SELECTION-SORT(A,n)
 ```
 
 Selection sort works by repeatedly finding the smallest element in $[i+1:n]$ and placing it at the $i$ position every iteration, because the outer loop will run at least $n$ times, the running time is dominated by the inner loop, that will always pass through the entire $[i+1:n]$ subarray. Resulting in $\frac{n(n-1)}{2}$ iterations, which characterizes $O(n^{2})$. In fact the algorithm will always perform $\frac{n(n-1)}{2}$ iterations, there is no stopping or early quit conditions, regardless of the nature of the input, the algorithm will always perform the same number of iterations, which means it is in $\Omega(n^{2})$ too, and by consequence, in $\Theta(n^{2})$. It is highly predictable, deterministic i would say, in it's running time.
+
+$3.1-3$ 
+The answer is pretty much equal to $3.-1-1$, if you let $\frac{1}{k}= \alpha$. The value of $\alpha$ that maximizes the number of times that the $\alpha n$ values must go through the $1-2\alpha$ middle positions is $\alpha = \frac{1}{n}$, where each element is it's own group, it'd need to pass through $(1-2\alpha)n= (1 -\frac{2}{n})n =n-2$ positions which is the maximum possible. An additional restriction to $\alpha$ would be that it needs to divide $n$, but $\alpha= \frac{1}{n}$ already fulfills the requirement.  
