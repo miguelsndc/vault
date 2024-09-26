@@ -227,6 +227,10 @@ Seja $L$ uma assinatura, $A$ uma $L$-estrutura e $.^{A}$ uma interpretação dos
 
 1. Se $\phi$ é atômica:
 	1. é da forma $R(t_{1},\cdots,t_{n})$:
-			$\phi^{A}$ é verdade se e somente se $(t_{1}^{A}, \cdots, t_{n}^{A}) \in R^{A}$.
+			$\phi^{A}$ é verdade se $(t_{1}^{A}, \cdots, t_{n}^{A}) \in R^{A}$.
 	2. é da forma $t1=t2$
-			$\phi^{A}$ é verdade se e somente se $$
+			$\phi^{A}$ é verdade se $(t_{1}^{A} = t_{2}^{A})$ 
+2. Se $\phi$ é da forma $\neg \psi$;
+	1. $\phi^{A}$ é verdade se $(\neg\psi)^ {A}$ é $V$ se $\psi^ {A}$ é falsa.
+
+![[Pasted image 20240926101819.png]]
