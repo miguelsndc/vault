@@ -342,3 +342,5 @@ P(a,b) \implies Q(b)
 Assim, na estrutura $A'$ é necessário apenas acrescentar mais **dois novos destaques**.
 
 *Todo item novo gerado durante o processo de skolemização deve ser **adicionado** a nova estrutura $A'$, não se substitui nada, nem modifica, apenas adiciona*.
+
+## Unificação
