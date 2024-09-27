@@ -321,4 +321,17 @@ Para transformar uma fórmula para a forma normal prenex, nós usamos as equival
 
 Método para eliminação dos **quantificadores existenciais**.
 
-Seja uma estrutura $A$ onde $\f{dom}(A) = \N$, $\f{Rel}(A)=\{R(_,_)\}$ 
+Seja uma estrutura $A$ onde $\f{dom}(A) = \N$, $\f{Rel}(A)=\{R(\_,\_)\}$.
+$\phi = \forall x \exists y R(x,y)$, $\phi'=\forall x R(x,?)$.
+Substituimos a variável que "sumiu" com a retirada do quantificador por uma função de skolem, que depende das variáveis que sobraram (as unidas aos quantificadores universais)
+
+O **Teorema** diz que se $\phi$ é verdadeira em $A$ então $\phi$ é verdadeira em $A'$, que é exatamente igual a $A$, adicionando-se uma função $f$ de forma que $\phi'=\forall x R(x,f(x))$ Essas funções são adicionadas ao conjunto de funções de $A$ para formar $A'$. essas funções recebem como parâmetro as variáveis dos quantificadores existenciais à esquerda do existencial, para denotar a dependência desse existencial por essas variáveis, caso não haja universais à esquerda, substitui-se por um novo destaque em $A'$:
+$$\begin{align*}
+\forall x \forall y \exists zP(x,y,z)&\rightarrow \forall x\forall yP(x,y,f(x,y))\\
+\forall x \exists y \forall zQ(x,y,z)&\rightarrow \forall x\forall z P(x,f(x),z)\\
+\exists z \forall x H(x,z) &\rightarrow \forall xH(x,b)
+\end{align*}$$
+Caso não haja quantificadores universais, como por exemplo:
+$$\begin{align*}
+\exists x \exists y(P(x,y))
+\end{align*}$$
