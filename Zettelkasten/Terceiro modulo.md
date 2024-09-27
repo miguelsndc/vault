@@ -289,3 +289,9 @@ $$\begin{align*}
 \end{align*}$$
 Onde cada $(Q_{i}x_{i}), i=1,\cdots,n$ ou é $\forall x_{i}$  ou $\exists x_{i}$, e $M$ é uma fórmula sem quantificadores.
 $(Q_{1}x_{1})\cdots(Q_{n}X_{n})$ é chamada de **prefixo** e $M$ de **matriz** da fórmula $\phi$.
+___
+## Fórmula normal Prenex
+
+> Teorema:
+
+Suponha que $\phi$ é uma fórmula da lógica de predicados numa assinatura $L$, então existe uma fórmula $\psi$ da lógica de predicados na mesma assinat
