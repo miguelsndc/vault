@@ -316,3 +316,9 @@ Para transformar uma fórmula para a forma normal prenex, nós usamos as equival
 8. $(\exists x)F[x] \land (\exists x)H[x]= (\exists x)(\exists z)(F[x] \land H[z])$  *(Renomear variáveis ligadas)*
 
 ![[Pasted image 20240927145409.png]]
+
+## Skolemização
+
+Método para eliminação dos **quantificadores existenciais**.
+
+Seja uma estrutura $A$ onde $\f{dom}(A) = \N$, $\f{Rel}(A)=\{R(_,_)\}$ 
