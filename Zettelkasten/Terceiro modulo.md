@@ -354,4 +354,4 @@ Unificação vem desse raciocínio, *tornar um*, aplicar substituições em term
 Um método para resolver o problema da unificação através de um conjunto de três regras de transformação sobre sistemas de equação:
 1. Eliminação de equações triviais;
 2. Decomposição de termos;
-3. Elimin
+3. Eliminação de variáveis.
