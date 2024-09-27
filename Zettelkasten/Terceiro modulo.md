@@ -300,4 +300,17 @@ Suponha que $\phi$ é uma fórmula da lógica de predicados numa assinatura $L$,
 
 Para transformar uma fórmula para a forma normal prenex, nós usamos as equivalências lógicas que já sabemos junto com algumas leis novas, antes, há uma nova notação:
 
-- Seja $F$ uma fórmula que contém uma variável $x$, para enfatizar essa informação, representaremos $F$ como $F[x]$ 
+- Seja $F$ uma fórmula que contém uma variável $x$, para enfatizar essa informação, representaremos $F$ como $F[x]$, note que $F(x) \ne F[x]$.
+- Usamos a letra $Q$ para identificar um quantificador
+- Nas fórmulas que vamos definir, a fórmula $G$ não contém a variável $x$.
+
+**Leis**:
+1. $(Qx)F[x] \lor G=(Qx)(F[x] \lor G)$ 
+2. $(Qx)F[x] \land G=(Qx)(F[x] \land G)$ 
+3. $\neg((\forall x)F[x]) = (\exists x)(\neg F[x])$.
+4. $\neg((\exists x)F[x]) = (\forall x)(\neg F[x])$.
+> Negação de quantificadores, coloque a negação dentro da fórmula e troque o quantificador.
+5. $(\forall x)F[x] \land (\forall x)H[x]= (\forall x)(F[x] \land H[x])$
+6. $(\exists x)F[x] \lor (\exists x)H[x]= (\exists x)(F[x] \lor H[x])$
+7. $(\forall x)F[x] \lor (\forall x)H[x]= (\forall x)(\forall z)(F[x] \lor H[z])$  *(Renomear variáveis ligadas)*
+8. $(\exists x)F[x] \land (\exists x)H[x]= (\exists x)(\exists z)(F[x] \land H[z])$  *(Renomear variáveis ligadas)*
