@@ -333,5 +333,12 @@ $$\begin{align*}
 \end{align*}$$
 Caso não haja quantificadores universais, como por exemplo:
 $$\begin{align*}
-\exists x \exists y(P(x,y))
+\exists x \exists y(P(x,y)\implies Q(y))
 \end{align*}$$
+$x$ e $y$ são substituídas por constantes:
+$$\begin{align*}
+P(a,b) \implies Q(b)
+\end{align*}$$
+Assim, na estrutura $A'$ é necessário apenas acrescentar mais **dois novos destaques**.
+
+*Todo item novo gerado durante o processo de skolemização deve ser **adicionado** a nova estrutura $A'$, não se substitui nada, nem modifica, apenas adiciona*.
