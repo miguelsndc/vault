@@ -294,4 +294,10 @@ ___
 
 > Teorema:
 
-Suponha que $\phi$ é uma fórmula da lógica de predicados numa assinatura $L$, então existe uma fórmula $\psi$ da lógica de predicados na mesma assinat
+Suponha que $\phi$ é uma fórmula da lógica de predicados numa assinatura $L$, então existe uma fórmula $\psi$ da lógica de predicados na mesma assinatura $L$ onde:
+1. $\psi$ está na forma normal prenex
+2. $\psi$ é logicamente equivalente a $\phi$.
+
+Para transformar uma fórmula para a forma normal prenex, nós usamos as equivalências lógicas que já sabemos junto com algumas leis novas, antes, há uma nova notação:
+
+- Seja $F$ uma fórmula que contém uma variável $x$, para enfatizar essa informação, representaremos $F$ como $F[x]$ 
