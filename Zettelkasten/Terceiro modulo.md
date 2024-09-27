@@ -314,3 +314,5 @@ Para transformar uma fórmula para a forma normal prenex, nós usamos as equival
 6. $(\exists x)F[x] \lor (\exists x)H[x]= (\exists x)(F[x] \lor H[x])$
 7. $(\forall x)F[x] \lor (\forall x)H[x]= (\forall x)(\forall z)(F[x] \lor H[z])$  *(Renomear variáveis ligadas)*
 8. $(\exists x)F[x] \land (\exists x)H[x]= (\exists x)(\exists z)(F[x] \land H[z])$  *(Renomear variáveis ligadas)*
+
+![[Pasted image 20240927145409.png]]
