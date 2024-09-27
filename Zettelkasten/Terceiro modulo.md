@@ -344,3 +344,14 @@ Assim, na estrutura $A'$ é necessário apenas acrescentar mais **dois novos des
 *Todo item novo gerado durante o processo de skolemização deve ser **adicionado** a nova estrutura $A'$, não se substitui nada, nem modifica, apenas adiciona*.
 
 ## Unificação
+
+O problema da unificação de dois termos $t_{1}$ e $t_{2}$ é definido como sendo o problema de encontrar (caso exista) uma substituição das variáveis $x_{1},\cdots,x_{n}$ por termos $s_{1},\cdots,s_{n}$ tal que quando aplicadas a $t_{1}$ e $t_{2}$, produzem termos idênticos.
+
+Unificação vem desse raciocínio, *tornar um*, aplicar substituições em termos tais que os termos se tornem iguais, isso é especialmente útil em resolução, para que seja possível a eliminação de cláusulas opostas, afim de se encontrar a cláusula vazia.
+
+## Algoritmo de Herbrand
+
+Um método para resolver o problema da unificação através de um conjunto de três regras de transformação sobre sistemas de equação:
+1. Eliminação de equações triviais;
+2. Decomposição de termos;
+3. Elimin
