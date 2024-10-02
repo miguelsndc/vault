@@ -8,7 +8,7 @@ The notations we use to describe the asymptotic running time of an algorithm are
 ## $O$-Notation
 $O$-notation describes an **asymptotic upper bound**. We use $O$ notation to give an upper bound on a function, to within a costant factor. For a given function $g(n)$, we denote $O(g(n))$ the set of functions:
 $$\begin{align*}
-O(g(n))=\{f(n)\mid \exists c\exists n_{0} (\forall n\mid(n&\ge n_{0})\land 0 \le f(n) \le cg(n)\}
+O(g(n))=\{f(n)\mid \exists c \gt 0\exists n_{0} \forall n&\ge n_{0}: 0 \le f(n) \le cg(n)\}
 \end{align*}$$
 A function $f(n)$ belongs to the set $O(g(n))$ if there exists a positive constant $c$ such  that $f(n)\le cg(n)$ for sufficiently large $n$ *(sufficiently large being $n \ge n_{0}$)*.
 
@@ -33,5 +33,13 @@ We've shown that $f(n)=O(n^{2})$ with constants $n_{0}=10$ and $c=19$.
 ## $\Omega$-Notation
 Just as $O$-notation provides an asymptotic *upper bound* on a function, $\Omega$ notation provides an **asymptotic lower bound**. For a given function $g(n)$, we denote $\Omega(g(n))$ the set of functions:
 $$\begin{align*}
-\Omega(g(n))=\{f(n)\mid \exists c\exists n_{0} (\forall n\mid(n&\ge n_{0})\land 0 \le f(n) \le cg(n)\}
+\Omega(g(n))=\{f(n)\mid \exists c &\gt 0\exists n_{0} \forall n\ge n_{0}: 0 \le cg(n) \le f(n)\}
 \end{align*}$$
+if $f(n)$ belongs to $\Omega(g(n))$, there exists positive constants $c$ and $n_{0}$ such that $f(n)$ is always greather than or equal to $cg(n)$ for sufficiently large $n$. 
+
+Let's show that $4n^{2} + 100n + 500 = \Omega(n)$.
+$$\begin{align*}
+4n^{2}+100n+500 &\ge cn\\
+4n+100+ \frac{500}{n} &\ge c
+\end{align*}$$
+This inequality holds when $n_{0}$ is any positive integer and $c=4$ *(or less)*.
