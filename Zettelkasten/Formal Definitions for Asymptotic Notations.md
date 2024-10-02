@@ -43,3 +43,13 @@ $$\begin{align*}
 4n+100+ \frac{500}{n} &\ge c
 \end{align*}$$
 This inequality holds when $n_{0}$ is any positive integer and $c=4$ *(or less)*.
+
+## $\Theta$-Notation
+
+We use $\Theta$-notation for **asymptotically *tight* bounds**. For a given function $g(n)$, we denote by $\Theta(g(n))$, the set of functions:
+$$\begin{align*}
+\Theta(g(n))=\{f(n): \exists [c_{1},c_{2},n_{0}]\gt 0: 0 \le c_{1}g(n) \le f(n) \le c_{2}g(n)\}
+\end{align*}$$
+For all values of $n$ 
+
+
