@@ -23,6 +23,15 @@ $$\begin{align*}
 4n^{2}+100n+500n &\le cn^{2}\\
 4 + \frac{100}{n} + \frac{500}{n^{2}}&\le c\\
 \begin{cases}
-n_{0}=1\implies
+n_{0}=1\implies604&\le c\\
+n_{0}=10\implies19&\le c\\
+\vdots
 \end{cases}
+\end{align*}$$
+We've shown that $f(n)=O(n^{2})$ with constants $n_{0}=10$ and $c=19$.
+
+## $\Omega$-Notation
+Just as $O$-notation provides an asymptotic *upper bound* on a function, $\Omega$ notation provides an **asymptotic lower bound**. For a given function $g(n)$, we denote $\Omega(g(n))$ the set of functions:
+$$\begin{align*}
+\Omega(g(n))=\{f(n)\mid \exists c\exists n_{0} (\forall n\mid(n&\ge n_{0})\land 0 \le f(n) \le cg(n)\}
 \end{align*}$$
