@@ -31,3 +31,7 @@ See **Merge Sort** as an example, it runs in $O(n \lg n), \Theta(n \lg n), \Omeg
  When asymptotic notation stands alone on the right side of an equation (or inequality), the equal sign means set membership: $4n^{2}+100n +52 = O(n) \implies 4n^{2}+100n +52 \in O(n)$.
  In general when a asymptotic notation appears in a formula, we interpret it as an anonymous function that we don't care to name. For example the formula: $4n^{2}  + 100n + 52 = 2n^{2} +\Theta(n)$ means that $4n^{2}+100n+52 = 2n^{2}+f(n)$ where $f(n) \in \Theta(n)$,
  Using asymptotic notation in this manner can help eliminate clutter and inessential details in an equation, allowing us to have a clearer sight of the general intention behind the formula.
+
+# Proper abuses of asymptotic notation
+
+The first abuse of notation that we'll cover happens when the free variable tending to $\infty$ must be derived from context. When we write $O(f(n))$ we're interested in the growth of $g(n)$ as $n$ grow towards infinity. The most common situation requiring contextual knowledge of which variable tends to $\infty$ occurs when the function inside the asymptotic notation is constant, as in the expression $O(1)$. The notation solely does not 
