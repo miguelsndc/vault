@@ -28,3 +28,7 @@ Selection sort works by repeatedly finding the smallest element in $[i+1:n]$ and
 
 $3.1-3$ 
 The answer is pretty much equal to $3.-1-1$, if you let $\frac{1}{k}= \alpha$. The value of $\alpha$ that maximizes the number of times that the $\alpha n$ values must go through the $1-2\alpha$ middle positions is $\alpha = \frac{1}{n}$, where each element is it's own group, it'd need to pass through $(1-2\alpha)n= (1 -\frac{2}{n})n =n-2$ positions which is the maximum possible. An additional restriction to $\alpha$ would be that it needs to divide $n$, but $\alpha= \frac{1}{n}$ already fulfills the requirement.  
+
+$3.2-1$ $\max\{f(n),g(n)\}=\Theta(f(n)+g(n))$.
+
+Recalling the definition of $\Theta$ notation, it means that the functions are bounded above and below by constant factors $c_{1}$ and $c_{2}$ when the input $n$ grows past some constant $n_{0}$. Therefore, here we need to figure out the upper and lower bounds for $\Theta(f(n) + g(n))$, which is quite easy, *the functions themselves*, see, regardless of which function is bigger, the lower bound will always be value of the smallest function and the upper bound will always be some value of the greatest function
