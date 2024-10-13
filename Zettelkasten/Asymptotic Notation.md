@@ -25,3 +25,9 @@ Take **insertion sort** as an example, the worst-case running time of insertion 
 **What we cannot say** is: *Insertion sort's running time is $\Theta(n^{2})$*. That's an overstatement because by omitting the "worst case" from the statement we're left with a blanket covering all cases. The error here is that insertion sort does not run in $\Theta(n^{2})$ in all cases, as we've seen, it runs in $\Theta(n)$ for it's best case. We can correctly say that insertion sort's running time is $O(n^{2})$ as we've seen because that establishes a upper-bound, it is okay to have cases where the running time grows more slowly than $n^{2}$.
 Another common mistake is using the $O()$ notation to describe **asymptotically tight-bounds**, with statements such as *"An algorithm that runs in $O(n \lg n)$ runs faster than an algorithm that runs in $O(n^{2})$"*, we actually don't know, maybe it does, maybe it doesn't, since $O$ only describes an upper bound for the function we might have cases where the $O(n^{2})$ algorithm outperforms the linearithmic one.
 See **Merge Sort** as an example, it runs in $O(n \lg n), \Theta(n \lg n), \Omega(n\lg n)$; here is safe to say that merge sort runs in $\Theta(n \lg n)$ without specifying worst-case or best-case.
+
+# Asymptotic notation in equations and inequalities
+
+ When asymptotic notation stands alone on the right side of an equation (or inequality), the equal sign means set membership: $4n^{2}+100n +52 = O(n) \implies 4n^{2}+100n +52 \in O(n)$.
+ In general when a asymptotic notation appears in a formula, we interpret it as an anonymous function that we don't care to name. For example the formula: $4n^{2}  + 100n + 52 = 2n^{2} +\Theta(n)$ means that $4n^{2}+100n+52 = 2n^{2}+f(n)$ where $f(n) \in \Theta(n)$,
+ Using asymptotic notation in this manner can help eliminate clutter and inessential details in an equation, allowing us to have a clearer sight of the general intention behind the formula.
