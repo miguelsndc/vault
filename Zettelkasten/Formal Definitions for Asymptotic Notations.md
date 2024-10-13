@@ -50,6 +50,5 @@ We use $\Theta$-notation for **asymptotically *tight* bounds**. For a given func
 $$\begin{align*}
 \Theta(g(n))=\{f(n): \exists [c_{1},c_{2},n_{0}]\gt 0: 0 \le c_{1}g(n) \le f(n) \le c_{2}g(n)\}
 \end{align*}$$
-For all values of $n$ 
-
+For all values of $n$ at and to the right of $n_{0}$, the value of $f(n)$ lies at or above $c_{1}g(n)$ and at or below $c_{2}g(n)$, in other words, for all $n\ge n_{0}$, $f(n) = g(n)$ to within constant factors.
 
