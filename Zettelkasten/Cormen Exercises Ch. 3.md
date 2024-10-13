@@ -54,4 +54,4 @@ So for values $c_{1}=1$ and $c_{2}=\frac{1}{2}$, $\max\{f(n), g(n)\}=\Theta(f(n)
 $$\begin{align*}
 \frac{1}{2}(f(n)+g(n)) &\le \max\{f(n),g(n)\} \le f(n)+g(n)  
 \end{align*}$$
-$3.2-2$ The statement is meaningless because $O$ notation describes and upper bound for a function, in this case, $O(n^{2})$ states that any function $f(n) = O(n^{2})$ is upper-bounded by some constant factor $c$ such that $f(n) \le c n^{2}$ for some $n \ge n_{0}$, saying that $A$'s
+$3.2-2$ The statement is meaningless because $O$ notation describes and upper bound for a function, in this case, $O(n^{2})$ states that any function $f(n) = O(n^{2})$ is upper-bounded by some constant factor $c$ such that $f(n) \le c n^{2}$ for some $n \ge n_{0}$, saying that $A$'s running time is at least $O(n^{2})$ misuses $O$ notation for $\Omega$ notation, contradicting itself, lacking mathematical rigor, huge ambiguity and also being prone to misunderstandings and incorrect interpretation of the reader.
