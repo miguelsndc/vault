@@ -31,7 +31,7 @@ The answer is pretty much equal to $3.-1-1$, if you let $\frac{1}{k}= \alpha$. T
 
 $3.2-1$ $\max\{f(n),g(n)\}=\Theta(f(n)+g(n))$.
 
-Recalling the definition of $\Theta$ notation, it means that the functions are bounded above and below by constant factors $c_{1}$ and $c_{2}$ when the input $n$ grows past some constant $n_{0}$. Therefore, here we need to figure out the upper and lower bounds for $\Theta(f(n) + g(n))$, which is quite easy, *the functions themselves*, see, regardless of which function is bigger, the lower bound will always be value of the smallest function and the upper bound will always be some value of the greatest function, see:
+Recalling the definition of $\Theta$ notation, it means that the functions are bounded above and below by constant factors $c_{1}$ and $c_{2}$ when the input $n$ grows past some constant $n_{0}$. Therefore, here we need to figure out the upper and lower bounds for $\Theta(f(n) + g(n))$:
 $$\begin{align*}
 \max\{f(n),g(n)\} \in \Theta(f(n) + g(n)) \implies \max\{f(n)+g(n)\}\in O(f(n)+g(n))\land \\ \max\{f(n)+g(n)\} \in \Omega(f(n)+g(n))
 \end{align*}$$
@@ -41,11 +41,17 @@ f(n) \in O(f(n)+g(n))
 \implies f(n)&\le c(f(n)+g(n))\\
 f(n)&\le cf(n)+cg(n)
 \end{align*}$$
-Choose any $c \ge 1$ and the equality is satisfied.
+Choose any $c \ge 1$ and the equality is satisfied, given the assumption that $f(n)\ge g(n)$.
 
 $$\begin{align*}
 f(n) \in \Omega(f(n)+g(n))
 \implies f(n)&\ge c(f(n)+g(n))\\
 f(n)&\ge cf(n)+cg(n)
 \end{align*}$$
-Choose any $c \lt 1$ and the equality is satisfied.
+Choose any $c \lt \frac{1}{2}$ and the equality is satisfied, given the assumption that $f(n)\ge g(n)$.
+
+So for values $c_{1}=1$ and $c_{2}=\frac{1}{2}$, $\max\{f(n), g(n)\}=\Theta(f(n) + g(n))$ within constant factors $1$ and $\frac{1}{2}$:
+$$\begin{align*}
+\frac{1}{2}(f(n)+g(n)) &\le \max\{f(n),g(n)\} \le f(n)+g(n)  
+\end{align*}$$
+$3.2-2$ The statement is meaningless because $O$ notation describes and upper bound for a function, in this case, $O(n^{2})$ states that any function $f(n) = O(n^{2})$ is upper-bounded by some constant factor $c$ such that $f(n) \le c n^{2}$ for some $n \ge n_{0}$, saying that $A$'s
