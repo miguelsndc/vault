@@ -17,3 +17,9 @@ $\Omega$ notation characterizes an *lower bound* on the asymptotic behavior of a
 
 $\Theta$ notation characterizes an **tight bound** on the asymptotic behavior of a function. It says that a function grows **precisely** at a certain rate, based, once again - on the highest order term -. Put another way, $\Theta$ notation characterizes a rate of growth to within a constant factor from above and to within a constant factor from below, These two constant factors need not be equal.
 If you can show that a function is both in $O(f(n))$ and $\Omega(f(n))$ for some function $f$ you have shown that this function is in $\Theta(f(n))$. 
+
+## Avoid Overstating and choose the most precise notation possible
+
+Whenever you're describing an algorithm's running time with asymptotic notation, use a bound-function that describes the running time as precise as possible, do not **obscure** the running time with confusing and perhaps **uncanny** use of $O,\Theta$ and $\Omega$. 
+Take **insertion sort** as an example, the worst-case running time of insertion sort is $O(n^{2}), \Theta(n^{2})$ and $\Omega(n^{2})$, Although the three ways to characterize the worst-case running time are correct, $\Theta(n^{2})$ is the most precise and hence the preferred way. We can also say that the **best**-case running time of insertion sort is in $O(n),\Theta(n)$ and $\Omega(n)$, $\Theta(n)$ being the most precise and thus the preferred.
+**What we cannot say** is: *Insertion sort's running time is $\Theta(n^{2})$*. That's an overstatement because 
