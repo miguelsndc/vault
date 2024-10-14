@@ -109,10 +109,12 @@ Given the assumptions above, the algorithm's the worst-case is bounded from abov
 
 The proposition is proven $(\iff)$.
 
-$3.2-6$ Prove that $o(g(n) \cap \omega(g(n)))$ is the [[Empty Set]].
+$3.2-6$ Prove that $o(g(n)) \cap \omega(g(n))$ is the [[Empty Set]].
 
 Given the definitions of [[Asymptotic Notation|little-oh]] and [[Asymptotic Notation|little-omega]], let's expand the expression:
+
 $$\begin{align*}
-g(n)\cap\omega(g(n))&= g(n)\cap\{f(n) \mid 0 \le cg(n)\lt f(n) \}
-&= \emptyset
+o(g(n))\cap\omega(g(n))&= 
+\{f(n) \mid 0 \le f(n) \lt cg(n) \} \cap \{ f(n) \mid 0 \le cg(n) \lt f(n)\}
 \end{align*}$$
+The intersection between the set of functions strictly greater than $g(n)$ and the set of functions strictly less than $g(n)$ asymptotically speaking, is the empty set.
