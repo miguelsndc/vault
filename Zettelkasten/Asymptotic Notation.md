@@ -37,3 +37,15 @@ See **Merge Sort** as an example, it runs in $O(n \lg n), \Theta(n \lg n), \Omeg
 The first abuse of notation that we'll cover happens when the free variable tending to $\infty$ must be derived from context. When we write $O(f(n))$ we're interested in the growth of $g(n)$ as $n$ grow towards infinity. The most common situation requiring contextual knowledge of which variable tends to $\infty$ occurs when the function inside the asymptotic notation is constant, as in the expression $O(1)$. The notation solely doesn't tell us which variable is tending to $\infty$, the context must disambiguate, thus we write $f(n) = O(1)$. It's apparent which variable is growing, by the definition of $O$ notation we say that $f(n)$ is upper-bounded by some constant $c$ for values of $n$ greater than or equal to another constant $n_{0}$.
 Another notational abuse that requires clarification occurs when the function is bounded by a constant, whom we use often when stating recurrences. What is conventionally meant when we write $T(n) = O(1)$ for $n \lt 3$ is that there exists a positive constant $c$ such that $T(n) \le c$ for $n \lt 3$,
 this has nothing to do with the formal definition of the asymptotic notation, (*the $n_{0}$'s and shit). 
+
+## "Little-oh" $o$-notation
+
+The asymptotic upper bound provided by the $O$ notation may or may not be **asymptotically tight**, for example, $2n² =O(n^{2})$ is asymptotically tight, but $2n = O(n^{2})$ isn't. $o$-notation describes an upper bound that **is not** asymptotically tight, we define it as the set:
+$$\begin{align*}
+o(g(n))\{f(n)\mid \forall c\gt0\exists n_{0}\gt0 \forall n &\ge n_{0} 0 \le f(n) \lt cg(n)\}
+\end{align*}$$
+*For any constant $c \gt 0$, exists some $n_{0}\gt 0$* such that for all $n \ge n_{0}$ the predicate is true. Notice that for $f(n)=O(g(n))$the bound $0 \le f(n) \le cg(n)$ holds for some constant $c \gt 0$, but in $f(n)=o(g(n))$ the bound $0 \le f(n)\lt cg(n)$ holds **for all** constants $c \gt 0$.   
+
+## "Little-omega" $\omega$-notation 
+
+By analogy, $\omega$-notation is to $\Omega$-notation what $o$-notation is to $O$-notation. We use $\omega$-notation to denote a lower bound that is not asymptotically tight
