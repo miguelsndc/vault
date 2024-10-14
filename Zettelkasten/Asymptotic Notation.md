@@ -1,6 +1,6 @@
 ---
 tags: algorithms
-aliases: asymptotic
+aliases: asymptotic, big-oh, big-theta, big-omega, little-oh, little-omega
 ---
 The **asymptotic** efficiency of an algorithm tries to shed some light on the behaviour of that algorithm when the input sizes **tend to infinity**, quite literally from the concept of [[Epsilon-Delta Definition of a Limit|limits]] from calculus, usually an algorithm that is asymptotically more efficient tends to be more efficient on all but some small inputs.
 
@@ -42,7 +42,7 @@ this has nothing to do with the formal definition of the asymptotic notation, (*
 
 The asymptotic upper bound provided by the $O$ notation may or may not be **asymptotically tight**, for example, $2n² =O(n^{2})$ is asymptotically tight, but $2n = O(n^{2})$ isn't. $o$-notation describes an upper bound that **is not** asymptotically tight, we define it as the set:
 $$\begin{align*}
-o(g(n))\{f(n)\mid \forall c\gt0\exists n_{0}\gt0 \forall n &\ge n_{0} 0 \le f(n) \lt cg(n)\}
+o(g(n))=\{f(n)\mid \forall c\gt0\exists n_{0}\gt0 \forall n &\ge n_{0} 0 \le f(n) \lt cg(n)\}
 \end{align*}$$
 *For any constant $c \gt 0$, exists some $n_{0}\gt 0$* such that for all $n \ge n_{0}$ the predicate is true. Notice that for $f(n)=O(g(n))$the bound $0 \le f(n) \le cg(n)$ holds for some constant $c \gt 0$, but in $f(n)=o(g(n))$ the bound $0 \le f(n)\lt cg(n)$ holds **for all** constants $c \gt 0$.   
 

@@ -105,4 +105,14 @@ As we've proved above, $f(n)=\Theta(g(n)) \iff f(n)=O(g(n)) \land f(n)=\Omega(g(
 
 $(\leftarrow)$ Suppose an algorithms best-case running time is in $\Omega(g(n))$ and it's worst-case is in $O(g(n))$, let's prove that the algorithm runs in $\Theta(g(n))$.
 
-Given the assumptions above, the algorithm's the worst-case is bounded from above and the best-case is bounded from below within constant factors of $g(n)$, By the theorem proven in $3.2-4$, this implies that the algorithm is in $\Theta(g(n))$
+Given the assumptions above, the algorithm's the worst-case is bounded from above and the best-case is bounded from below within constant factors of $g(n)$, By the theorem proven in $3.2-4$, this implies that the algorithm is in $\Theta(g(n))$, meaning that it always runs in some constant factor of $g(n)$.
+
+The proposition is proven $(\iff)$.
+
+$3.2-6$ Prove that $o(g(n) \cap \omega(g(n)))$ is the [[Empty Set]].
+
+Given the definitions of [[Asymptotic Notation|little-oh]] and [[Asymptotic Notation|little-omega]], let's expand the expression:
+$$\begin{align*}
+g(n)\cap\omega(g(n))&= g(n)\cap\{f(n) \mid 0 \le cg(n)\lt f(n) \}
+&= \emptyset
+\end{align*}$$
