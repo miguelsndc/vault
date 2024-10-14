@@ -96,3 +96,13 @@ $$\begin{align*}
 and preserve the meaning of the predicate, as seen before, this is the definition of the $\Theta$ notation, therefore $f(n)=\Theta(g(n))$.
 
 Hence the theorem is proven $(\iff)$.
+
+$3.2-5$ Prove that the running time of an algorithm is $\Theta (g(n))$ if and only if it's worst-case running time is $O(g(n))$ and it's best-case running time os $\Omega(g(n))$
+
+$(\rightarrow)$ Suppose the running time of an algorithm is $\Theta(g(n))$, let's prove that it's worst-case time is $O(g(n))$ and best-case time is $\Omega(g(n))$. 
+
+As we've proved above, $f(n)=\Theta(g(n)) \iff f(n)=O(g(n)) \land f(n)=\Omega(g(n))$. Since the algorithm is bounded above and below by $g(n)$ within constant factors, we can say that the worst-case is bounded from above by some constant $c_{2}$ which implies that the worst case is $O(g(n))$, and similarlly, the best-case is bounded from below by some constant $c_{1}$, which implies that the best-case is in $\Omega(g(n))$.
+
+$(\leftarrow)$ Suppose an algorithms best-case running time is in $\Omega(g(n))$ and it's worst-case is in $O(g(n))$, let's prove that the algorithm runs in $\Theta(g(n))$.
+
+Given the assumptions above, the algorithm's the worst-case is bounded from above and the best-case is bounded from below within constant factors of $g(n)$, By the theorem proven in $3.2-4$, this implies that the algorithm is in $\Theta(g(n))$
