@@ -60,7 +60,7 @@ $3.2-3$ Yes, just choose $c \ge 2$ in the first and some big $c$ on the second f
 
 $3.2-4$ **Prove that:** *For any two functions $f(n)$ and $g(n)$, we have $f(n) =\Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$.*
 
-$(\implies)$ Suppose $f(n)=\Theta(g(n))$, let's prove that $f(n)=O(g(n))$ and $f(n)=\Theta(g(n))$. By the definition of $\Theta$ notation, we have two constants $c_{1}$ and $c_{2}$ such that:
+$(\rightarrow)$ Suppose $f(n)=\Theta(g(n))$, let's prove that $f(n)=O(g(n))$ and $f(n)=\Theta(g(n))$. By the definition of $\Theta$ notation, we have two constants $c_{1}$ and $c_{2}$ such that:
 $$\begin{align*}
 f(n)=\Theta(g(n)) \implies \exists c_{1}\exists c_{2}\mid 0\le c_{1}g(n)\le f(n) \le c_{2}g(n)
 \end{align*}$$
@@ -70,4 +70,29 @@ f(n)=O(g(n)) \implies \exists c\mid 0\le f(n)\le cg(n)
 \\
 f(n)=\Omega(g(n)) \implies \exists c\mid 0\le cg(n)\le f(n)
 \end{align*}$$
-If we let 
+We can rewrite the definition of $\Theta$-notation as:
+$$\begin{align*}
+f(n) &= \Theta(g(n)) \implies \exists c_{1} \mid 0\le c_{1}g(n)\le f(n) \land\exists c_{2}\mid 0\le f(n) \le c_{2}g(n)\\
+f(n)&= \Theta(g(n)) \implies f(n)=\Omega(g(n))\land f(n)=O(g(n))
+\end{align*}$$
+We can choose $c_{1}$ as constant for $\Omega$ and $c_{2}$ for $O$, and replace the statements with the respective asymptotic notations.
+
+$(\leftarrow)$   Suppose $f(n)=O(g(n))$ and $f(n)=\Omega(g(n))$. Let's prove that $f(n)=\Theta(g(n))$. According to the definitions:
+$$\begin{align*}
+f(n)=O(g(n)) \implies \exists c\mid 0\le f(n)\le cg(n)
+\\
+f(n)=\Omega(g(n)) \implies \exists c\mid 0\le cg(n)\le f(n)
+\end{align*}$$
+Let $c_{1}$ be the constant bounding $f(n)$ from below and $c_{2}$ bounding $f(n)$ from above, ($\Omega$ and $O$, respectively):
+$$\begin{align*}
+f(n)=O(g(n)) \implies  0\le f(n)\le c_{2}g(n)
+\\
+f(n)=\Omega(g(n)) \implies  0\le c_{1}g(n)\le f(n)
+\end{align*}$$
+We can rewrite this as:
+$$\begin{align*}
+0\le c_{1}g(n)\le f(n) \le c_{2}g(n)
+\end{align*}$$
+and preserve the meaning of the predicate, as seen before, this is the definition of the $\Theta$ notation, therefore $f(n)=\Theta(g(n))$.
+
+Hence the theorem is proven $(\iff)$.
