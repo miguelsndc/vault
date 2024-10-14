@@ -54,3 +54,8 @@ $f(n)= \omega(g(n)) \iff g(n)=o(f(n))$.
 > If $f(n)$ represents a asymptotically non-tight upper bound to g(n), we kind of "flip" the graph and now $g(n)$ represents a asymptotically non-tight **lower** bound to $f(n)$.
 
 Formally we define it as:
+
+$$\begin{align*}
+\omega(g(n))=\{f(n)\mid \forall c\gt0\exists n_{0}\gt0 \forall n &\ge n_{0} 0 \le cg(n) \lt f(n)\}
+\end{align*}$$
+Where the definition of $o$-notation says $f(n) \lt cg(n)$, the definition of $\omega$ says the opposite: $cg(n) \lt f(n)$. The relation $f(n) =\omega(g(n))$ implies that $f(n)$ becomes arbitrarily large compared to $g(n)$ as $n$ grows to $\infty$.

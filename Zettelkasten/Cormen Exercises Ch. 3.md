@@ -57,3 +57,17 @@ $$\begin{align*}
 $3.2-2$ The statement is meaningless because $O$ notation describes and upper bound for a function, in this case, $O(n^{2})$ states that any function $f(n) = O(n^{2})$ is upper-bounded by some constant factor $c$ such that $f(n) \le c n^{2}$ for some $n \ge n_{0}$, saying that $A$'s running time is at least $O(n^{2})$ misuses $O$ notation for $\Omega$ notation, contradicting itself, lacking mathematical rigor, huge ambiguity and also being prone to misunderstandings and incorrect interpretations .
 
 $3.2-3$ Yes, just choose $c \ge 2$ in the first and some big $c$ on the second for the respective $O(2^{n})$ definition and you're good to go, saying that it doesn't belong is the same as saying that $n+1 \notin O(n)$ or $2n \notin O(n)$.
+
+$3.2-4$ **Prove that:** *For any two functions $f(n)$ and $g(n)$, we have $f(n) =\Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$.*
+
+$(\implies)$ Suppose $f(n)=\Theta(g(n))$, let's prove that $f(n)=O(g(n))$ and $f(n)=\Theta(g(n))$. By the definition of $\Theta$ notation, we have two constants $c_{1}$ and $c_{2}$ such that:
+$$\begin{align*}
+f(n)=\Theta(g(n)) \implies \exists c_{1}\exists c_{2}\mid 0\le c_{1}g(n)\le f(n) \le c_{2}g(n)
+\end{align*}$$
+Let's reexaminate the definitions of both $O$-notation and $\Omega$-notation:
+$$\begin{align*}
+f(n)=O(g(n)) \implies \exists c\mid 0\le f(n)\le cg(n)
+\\
+f(n)=\Omega(g(n)) \implies \exists c\mid 0\le cg(n)\le f(n)
+\end{align*}$$
+If we let 
