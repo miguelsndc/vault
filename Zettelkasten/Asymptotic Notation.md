@@ -48,4 +48,9 @@ o(g(n))\{f(n)\mid \forall c\gt0\exists n_{0}\gt0 \forall n &\ge n_{0} 0 \le f(n)
 
 ## "Little-omega" $\omega$-notation 
 
-By analogy, $\omega$-notation is to $\Omega$-notation what $o$-notation is to $O$-notation. We use $\omega$-notation to denote a lower bound that is not asymptotically tight
+By analogy, $\omega$-notation is to $\Omega$-notation what $o$-notation is to $O$-notation. We use $\omega$-notation to denote a lower bound that is not asymptotically tight. One to define it is by:
+$f(n)= \omega(g(n)) \iff g(n)=o(f(n))$.
+
+> If $f(n)$ represents a asymptotically non-tight upper bound to g(n), we kind of "flip" the graph and now $g(n)$ represents a asymptotically non-tight **lower** bound to $f(n)$.
+
+Formally we define it as:
