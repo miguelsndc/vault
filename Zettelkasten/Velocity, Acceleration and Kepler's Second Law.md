@@ -15,10 +15,15 @@ The velocity [[Vector]] is the [[Derivative Definition|derivative]] of **positio
 
 ## Arc Length
 
-The distance you have traveled along the curve, integral of the speed over time yields the arc length along the trajectory of a curve. $s=$ *distance traveled along the trajectory*
+The distance you have traveled along the curve is theintegral of the speed over time yields the arc length along the trajectory of a curve. $s=$ *distance traveled along the trajectory*
 
 For that to make sense we need to fix a reference point from which we start measuring the distance, the arc length can perfectly be negative or positive, it is negative usually when counting before the reference point and positive afterwards.
 
 ![[arclength.excalidraw]]
 
-From this picture we can infer the arc length being the sum of all the length of all the vectors between the points $P_{i-1}$ and $P_{i}$, if we let the distance $\Delta x$ between the points tend to zero  
+From this picture we can infer the arc length being the sum of all the length of all the vectors between the points $P_{i-1}$ and $P_{i}$, if we let the distance $\Delta x$ between the points tend to zero, that will be actually the derivative of the curve at that point, and the distance will be the length of the tangent vector, so:  
+
+$$\begin{align*}
+\sum\limits_{i=1}^{n} [P_{i-1}, P_{i}] \implies \sum\limits_{i=1}^{n}||\innp{P_{i}-P_{i-1}}|| \implies\sum\limits_{i=1}^{n}||r'(t)|| \implies \lim_{\text{max} \Delta x \rightarrow 0} \sum\limits_{i=1}^{n}||r'(t)||\Delta x \implies \int_{0}^{p}||r'(t)||dt
+\\\end{align*}$$
+By letting the number of pairs $(P_{i-1}, P_{i})$ tend to infinity we naturally arrive at the integral of the speed with respect to time, so the arc length is just the infinite sum of the lengths of the tangent vectors at each point of the curve.
