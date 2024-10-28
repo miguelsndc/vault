@@ -37,3 +37,12 @@ By letting the number of pairs $(P_{i-1}, P_{i})$ tend to infinity we naturally 
 $$
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{d\vec{r}}{ds}\cdot \frac{ds}{dt} = \hat{T} \frac{ds}{dt}=\hat{T} ||\vec{v}||
 $$
+![[drds.excalidraw]]
+
+The vector between two points in the trajectory $r(t)$ and $r(t + \Delta t)$ is $\Delta\vec{r}$, and the distance traveled is $\Delta s$. $\frac{\Delta s }{\Delta t}$ is the $\frac{distance}{time} \approx speed$. and $\Delta\vec{r} \approx \hat{T} \Delta s$ . 
+
+$$\begin{align*}
+\Delta \vec{r}\approx\hat{T} \Delta s\\
+\frac{\Delta \vec{r}}{\Delta t}\approx\hat{T} \frac{\Delta s}{\Delta t}
+\end{align*}$$
+By taking the limit as $\Delta t \rightarrow 0$ it becomes an equality instead of just an approximation, as we take smaller and smaller steps in time
