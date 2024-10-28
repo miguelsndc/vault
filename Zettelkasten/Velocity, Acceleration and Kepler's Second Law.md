@@ -24,6 +24,10 @@ For that to make sense we need to fix a reference point from which we start meas
 From this picture we can infer the arc length being the sum of all the length of all the vectors between the points $P_{i-1}$ and $P_{i}$, if we let the distance $\Delta x$ between the points tend to zero, that will be actually the derivative of the curve at that point, and the distance will be the length of the tangent vector, so:  
 
 $$\begin{align*}
-\sum\limits_{i=1}^{n} [P_{i-1}, P_{i}] \implies \sum\limits_{i=1}^{n}||\innp{P_{i}-P_{i-1}}|| \implies\sum\limits_{i=1}^{n}||r'(t)|| \implies \lim_{\text{max} \Delta x \rightarrow 0} \sum\limits_{i=1}^{n}||r'(t)||\Delta x \implies \int_{0}^{p}||r'(t)||dt
+\sum\limits_{i=1}^{n} [P_{i-1}, P_{i}] \implies \sum\limits_{i=1}^{n}||\innp{P_{i}-P_{i-1}}|| \implies\sum\limits_{i=1}^{n}||r'(i)|| \implies \lim_{\text{max} \Delta x \rightarrow 0} \sum\limits_{i=1}^{n}||r'(i)||\Delta x \implies \int_{0}^{p}||r'(t)||dt
 \\\end{align*}$$
+We bring up $\Delta x$ as the tiny steps in time we take, since $distance=speed \cdot time$, we need to multiply by a step in time, otherwise we'd just be summing speeds for the sake of summing speeds, there isn't much relevant information on saying we traveled $800 \frac{km}{h}$ without the time.
+
 By letting the number of pairs $(P_{i-1}, P_{i})$ tend to infinity we naturally arrive at the integral of the speed with respect to time, so the arc length is just the infinite sum of the lengths of the tangent vectors at each point of the curve.
+
+**Unit tange**
