@@ -30,4 +30,10 @@ We bring up $\Delta x$ as the tiny steps in time we take, since $distance=speed 
 
 By letting the number of pairs $(P_{i-1}, P_{i})$ tend to infinity we naturally arrive at the integral of the speed with respect to time, so the arc length is just the infinite sum of the lengths of the tangent vectors at each point of the curve.
 
-**Unit tange**
+**Unit tangent vector**: at any point the velocity vector is tangent to the trajectory, it tells us the direction of motion, the unit tangent vector is $\hat{T}=\frac{\vec{v}}{||\vec{v}||}$ represents that direction. *(we could use the regular velocity vector to represent direction but why if the calculations are much easier with unit vectors ? a vector represents a displacement with direction and magnitude, a unit vector represents just direction and can be easily scaled to suit any needs)*. 
+
+## Relationships between the different vector quantites and magnitudes seen 
+
+$$
+\vec{v}=\frac{d\vec{r}}{dt}=\frac{d\vec{r}}{ds}\cdot \frac{ds}{dt} = \hat{T} \frac{ds}{dt}=\hat{T} ||\vec{v}||
+$$
