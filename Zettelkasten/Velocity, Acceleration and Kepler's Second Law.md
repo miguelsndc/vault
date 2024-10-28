@@ -12,3 +12,7 @@ The velocity [[Vector]] is the [[Derivative Definition|derivative]] of **positio
 **Speed**: Is a [[Scalar]] quantity, which is just the [[Vector Norm|magnitude]] of the vector $\vec{v}$.
 
 **Acceleration**: is the derivative of **velocity** with respect to time $\vec{a} = \frac{d\vec{v}}{dt}$. *If the speed is constant, i.e the velocity vector is constant, this does not mean the acceleration is zero, the velocity vector can still **rotate** while maintaining the same magnitude, and that rotation produces acceleration.*
+
+## Arc Length
+
+The distance you have traveled along the curve, integral of the speed over time yields the arc length along the trajectory of a curve. $s=$ *distance traveled along the trajectory*
