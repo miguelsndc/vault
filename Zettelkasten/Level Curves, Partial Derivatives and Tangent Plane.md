@@ -20,8 +20,7 @@ When looking at the countor plot it's easy to see how the function $f$ changes w
 
 Because $x$, $y$ or *both* variables can change, a special type of derivative is required, called the **partial derivative**, it is partial because it deals with one variable at a time. We fix one of the variables as a **constant** and see how the function changes with respect to the other variable, applying the same rules of differentation we are used to, denoted $\frac{\partial f}{\partial x}$.
 
-**Geometrically** it means that at a certain point $(x_{0},y_{0})$ we fix *(let's assume the derivative is taken with respect to $x$ in this example.)*, we let $y$ be constant. This implies that at the point $(x_{0},y_{0})$. $y_{0}$ is **fixed**, and we **only move in the plane $y=y_{0}$ parallel to the xz plane**.
-The curve is **sliced** by that plane, and the **slope of that sliced part of the curve, $z=f(x,y_{0})$ is $\frac{\partial f}{\partial x}$**, same for $(\partial f)/(\partial)$
-
+**Geometrically** it means that at a certain point $(x_{0},y_{0})$ *(let's assume the derivative is taken with respect to $x$ in this example.)*, we let $y$ be constant. This implies that at the point $(x_{0},y_{0})$. $y_{0}$ is **fixed**, and we **only move in the plane $y=y_{0}$ parallel to the xz plane**.
+The curve is **sliced** by that plane, and the **slope of that sliced part of the curve, $z=f(x,y_{0})$ is $\frac{\partial f}{\partial x}$**, same for $\frac{\partial f}{\partial y}$, we fix $x_{0}$ and move only through the plane $x=x_{0}$ parallel to the $yz$ plane, and the slope of $z=f(x_{0},y)$ is the partial derivative of $f$ with respect to $y$ at that point, see the picture:
 
 ![[Pasted image 20241030103658.png]]
