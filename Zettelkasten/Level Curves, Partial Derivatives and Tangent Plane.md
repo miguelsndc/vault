@@ -13,3 +13,9 @@ A Countour plot of a given function $f$ shows all the points where $f(x,y)=c$ fo
 ![[countor-plot.excalidraw]]
 
 It is very easy to find values of $f$, given an input $(x,y)$, depending on the location of the input we can easily see that it is between $1$ and $2$ or $3$ and $2$ and so on. 
+
+## Partial Derivatives
+
+
+
+![[Pasted image 20241030103658.png]]
