@@ -1,5 +1,6 @@
 ---
 tags: calculus
+aliases: partial derivative, level curve, tangent plane
 ---
 ## How to visualize functions of several variables ? 
 
