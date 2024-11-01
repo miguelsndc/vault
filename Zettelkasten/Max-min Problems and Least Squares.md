@@ -1,8 +1,6 @@
 ---
 tags: calculus
 ---
-## Optimization Problems (Maximization / Minimization) of functions of several variables
-
 Let's figure out how to use [[Level Curves, Partial Derivatives and Tangent Plane|partial derivative]]s to handle optimization problems, partial derivatives monitor changes of a multivariable function choosing one to differentiate with respect to, while treating the others as constant. $\frac{\partial f}{\partial x}=f_{x}$ 
 
 **Approximation Formula**
@@ -31,3 +29,10 @@ z=f_{y}(x_{0},y_{0})(y-y_{0})\\
 x=x_{0}
 \end{cases}
 \end{align*}$$
+Together they determine a plane of equation
+$$\begin{align*}
+z&= z_{0}+f_{x}(x_{0},y_{0})(x-x_{0}) + f_{y}(x_{0}, y_{0})(y-y_{0})
+\end{align*}$$
+If you hold $y$ constant you get the first line and vice-versa.
+
+## Max and Min problems
