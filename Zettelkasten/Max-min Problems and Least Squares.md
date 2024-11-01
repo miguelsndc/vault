@@ -17,10 +17,17 @@ To justify the linear approximation formula above we can think in terms of the *
 
 Taking the partial derivative of each axis at that point give us two lines, and those lines are tangent to the point in question and are enough to define the tangent plane at that point as well.
 ___
-Let's figure out the equations of those lines, the **slopes** at the point of tangency are respectively $f_{x}$ and $f_{y}$, so that means that, for $x$, if we fix $y=y_{0}$, and use $z$ as a function of $x$, the equation of the line tangent to the point is:
+Let's figure out the equations of those lines, the **slopes** at the point of tangency are respectively $f_{x}$ and $f_{y}$, so that means that, for $x$, if we fix $y=y_{0}$, and use $z$ as a function of $x$, the equation of the tangent line is:
 $$\begin{align*}
 \begin{cases}
 z=f_{x}(x_{0},y_{0})(x-x_{0})\\
 y=y_{0}
+\end{cases}
+\end{align*}$$
+and for $f_{y}$:
+$$\begin{align*}
+\begin{cases}
+z=f_{y}(x_{0},y_{0})(y-y_{0})\\
+x=x_{0}
 \end{cases}
 \end{align*}$$
