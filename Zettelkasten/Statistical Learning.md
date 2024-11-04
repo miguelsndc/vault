@@ -46,4 +46,7 @@ The model based approach just described is referred to as **parametric**, becaus
 
 **Non-parametric methods** 
 
-As opposed to parametric methods, **non**-parametric methods don't make
+As opposed to parametric methods, **non**-parametric methods don't make any assumptions about the form or shape of $f$, instead they seek an estimate of $f$ that gets as close as possible to the data points without being too "rough" or too "wiggly". This eliminates the problem of incorrect assumptions introduced by parametric models, since no assumption at all is required to estimate $f$. However it carries a big disadvantage: the model requires **way** more data to train compared to parametric methods.
+
+No assumption of $f$ is made, but a level of "smoothness" for the surface must be provided, higher levels of smoothness might reduce the effectiveness of the model while lower values might introduce overfitting by making $f$ too rough on training points, and thus not generalizing well on unseen data.
+
