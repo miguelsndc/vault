@@ -24,6 +24,20 @@ Inference: *Estimate $f$ such that the relationship between the predictors and t
 
 Problems might fall on one or both categories, they're not mutually exclusive.
 
-## How to estimate $f$ ?
+# How to estimate $f$ ?
 
 To estimate $f$ we'll assume we have a set of $n$ observations, and each observation is a pair of inputs/output: Let $i$ represent the $i$th observation, then $(x_{i},y_{i})$, where $x_{i}=(x_{i1},x_{i2},\cdots,x_{ip})^{T}$ is the input with $p$ predictors and $y_{i}$ the associated response. the [[[Sets|set]] $\{(x_{1},y_{1}), (x_{2},y_{2}), \cdots, (x_{n}, y_{n})\}$ is called the **training** data, we'll use it to *teach* our method to estimate $f$. Our goal is to apply a method to the training data in order to estimate an unknown function $f$. In other words, we want to find a function $\hat{f}$ where $Y \approx \hat{f}(X)$ for any $(X,Y)$. Broadly speaking, any statistical learning method can be characterized as either *parametric* or *non-parametric*.
+
+**Parametric Methods**
+
+Parametric methods of estimating $f$ take a two-step model based approach:
+1. First. we make some assumption about $f$, for example, that $f$ is linear:
+$$\begin{align*}
+f(X)&= \beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}
+\end{align*}$$
+	This greatly simplifies the problem, because now, instead of having to estimate a completely arbitrary $p$-dimensional function $f$, one only needs to estimate the $p+1$ coefficients of $f$.
+2. After a model has been selected, we need a procedure to train, or *fit* the model, that is, estimate the $p+1$ coefficients of $f$ such that:
+$$\begin{align*}
+Y &\approx \beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{n}X_{n}
+\end{align*}$$
+	The most common approach of estimat
