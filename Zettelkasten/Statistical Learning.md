@@ -40,4 +40,10 @@ f(X)&= \beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}
 $$\begin{align*}
 Y &\approx \beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{n}X_{n}
 \end{align*}$$
-	The most common approach of estimat
+	The most common approach of estimating such parameters is called *(ordinary) least squares*.
+
+The model based approach just described is referred to as **parametric**, because it simplifies the problem of estimating $f$ down to estimating a set of parameters. The disadvantages of parametric methods revolve around this simplification, since the relationships between $Y$ and $X$ are usually not so simple, and by making the wrong assumption the estimates would be just wrong. We can work around this by choosing **flexible** methods, that use a functional approach and require more parameters, but this comes at the risk of *overfitting* which means basically, that the model follows the errors too closely.
+
+**Non-parametric methods** 
+
+As opposed to parametric methods, **non**-parametric methods don't make
