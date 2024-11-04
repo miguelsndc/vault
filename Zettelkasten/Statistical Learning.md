@@ -50,3 +50,6 @@ As opposed to parametric methods, **non**-parametric methods don't make any assu
 
 No assumption of $f$ is made, but a level of "smoothness" for the surface must be provided, higher levels of smoothness might reduce the effectiveness of the model while lower values might introduce overfitting by making $f$ too rough on training points, and thus not generalizing well on unseen data.
 
+# Prediction accuracy and Interpretability Trade-off
+
+There are several methods used to bring a model to life, some are more restrictive in the sense that they only a catch a part of what the true relationship between variables and the form of $f$, they limit themselves to provide a more interpretable, manageable outcome. Whereas some methods are highly flexible, but the estimates of $f$ are so complex that is hard or even impossible to tell the relationship between any of the variables, if we're developing an algorithm to predict stock prices, we may want to use a more flexible approach. However this is not always the case! Sometimes more restrictive methods provide a better result, because of the high potential for overfitting of extremely flexible methods.
