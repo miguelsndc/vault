@@ -55,3 +55,9 @@ No assumption of $f$ is made, but a level of "smoothness" for the surface must b
 There are several methods used to bring a model to life, some are more restrictive in the sense that they only can go so far when it comes to catching the true relationship between variables and the form of $f$, they limit themselves to provide a more interpretable, manageable outcome, like the linear model.
 Other types of  methods are highly flexible, but the estimates of $f$ are so complex that it's hard or even impossible to tell the relationship between any of the variables. If we're developing an algorithm to predict stock prices, we might think of using a more flexible approach; However this is not always the case! Sometimes more restrictive methods provide a better result, because of the high potential for overfitting of extremely flexible methods, and, when inference is the goal, less flexible methods are obviously preferred, since they show a clearer relationship between the predictors and the outcome.
 Assessing this trade-off is part of what makes this job hard, but choosing the right tool for the task provides awesome results.
+
+# Unsupervised vs Supervised Learning
+
+**Supervised** learning refers to the set of methods where one knows the outcomes beforehand, and trains the model comparing the model outputs with the actual collected response. This method of training is called *supervised* because we can **supervise** and assess the accuracy of our model easily by comparing with the collected outputs, examples are linear regression, logistic regression, etc.
+
+**Unsupervised** learning is the name given to the set of procedures that **don't** need
