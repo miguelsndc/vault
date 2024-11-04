@@ -8,3 +8,6 @@ tags: ds, ml
 There are two reasons we want to estimate $f$: *Prediction* and *Inference*.
 
 **Prediction**
+Suppose a set of inputs whose output is not easily obtained, in this case, since $\epsilon$ averages to zero, we can treat the output $\hat{Y}$ representing $Y$, being purely a function $\hat{f}$ (represeting $f$) of $X$. $\hat{Y} = \hat{f}(X)$. In this setting, $\hat{f}$ can be treat as a **black-box**, meaning that one's not concerned about the exact form of $\hat{f}$, provided that it yields accurate predictions for $Y$.
+
+	The accuracy of $\hat{Y}$ as a model for $Y$ depends on two quantities, the *irreducible error* and *reducible error*. The latter can be minimized by choosing the most appropriate statistical learning tool, collecting more data, etc. The first **cannot** be minimized, remember that $Y$ is also a function of $\epsilon$, and $\epsilon$ represents all the error that is naturally introduced into $Y$, such as measurement errors, 
