@@ -58,6 +58,8 @@ Assessing this trade-off is part of what makes this job hard, but choosing the r
 
 # Unsupervised vs Supervised Learning
 
-**Supervised** learning refers to the set of methods where one knows the outcomes beforehand, and trains the model comparing the model outputs with the actual collected response. This method of training is called *supervised* because we can **supervise** and assess the accuracy of our model easily by comparing with the collected outputs, examples are linear regression, logistic regression, etc.
+**Supervised** learning refers to the set of methods where one knows the outcomes beforehand, that is, for every measurement vector $x_{i}$, there is some response variable $y_{i}$ associated, from whom we can supervise our analysis. This method of training is called *supervised* because we can **supervise** and assess the accuracy of our model easily by comparing with the collected outputs, examples are linear regression, logistic regression, etc.
 
-**Unsupervised** learning is the name given to the set of procedures that **don't** need
+**Unsupervised** learning is the name given to the set of procedures that for every vector of observations $x_{i}$  there is **no** associated response variable $y_{i}$, we are kind of working blind, so one type of statistical analysis we can try to do on such observations is to find relationships between variables, such as the **clustering** problem, where one attempts to subdivide a dataset into distinct, non-overlapping subgroups.
+
+Another type of learning that can often occur is when we have a set of $n$ observations, and a subset $m$ of $n$ where $m \lt n$, the $m$ observations have a measurement $x$ and a associate response, but the other $n-m$ observations do not. This settings is referred to as **semi**-supervised learning, where only a subset of observations have an associated response, this can occur, for example, when obtaining the predictors is relatively cheap, but collecting the response is much more expensive.
