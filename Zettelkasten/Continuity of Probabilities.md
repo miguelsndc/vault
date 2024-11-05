@@ -12,4 +12,4 @@ So, from the same rules again:
 $$\begin{align*}
 \lim_{n\rightarrow \infty}\P(A_{n})&= \lim_{n\rightarrow\infty}\sum\limits_{i=1}^{n}\P(B_{i})=\sum\limits_{i=1}^{\infty}\P(B_{i})=\P(A)
 \end{align*}$$
-This is stating that the 
+This is stating that the probability of monotonically increasing [[Event|events]] tend to the probability of the entire [[Sample Space]], this establishes a connection between the events and their probabilities, when the events converge, their probabilities also converse, small changes in events cause small changes in their probabilities, so **probabilities are pretty much continuous functions of their events**.
