@@ -1,5 +1,6 @@
 ---
 tags: ds, ml
+aliases: statistical learning
 ---
 **Statistical Learning** refers to a set of tools and techniques used to estimate the relationship between a set of **variables** or **features** of a collection of measurements *(the dataset)*, we can state a more tied up definition:
 
@@ -69,3 +70,4 @@ Another type of learning that can often occur is when we have a set of $n$ obser
 Variables can be of two types, **quantitative** or **qualitative** *(also called **categorical**)*, quantitative variables take on a numerical value, *i.e* a person's height, age, weight, etc. Qualitative variables can hold the value of one of $K$ different classes, $i.e$, married or not, brands a certain product belongs to (A, B, C). We tend to refer to problem with quantitative responses as **regression** problems, and problems with qualitative response as **classification** problems. The distinction is not so crisp, **linear regression** is a classic regression algorithm with a quantitative output, whereas **logistic regression** takes on that name but is in fact a **classification** algorithm, since it outputs a binary value (yes/no).
 
 Usually statistical methods are selected depending on whether the **response** we want is quantitative of qualitative, the type of the predictors is less important, as long as they're properly *coded* before being fed to the algorithm
+
