@@ -19,3 +19,10 @@ So how do we select the best statistical learning method for the problem ? In so
 
 ![[overfitting.excalidraw]]
 Here the blue line represents the true $f$, and the red line an overfit model. 
+# The Classification Setting
+
+Although the discussion so far was based on the regression setting, the classification setting also has a kind of *MSE* used to determine the quality of models:
+$$\begin{align*}
+\frac{1}{n}\sum\limits_{i=1}^{n}I(y_{i}\ne\hat{y_{i}})
+\end{align*}$$
+So it calculates performance based on a **error rate**, given by how well the model could split the data into different classes, here $I$ is an indicator variable that tells $1$ if $y_{i} \ne \hat{y_{i}}$ and $0$ otherwise. Hence the above equation computes the fraction (or ratio) of incorrect classifications.
