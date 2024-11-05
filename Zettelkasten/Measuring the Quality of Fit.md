@@ -1,6 +1,6 @@
 ---
 tags: ml, ds
-aliases: quality
+aliases: quality, MSE
 ---
 In order to evaluate the performance of a [[Statistical Learning]] method, we need some procedure to measure the accuracy of the method, a very common one is the $\text{MSE}$, *Mean Squared Error* method:
 $$\begin{align*}
