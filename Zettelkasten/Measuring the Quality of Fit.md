@@ -17,3 +17,5 @@ On creating models we are more interested on those whose performance is best on 
 
 So how do we select the best statistical learning method for the problem ? In some settings, we may have some **test** data, unused during training, that we run the model against and measure the performance, and the model with the smallest *MSE* is chosen. This is not always the case, so choosing a model that performs the best on training data should be the natural answer, but in reality this isn't the case, most of the time the models performing best on training data do not perform as well on real, unseen data, this phenomenom is called **overfitting**, when the model fails to capture the true essence of the relationship between variables and outcomes, and instead molds itself to best perform on that specific dataset.
 
+![[overfitting.excalidraw]]
+Here the blue line represents the true $f$, and the red line an overfit model. 
