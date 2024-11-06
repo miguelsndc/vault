@@ -25,4 +25,4 @@ Although the discussion so far was based on the regression setting, the classifi
 $$\begin{align*}
 \frac{1}{n}\sum\limits_{i=1}^{n}I(y_{i}\ne\hat{y_{i}})
 \end{align*}$$
-So it calculates performance based on a **error rate**, given by how well the model could split the data into different classes, here $I$ is an indicator variable that tells $1$ if $y_{i} \ne \hat{y_{i}}$ and $0$ otherwise. Hence the above equation computes the fraction (or ratio) of incorrect classifications.
+So it calculates performance based on a **error rate**, given by how well the model could split the data into different classes, here $I$ is an [[Indicator Function|indicator]] variable that tells $1$ if $y_{i} \ne \hat{y_{i}}$ and $0$ otherwise. Hence the above equation computes the fraction (or ratio) of incorrect classifications.
