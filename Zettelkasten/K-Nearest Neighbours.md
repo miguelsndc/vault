@@ -12,3 +12,4 @@ Despite it's simplicity, this algorithm has shown error rates incredibly close t
 ___
 ## Choice of $K$
 
+The parameter $K$ introduced before is fundamental to the algorithm, lower choices of $K$ imply a **highly** flexible run with low bias, but a **high** variance, being extremely prone to overfitting, and higher choices of $K$ have very high bias, not being capable to detect the true patterns behind the data, with a **low** variance in return, this resembles once more the [[Bias-Variance trade-off]], as a optimal choice of $K$ has to be made, so that the test error rate is minimized as much as possible.
