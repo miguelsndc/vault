@@ -39,3 +39,10 @@ $c)$ Prediction with **regression**, we are predicting numerical values.
 
 $3)$
 
+![[ist-plot.excalidraw]]
+
+ - **Test Error**: Has a $U$ shape as flexiblity increases because a extremely restrictive method will naturally have a higher test error since it can't quite grasp the patterns in the data, as we move with flexiblity, we find a sweet spot with the minimal test error possible. As flexibility increases, variance also increases and we overfit the training data.
+ - **Training Error**: Training error decreases as we apply more flexible methods because statistical learning methods estimate coefficients to minimize training error, and the most flexible method will likely overfit and have a training error of $0$.
+ - **Squared Bias**: Bias decreases as flexibility increases since more flexible methods are capable of capturing the true underlying patterns of the data, but overly flexible methods will have a extremely low bias and will overfit.
+ - **Variance:** Restrictive methods have a low variance because, for example, in a linear model, the most noticeable change we'd have in different fits across datasets is a slight change in the slope of the line. More flexible methods tend to have a higher variance due to a high exploitance of the data and potential for overfitting, since they look for more complex patterns in the data, resulting in a high difference in results between datasets.
+ - **Bayes error**: The smallest possible test error, given by the [[Bayes Classifier]]. a lower limit to the test error.
