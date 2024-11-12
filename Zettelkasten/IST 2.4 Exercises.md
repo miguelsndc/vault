@@ -21,13 +21,21 @@ We need a method with the correct [[Bias-Variance trade-off]], i firmly believe 
 
 2) Explain whether each scenario is a classifcation or regression problem, and indicate whether we are most interested in inference or prediction. Finally, provide $n$ and $p$.
 
-- *"We collect a set of data on the top $500$ firms in the US. For each firm we record profit, number of employees, industry and the CEO salary. We are interested in understanding which factors affect CEO salary"*
-
 > Prediction: *Estimate $\hat{f}$ such that $\hat{Y}$ is as accurate as possible, relationships between variables can be neglected and $\hat{f}$ is treated as a black-box.*
 > Inference: *Estimate $f$ such that the relationship between the predictors and the outcomes is as understandable as possible to answer domain questions about the dataset, $\hat{f}$ cannot be treated as black-box.
+
+$a)$
 
 Here we are interested in inference, since no value is required to be predicted. We want to understand better the relationship between the predictors and another variable, in this case, the CEO salary.
 
 We have a $n = 500$ since $500$ firms we're integrated to the investigation, $p=\{ \text{profit}, \text{no\_employees}, \text{industry}, \text{CEO\_salary}\}$, and $|p| = 4$.
 
-This can be treated as a **classification problem**. We can separate the different salary ranges and throw the CEO's there, and analyze the common characteristics of firms with CEO's in the same salary range, via clustering and other techniques.
+This can be treated as a **regression problem**, where we'll model the CEO's salary in function of the other variables, to have a deeper understanding of the underlying relationships.
+
+$b)$ 
+This is a classic **prediction** problem with a **classification setting**, we want to predict to which class a product belongs to, *sucess or failure in this case*, based on previous results. $n=20$ and $p$ is a lot of stuff.
+
+$c)$ Prediction with **regression**, we are predicting numerical values.
+
+$3)$
+
