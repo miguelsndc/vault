@@ -11,5 +11,9 @@
   "obsidian-discordrpc",
   "pseudocode-in-obs",
   "homepage",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-kanban",
+  "calendar",
+  "nldates-obsidian",
+  "periodic-notes"
 ]
