@@ -50,4 +50,8 @@ $3)$
 $4)$ 
 Classification is the **categorical** setting of regression, since classification, by definition, tries to predict to which "class" or category a certain predictor belongs to.
 
-1. Tell which type of  **breast cancer**, 
+1. Tell which type of **cancer** a patient is likely to have, given a set of exams and measurement, is a classification problem, since we're trying to fit the observations into groups. It's a prediction problem.
+2. Tell, given a text, what is the **sentiment** of that text given the words and context used in it, anger, sadness, etc. It's a prediction problem.
+3. Predict the type of papaya, given a picture. Prediction.
+
+
