@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"13594cbde5d81a37","type":"text","text":"C++ (C With Classes btw)","x":-160,"y":-60,"width":250,"height":60},
+		{"id":"a6591b82c1e6439a","type":"text","text":"Object Oriented","x":60,"y":-150,"width":250,"height":60},
+		{"id":"56cec68d11d57363","type":"text","text":"Paradigm Focused on Data","x":240,"y":30,"width":250,"height":60},
+		{"id":"04fc8a5a46138a98","type":"text","text":"Easily reusable building blocks","x":585,"y":120,"width":250,"height":60},
+		{"id":"70b9b6b8403e9ec7","type":"text","text":"Less Susceptilibity to errors","x":585,"y":-60,"width":250,"height":60},
+		{"id":"cda1146579fd5bcd","type":"text","text":"Objects","x":245,"y":-311,"width":250,"height":60},
+		{"id":"8f1c6cf7d964d9f9","type":"text","text":"Low maintenance (locality of behaviour)","x":585,"y":30,"width":250,"height":60},
+		{"id":"277ff9fb4e5a6590","x":-160,"y":78,"width":250,"height":60,"type":"text","text":"Types and modifiers i didn't know of"},
+		{"id":"882877df3af05e52","x":-274,"y":221,"width":294,"height":99,"type":"text","text":"*wchar_t*: Character bytes that takes at least $2$ bytes, stores Unicode based characters"},
+		{"id":"3e5278624c84c18d","x":48,"y":221,"width":250,"height":60,"type":"text","text":"*volatile*: Makes sure this variable can be modified by external events (other threads)"},
+		{"id":"8d9768bbddbeddcf","type":"text","text":"Entities that represent domain aspects of the application","x":585,"y":-460,"width":250,"height":80},
+		{"id":"bc8a2e30d9555002","x":-35,"y":-311,"width":250,"height":60,"type":"text","text":"Classes"},
+		{"id":"139c1a8700789c4b","x":585,"y":-251,"width":250,"height":60,"type":"text","text":"Instances of Classes"},
+		{"id":"7cfcf5b36ba53b41","type":"text","text":"Encapsulates both behaviour and data","x":585,"y":-341,"width":250,"height":60},
+		{"id":"5ce3647d0d561618","x":-300,"y":-560,"width":296,"height":165,"type":"text","text":"Works as blueprints for objects, (sually defined in **header files**, represent an object data and behaviour, can be instantiated as many times as necessary, can also be used as types"},
+		{"id":"3ddf40593648d364","x":90,"y":-490,"width":250,"height":60,"type":"text","text":"Shared Behaviour"}
+	],
+	"edges":[
+		{"id":"7a74f93b24e22427","fromNode":"13594cbde5d81a37","fromSide":"top","toNode":"a6591b82c1e6439a","toSide":"left"},
+		{"id":"9dcd382a2ef09879","fromNode":"a6591b82c1e6439a","fromSide":"right","toNode":"cda1146579fd5bcd","toSide":"bottom"},
+		{"id":"3df7978ca978b659","fromNode":"a6591b82c1e6439a","fromSide":"right","toNode":"56cec68d11d57363","toSide":"top"},
+		{"id":"da73c5c383fba9ee","fromNode":"56cec68d11d57363","fromSide":"right","toNode":"70b9b6b8403e9ec7","toSide":"left"},
+		{"id":"be5924e7e87fd41c","fromNode":"56cec68d11d57363","fromSide":"right","toNode":"04fc8a5a46138a98","toSide":"left"},
+		{"id":"67a858adca1e94a7","fromNode":"56cec68d11d57363","fromSide":"right","toNode":"8f1c6cf7d964d9f9","toSide":"left"},
+		{"id":"7019f9453f18d879","fromNode":"cda1146579fd5bcd","fromSide":"right","toNode":"8d9768bbddbeddcf","toSide":"left"},
+		{"id":"2d957ab2c92814a9","fromNode":"cda1146579fd5bcd","fromSide":"right","toNode":"7cfcf5b36ba53b41","toSide":"left"},
+		{"id":"ab470789e8aad758","fromNode":"13594cbde5d81a37","fromSide":"bottom","toNode":"277ff9fb4e5a6590","toSide":"top"},
+		{"id":"9710c9649bfe3b88","fromNode":"277ff9fb4e5a6590","fromSide":"bottom","toNode":"882877df3af05e52","toSide":"top"},
+		{"id":"701197ca2ad24e72","fromNode":"277ff9fb4e5a6590","fromSide":"bottom","toNode":"3e5278624c84c18d","toSide":"top"},
+		{"id":"7a3d41839f1850d8","fromNode":"cda1146579fd5bcd","fromSide":"right","toNode":"139c1a8700789c4b","toSide":"left"},
+		{"id":"5bf0220e6ef60904","fromNode":"a6591b82c1e6439a","fromSide":"top","toNode":"bc8a2e30d9555002","toSide":"bottom"},
+		{"id":"5f6c0b77255661d4","fromNode":"bc8a2e30d9555002","fromSide":"top","toNode":"5ce3647d0d561618","toSide":"bottom"},
+		{"id":"178deb5ab5003771","fromNode":"bc8a2e30d9555002","fromSide":"top","toNode":"3ddf40593648d364","toSide":"bottom"}
+	]
+}
