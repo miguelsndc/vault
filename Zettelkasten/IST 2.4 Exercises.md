@@ -67,4 +67,8 @@ $c)$
 2. Group users of a platform by geographic location / age, etc.
 3. Given fire data about a certain geographic location, group by intensity / frequency etc, to understand which areas suffer the most .
 
-$5)$
+$5)$ A more flexible approach in both regression and classification has the advantage of being more sensitive to patterns in the data, therefore being capable of perceiving things more restrictive models can't. A more flexible approach might be preferred when we have a highly non-linear dataset, that exhibits a very complex relationship between it's predictors. A restrictive model cannot capture that.
+A less flexible method is preferred when the relationship between the variables is not complex enough to require a flexible model or when the number of samples is not large enough to feed a flexible model, so a less flexible method will function better with that limited sample, since it doesn't go too deep and usually requires an assumption.
+
+$6)$ A **parametric** statistical learning approach requires an assumption about the shape of the underlying function $f$. Given this assumption, a parametric approach reduces the problem of finding a whole $n$-dimensional function $f$, to estimating a set of coefficients $\beta_{0}, \cdots, \beta_{n}$ that dictate the behaviour of $f$ inside the restrictions imposed by the assumptions. 
+A **non**-parametric statistical learning approach makes zero assumptions about the shape of $f$ and simply tries to find the best possible estimate to fit the data, this is a more flexible method that requires an injuriating amount of samples to be consistent, and has a high potential for overfitting.
