@@ -55,3 +55,16 @@ Classification is the **categorical** setting of regression, since classificatio
 3. Predict the type of papaya, given a picture. Prediction.
 
 
+$b)$ 
+
+1. Predict the profit of a company in upcoming years given past years and market data. Prediction.
+2. Predict the probability of kidney failure of a kitty given data about the cat, like height, weight, average ml of water drank per day etc. Prediction.
+3. Predict the expected height of a tree given the species, geographic location, type of tree, etc.
+
+
+$c)$
+1. Market Segmentation.
+2. Group users of a platform by geographic location / age, etc.
+3. Given fire data about a certain geographic location, group by intensity / frequency etc, to understand which areas suffer the most .
+
+$5)$
