@@ -17,7 +17,6 @@ kanban-plugin: board
 
 ## Done
 
-- [ ] EDOO - MM1 📅 2024-11-14
 
 
 ## 📅
