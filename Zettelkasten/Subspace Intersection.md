@@ -32,3 +32,19 @@ x+2w=0\\
 \end{cases}\Bigg\}\\\\
 \end{align*}$$
 We can turn this into a [[Augmented Matrix]] and find the [[Echelon Form|echelon]] form to gain more information about the [[Linear Subspaces|subspace]], whether it has some free variables or whatever, but it's pretty much trivial shit to do.
+____
+Let $E$ be a [[Vector Space]], and let $L$ be a [[Sets|set]] of indices, i claim that for $\lambda \in L$, $F_{\lambda}$ is a [[Linear Subspaces|subspace]]. Therefore:
+$$\begin{align*}
+\bigcap_{\lambda\in F} F_{\lambda} 
+\end{align*}$$
+is also a subspace of $E$, it follows from the example given in [[Linear Subspaces|subspace]]s, that the set of vectors $v=(x_{1},x_{2},\cdots,x_{n})\in \R$ whose coordinates satisfy the $m$ equations below:
+
+$$\begin{align*}\\
+\begin{cases}
+a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = 0 \\
+a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = 0 \\
+\vdots \\
+a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = 0
+\end{cases}
+\end{align*}$$
+is a vector subspace of $R^{n}$, the intersection $F=F_{1}\cap\cdots\cap F_{n}$ of the [[Hyperplanes]] $F_{i}$ defined above.
