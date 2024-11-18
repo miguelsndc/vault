@@ -13,4 +13,14 @@ $$\begin{align*}
 $$\begin{align*}
 \forall a\in \mathbb{R},\forall\vec{v}\in V,a\vec{v}\in V
 \end{align*}$$
-A Interesting fact is that the Zero Vector itself is a subspace, since $\mathbf{0} + \mathbf{0} = \mathbf{0}$ and $\forall a \in \mathbb{R}, a\mathbf{0} = \mathbf{0}$.
+___
+### Consequences and Derivations
+
+Let $E$ be a [[Vector Space]], also let $F \subset E$, $F$ being a subspace of $E. Any [[Linear Combinations|linear combination]] of vectors $v_1, \cdots, v_n \in F$ also belongs to $F$. 
+___
+Let $v=(x_{1},x_{2},\cdots,x_{n})\in R^{n}$, let $a_{1},\cdots,a_{n}\in \R$, the set:
+$$\begin{align*}
+H &= \{ v=(x_{1},x_{2},\cdots,x_{n})\in R^{n} \mid a_{1}x_{1} + \cdots + a_{n}x_{n}=0\}
+\end{align*}$$
+When $a_{1}=a_{2}=\cdots=a_{n}=0$, the space spanned by $H$ is the entire $R^{n}$. since there ar
+
