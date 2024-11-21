@@ -1,6 +1,22 @@
 {
 	"nodes":[
-		{"id":"23a757b3af43fb27","x":-220,"y":-40,"width":250,"height":60,"type":"text","text":"Strings"}
+		{"id":"23a757b3af43fb27","x":-220,"y":-40,"width":250,"height":60,"type":"text","text":"Strings"},
+		{"id":"50ba7e464b8d06b1","x":-233,"y":-196,"width":250,"height":60,"type":"text","text":"Internally an array of chars, char*"},
+		{"id":"d522967dbb09603d","x":-220,"y":75,"width":250,"height":125,"type":"text","text":"Support Concatenation, erasing, substrings and matching via class methods"},
+		{"id":"c394191d0e8a27aa","x":-540,"y":-40,"width":250,"height":60,"type":"text","text":"Pointers"},
+		{"id":"9422dc190891bf79","x":-861,"y":-42,"width":250,"height":60,"type":"text","text":"References"},
+		{"id":"d22cd5490fa3f9b7","x":-860,"y":-127,"width":250,"height":60,"type":"text","text":"Alias to an object it points to"},
+		{"id":"49e2edf52d5464f5","x":-580,"y":91,"width":250,"height":109,"type":"text","text":"A pointer is \"pointing\" to a variable A if it holds variable A memory address"},
+		{"id":"1d995d4001b1d1b9","x":-520,"y":-187,"width":250,"height":60,"type":"text","text":"Variables that store memory addresses"},
+		{"id":"662edd57916e8f00","x":-866,"y":76,"width":250,"height":84,"type":"text","text":"Saves memory and speed by not performing copies of large objects"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"592bec2c3ce07d24","fromNode":"23a757b3af43fb27","fromSide":"top","toNode":"50ba7e464b8d06b1","toSide":"bottom"},
+		{"id":"eda6fb2a9a555339","fromNode":"23a757b3af43fb27","fromSide":"bottom","toNode":"d522967dbb09603d","toSide":"top"},
+		{"id":"a4e91c2de218a789","fromNode":"c394191d0e8a27aa","fromSide":"top","toNode":"1d995d4001b1d1b9","toSide":"bottom"},
+		{"id":"7c4c777901929d46","fromNode":"c394191d0e8a27aa","fromSide":"bottom","toNode":"49e2edf52d5464f5","toSide":"top"},
+		{"id":"177c1f2c68bedb0e","fromNode":"c394191d0e8a27aa","fromSide":"left","toNode":"9422dc190891bf79","toSide":"right"},
+		{"id":"384edf460dc502a8","fromNode":"9422dc190891bf79","fromSide":"top","toNode":"d22cd5490fa3f9b7","toSide":"bottom"},
+		{"id":"7e19a4bfb2acf424","fromNode":"9422dc190891bf79","fromSide":"bottom","toNode":"662edd57916e8f00","toSide":"top"}
+	]
 }
