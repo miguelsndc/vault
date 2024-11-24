@@ -7,3 +7,11 @@ Logistic Regression is a **binary classification** algorithm, even though it's a
 ## Formally
 
 Given $X$ as a [[Vector]] of input features, calculate $\hat{y}=P(y=1\mid X)$, where $X\in \R^{nx}$, The parameters of Logistic Regression will be $w \in \R^{nx}$ and $b \in \R$ where $nx$ is the [[Theorems and Proofs for Basis and Dimension|dimension]] of the input feature vector. Then the logistic regression is given by $\sigma(w^{T}+b)$ where $\sigma$ is the [[Sigmoid Function]].
+
+## Cost Function
+
+To train and assess the quality of the Logistic Regression Model, we need to define a **cost function**, a [[Functions|function]] that will determine how well the model performs.
+
+Given a training set $\{(x^{(1)},y^{(1)}), (x^{(2)},y^{(2)}), \cdots, (x^{(m)},y^{(m)})\}$, we want $\hat{y}^{(i)}\approx y^{(i)}$, i.e our predictions to be as close as possible to the actual value, at least in the training set.
+
+Here we can define a **Loss (error)** function: $$
