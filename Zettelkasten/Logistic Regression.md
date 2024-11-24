@@ -24,4 +24,19 @@ $$\begin{align*}
 \mathcal{L}(\hat{y}, 0)&= -(0\log\hat{y} + (1-0)\log(1-\hat{y}))\\
 &= -\log(1-\hat{y})
 \end{align*}$$
-- This expects a $\hat{y}$ to be small, since large values of $\hat{y}$  will 
+- This expects a $\hat{y}$ to be small, since large values of $\hat{y}$  makes the function tend to $\infty$. so this function is really harsh on big errors.
+- $y=1$
+$$\begin{align*}
+\mathcal{L}(\hat{y}, 1)&= -(1\log\hat{y} + (1-1)\log(1-\hat{y}))\\
+&= -\log(\hat{y})
+\end{align*}$$
+- This expects $\hat{y}$ to be large, since small values of $\hat{y}$ make the function explode towards infinity.
+
+So this is a perfect suit for logistic regression.
+
+Thus we can define the **Cost** function, that determines the performance of the algorithm across the entire dataset.
+
+$$\begin{align*}
+\mathcal{J}(w,b)=\frac{1}{m}\sum\limits_{i=1}^{m}\mathcal{L}(\hat{y}^{(i)}, y^{(i)})
+\end{align*}$$
+The average of our loss functions.
