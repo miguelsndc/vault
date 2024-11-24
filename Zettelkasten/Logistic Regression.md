@@ -18,3 +18,10 @@ Here we can define a **Loss (error)** as squared error: $\mathcal{L}(\hat{y}, y)
 $$\begin{align*}
 \mathcal{L}(\hat{y}, y)=-(y\log\hat{y} + (1-y)\log(1-\hat{y}))
 \end{align*}$$
+This is called the **Log Loss** function, used in binary classification problems for values that vary between $0$ and $1$. Let's see the cases:
+- $y=0$:
+$$\begin{align*}
+\mathcal{L}(\hat{y}, 0)&= -(0\log\hat{y} + (1-0)\log(1-\hat{y}))\\
+&= -\log(1-\hat{y})
+\end{align*}$$
+- This expects a $\hat{y}$ to be small, since large values of $\hat{y}$  will 
