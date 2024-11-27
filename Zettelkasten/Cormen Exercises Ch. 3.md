@@ -118,3 +118,7 @@ o(g(n))\cap\omega(g(n))&=
 \{f(n) \mid 0 \le f(n) \lt cg(n) \} \cap \{ f(n) \mid 0 \le cg(n) \lt f(n)\}
 \end{align*}$$
 The intersection between the set of functions strictly greater than $g(n)$ and the set of functions strictly less than $g(n)$ asymptotically speaking, is the empty set.
+
+$3.2-7$ Extend the asymptotic notations to work on functions of two variables that grow independently, $O$ is given, define $\Omega(f(n,m))$ and $\Theta(f(n,m))$.
+
+$\Omega(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c, n_{0}, m_{0} \text{ such that } 0 \le cg(n,m)\le f(n,m) \text{ for all} n \gt n_{0},$     
