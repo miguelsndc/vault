@@ -124,4 +124,16 @@ $3.2-7$ Extend the asymptotic notations to work on functions of two variables th
 $\Omega(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c, n_{0}, m_{0} \text{ such that } 0 \le cg(n,m)\le f(n,m) \text{ for all } n \gt n_{0} \lor m \gt m_{0}$     
 
 $\Theta(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c_{1},c_{2}, n_{0}, m_{0} \text{ such that } c_{1}f(n,m) \le f(n,m) \le c_{2}g(n,m) \text{ for all } n \gt n_{0} \lor m \gt m_{0}$     
-$3.3-1$ Show that if $f(n)$ and $g(n)$ are **monotonically increasing functions**, then so are functions $f(n) + g(n)$ and $f(g(n))$ and if $f(n) * g(n)$ are in addition nonnegative, then $f(n) \cdot g(n)$
+$3.3-1$ Show that if $f(n)$ and $g(n)$ are **monotonically increasing functions**, then so are functions $f(n) + g(n)$ and $f(g(n))$ and if $f(n) * g(n)$ are in addition nonnegative, then $f(n) \cdot g(n)$ is monotonically increasing.
+
+Recall that if a function $h$ is monotonically increasing, then for $n \le m$, $f(n) \le f(m)$. for both $n,m \in D_{h}$. We have both facts:
+$$\begin{align*}
+\begin{cases}
+f(n)\le f(m) \;\;\forall n\le m\\
+g(n)\le g(m) \;\;\forall n\le m
+\end{cases}
+\end{align*}$$
+As long as both functions are defined in the same interval and have the same domain, we can confidently sum the inequalities above and obtain:
+$$\begin{align*}
+f(n)+g(n)&\le f(m)+g(n)\;\;\forall n\le m
+\end{align*}$$
