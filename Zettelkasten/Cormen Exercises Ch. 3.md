@@ -121,4 +121,6 @@ The intersection between the set of functions strictly greater than $g(n)$ and t
 
 $3.2-7$ Extend the asymptotic notations to work on functions of two variables that grow independently, $O$ is given, define $\Omega(f(n,m))$ and $\Theta(f(n,m))$.
 
-$\Omega(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c, n_{0}, m_{0} \text{ such that } 0 \le cg(n,m)\le f(n,m) \text{ for all} n \gt n_{0},$     
+$\Omega(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c, n_{0}, m_{0} \text{ such that } 0 \le cg(n,m)\le f(n,m) \text{ for all } n \gt n_{0} \lor m \gt m_{0}$     
+
+$\Theta(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c_{1},c_{2}, n_{0}, m_{0} \text{ such that } c_{1}f(n,m) \le f(n,m) \le c_{2}g(n,m) \text{ for all } n \gt n_{0} \lor m \gt m_{0}$     
