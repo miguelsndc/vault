@@ -138,4 +138,17 @@ f(n)+g(n)&\le f(m)+g(n)\;\;\forall n\le m
 \end{align*}$$
 $2)$ Notice that we assume $f$ and $g$ the be monotonically increasing, that means that for $n\le m \implies g(n) \le g(m)$. Thus if we let $u=g(n)$ and $v = g(m)$, we can confidently say that $f(u) \le f(v)$ for $u\le v$, since $g$ is monotonically increasing. Therefore $f(g(n))$ is also a monotonically increasing function.
 
-$3)$
+$3)$ Ill assume that $f(n)$ and $g(n)$ are both nonnegative, i didnt quite grasp what "in addition nonnegative" means.
+
+Since $f(n) \ge g(n) \ge 0$  for all $n$, then multiplication won't change the sign of the results. whatever's positive remains positive.
+
+Therefore the inequalities are preserved on multiplication and we can multiply them to obtain:
+$$\begin{align*}
+f(n)\cdot g(n)&\le f(m) \cdot g(n)\;\;\forall n\le m
+\end{align*}$$
+$3.3-2$) *Prove that $\floor{\alpha n} + \ceil{(1-\alpha)n}=n$ for any integer $n$ and for any real number $\alpha$  in the range $0\le \alpha \le 1$.  
+
+Oh the good old linear interpolation, how beautiful is it ?
+
+
+
