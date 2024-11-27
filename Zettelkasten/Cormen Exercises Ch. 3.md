@@ -125,8 +125,7 @@ $\Omega(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c, n_{0}, m_{0}
 
 $\Theta(f(n,m))$ $:=$ $\{ g(n,m):\text{ there exists constants } c_{1},c_{2}, n_{0}, m_{0} \text{ such that } c_{1}f(n,m) \le f(n,m) \le c_{2}g(n,m) \text{ for all } n \gt n_{0} \lor m \gt m_{0}$     
 $3.3-1$ Show that if $f(n)$ and $g(n)$ are **monotonically increasing functions**, then so are functions $f(n) + g(n)$ and $f(g(n))$ and if $f(n) * g(n)$ are in addition nonnegative, then $f(n) \cdot g(n)$ is monotonically increasing.
-
-Recall that if a function $h$ is monotonically increasing, then for $n \le m$, $f(n) \le f(m)$. for both $n,m \in D_{h}$. We have both facts:
+$1)$ Recall that if a function $h$ is monotonically increasing, then for $n \le m$, $f(n) \le f(m)$. for both $n,m \in D_{h}$. We have both facts:
 $$\begin{align*}
 \begin{cases}
 f(n)\le f(m) \;\;\forall n\le m\\
@@ -137,3 +136,6 @@ As long as both functions are defined in the same interval and have the same dom
 $$\begin{align*}
 f(n)+g(n)&\le f(m)+g(n)\;\;\forall n\le m
 \end{align*}$$
+$2)$ Notice that we assume $f$ and $g$ the be monotonically increasing, that means that for $n\le m \implies g(n) \le g(m)$. Thus if we let $u=g(n)$ and $v = g(m)$, we can confidently say that $f(u) \le f(v)$ for $u\le v$, since $g$ is monotonically increasing. Therefore $f(g(n))$ is also a monotonically increasing function.
+
+$3)$
