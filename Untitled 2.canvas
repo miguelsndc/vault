@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"2d10b25ce0737e7c","x":-346,"y":-89,"width":250,"height":60,"type":"text","text":"Operator Overloading"},
+		{"id":"cc4a5bf871faa13f","x":-191,"y":-257,"width":250,"height":60,"type":"text","text":"Can only overload existing operators"},
+		{"id":"38e9e86b63739338","x":-174,"y":95,"width":250,"height":60,"type":"text","text":"Overloads apply only to classes"},
+		{"id":"3283417e27386f79","x":233,"y":-100,"width":250,"height":152,"type":"text","text":"We specify in the overloading methods which operator we want to overload, and also which arguments are passed down"},
+		{"id":"f7804ec6cbd189e2","x":-96,"y":226,"width":250,"height":60,"type":"text","text":"Friend Functions"},
+		{"id":"a96489af3250ef56","x":295,"y":208,"width":250,"height":60,"type":"text","text":"Functions that can access a class private stuf"}
+	],
+	"edges":[
+		{"id":"a313d69112b7e1d3","fromNode":"2d10b25ce0737e7c","fromSide":"top","toNode":"cc4a5bf871faa13f","toSide":"bottom"},
+		{"id":"70cfcd1c9743c67e","fromNode":"2d10b25ce0737e7c","fromSide":"bottom","toNode":"38e9e86b63739338","toSide":"top"},
+		{"id":"86717fbe7a54d924","fromNode":"38e9e86b63739338","fromSide":"right","toNode":"3283417e27386f79","toSide":"left"},
+		{"id":"35b512fdaa6c345e","fromNode":"38e9e86b63739338","fromSide":"bottom","toNode":"f7804ec6cbd189e2","toSide":"top"},
+		{"id":"8f2d1bd3d91d40f6","fromNode":"f7804ec6cbd189e2","fromSide":"right","toNode":"a96489af3250ef56","toSide":"left"}
+	]
+}
