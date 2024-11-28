@@ -146,9 +146,16 @@ Therefore the inequalities are preserved on multiplication and we can multiply t
 $$\begin{align*}
 f(n)\cdot g(n)&\le f(m) \cdot g(n)\;\;\forall n\le m
 \end{align*}$$
-$3.3-2$) *Prove that $\floor{\alpha n} + \ceil{(1-\alpha)n}=n$ for any integer $n$ and for any real number $\alpha$  in the range $0\le \alpha \le 1$.  
+$3.3-2$) *Prove that $\floor{\alpha n} + \ceil{(1-\alpha)n}=n$ for any integer $n$ and for any real number $\alpha$  in the range $0\le \alpha \le 1$.*
 
 Oh the good old linear interpolation, how beautiful is it ?
 
+Let $f_{x} = \alpha n - \floor{\alpha n}$ and $f_{y}=(1-\alpha) n - \floor{(1-\alpha)n}$. So $f_x$ and $f_{y}$ are the decimal parts of $\alpha n$ and $(1-\alpha)n$.
+
+Now let's rewrite $\alpha n$ and $(1-\alpha)n$ as:
+$$\begin{align*}
+\alpha n&= \floor{\alpha n} - f_{x}\\
+(1-\alpha)n&= \f
+\end{align*}$$
 
 
