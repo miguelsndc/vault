@@ -200,4 +200,8 @@ $$\begin{align*}
 \lg(n!)&\le n\lg n
 \end{align*}$$
 For all $n_{0} \ge 1$.  because $\lg n\ \le \lg n, \lg (n-1) \le \lg n$ and so on.
-
+and:
+$$\begin{align*}
+\lg n! &\ge \frac{1}{2}n \lg n
+\end{align*}$$
+because $\lg n \ge \frac{1}{2}\lg n$, $\lg n-1 \ge \frac{1}{2}\lg n$ and so on, until it hits somewhere between $\sqrt{n}$, but the dominant terms are already enough. so $\lg n! = \Theta(n \lg n)$ becuase $\lg n! = O(n \lg n)$ and $\lg n! = \Omega(n \lg n)$.
