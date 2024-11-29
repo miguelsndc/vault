@@ -154,8 +154,22 @@ Let $f_{x} = \alpha n - \floor{\alpha n}$ and $f_{y}=(1-\alpha) n - \floor{(1-\a
 
 Now let's rewrite $\alpha n$ and $(1-\alpha)n$ as:
 $$\begin{align*}
-\alpha n&= \floor{\alpha n} - f_{x}\\
-(1-\alpha)n&= \f
+\alpha n&= \floor{\alpha n} + f_{x}\\
+(1-\alpha)n&= \floor{(1-\alpha)n} + f_{y} 
 \end{align*}$$
+Sum them up:
+$$\begin{align*}
+\alpha n + (1-\alpha)n&= \floor{\alpha n}+ \floor{(1-\alpha)n}+(f_{x}+f_{y})
+\end{align*}$$
+Notice that $f_{x}+f_{y} = 1$ because since $\alpha + (1-\alpha)=1$, any value that $\alpha$ multiplies and has decimal part $f_{x}$, multiplying $(1-\alpha)$ will get the complementary to sum $1$.
 
+$$\begin{align*}
+\alpha n + (1-\alpha)n&= \floor{\alpha n}+ \floor{(1-\alpha)n}+1\\
+n= \alpha n + (1-\alpha)n&= \floor{\alpha n}+ \ceil{(1-\alpha)n}
+\end{align*}$$
+$\floor{x}+1=\ceil{x}$ whenever $x$ isn't an integer, this also works when $\alpha =1$ or $\alpha=0$, because:
+$$\begin{align*}
+\alpha=1 \implies \floor{1\cdot n} + \ceil{(1-1)n}=\floor{n}=n\\
+\alpha=0 \implies \floor{0\cdot n}+\ceil{(1-0)n}=\ceil{n}=n
+\end{align*}$$
 
