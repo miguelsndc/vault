@@ -172,4 +172,22 @@ $$\begin{align*}
 \alpha=1 \implies \floor{1\cdot n} + \ceil{(1-1)n}=\floor{n}=n\\
 \alpha=0 \implies \floor{0\cdot n}+\ceil{(1-0)n}=\ceil{n}=n
 \end{align*}$$
+___
+$3.3-3$ Show that $(n+o(n))^{k}=\Theta(n^{k})$.
+
+By the [[Binomial Theorem]]:
+
+$$\begin{align*}
+(n+o(n))^{k}=\sum\limits_{i=0}^{k} {n\choose i}n^{k-i}o(n)^{i}={n\choose 0}n^{k}+\cdots+ {n\choose n}o(n)^{k}
+\end{align*}$$
+The dominant factor here is the $n^{k}$, since $o(n)$ represents functions asymptotically non-tight to $n$. Therefore it is polynomially tightly bounded.
+
+The floor and ceiling stuff is just straight up bullshit.
+
+$3.3-4$
+
+1) Starting with $a^{\log_{b}c}$:
+$$\begin{align*}
+a^{\log_{b}c}
+\end{align*}$$
 
