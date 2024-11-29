@@ -186,8 +186,7 @@ The floor and ceiling stuff is just straight up bullshit.
 
 $3.3-4$
 
-1) Starting with $a^{\log_{b}c}$:
-$$\begin{align*}
-a^{\log_{b}c}
-\end{align*}$$
+1) I don't fuck with logarithms.
+2) $3.26)$   $n! = o(n^{n})$: This is true for all $n\gt 1$. $n!$ will always be strictly less than $n^{n}$ because both have $n$ terms, but $n! = n(n-1)(n-2)\cdots1$ and $n^{n}=n\cdot n \cdots n$ and for all the other $n-1$ terms, $n> (n-i),i=1,2,\cdots,n$.
+3) $3.26)n! = \omega (2^{n})$. This is true for all $n\gt 3$,  
 
