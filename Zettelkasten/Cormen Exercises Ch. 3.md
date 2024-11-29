@@ -188,5 +188,16 @@ $3.3-4$
 
 1) I don't fuck with logarithms.
 2) $3.26)$   $n! = o(n^{n})$: This is true for all $n\gt 1$. $n!$ will always be strictly less than $n^{n}$ because both have $n$ terms, but $n! = n(n-1)(n-2)\cdots1$ and $n^{n}=n\cdot n \cdots n$ and for all the other $n-1$ terms, $n> (n-i),i=1,2,\cdots,n$.
-3) $3.26)n! = \omega (2^{n})$. This is true for all $n\gt 3$,  
+3) $3.26)n! = \omega (2^{n})$. This is true for all $n\gt 3$, because all numbers in the product $n!$ greather than or equal than $2$, and there are $n$ of them, so obviously their product is bigger.
+4) $\lg(n!)=\Theta(n\lg n)$ 
+$$\begin{align*}
+\lg(n!)&= \lg(n(n-1)(n-2)\cdots1)\\
+&= \lg(n)+\lg(n-1)+\cdots+\lg(1)\\
+&= \sum\limits_{i=0}^{n-1}\lg(n-i)
+\end{align*}$$
+	It's $lg(n-i),i=0,1,\cdots,n-1$ $n$ times:
+$$\begin{align*}
+\lg(n!)&\le n\lg n
+\end{align*}$$
+For all $n_{0} \ge 1$.  because $\lg n\ \le \lg n, \lg (n-1) \le \lg n$ and so on.
 
