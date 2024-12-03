@@ -3,7 +3,8 @@ tags: coisas-chatas-e-inuteis
 ---
 
 - O que é uma cidade "inteligente" ?
-- Cidade inteligentes, pra quem ?
+- Cidades inteligentes, para quem ?
+Mais um gerenciamento inteligente do que correções fundamentais, vai ter seu efeito porém é mais sobre controle de danos e menos sobre começar uma nova cidade com planejamento adequado
 - Para onde os recursos devem ser destinados para tornar uma cidade "inteligente" ?
 - Sustentabilidade e pegadas de carbono.
 - Exemplos de cidades inteligentes
