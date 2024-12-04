@@ -1,6 +1,4 @@
----
-tags: coisas-chatas-e-inuteis
----
+## estrutura
 
 O que é uma cidade inteligente ?
 - Nuvem de palavras dos alunos
@@ -11,13 +9,14 @@ Exemplos de cidades inteligentes
 Tecnologias disruptivas em cidades inteligentes
 - Inovações em: saúde, segurança, educação, mobilidade, sustentabilidade
 Participação sociedade-governo: os 5 níveis
-
+___
 - O que é uma cidade "inteligente" ?
 Mais um gerenciamento inteligente do que correções fundamentais, vai ter seu efeito porém é mais sobre controle de danos e menos sobre começar uma cidade com planejamento adequado.
 - Cidades inteligentes, para quem ?
 Uma cidade pode ser considerada inteligente se somente uma parte do seu território e de seus cidadãos, uma bolha, se delicia com artefatos e soluções tecnológicas enquanto a outra parte perpetuamente sofre com os problemas tradicionais enraizados na cidade ? uma cidade que se converteu e agora tem o título de "inteligente", beneficia a quem ?
-- Para onde os recursos devem ser destinados para tornar uma cidade "inteligente" ?
+- Para onde os recursos devem ser destinados para tornar uma cidade "inteligente" ? todo lugar ? não existe dinheiro infinito.
 - Sustentabilidade.
+___
 Como tornar uma cidade sustentável ?  
 - Exemplos de cidades inteligentes
 	- Cidades criadas do zero
