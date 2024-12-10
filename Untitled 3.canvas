@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"e4926b6f9ce348d2","x":-293,"y":-176,"width":250,"height":60,"type":"text","text":"Dynamic Members"},
+		{"id":"2272fad1a131d1dd","x":67,"y":-281,"width":250,"height":60,"type":"text","text":"Dynamic Memory Allocation"},
+		{"id":"be6830d68baed16a","x":468,"y":-284,"width":250,"height":60,"type":"text","text":"New"},
+		{"id":"6ac38d41b71b4c51","x":364,"y":-423,"width":250,"height":60,"type":"text","text":"Allocates a block of bytes and returns a pointer to it"},
+		{"id":"32c4a04620b13620","x":470,"y":-164,"width":250,"height":60,"type":"text","text":"Delete"},
+		{"id":"97b54f459a7b23fa","x":401,"y":-23,"width":250,"height":60,"type":"text","text":"Frees a memory poi"}
+	],
+	"edges":[
+		{"id":"6541d4071bc23173","fromNode":"e4926b6f9ce348d2","fromSide":"right","toNode":"2272fad1a131d1dd","toSide":"left"},
+		{"id":"dd2164ae0f776bdd","fromNode":"2272fad1a131d1dd","fromSide":"right","toNode":"be6830d68baed16a","toSide":"left"},
+		{"id":"65064fca9737b58b","fromNode":"be6830d68baed16a","fromSide":"top","toNode":"6ac38d41b71b4c51","toSide":"bottom"},
+		{"id":"6b16390fd2d7ff5d","fromNode":"2272fad1a131d1dd","fromSide":"right","toNode":"32c4a04620b13620","toSide":"left"},
+		{"id":"2c48281a7f29928a","fromNode":"32c4a04620b13620","fromSide":"bottom","toNode":"97b54f459a7b23fa","toSide":"top"}
+	]
+}
