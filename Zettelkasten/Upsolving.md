@@ -17,3 +17,26 @@
 Homework 2 - Buscas
 - [ ]  Little Bishops
 
+Contest 3 
+- [ ]  D Power of Points
+- [ ]  G Aggressive cows
+- [ ]  H Conformity
+- [ ]  I Penchick and BBQ Buns
+- [ ]  J Wooden Toy Festival
+- [ ]  K Strange Mirroring
+- [ ]  L Why Did the Cow Cross the Road II (Silver)
+- [ ]  M Vertical Writing
+
+Homework 3 - Grafos 1
+- [ ] G Jumping
+- [ ] H Business Stamps
+- [ ] L Police Stations
+
+Contest 4
+- [ ] B Kernel Scheduler
+- [ ] G Socks 2
+- [ ] H Christmas
+- [ ] L Christmas Tree
+
+
+
