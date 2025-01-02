@@ -1,9 +1,10 @@
 #### Prioridades
 
 1. Maratona
-2. Projeto de Estruturas de Dados
-3. SD / Monitoria
-4. Seminario de ProgComp
+2. Monitoria
+3. Projeto de Estruturas de Dados
+4. SD
+5. Seminario de ProgComp
 
 #### Tasks
 
