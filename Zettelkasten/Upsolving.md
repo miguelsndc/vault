@@ -33,8 +33,8 @@ Homework 3 - Grafos 1
 - [ ] L Police Stations
 
 Contest 4
-- [ ] B Kernel Scheduler
-- [ ] G Socks 2
+- [x] B Kernel Scheduler ✅ 2025-01-04
+- [x] G Socks 2 ✅ 2025-01-04
 - [ ] H Christmas
 - [ ] L Christmas Tree
 
