@@ -9,3 +9,5 @@ Prazos auto-impostos
 
 $1$ Semana pra desenrolar os slides da 2a unidade
 $1$ Semana pra desenrolar os slids da 4a unidade
+
+[[Rough Script for Class 1]]  
