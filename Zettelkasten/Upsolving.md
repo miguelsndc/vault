@@ -10,7 +10,7 @@
 - [ ] F Serval and Toxel's Arrays
 - [ ] G Many Segments 2
 - [ ] H Sudoku
-- [ ] J Air Conditioners
+- [x] J Air Conditioners ✅ 2025-01-04
 - [ ] L Photoshoot for Gorillas
 - [ ] M Cutting into Parts
 
