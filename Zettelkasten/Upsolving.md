@@ -5,7 +5,7 @@
 
 **Contest 2**
 - [ ] B Digit Queries
-- [ ] D Lamp
+- [x] D Lamp ✅ 2025-01-05
 
 - [ ] E Sum of All Substrings
 - [ ] F Serval and Toxel's Arrays
