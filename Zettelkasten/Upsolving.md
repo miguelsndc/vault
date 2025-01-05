@@ -9,7 +9,7 @@
 
 - [ ] E Sum of All Substrings
 - [ ] F Serval and Toxel's Arrays
-- [ ] G Many Segments 2
+- [x] G Many Segments 2 ✅ 2025-01-05
 - [ ] H Sudoku
 - [x] J Air Conditioners ✅ 2025-01-04
 - [ ] L Photoshoot for Gorillas
