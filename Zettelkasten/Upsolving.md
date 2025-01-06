@@ -25,7 +25,7 @@ Contest 3
 - [ ]  I Penchick and BBQ Buns
 - [ ]  J Wooden Toy Festival
 - [ ]  K Strange Mirroring
-- [ ]  L Why Did the Cow Cross the Road II (Silver)
+- [x] L Why Did the Cow Cross the Road II (Silver) ✅ 2025-01-06
 - [ ]  M Vertical Writing
 
 Homework 3 - Grafos 1
