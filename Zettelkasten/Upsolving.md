@@ -20,7 +20,7 @@ Homework 2 - Buscas
 
 Contest 3 
 - [ ]  D Power of Points
-- [ ]  G Aggressive cows
+- [x] G Aggressive cows ✅ 2025-01-06
 - [ ]  H Conformity
 - [ ]  I Penchick and BBQ Buns
 - [ ]  J Wooden Toy Festival
