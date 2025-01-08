@@ -8,12 +8,12 @@
 - [x] D Lamp ✅ 2025-01-05
 
 - [ ] E Sum of All Substrings
-- [ ] F Serval and Toxel's Arrays
+- [x] F Serval and Toxel's Arrays ✅ 2025-01-08
 - [x] G Many Segments 2 ✅ 2025-01-05
 - [ ] H Sudoku
 - [x] J Air Conditioners ✅ 2025-01-04
 - [ ] L Photoshoot for Gorillas
-- [ ] M Cutting into Parts
+- [x] M Cutting into Parts ✅ 2025-01-08
 
 Homework 2 - Buscas
 - [ ]  Little Bishops
