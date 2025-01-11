@@ -26,10 +26,10 @@ Contest 3
 - [ ]  J Wooden Toy Festival
 - [ ]  K Strange Mirroring
 - [x] L Why Did the Cow Cross the Road II (Silver) ✅ 2025-01-06
-- [ ]  M Vertical Writing
+- [x] M Vertical Writing ✅ 2025-01-11
 
 Homework 3 - Grafos 1
-- [ ] G Jumping
+- [x] G Jumping ✅ 2025-01-11
 - [ ] H Business Stamps
 - [ ] L Police Stations
 
