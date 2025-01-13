@@ -30,7 +30,7 @@ Contest 3
 
 Homework 3 - Grafos 1
 - [x] G Jumping ✅ 2025-01-11
-- [ ] H Business Stamps
+- [x] H Business Stamps ✅ 2025-01-13
 - [ ] L Police Stations
 
 Contest 4
