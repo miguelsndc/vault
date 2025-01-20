@@ -5,7 +5,6 @@
 
 **Contest 2**
 - [ ] B Digit Queries
-- [ ] E Sum of All Substrings
 - [ ] L Photoshoot for Gorillas
 
 Homework 2 - Buscas
