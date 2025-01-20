@@ -5,7 +5,6 @@
 
 **Contest 2**
 - [ ] B Digit Queries
-- [ ] L Photoshoot for Gorillas
 
 Homework 2 - Buscas
 - [ ]  Little Bishops
