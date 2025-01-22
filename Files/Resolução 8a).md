@@ -27,5 +27,57 @@ Seja $u,v \in V$
 Tome $u=(1, -1, 0)$ e $v=(1, -1, 42)$.
 $u + v = (2, 0, 42)$. $2 + 0 \gt 0$, logo $V$ não é fechado para soma.
 ___
-$c)$ $V = \{A \in M_{2 \cross 2}\}$ 
+$c)$ $V = \{A \in M_{2 \times 2} \mid A = 2A^{T}\}$  
 
+Seja $A, B \in V$
+
+1. $(A + B) \in V$ ?
+$$\begin{align*}
+A &= 2A^{T}\\
+B &= 2B^{T} \\
+A + B &= 2(A^{T}+ B^{T})
+\end{align*}$$
+Pela propriedade de transposição: $(C + D)^{T} = C^{T}+ D^{T}$ :
+$$\begin{align*}
+A + B &= 2(A + B)^{T}
+\end{align*}$$
+Portanto $A + B \in V$.
+
+2. $k \cdot A \in V$ ?, $k \in \mathbb{R}$ 
+
+$$\begin{align*}
+A &= 2A^{T}\\
+k\cdot a&= 2k\cdot A^{T}
+\end{align*}$$
+Pela propriedade de transposição: $c(M^{T}) = (cM)^{T}$
+$$\begin{align*}
+k\cdot a &= 2(k\cdot A) ^{T}
+\end{align*}$$
+Logo $M = k \cdot A \in V$. V é subespaço vetorial.
+___
+$d)$ $V = \{v \in \mathbb{R}^{4}\mid \text{ duas das coordenadas de v são nulas }\}$ 
+
+Seja $u, v \in V$.
+
+Tome $u = (1, 0, 1, 0)$ e $v=(0,1,0,1)$, logo $u + v = (1, 1, 1, 1)$. $V$ não é fechado para soma e não é subespaço vetorial.
+___
+$e)$ $V = \{(x_{1}, x_{2}, \cdots, x_{10}) \in \mathbb{R}^{10} \mid x_{p}= x_{2p} \text{ para } p \le 5\}$
+
+Temos que:
+
+$$\begin{align*}
+x_{1}&= x_{2}\\
+x_{2}&= x_{4}\\
+x_{3}&= x_{6}\\
+x_{4}&= x_{8}\\
+x_{5}&= x_{10}
+\end{align*}$$
+Arrumando as equações vamos ter:
+$$\begin{align*}
+x_{1}-  x_{2}&= 0\\
+x_{2}- x_{4}&= 0\\
+x_{3}- x_{6}&= 0\\
+x_{4} - x_{8}&= 0\\
+x_{5}- x_{10}&= 0
+\end{align*}$$
+Que é um sistema lienar homogêNio
