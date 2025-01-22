@@ -3,9 +3,6 @@
 **Homework 1** - STL
 - [ ] ⏫ N - Persistent Bookcase
 
-**Contest 2**
-- [ ] B Digit Queries
-
 Homework 2 - Buscas
 - [ ]  Little Bishops
 
