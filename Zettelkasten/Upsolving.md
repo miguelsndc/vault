@@ -8,7 +8,6 @@ Homework 2 - Buscas
 
 Contest 3 
 - [ ]  D Power of Points
-- [ ]  H Conformity
 - [ ]  I Penchick and BBQ Buns
 - [ ]  J Wooden Toy Festival
 - [ ]  K Strange Mirroring
