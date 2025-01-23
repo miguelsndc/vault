@@ -13,7 +13,6 @@ Contest 3
 - [ ]  K Strange Mirroring
 
 Contest 4
-- [ ] H Christmas ( Submit )⏫ 
 - [ ] L Christmas Tree
 
 
