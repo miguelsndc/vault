@@ -17,6 +17,5 @@
   "showLineNumber": false,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
-  "readableLineLength": true,
-  "showRibbon": true
+  "readableLineLength": true
 }

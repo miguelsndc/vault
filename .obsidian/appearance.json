@@ -6,5 +6,6 @@
   "interfaceFontFamily": "Roboto",
   "cssTheme": "Minimal",
   "translucency": false,
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Fira Code",
+  "showRibbon": true
 }
