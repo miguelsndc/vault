@@ -3,9 +3,6 @@
 **Homework 1** - STL
 - [ ] ⏫ N - Persistent Bookcase
 
-Homework 2 - Buscas
-- [ ]  Little Bishops
-
 Contest 3 
 - [ ]  D Power of Points
 - [ ]  I Penchick and BBQ Buns
@@ -14,6 +11,14 @@ Contest 3
 
 Contest 4
 - [ ] L Christmas Tree
+
+Homework 4
+- [ ] E - War
+- [ ] H - Maximize the largest component
+- [ ] I - The Chicken and the Egg
+- [ ] K - Harry and the Christmas Tree
+- [ ] M - Call During the Journey
+- [ ] Q - Go Iguanas!
 
 
 
