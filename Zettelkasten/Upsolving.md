@@ -57,13 +57,15 @@ $$\begin{align*}
 $$\begin{align*}
 &T(a_{0}+ a_{1}x+a_{2}x^{2})= (a_{0}+a_{1}, a_{0} - a_{1} -a_{2}, a_{1}+2a_{2})\\
 &\alpha =\{1,x,x^{2}\}\;\;\beta =\{(1,0,1),(1,0,0),(0,1,1)\}\\\\
-[(x,y,z)]_{\beta}&= \begin{pmatrix}z-y \\ x-z+y\\ y\end{pmatrix}\\
+[(x,y,z)]_{\beta}&= \begin{pmatrix}z-y \\ x-z+y\\ y\end{pmatrix}\\\\
 T(1)&= (1,1,0) \rightarrow (-1,2,1)_{\beta}\\
 T(x)&= (1,-1,1) \rightarrow (0,-1,-1)_{\beta}\\
-T(x^{2})&= (0,0,2) \rightarrow (2,-2,0)_{\beta}\\
-[T]^{\alpha}_{\beta}\begin{pmatrix}
+T(x^{2})&= (0,0,2) \rightarrow (2,-2,0)_{\beta}\\\\
+&[T]^{\alpha}_{\beta}\begin{pmatrix}
 -1 & 0 & 2\\
 2 & -1 & -2 \\
 1 & -1 & 0
-\end{pmatrix}
+\end{pmatrix}\rightarrow2^{2}+(-1)^{2}+(-2)^{2}=9
+\end{align*}$$$$\begin{align*}
+T^{\textrm{QUALQUER COISA}}_{\textrm{QUALQUER COISA}}&= [I]^\beta_{\textrm{QUALQUER COISA}}\cdot T^{\alpha}_{\beta}\cdot[I]_{\alpha}^{\textrm{QUALQUER COISA}}
 \end{align*}$$
