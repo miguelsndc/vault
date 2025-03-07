@@ -69,3 +69,25 @@ T(x^{2})&= (0,0,2) \rightarrow (2,-2,0)_{\beta}\\\\
 \end{align*}$$$$\begin{align*}
 T^{\textrm{QUALQUER COISA}}_{\textrm{QUALQUER COISA}}&= [I]^\beta_{\textrm{QUALQUER COISA}}\cdot T^{\alpha}_{\beta}\cdot[I]_{\alpha}^{\textrm{QUALQUER COISA}}
 \end{align*}$$
+$$\begin{align*}
+&T(1,1)=(4,2) \;\; Nu(T)=[(1,3)]\\
+&\alpha=\{(1,1),(1,-1)\}\;\;\beta=\{(2,1),(1,2)\}\\
+\\
+&T(1,1)=(4,2)\;\;
+T(1,3)=(0,0)\\\\
+&\begin{pmatrix}
+1 & 1 & 4 & 2\\
+1 & 3 & 0 & 0
+\end{pmatrix}\rightarrow\begin{pmatrix}
+1 & 0 & 6 & 3\\
+0 & 1 & -2 & -1
+\end{pmatrix}\implies[T]=\begin{pmatrix}6 & -2 \\ 3 & -1\end{pmatrix}\\\\
+(x,y)&= a(2,1)+b(1,2) \rightarrow \begin{pmatrix}
+2 & 1 & x\\
+1 & 2 & y
+\end{pmatrix}\rightarrow\begin{pmatrix}
+1 & 0 & \frac{2x-y}{3}\\
+0 & 1 & \frac{2y-x}{3}
+\end{pmatrix}\\
+&[(x,y)]_{\beta}=\begin{pmatrix}\frac{2x-y}{3}\\ \frac{2y-x}{3} \end{pmatrix}
+\end{align*}$$
