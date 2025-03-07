@@ -1,24 +1,14 @@
-#### Upsolving
-
-**Homework 1** - STL
-- [ ] ⏫ N - Persistent Bookcase
-
-Contest 3 
-- [ ]  D Power of Points
-- [ ]  I Penchick and BBQ Buns
-- [ ]  J Wooden Toy Festival
-- [ ]  K Strange Mirroring
-
-Contest 4
-- [ ] L Christmas Tree
-
-Homework 4
-- [ ] E - War
-- [ ] H - Maximize the largest component
-- [ ] I - The Chicken and the Egg
-- [ ] K - Harry and the Christmas Tree
-- [ ] M - Call During the Journey
-- [ ] Q - Go Iguanas!
-
-
-
+$$
+\begin{align*}
+T(x,y,z)&=(2x+y-z,x+y+z,x+y+z)\\
+\alpha &= \{(0,0,1),(0,1,1),(1,1,1)\}\\\\
+(1,0,0)&= a(0,0,1)+b(0,1,1)+c(1,1,1)\\
+(1,0,0)&= a(0,0,1)+b(0,1,1)+c(1,1,1)\\
+(1,0,0)&= a(0,0,1)+b(0,1,1)+c(1,1,1)\\
+\end{align*}
+$$
+$$\begin{align*}
+[T]^{x}_{y}=\begin{pmatrix}
+[T(x_{1})]_{y} & [T(x_{2})_{y}]\dots[T(x_{n})_{y}]
+\end{pmatrix}
+\end{align*}$$
