@@ -42,5 +42,13 @@ $$\begin{align*}
 \end{align*}$$
 
 $$\begin{align*}
-[S]^{\alpha}_{\alpha} &= \begin{pmatrix}\end{pmatrix}
+[S]^{\alpha}_{\alpha} &= \begin{pmatrix}2 & 3 \\1 & -5\end{pmatrix}\;\alpha= \{(1,1),(1,2)\}\\\\
+[S]^{\alpha}_{\gamma}&=I \\
+[S]^{\alpha}_{\gamma}&=[I]^{\alpha}_{\gamma}\cdot[S]^\alpha_{\alpha} \implies[I]^{\alpha}_{\gamma}=([S]^\alpha_{\alpha})^{-1}\\
+([S]^{\alpha}_{\alpha})^{-1}&= \begin{pmatrix}
+\frac{5}{13} & \frac{3}{13}\\
+\frac{1}{13} & \frac{-2}{13}
+\end{pmatrix}= [I]^{\alpha}_{\gamma}\\
+[(1,1)]_{\gamma}&= \frac{5}{13}\cdot v_{1} + \frac{1}{13}\cdot v_{2}
+[(1,2)]_{\gamma}&= \frac{3}{13}\cdot v_{1} + \frac{1}{13}\cdot v_{2}
 \end{align*}$$
