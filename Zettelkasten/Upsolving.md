@@ -89,5 +89,12 @@ T(1,3)=(0,0)\\\\
 1 & 0 & \frac{2x-y}{3}\\
 0 & 1 & \frac{2y-x}{3}
 \end{pmatrix}\\
-&[(x,y)]_{\beta}=\begin{pmatrix}\frac{2x-y}{3}\\ \frac{2y-x}{3} \end{pmatrix}
+&[(x,y)]_{\beta}=\begin{pmatrix}\frac{2x-y}{3}\\ \frac{2y-x}{3} \end{pmatrix}\\
+&[(T(1,1))]_{\beta}=[(4,2)]_{\beta}=\begin{pmatrix}2\\0\end{pmatrix}\\
+&[T(1,-1)]_{\beta}=[(8,4)]_{\beta}=\begin{pmatrix}4 \\0\end{pmatrix}\\
+\\
+&[T]^{\alpha}_{\beta}\begin{pmatrix}
+2 & 4\\
+0 & 0
+\end{pmatrix}
 \end{align*}$$
