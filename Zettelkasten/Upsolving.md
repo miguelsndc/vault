@@ -40,3 +40,7 @@ $$\begin{align*}
 [T(x_{1})]_{y} & [T(x_{2})_{y}]\dots[T(x_{n})_{y}]
 \end{pmatrix}
 \end{align*}$$
+
+$$\begin{align*}
+[S]^{\alpha}_{\alpha} &= \begin{pmatrix}\end{pmatrix}
+\end{align*}$$
