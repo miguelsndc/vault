@@ -1,5 +1,6 @@
 ---
 tags: circuits
+aliases: sequential, asynchronous, synchronous
 ---
 
 Circuit where the output not only depends on the present inputs, but also previous states/inputs. A classical example is a counter, where the next state depends on the previous, i.e, previous + 1.
