@@ -5,4 +5,11 @@ We can implement 1-bit memory element using **logic gates** by connecting the ga
 
 ### SR Latch
 
+![[sr-latch.excalidraw]]
 
+| S   | R   | B              |
+| --- | --- | -------------- |
+| 0   | 0   | Previous State |
+| 1   | 0   | 1              |
+| 0   | 1   | 1              |
+| 1   | 1   | X              |
