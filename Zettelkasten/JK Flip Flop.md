@@ -27,3 +27,5 @@ Q_{n+1}=J\bar{Q_{n}} + \bar{K}Q_{n}
 Behaviour is similar to SR Flip Flop, the only great change is the state being toggled when J = K = 1.
 
 ### Race Around Condition 
+
+Happens when the clock signal window is very large, and both J and K inputs are active, since the flip flop toggles when inputs are high, it'll keep toggling many times until the clock is low again. that's why the clock window must be very narrow, this is accomplished with the **clock edge** circuit.
