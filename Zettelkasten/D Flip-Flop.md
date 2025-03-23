@@ -11,8 +11,10 @@ The flip-flop can be implemented with the help of the [[SR Latch]], a **latch** 
 
 As in [[SR Latch]], the output $Q$ follows the input $S$ and $Q'$ follows $R$, and when both are zero the state is preserved, but by connecting the input **D** to $S$ and it's negation to $R$, now the gate responds solely to the $D$ input, and preserves state when the clock is off.
 
+![[Pasted image 20250323153130.png]]
+
+**D** input connected to both gates in a gated [[SR Latch]] and the clock connected to the **enable.**
 #### Truth Table:
 
 ![[Pasted image 20250323152710.png]]
-
 
