@@ -46,3 +46,7 @@ K - After Training
 Como ele pede pra sortar pela contagem, depois pela distancia pro meio, e depois pelo número, por algum motivo que desconheço, colocar isso num array e numa priority queue pra sortar lexicograficamente não funciona, **lembrar de não ficar preso o tempo inteiro na mesma ideia, é frustrante e ineficiente.** Um padrão é gerado, no qual se inicia pelo meio, se divide em dois ponteiros, um q diminui e outro q aumenta, o que diminui tem prioridade pelo enunciado. Sempre que se chega no último ponteiro, o padrão se repete até q n seja esgotado.
 
 Então achando o padrão e só jogando num array até o tamanho desse array ser $\ge n$ deve ser o suficiente não tem como o array ser grande o suficiente pra dar mle, pq a gente quebra quando chega em $n$.
+
+**não ignorar ideias, considere tudo**
+
+**Edge case**: caso $m$ seja par, então o  meio é $2$
