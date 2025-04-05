@@ -34,11 +34,11 @@ L - **Brick Wall**
 
 - [ ] A - Kill the Monster
 - [ ] C - Mishkin Energizer
-- [ ] E - The number of products
+- [x] E - The number of products ✅ 2025-04-05
 - [ ] G - Red Green Towers
 - [ ] H - Yet Another Promotion
-- [ ] I - Vasya and Wrestling
-- [ ] K - After Training
+- [x] I - Vasya and Wrestling ✅ 2025-04-05
+- [x] K - After Training ✅ 2025-04-05
 
 
 K - After Training
@@ -77,5 +77,12 @@ pra cada posição se a gente armazenar:
 - **quantos elementos tem um numero par de numeros negativos antes dele: y**
 - **quantos elements tem um numero impar de numeros negativos antes dele: z**
 
-se x for par então qualquer subarray terminando na posição atual e contendo um número par de numeros negativos 
+se x for par então qualquer subarray terminando na posição atual e contendo um número par de numeros negativos deve começar numa posição onde a x era par também, ou seja, $y$, generalizando, caso queiramos um número par de números negativos precisamos contar quantas posições o subarray começa que tem a mesma paridade de números negativos que a atual, de tal forma, o resultado é par, que é o que queremos para contar os segmentos positivos.
 
+#### O que é possível tirar desse problema
+
+Conseguimos usar **prefixos/sufixos** para simplificar operações em intervalos utilizando uma espécie de **dp** implícita, onde lembramos algum valor pra cada posição do prefixo, então contamos, ***de quantas posições eu posso começar tal que a propriedade ainda é satisfeita e o subarray termina na posição que eu estou ?*** prefixos com mesma característica resultam em intervalos com a propriedade desejada.
+
+- Identifique uma propriedade que pode ser calculada incrementalmente
+- Rastreie frequência de diferentes estados dessa propriedade
+- Para cada posição, use os contadores para determinar quantos subarrays válidos terminam ali
