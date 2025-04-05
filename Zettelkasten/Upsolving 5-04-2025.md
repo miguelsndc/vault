@@ -63,3 +63,20 @@ I - **Vasya and Wrestling**
 Não era necessário colocar nas strings pra ver qual era lexicograficamente menor, bastava salvar os números em algum lugar e ver qual era o maior um a um, também não era necessario salvar a soma pra cada um, era só colocar a soma numa variavel só, caso fosse zero teriamos um empate
 
 e curiosamente não é necessario checar qual o maior em tamanho, basta ver qual o ultimo, mas checando também passa, o que é estranho.
+
+E - **Number of Products**
+
+> [!faq] calcule o número de pares de indices (l, r) com $l\le r$ tais que o produto de todos os elementos entre $a_{l}$ e $a_{r}$ é positivo/negativo
+
+Primeiro vamos perceber que o problema se resume a calcular o número de subarrays com produto positivo **ou** negativo, não é necessário calcular ambos, o número de segmentos delimitados por (l, r) com l $\le$ r são $\frac{n(n + 1)}{2}$, se calcularmos o número de subarrays positivos e tirarmos de $\frac{n(n +1)}{2}$ teremos o número pros negativos.
+
+Para calcular o número de subarrays com produto **positivo** precisamos considerar quantos elementos negativos apareceram até uma posição $i$, fazendo uma espécie de **dp** para dividir o problema.
+
+pra cada posição se a gente armazenar:
+- **quantos elementos negativos apareceram: x**
+- **quantos elementos tem um numero par de numeros negativos antes dele: y**
+- **quantos elements tem um numero impar de numeros negativos antes dele: z**
+é possível dizer, o procedimento é: **pra cada elemento, da esquerda pra direita**:
+
+caso x seja ímpar, adiciona 1 em y, se não for adiciona 1 em z, é simplesmente a contagem pra cada variável.
+
