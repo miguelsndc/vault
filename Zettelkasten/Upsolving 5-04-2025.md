@@ -49,4 +49,11 @@ Então achando o padrão e só jogando num array até o tamanho desse array ser 
 
 **não ignorar ideias, considere tudo**
 
-**Edge case**: caso $m$ seja par, então o  meio é $2$
+**Edge case**: caso $m$ seja impar, então o meio existe e é: $$\begin{align*}
+1\;2\;\textbf{3}\;4\;5
+\end{align*}$$
+Neste caso deve-se priorizar o ponteiro da esquerda. caso m seja par:
+$$\begin{align*}
+1\;2\;\textbf{meio}\;3\;4
+\end{align*}$$
+Lembra um palíndromo. aí nesse caso deve-se priorizar o ponteiro da direita, porque caso se priorize o da esquerda, ele vai priorizar um elemento a esquerda q tem uma distancia maior que o da direita. nesse caso $m=2.5$ deve-se vir o $2$ depois o $3$, ambos com distancia $0.5$, caso se priorize o da esquerda vem-se o $2$ depois o $1$, e só depois o $3$, o que é errado.
