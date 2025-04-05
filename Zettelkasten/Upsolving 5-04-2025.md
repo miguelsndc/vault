@@ -57,3 +57,9 @@ $$\begin{align*}
 1\;2\;\textbf{meio}\;3\;4
 \end{align*}$$
 Lembra um palíndromo. aí nesse caso deve-se priorizar o ponteiro da direita, porque caso se priorize o da esquerda, ele vai priorizar um elemento a esquerda q tem uma distancia maior que o da direita. nesse caso $m=2.5$ deve-se vir o $2$ depois o $3$, ambos com distancia $0.5$, caso se priorize o da esquerda vem-se o $2$ depois o $1$, e só depois o $3$, o que é errado.
+
+I - **Vasya and Wrestling**
+
+Não era necessário colocar nas strings pra ver qual era lexicograficamente menor, bastava salvar os números em algum lugar e ver qual era o maior um a um, também não era necessario salvar a soma pra cada um, era só colocar a soma numa variavel só, caso fosse zero teriamos um empate
+
+e curiosamente não é necessario checar qual o maior em tamanho, basta ver qual o ultimo, mas checando também passa, o que é estranho.
