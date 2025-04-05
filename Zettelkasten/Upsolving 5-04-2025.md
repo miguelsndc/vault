@@ -16,6 +16,8 @@ A observação da questão se resume a perceber que caso um $p_{i}$ alcance outr
 
 Então basta construir esse grafo e checar pra cada $i$ se existe um caminho pra posição desejada, como a constraint é $n \le 100$, é possível fazer com dfs, mas caso fosse maior dava pra fazer com **dsu**, checando se estão no mesmo componente.
 
+Se pedisse o mínimo, um **bfs** pra achar o menor caminho seria possível, e caso fosse limitado $\le k$, bastaria achar os menores caminhos e ver se a soma dos menores possíveis é $\le k$.
+
 F - **Bear Poker**
 
 Minha solução foi meio bucha, dava pra ter feito só dividindo cada um por 2 ou 3 e depois ver se todos são iguais. Mas, descrevendo a solução, seria deixar $x=mmc(v[i],v[i + 1]) / v[i]$ e $y=mmc(v[i], v[i+1])/v[i + 1]$. se a fatoração de $x$ e $y$ fosse composta **somente** por 2's e 3's, é possível realizar a operação. Eu deveria ter pensado na **operação inversa** ao que o problema pede, teria sido uma resolução mais smooth.
@@ -26,4 +28,21 @@ J - **Shell Game**
 
 L - **Brick Wall**
 
-é sempre ótimo colocar bloquinhos horizontais de $1\times2$, dito que é o menor bloquinho possível, sendo assim a solução é $\frac{mn}{2}$ caso $m$ seja par, e $(m)$
+é sempre ótimo colocar bloquinhos horizontais de $1\times2$, dito que é o menor bloquinho possível, sendo assim a solução é $\frac{mn}{2}$ caso $m$ seja par, e $\frac{(m -1)n}{2}$ caso $m$ seja ímpar, porque daí é só colocar um blocão vertical, e a diferença diminui $1$ ponto, que é o mínimo, porque se não fosse, teríamos q colocar mais um bloco vertical, o que diminuiria o score, ou o número de blocos horizontais não seria máximo, o que é uma contradição.
+
+## Upsolving
+
+- [ ] A - Kill the Monster
+- [ ] C - Mishkin Energizer
+- [ ] E - The number of products
+- [ ] G - Red Green Towers
+- [ ] H - Yet Another Promotion
+- [ ] I - Vasya and Wrestling
+- [ ] K - After Training
+
+
+K - After Training
+
+Como ele pede pra sortar pela contagem, depois pela distancia pro meio, e depois pelo número, por algum motivo que desconheço, colocar isso num array e numa priority queue pra sortar lexicograficamente não funciona, **lembrar de não ficar preso o tempo inteiro na mesma ideia, é frustrante e ineficiente.** Um padrão é gerado, no qual se inicia pelo meio, se divide em dois ponteiros, um q diminui e outro q aumenta, o que diminui tem prioridade pelo enunciado. Sempre que se chega no último ponteiro, o padrão se repete até q n seja esgotado.
+
+Então achando o padrão e só jogando num array até o tamanho desse array ser $\ge n$ deve ser o suficiente não tem como o array ser grande o suficiente pra dar mle, pq a gente quebra quando chega em $n$.
