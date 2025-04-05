@@ -77,5 +77,5 @@ pra cada posição se a gente armazenar:
 - **quantos elementos tem um numero par de numeros negativos antes dele: y**
 - **quantos elements tem um numero impar de numeros negativos antes dele: z**
 
-
+se x for par então qualquer subarray terminando na posição atual e contendo um número par de numeros negativos 
 
