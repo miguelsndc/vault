@@ -32,7 +32,7 @@ L - **Brick Wall**
 
 ## Upsolving
 
-- [ ] A - Kill the Monster
+- [x] A - Kill the Monster ✅ 2025-04-05
 - [ ] C - Mishkin Energizer
 - [x] E - The number of products ✅ 2025-04-05
 - [ ] G - Red Green Towers
@@ -86,3 +86,9 @@ Conseguimos usar **prefixos/sufixos** para simplificar operações em intervalos
 - Identifique uma propriedade que pode ser calculada incrementalmente
 - Rastreie frequência de diferentes estados dessa propriedade
 - Para cada posição, use os contadores para determinar quantos subarrays válidos terminam ali
+
+A - **Kill the Monster**
+
+É uma questão que te dá um valor $k$ que tu pode gastar em upgrades, te dá a vida e ataque do teu personagem e a vida e ataque do monstro que tu tem que vencer. $w$ e $a$ são os valores que tu ganha de ataque e vida por moeda caso gaste 1 moeda.
+
+Nesse caso basta a gente checar de 1 até k, todas as combinações lineares de upgrades, tipo $hc+i*a$ e $dc + (k - i) *w$, o que pode ser feito linearmente. para saber quem vence o duelo basta fazer uma continha: o número de ataques que o personagem precisa dar para matar o monstro precisa ser menor ou igual a quantidade de ataques que  monstro precisa dar para vencer, menor ou igual porque o personagem ataca primeiro, se eles derem o mesmo dano ele vence primeiro. então, o dano dado é $\lceil \frac{vida}{dano}\rceil$. basta checar se $\lceil \frac{hm}{dc}\rceil \le \lceil \frac{hc}{dm} \rceil$ . complexidade linear.
