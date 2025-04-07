@@ -10,3 +10,23 @@ pensei inicialmente em só jogar todos os impares dentro dos pares e pegar o mai
 
 Não consegui pensar em nada, olhei o editorial, não entendi, olhei os códigos submitados e ainda não entendi (?).
 
+Aparentemente a ideia da solução q foi submitada é manter:
+- 3 variaveis indicando a celula (x, y) e a distancia pra celula da mesa vazia mais próxima
+- uma heap indicando quais as celulas vazias mais próximas 
+Pra conseguir lidar com os dois tipos de queries
+
+Quando vem uma query to tipo 1 (celula mais proxima)
+- se tiver algo na priority queue e se esse algo tiver uma distancia menor q a distancia pra tabela vazia mais próxima ele joga esse cara lá
+- ele coloca o cara na tabela vazia e joga na priority queue as tres celulas da tabela dessa celula junto com suas respectivas distancias, então ele faz uma formula pra pegar a próxima tabela mais próxima **vazia**: que é
+- 
+```cpp
+ans[i] = {x, y};
+pq.push({x + y + 1, x + 1, y});
+pq.push({x + y + 1, x, y + 1});
+pq.push({x + y + 4, x + 1, y + 1});
+if (y == 1) swap(x, y), y += 3;
+else x += 3, y -= 3;
+dis = x + y;
+```
+
+joga na heap as celulas e as distancias, então ele pega a celula e joga na proxima tabela mais próxima, a celula q ele pega sempre é a da ponta inferior esquerda, pq é a mais proxima da origem sempre, com esse zigzag ele sempre pega a tabela mais próxima.
