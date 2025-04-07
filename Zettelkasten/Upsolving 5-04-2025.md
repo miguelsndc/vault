@@ -92,3 +92,7 @@ A - **Kill the Monster**
 É uma questão que te dá um valor $k$ que tu pode gastar em upgrades, te dá a vida e ataque do teu personagem e a vida e ataque do monstro que tu tem que vencer. $w$ e $a$ são os valores que tu ganha de ataque e vida por moeda caso gaste 1 moeda.
 
 Nesse caso basta a gente checar de 1 até k, todas as combinações lineares de upgrades, tipo $hc+i*a$ e $dc + (k - i) *w$, o que pode ser feito linearmente. para saber quem vence o duelo basta fazer uma continha: o número de ataques que o personagem precisa dar para matar o monstro precisa ser menor ou igual a quantidade de ataques que  monstro precisa dar para vencer, menor ou igual porque o personagem ataca primeiro, se eles derem o mesmo dano ele vence primeiro. então, o dano dado é $\lceil \frac{vida}{dano}\rceil$. basta checar se $\lceil \frac{hm}{dc}\rceil \le \lceil \frac{hc}{dm} \rceil$ . complexidade linear.
+
+H - **Yet Another Promotion**
+
+Note que é sempre ótimo comprar na promoção se $a m \le b(m+1)$, porque daí ganhamos uma batata de graça, então comprando essas batatas na promoção (ou não), o resto das batatas deve ser comprada a $min(a,b)$. 
