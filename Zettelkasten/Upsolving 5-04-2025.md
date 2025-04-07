@@ -96,3 +96,9 @@ Nesse caso basta a gente checar de 1 até k, todas as combinações lineares de 
 H - **Yet Another Promotion**
 
 Note que é sempre ótimo comprar na promoção se $a m \le b(m+1)$, porque daí ganhamos uma batata de graça, então comprando essas batatas na promoção (ou não), o resto das batatas deve ser comprada a $min(a,b)$. 
+
+C - Mishkin Energizer
+
+Como $n \le 100$, dá pra brutar inserindo cada caracter em $O(n) \approx 100$ operações, daí basta calcular a frequencia de cada caracter L, I ou T, então ver se existe mais de um caracter com frequencia zero, se tiver, já nao da pra modificar a string, se não, sempre é possível, porque inserindo um caractere entre dois diferentes nos dá liberdade pra colocar qualquer caractere novamente, isso até que seja possível.
+
+Então enquanto que as frequencias sejam diferentes, como precisamos fazer no maximo 2n operações, o tamanho maximo da string é 
