@@ -101,4 +101,9 @@ C - Mishkin Energizer
 
 Como $n \le 100$, dá pra brutar inserindo cada caracter em $O(n) \approx 100$ operações, daí basta calcular a frequencia de cada caracter L, I ou T, então ver se existe mais de um caracter com frequencia zero, se tiver, já nao da pra modificar a string, se não, sempre é possível, porque inserindo um caractere entre dois diferentes nos dá liberdade pra colocar qualquer caractere novamente, isso até que seja possível.
 
-Então enquanto que as frequencias sejam diferentes, como precisamos fazer no maximo 2n operações, o tamanho maximo da string é 
+Então enquanto que as frequencias sejam diferentes, como precisamos fazer no maximo 2n operações, o tamanho maximo da string é 3n, então cada caracter tem que aparecer no maximo n vezes, mantemos um vetor que vai dizer qual a ordem dos caracteres da menor frequencia pra maior, fazemos isso porque caso pegarmos a menor frequencia greedily, pode ser que nao seja possivel inserir esse caractere e ficamos com um loop infinito.
+
+Então testamos para cada caracter onde podemos inserí-lo, se encontrar uma posição só insere e quebra o laço pra checar as frequencias novamente, caso não, testa o proximo caracter que aparece menos, e faz isso até que todas as frequencias sejam iguais. funciona porque caso a frequencia de um caractere seja n, ele sempre vai estar na ultima posição do array de ordem e sempre será possivel inserir um caracter de frequencia menor, então é um bruteforce guloso chique, a complexidade é: while roda 3n vezes, laço menor roda n² vezes, complexidade total n³.
+
+> Meu erro é acreditar que não consigo resolver, eu CONSIGO resolver qualquer questão, primeiro analiza o bruteforce e depois tenta otimizar.
+
