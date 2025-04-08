@@ -30,3 +30,10 @@ dis = x + y;
 ```
 
 joga na heap as celulas e as distancias, então ele pega a celula e joga na proxima tabela mais próxima, a celula q ele pega sempre é a da ponta inferior esquerda, pq é a mais proxima da origem sempre, com esse zigzag ele sempre pega a tabela mais próxima.
+
+2085C - Serval and The Formula
+
+Notando que a formula pode ser reescrita como (x + k) & (y + k) = 0, podemos fazer o seguinte, pegamos o maior numero e achamos a primeira potencia de 2 maior ou igual ao numero e a resposta é essa potencia de 2 menos o numero, porque como o maior continua sendo o maior independente de quantos somamos a ele, como uma potencia de 2 só tem 1 bit, o outro número vai ter o msb = 0, então o and vai dar 0, caso os numeros sejam iguais sempre vai ter 1 bit igual, entao nao vai dar pra encontrar.
+
+> Primeira questão que resolvo só com o hint, tendo derivado já a primeira hint.
+
