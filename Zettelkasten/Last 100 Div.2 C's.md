@@ -37,3 +37,4 @@ Notando que a formula pode ser reescrita como (x + k) & (y + k) = 0, podemos faz
 
 > Primeira questão que resolvo só com o hint, tendo derivado já a primeira hint.
 
+	
