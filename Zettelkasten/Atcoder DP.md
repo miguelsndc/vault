@@ -6,5 +6,3 @@ Soluçoes e comentarios e piadas e coisas sobre o contest educacional de dp do a
 
 ### A - Frogs 1
 
-Statement:
-
