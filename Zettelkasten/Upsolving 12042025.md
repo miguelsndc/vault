@@ -15,3 +15,7 @@ F - Tickets
 I - Heist
 
 O cabra nao lembra nem do x e nem do numero de teclados presentes, a gnt tem que assumir o x como sendo o menor numero, caso contrario tem um numero presente q não faz parte dos teclados do input, o q é uma contradição, entao os teclados roubados simplesmente sao a diferença dos adjacentes quan
+
+J - Buying a TV Set
+
+Resolvi esse totalmente na sorte, mas pra calcular o numero de pares w e h tais que w <= a e h <= b e w/h = a/b a gnt primeiro divide pelo gcd pra deixar irredutivel, depois é so pegar o minimo de w/a e h/b, que vai ser a quantidade de numeros q tem essa razao.
