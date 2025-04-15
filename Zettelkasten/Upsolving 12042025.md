@@ -24,3 +24,11 @@ Resolvi esse totalmente na sorte, mas pra calcular o numero de pares w e h tais 
 > Um dos meus grandes probelmas é ver que varias pessoas tao resolvendo uma certa questao, e ver que eu nao sei imediatamente como resolver, entao eu entro em panico e começo a tentar qualuqer coisa, tomar wa, coisas que eu **sei** que não vao passar, só pra nao "ficar pra trás", ou melhor, sentir que não estou ficando pra trás, preciso mudar isso, por enquanto, nao olhe os standing sob nenhuma hipótese, olhe somente as contagens de resolução caso, e **somente caso** esteja estagnado. 
 
 
+K - Median Partitions
+
+era **DP**, entao esquece resolver sozinho, uma soluçao q achei foi $dp[i]$ = numero maximo de subarrays bons que terminam em i, pra um subarray de tamanho *len* ser bom ele precisa ter no maximo $(len + 1)//2$ elementos menores q $m$, pq a mediana é pega sortando.
+
+entao pra cada $i$ de $1$ ate $n$, a gente passa por todos os subarrays, usa uma prefix sum pra saber se o subarray é bom rapido. Então caso seja bom:
+- se j == 0, é pq o subarray desde o começo até i é bom, entao dp daquela posiçao vai ser o maximo q tem la e $1$.
+- caso j > 0, entao o subarray j..i é bom, a gente so pode considerar esse subaray se tiver alguma partição de 1 ate j q seja boa também, porque se nao a gente quebra a condição da dp, entao se dp de j for maior q zero, a gente bota em i o maximo entre dp de i e dp de j + 1, + 1 sendo o subarray q foi adicionado nessa iteração.
+Bem compreensível, preciso praticar dp. isso é do caralho pra falar a verdade, não sei porque eu evito tanto dp, se eu inventasse isso do zero e tomasse AC de primeira eu acho que eu me gozava nas calças
