@@ -19,3 +19,8 @@ O cabra nao lembra nem do x e nem do numero de teclados presentes, a gnt tem que
 J - Buying a TV Set
 
 Resolvi esse totalmente na sorte, mas pra calcular o numero de pares w e h tais que w <= a e h <= b e w/h = a/b a gnt primeiro divide pelo gcd pra deixar irredutivel, depois é so pegar o minimo de w/a e h/b, que vai ser a quantidade de numeros q tem essa razao.
+
+
+> Um dos meus grandes probelmas é ver que varias pessoas tao resolvendo uma certa questao, e ver que eu nao sei imediatamente como resolver, entao eu entro em panico e começo a tentar qualuqer coisa, tomar wa, coisas que eu **sei** que não vao passar, só pra nao "ficar pra trás", ou melhor, sentir que não estou ficando pra trás, preciso mudar isso, por enquanto, nao olhe os standing sob nenhuma hipótese, olhe somente as contagens de resolução caso, e **somente caso** esteja estagnado. 
+
+
