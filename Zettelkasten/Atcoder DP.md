@@ -10,6 +10,6 @@ O problema te da um conjunto de triplas onde vc deve escolher exatamente uma dos
 
 A DP se resume a o indice que vc esta *i* e qual vc escolheu anteriormente, pra conseguir filtrar os que vc vai escolher agora, pra memoizar basta uma tabela com uma dimensao pro indice e outra pra prev.
 
-Aprendi um negocio interessante, aparentemente quando voce coloca mais ou menos parametros que o necessario na função que calca a dp topdown, essa função pode tanto fazer menos chamadas que o necessario ou fazer calculos desnecessarios, tentar limitar os parametros da função à exatamente o que voce quer memoizar no estado garante que a arvore seja exatamente o que vc planejou de começo, por isso que certas soluções minhas não funcionavam de jeito nenhum, eu mantinha o resultado como parametro, e para o mesmo estado, (a, b), chamar com resutlados diferentes invoca uma branch adicional na arvore que pode ferrar com os resultados.
+>Aprendi um negocio interessante, aparentemente quando voce coloca mais ou menos parametros que o necessario na função que calca a dp topdown, essa função pode tanto fazer menos chamadas que o necessario ou fazer calculos desnecessarios, tentar limitar os parametros da função à exatamente o que voce quer memoizar no estado garante que a arvore seja exatamente o que vc planejou de começo, por isso que certas soluções minhas não funcionavam de jeito nenhum, eu mantinha o resultado como parametro, e para o mesmo estado, (a, b), chamar com resutlados diferentes invoca uma branch adicional na arvore que pode ferrar com os resultados.
 
 
