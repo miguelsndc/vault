@@ -1,0 +1,146 @@
+---
+tags: maratona
+---
+
+Topics
+
+## Data Structures and Libraries
+  - Bitmask  
+  - Special Stack‑based Problems
+  - Order Statistics Tree
+  - Union‑Find Disjoint Sets  
+  - Fenwick (Binary Indexed) Tree  
+  - Segment Tree
+- Complete Search  
+- Divide and Conquer  
+  - Interesting Usages of Binary Search  
+  - Ternary Search  
+- Greedy  
+- Dynamic Programming  
+  - Classical Examples  
+  - Non‑Classical Examples  
+- Graph Traversal  
+  - Depth First Search (DFS)  
+  - Breadth First Search (BFS)  
+  - Finding Connected Components (Undirected Graph)  
+  - Flood Fill (Implicit 2D Grid Graph)  
+  - Topological Sort (Directed Acyclic Graph)  
+  - Bipartite Graph Check (Undirected Graph)  
+  - Cycle Check (Directed Graph)  
+  - Finding Articulation Points and Bridges (Undirected Graph)  
+  - Finding Strongly Connected Components (Directed Graph)  
+  - Kruskal’s Algorithm  
+  - Prim’s Algorithm  
+  - Other Applications  
+  - On Unweighted Graph: BFS  
+  - On Weighted Graph: Dijkstra’s  
+  - On Small Graph (with Negative Cycle): Bellman‑Ford  
+  - Floyd‑Warshall Algorithm  
+  - Directed Acyclic Graph  
+  - Tree  
+  - Bipartite Graph  
+  - Eulerian Graph  
+  - Special Graphs in Programming Contests
+- Ad Hoc Mathematical Problems
+- Number Theory  
+  - Prime Numbers  
+  - Finding Prime Factors with Optimized Trial Divisions  
+  - Functions Involving Prime Factors  
+  - Modified Sieve  
+  - Greatest Common Divisor & Least Common Multiple  
+  - Factorial  
+  - Modular Arithmetic  
+  - Extended Euclidean Algorithm  
+- Combinatorics  
+  - Fibonacci Numbers  
+  - Binomial Coefficients  
+  - Catalan Numbers  
+- Probability Theory
+- Cycle‑Finding  
+  - Solutions Using Efficient Data Structures  
+  - Floyd’s Cycle‑Finding Algorithm
+- Game Theory (Basic)
+- Matrix Power  
+  - Efficient Modular Power (Exponentiation)  
+  - Efficient Matrix Modular Power (Exponentiation)  
+  - DP Speed‑up with Matrix Power
+- Ad Hoc String (Harder)
+- String Processing with DP  
+- String Matching  
+  - Knuth‑Morris‑Pratt (KMP) Algorithm  
+  - String Matching in a 2D Grid
+- Suffix Trie/Tree/Array  
+  - Suffix Trie and Applications  
+  - Suffix Tree  
+  - Suffix Array  
+- String Matching with Hashing  
+- Anagram and Palindrome  
+  - Anagram  
+  - Palindrome
+- Basic Geometry Objects with Libraries  
+- Algorithms on Polygon with Libraries  
+  - Finding the Convex Hull of a Set of Points
+- 3D Geometry
+- More Advanced Search Techniques  
+  - Backtracking with Bitmask  
+  - State‑Space Search with BFS or Dijkstra’s  
+  - Meet in the Middle
+- More Advanced DP Techniques  
+  - DP with Bitmask  
+- Network Flow  
+  - Flow Graph Modeling – Classic  
+  - Flow Graph Modeling – Non‑Classic  
+  - Overview and Motivation  
+  - Unweighted MCBM  
+  - Weighted MCBM and Unweighted/Weighted MCM
+- NP‑hard/complete Problems  
+  - Preliminaries  
+  - Pseudo‑Polynomial: Knapsack, Subset‑Sum, Coin‑Change  
+  - Traveling‑Salesman‑Problem (TSP)  
+  - Hamiltonian‑Path/Tour  
+  - Longest‑Path  
+  - Max‑Independent‑Set and Min‑Vertex‑Cover  
+  - Min‑Set‑Cover  
+  - Min‑Path‑Cover  
+  - Satisfiability (SAT)  
+  - Steiner‑Tree  
+  - Graph‑Coloring  
+  - Min‑Clique‑Cover  
+  - Summary
+  - Two Components: Binary Search the Answer and Other  
+  - Two Components: Involving Efficient Data Structure  
+  - Two Components: Involving Geometry  
+  - Two Components: Involving Graph  
+  - Two Components: Involving Mathematics  
+  - Two Components: Graph Preprocessing and DP  
+  - Two Components: Involving 1D Static RSQ/RMQ  
+  - Three (or More) Components
+- Overview and Motivation
+- Sliding Window
+- Sparse Table Data Structure
+- Square Root Decomposition
+- Heavy‑Light Decomposition
+- Lowest Common Ancestor
+- Tree Isomorphism
+- De Bruijn Sequence
+- Fast Fourier Transform
+- Pollard’s rho Algorithm
+- Chinese Remainder Theorem
+- Lucas’ Theorem
+- Rare Formulas or Theorems
+- Combinatorial Game Theory
+- Gaussian Elimination Algorithm
+- Art Gallery Problem
+- Closest Pair Problem
+- Pancake Sorting
+- Egg Dropping Puzzle
+- Dynamic Programming Optimization
+- Push‑Relabel Algorithm
+- Min Cost (Max) Flow
+- Hopcroft‑Karp Algorithm
+- Kuhn‑Munkres Algorithm
+- Edmonds’ Matching Algorithm
+- Chinese Postman Problem
+- Constructive Problem
+- Interactive Problem
+
