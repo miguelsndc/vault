@@ -19,3 +19,12 @@ Basicamente dado um circulo com n pontos distribuidos igualmente ao redor do cir
 Percebi com ajuda do google que podia fazer $no\_total\_pares\_retas- no\_pares\_paralelas$, então vc só precisa calcular quantas retas são paralelas. tentei rotacionar o $(0,1)$ pra achar os pontos, deu certo, tentei achar as retas e deu certo também, mas na hora de achar as retas parelelas acabei tropeçando em erros de precisão, tentei usar fmod mas não deu certo, sempre faltava 1 ou 2, entãoo contest acabou, a ideia estava totalmente certa, mas a solução foi falha, acontece que um par de números é paralelo se a soma deles mod n por igual ?
 - Funciona por que as retas definidas por pontos $a_{i}$ e $b_{i}$ se contarmos o k-esimo ponto no sentido horario de $a$ e  o kesimo ponto no sentido antihorario por $b$, essas retas são paralelas, por exemplo com n = 6, as retas (1,5) e (2,4) são paralelas. devia ter pensado nisso, talvez encarando o suficiente eu teria descoberto o mod n.
 
+--- 
+> A partir daqui não li no contest
+
+### Payment Required
+
+Takahashi tem um contest com n problems $n \le 8$, cada um tem um valor $S[i]$, custo $C[i]$ e probabilidade de acerto $P[i]$,  maximize o valor esperado the pontos dado que takahashi escolhe as submissões que maximizam esse valor. 
+
+Não acertei nem fudendo e nem conseguiria fazer em contest, tentei um knapsack, mas era bitmask, parecia muito um knapsack mas recuperar a questão do valor esperado com o knapsack é bem tricky, a solução é com bitmask:
+
