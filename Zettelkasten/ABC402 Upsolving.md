@@ -41,5 +41,8 @@ Isto é, o valor esperado é a soma de:
 - ele não resolve e vc só desconta o custo
 Somando por que os eventos são independentes, e a probabilidade de um **ou outro** acontecer é a soma das probabilidades desses eventos.
 
+**A recorrência é definida por $dp[T][x]$, se começarmos o jogo resolvendo T problemas com x yen sobrando, e jogarmos otimamente, qual o maior valor esperado ?, dada essa definição, a resposta está em $dp[0][X]$, porque não resolvemos nada e temos todo o dinheiro, se definirmos por, yens gastos, a resposta estaria em $dp[0][0]$ (AC)**
 
-> Desenhar a recorrência pra problemas de dp bitmask pode ser util pra visualizar as recorrências.
+Com DP talvez seja util, dado o que você quer, pensar no inverso e tentar chegar do inverso a partir do estado atual.
+	
+> Desenhar a recorrência pra problemas de dp bitmask pode ser util pra visualizar as recorrências
