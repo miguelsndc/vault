@@ -24,7 +24,22 @@ Percebi com ajuda do google que podia fazer $no\_total\_pares\_retas- no\_pares\
 
 ### Payment Required
 
-Takahashi tem um contest com n problems $n \le 8$, cada um tem um valor $S[i]$, custo $C[i]$ e probabilidade de acerto $P[i]$,  maximize o valor esperado the pontos dado que takahashi escolhe as submissões que maximizam esse valor. 
+Takahashi tem um contest com n problemas, com orçamento $x \le 5000$ $n \le 8$, cada um tem um valor $S[i]$, custo $C[i] \le 5000$ e probabilidade de acerto $P[i]$,  maximize o valor esperado the pontos dado que takahashi escolhe as submissões que maximizam esse valor.
 
 Não acertei nem fudendo e nem conseguiria fazer em contest, tentei um knapsack, mas era bitmask, parecia muito um knapsack mas recuperar a questão do valor esperado com o knapsack é bem tricky, a solução é com bitmask:
 
+Considere uma DP: pra algum $T \subset \{1, 2, \cdots, N\}$ e $0 \le x \le n$, seja $dp[T][x]$ o maior valor esperado caso ele tenha resolvido os problemas em $T$ e tem $x$ yen sobrando.
+
+As recorrências:
+
+Se ele submita um problema $i, i \notin T, x \ge C[i]$ ele resolve com probabilidade $P[i]$ e **não resolve** com probabilidade $(1 - P[i])$. então é o maior valor esperado possível é:
+$$\begin{align*}
+P_{i} \cdot(S_{i} + dp[T \cup \{i\}][x - C_{i}]) + (1-P_{i})(dp[T][x - C_{i}])
+\end{align*}$$
+Isto é, o valor esperado é a soma de:
+- Ele resolvendo o problema i que ele não resolveu, então a união do conjunto atual e o custo descontado da capacidade atual, tudo vezes a probabilidade disso acontecer, **ou**:
+- ele não resolve e vc só desconta o custo
+Somando por que os eventos são independentes, e a probabilidade de um **ou outro** acontecer é a soma das probabilidades desses eventos.
+
+
+> Desenhar a recorrência pra problemas de dp bitmask pode ser util pra visualizar as recorrências.
