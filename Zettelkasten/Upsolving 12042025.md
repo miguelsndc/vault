@@ -40,3 +40,10 @@ Bem resolvível, pensei 10 minutos e codei, tomei 2 was por usar a função lowe
 - depois q isso passar ou q nao houver mais ninguem <= m, vc bota o valor pra 0 dnv pra começar outro dia, e aumenta o dia atual
 nlogn facil.
 
+B - Glider
+
+Primeiro ponto : é sempre ótimo pular do começo dos intervalos, porque:
+1. Se ele pular de algum outro lugar de dentro do intervalo que não seja o começo, o ponto de descida não vai mudar, mas a distância muda e portanto a resposta não é a melhor
+2. Se ele pular de fora de algum intervalo, a distância que ele percorre só pode ser menor.
+
+como as alturas que ele está formam uma função monotonica decrescente, busca binária resolve
