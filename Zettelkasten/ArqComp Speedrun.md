@@ -30,3 +30,13 @@ $$\begin{align*}
 $$\begin{align*}
 \frac{ExecutionTime_{Y}}{ExecutionTime_{X}}=n
 \end{align*}$$ 
+**Frequência de Clock é o inverso do período de clock**.
+**Uma métrica simples de desempenho de CPU é**:
+$$\begin{align*}
+CpuExecutionTime &= CpuClockCycles \times ClockCycleTime \\
+CpuExecutionTime &= \frac{CpuClockCycles}{ClockRate} 
+\end{align*}$$
+O desempenho pode ser melhorado:
+- Reduzindo o número de ciclos
+- Reduzir o tamanho do ciclo (Aumentando a Frequência)
+- avaliar freq x n de ciclos
