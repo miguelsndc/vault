@@ -57,10 +57,18 @@ Então o tempo para executar um programa é $T = I \times CPI \times \tau$
 
 Coisas para levar desse Tópico:
 
+**Taxas MIPS/MFLOPS** 
+
+- MIPS é uma métrica de **milhões de instruções por segundo**.
+- $T \times MIPS = \frac{I}{T\times 10^{6}} = \frac{f}{CPI \times 10^{6}}$ (Se chega na segunda fórmula substituindo $T$ na primeira.)
+- MFLOPS é voltada para operações de ponto flutuante, sendo:
+	- $MFLOPS = \frac{\text{Numero de operacoes de ponto flutuante executadas no programa}}{\text{Tempo de execução} \times 10^{6}}$ 
+
 **Medir tempo de execução de um programa**
 - $T = I \times CPI \times \tau = \frac{I \times CPI}{f}$ 
 	- $T$ = Tempo de execução
 	- $I$ = Número de instruções totais do programa
 	- $CPI$ = média de quantos ciclos de clock são necessários para executar uma instrução
 	- $CPI = \frac{\sum\limits_{i=1}^{n}CPI_{i}\times I_{i}}{I}$ , sendo cada $CPI_{i}$ fornecido pela arquitetura, $I_{i}$ a quantidade de intruções, e o $I$ a soma de todas as instruções.
-	- $Performance_{A}/Performance_B$
+	- $\frac{Performance_{A}}{Performance_{B}}= \frac{ExecutionTime_{B}}{ExecutionTime_{A}=}= x$ onde $T_{A}= x * T_{B}$, A roda $x$ vezes mais rápido que $B$.
+	- $\text{CPU Clock Cycles}$ = $I \times CPI$.
