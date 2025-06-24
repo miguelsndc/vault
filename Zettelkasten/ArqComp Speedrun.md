@@ -39,4 +39,12 @@ CpuExecutionTime &= \frac{CpuClockCycles}{ClockRate}
 O desempenho pode ser melhorado:
 - Reduzindo o número de ciclos
 - Reduzir o tamanho do ciclo (Aumentando a Frequência)
-- avaliar freq x n de ciclos
+- avaliar freq x n de ciclos.
+
+Outra métrica:
+
+**O Tempo de execução deve depender do número de instruções geradas pelo compilador**:
+- o número de ciclos de clock para exec. do programa pode ser dado:
+	- $CpuClockCycles = InstructionsForProgram \times AverageClockCyclesPerInstruction$;
+- **CPI** (Número de ciclos médio por instrução).
+	- é a média do número de ciclos de todas as instruções executadas no programa.
