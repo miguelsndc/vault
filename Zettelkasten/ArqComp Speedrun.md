@@ -129,3 +129,6 @@ ___
 - **Hit**: Ocorre quando os dados requisitados pela CPU estão em algum bloco do nível de memória desejado
 - **Miss**: Ocorre quando os dados **não** estão em algum bloco de nível desejado e é necessário buscar em um nível inferior e transferir pra cima.
 - **Miss Penalty**: o tempo que leva para buscar o bloco de um nível abaixo para um nível mais acima e enviar para a CPU.
+
+**Mapeamento Direto**
+
