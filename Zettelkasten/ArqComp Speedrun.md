@@ -48,3 +48,9 @@ Outra métrica:
 	- $CpuClockCycles = InstructionsForProgram \times AverageClockCyclesPerInstruction$;
 - **CPI** (Número de ciclos médio por instrução).
 	- é a média do número de ciclos de todas as instruções executadas no programa.
+
+- Tempo de ciclo = $\tau = \frac{1}{f}$ onde $f$ é a frequência constante do processador
+$$\begin{align*}
+CPI &= \frac{\sum\limits_{i=1}^{n}CPI_{i}\times I_{i}}{ I}
+\end{align*}$$
+Então o tempo para executar um programa é $T = I \times CPI \times \tau$ 
