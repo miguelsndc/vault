@@ -61,7 +61,7 @@ Coisas para levar desse Tópico:
 
 - MIPS é uma métrica de **milhões de instruções por segundo**.
 - $T \times MIPS = \frac{I}{T\times 10^{6}} = \frac{f}{CPI \times 10^{6}}$ (Se chega na segunda fórmula substituindo $T$ na primeira.)
-	- Derivação útil: "$I=T×MIPS×10^{6}$" 
+	- Derivação útil: $I=T×MIPS×10^{6}$ 
 - MFLOPS é voltada para operações de ponto flutuante, sendo:
 	- $MFLOPS = \frac{\text{Numero de operacoes de ponto flutuante executadas no programa}}{\text{Tempo de execução} \times 10^{6}}$ 
 
@@ -70,6 +70,14 @@ $$\begin{align*}
 \text{Tempo de execução após melhoria} &= \frac{\text{Tempo de execução afetado pela melhoria}}{\text{Qtd de Melhoria}} + \text{Tempo não afetado pela melhoria}
 \end{align*}$$
 
+• Considere um programa rodando em um único processador, de modo que:
+	• Um fração $(1 – f)$ do tempo de execução envolva um código serial
+	• Uma fracão $f$ envolva código infinitamente paralelizável sem overhead de escalonamento
+
+Então o speedup obtido explorando a parte paralela com $N$ processadores paralelos é: $$\begin{align*}
+\frac{T(1-f) + Tf}{(1-f)+  \frac{Tf}{N}}&= \frac{1}{(1-f) + \frac{f}{N}}
+\end{align*}$$
+Quando $N$ tende ao infinito, o speedup é limitado a $\frac{1}{1-f}$.
 
 
 **Medir tempo de execução de um programa**
@@ -80,3 +88,14 @@ $$\begin{align*}
 	- $CPI = \frac{\sum\limits_{i=1}^{n}CPI_{i}\times I_{i}}{I}$ , sendo cada $CPI_{i}$ fornecido pela arquitetura, $I_{i}$ a quantidade de intruções, e o $I$ a soma de todas as instruções.
 	- $\frac{Performance_{A}}{Performance_{B}}= \frac{ExecutionTime_{B}}{ExecutionTime_{A}=}= x$ onde $T_{A}= x * T_{B}$, A roda $x$ vezes mais rápido que $B$.
 	- $\text{CPU Clock Cycles}$ = $I \times CPI$.
+	- Speedup = $$\begin{align*}
+\frac{\text{Des. após da melhoria}}{\text{Des. antes melhoria}} &= \frac{\text{Tempo de execução antes melhoria}}{\text{Tempo de execução após melhoria} }
+\end{align*}$$
+		Ou seja, se um recurso for usado por uma fração $f$ do tempo antes de **melhoria** e a quantidade e melhoria seja $N_{f}$, Speedup = $$\begin{align*}
+Speedup &= \frac{1}{(1-f) + \frac{f}{N_{f}}}
+\end{align*}$$
+
+
+
+
+	
