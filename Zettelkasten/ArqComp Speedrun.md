@@ -54,3 +54,13 @@ $$\begin{align*}
 CPI &= \frac{\sum\limits_{i=1}^{n}CPI_{i}\times I_{i}}{ I}
 \end{align*}$$
 Então o tempo para executar um programa é $T = I \times CPI \times \tau$ 
+
+Coisas para levar desse Tópico:
+
+**Medir tempo de execução de um programa**
+- $T = I \times CPI \times \tau = \frac{I \times CPI}{f}$ 
+	- $T$ = Tempo de execução
+	- $I$ = Número de instruções totais do programa
+	- $CPI$ = média de quantos ciclos de clock são necessários para executar uma instrução
+	- $CPI = \frac{\sum\limits_{i=1}^{n}CPI_{i}\times I_{i}}{I}$ , sendo cada $CPI_{i}$ fornecido pela arquitetura, $I_{i}$ a quantidade de intruções, e o $I$ a soma de todas as instruções.
+	- $Performance_{A}/Performance_B$
