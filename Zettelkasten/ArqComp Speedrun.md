@@ -115,3 +115,17 @@ ___
 - **Localidade Espacial**: 
 	- Programa tende a referenciar instruções e dados que tenham endereços próximos das últimas referências.
 	- Mova blocos de dados de palavras contíguas para junto do processador, como dados de um vetor.
+
+##### Hierarquia de memória
+
+**Componentes ordenados por custo, tamanho . Velocidade (maior pra menor)**
+1. CPU e Cache L1
+2. Cache L2
+3. Memória principal (RAM)
+4. Memória Secundária (Disco)
+
+**Terminologias**:
+- **Bloco (linha)**: unidade mínima de informação presente numa hierarquia de memória.
+- **Hit**: Ocorre quando os dados requisitados pela CPU estão em algum bloco do nível de memória desejado
+- **Miss**: Ocorre quando os dados **não** estão em algum bloco de nível desejado e é necessário buscar em um nível inferior e transferir pra cima.
+- **Miss Penalty**: o tempo que leva para buscar o bloco de um nível abaixo para um nível mais acima e enviar para a CPU.
