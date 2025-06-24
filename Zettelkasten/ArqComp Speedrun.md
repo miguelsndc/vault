@@ -95,7 +95,23 @@ Quando $N$ tende ao infinito, o speedup é limitado a $\frac{1}{1-f}$.
 Speedup &= \frac{1}{(1-f) + \frac{f}{N_{f}}}
 \end{align*}$$
 
+___
+### Tópico 3
 
+**DRAM (Dynamic Random Access Memory)**
+- Maior tempo de acesso
+- Necessita de refreshing
+- Baixo custo por bit
+**SRAM (Static Random Access Memory)**
+- Pequeno tempo de acesso
+- Não existe refreshing
+- Alto custo por bit
+- Cache.
 
-
-	
+##### Princípio da Localidade:
+- **Localidade Temporal**: 
+	- Programa tende a referenciar instruções e dados referenciados recentemente!
+	- Mantenha itens mais recentemente referenciados junto ao processador, como instruções de um loop.
+- **Localidade Espacial**: 
+	- Programa tende a referenciar instruções e dados que tenham endereços próximos das últimas referências.
+	- Mova blocos de dados de palavras contíguas para junto do processador, como dados de um vetor.
