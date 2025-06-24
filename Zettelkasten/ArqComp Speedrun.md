@@ -132,3 +132,7 @@ ___
 
 **Mapeamento Direto**
 
+Para saber se um item está na cache, utiliza-se bastante a função módulo, isto é $(\text{endereço do bloco na memoria})\;\; mod \;\;(\text{número de blocos na cache})$. como módulo não é injetiva, precisa-se distinguir se a palavra na posição da cache é a esperada, pra isso usa-se um **conjunto de tags** **(tag field)**:
+ -  Bits mais significativos do endereço de memória não utilizados para determinar o índice do cache. Por exemplo, se houverem 64 posições na cache, utiliza-se os 6 primeiros bits do endereço e os outros para diferenciar.
+
+> Informações na cache podem não estar válidas, por isso se utiliza uma tag de validade.
