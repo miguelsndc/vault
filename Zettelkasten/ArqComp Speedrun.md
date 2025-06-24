@@ -61,8 +61,16 @@ Coisas para levar desse Tópico:
 
 - MIPS é uma métrica de **milhões de instruções por segundo**.
 - $T \times MIPS = \frac{I}{T\times 10^{6}} = \frac{f}{CPI \times 10^{6}}$ (Se chega na segunda fórmula substituindo $T$ na primeira.)
+	- Derivação útil: "$I=T×MIPS×10^{6}$" 
 - MFLOPS é voltada para operações de ponto flutuante, sendo:
 	- $MFLOPS = \frac{\text{Numero de operacoes de ponto flutuante executadas no programa}}{\text{Tempo de execução} \times 10^{6}}$ 
+
+**Lei de Amdahl**
+$$\begin{align*}
+\text{Tempo de execução após melhoria} &= \frac{\text{Tempo de execução afetado pela melhoria}}{\text{Qtd de Melhoria}} + \text{Tempo não afetado pela melhoria}
+\end{align*}$$
+
+
 
 **Medir tempo de execução de um programa**
 - $T = I \times CPI \times \tau = \frac{I \times CPI}{f}$ 
