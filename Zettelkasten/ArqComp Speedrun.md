@@ -136,3 +136,16 @@ Para saber se um item está na cache, utiliza-se bastante a função módulo, is
  -  Bits mais significativos do endereço de memória não utilizados para determinar o índice do cache. Por exemplo, se houverem 64 posições na cache, utiliza-se os 6 primeiros bits do endereço e os outros para diferenciar.
 
 > Informações na cache podem não estar válidas, por isso se utiliza uma tag de validade.
+
+Índice do bloco da cache se encontra com:
+
+$$\begin{align*}
+\left(\bigg\lfloor\frac{\text{Byte adress}}{\text{Bytes per block}}\bigg\rfloor\right) \mod \text{qtd blocos}
+\end{align*}$$
+##### Escrita
+Existem duas formas de lidar com escrita na memória:
+- **Write-Through**: Escreve ao mesmo tempo no cache e na memória
+	- Nega a ideia de se evitar escrever na memória principal, a perda de desempenho é significativa
+	- Pode-se guardar um buffer para postergar as mudanças somente quando o buffer estiver cheio, então, stalla o processador e aplica as mudanças
+- **Write-Back**: Escreve somente na cache, então quando o bloco modificado é removido da cache ele é escrito na memória principal.
+	- Cada bloco da cache precisa de um **dirty bit**, que indica se o valor precisa ou não ser salvo na memória antes de reescrito.
