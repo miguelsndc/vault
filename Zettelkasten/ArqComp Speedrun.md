@@ -149,3 +149,14 @@ Existem duas formas de lidar com escrita na memória:
 	- Pode-se guardar um buffer para postergar as mudanças somente quando o buffer estiver cheio, então, stalla o processador e aplica as mudanças
 - **Write-Back**: Escreve somente na cache, então quando o bloco modificado é removido da cache ele é escrito na memória principal.
 	- Cada bloco da cache precisa de um **dirty bit**, que indica se o valor precisa ou não ser salvo na memória antes de reescrito.
+
+##### Desempenho da cache
+$$\begin{align*}
+CpuTime &= (CpuExecutionClockCycles + MemoryStallClockCycles) \times ClockCycleTime\\
+\end{align*}$$
+Simplificando:
+$$\begin{align*}
+MemoryStallClockCycle&= \frac{Instructions}{Program}\times \frac{Misses}{Instruction} \times Miss Penalty
+\end{align*}$$
+**AMAT**: métrica para capturar o tempo de acesso a memória considerando ambos hit e miss:
+- $HitTime + (MissRate \times MissPenalty)$.
