@@ -204,4 +204,20 @@ A ideia é calcular pra cada tipo de cache:
 No mapeamento direto não há escolha sobre qual bloco será substituído na posição de cache, já que é única, mas nos caches associativos pode-se escolher tanto **onde colocar** o bloco como **qual bloco será substituído**, e existem políticas para isso:
  - **Least Recently Used (LRU)**: O bloco escolhido é aquele que não foi utilizado pelo tempo mais longo:
  - **Random**.
-- 
+
+##### Cache Multinível:
+
+Podem haver vários níveis de cache na hierarquia de memória, de tal forma que o primeiro cache é o mais rápido, **menor** e mais **próximo da CPU**, e vão "piorando" conforme o nível aumenta.
+Primariamente:
+ - Cache **L1**: Pequena mas rápida.
+ - Cache **L2**: Maior, lenta, porém mais rápida que a memória principal.
+ - e a Memória principal **responde aos misses do L2**.
+Dado os dois caches:
+$$\begin{align*}
+\text{TotalCPI} &= \text{BaseCPI} + \text{Memory-stalls cycles per instruction} = \text{BaseCPI} + \text{Miss Rate}\times\text{Miss Penalty}
+\end{align*}$$
+Caso se adicione mais caches, o CPI total é calculado com o Nível $L$ tendo **penalty do nível mais acima $L + 1$**, então se soma tudo.
+
+Então:
+- **Cache L1**: Foca no tempo de hit mínimo.
+- **Cache L2**: Foca em uma baixa taxa de faltas para evitar acessos à memória.
