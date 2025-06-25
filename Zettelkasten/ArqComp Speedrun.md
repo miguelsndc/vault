@@ -175,3 +175,25 @@ No Mapeamento direto cada endereço pode assumir exatamente um bloco de cache, e
 
 > Aumento da associatividade diminui a taxa de faltas.
 
+**Para achar um bloco na cache** usa-se:
+- **Index**: usado para selecionar o conjunto que contém o endereço de interesse
+- **Tag**: usado para escolher o bloco dentro do conjunto
+- **Offset**: usado para escolher o dado desejado dentro do bloco
+
+Exemplo:
+
+> *Considerando uma cache com 8 blocos, cada um com tamanho de 4*
+> *palavras e um endereço de 32 bits. Determine o nº total de conjuntos e*
+> *o nº total de bits de tag para caches:* 
+> -  Diretamente Mapeada
+> -  Associativa por conjunto (2-ways
+> -  Associativa por conjunto (4-ways
+> -  Totalmente associativa
+
+A ideia é calcular pra cada tipo de cache:
+- Bits offset: $\frac{QtdPalavras}{TamanhoPalavra}$ em bits.
+- Bit índice:
+	- $\log_{2}({QtdBlocos})$ se for diretament mapeada
+	- **n-way**: $\frac{QtdBlocos}{n}$;
+	- **totalmente associativa**: 0.
+- Bits tag: $TamanhoPalavraEmBits - (BitOF)$
