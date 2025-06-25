@@ -196,4 +196,12 @@ A ideia é calcular pra cada tipo de cache:
 	- $\log_{2}({QtdBlocos})$ se for diretament mapeada
 	- **n-way**: $\frac{QtdBlocos}{n}$;
 	- **totalmente associativa**: 0.
-- Bits tag: $TamanhoPalavraEmBits - (BitOF)$
+- Bits tag: $TamanhoPalavraEmBits - (BitOffset+BitIndice)$ ou seja, o que sobrou.
+- Bits Total: $(BitsTag) * QtdBlocos$.
+
+##### Política de Substituição de Blocos na Cache
+
+No mapeamento direto não há escolha sobre qual bloco será substituído na posição de cache, já que é única, mas nos caches associativos pode-se escolher tanto **onde colocar** o bloco como **qual bloco será substituído**, e existem políticas para isso:
+ - **Least Recently Used (LRU)**: O bloco escolhido é aquele que não foi utilizado pelo tempo mais longo:
+ - **Random**.
+- 
