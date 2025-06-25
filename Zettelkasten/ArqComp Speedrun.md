@@ -160,3 +160,18 @@ MemoryStallClockCycle&= \frac{Instructions}{Program}\times \frac{Misses}{Instruc
 \end{align*}$$
 **AMAT**: métrica para capturar o tempo de acesso a memória considerando ambos hit e miss:
 - $HitTime + (MissRate \times MissPenalty)$.
+
+##### Caches Associativas
+
+No Mapeamento direto cada endereço pode assumir exatamente um bloco de cache, existem alternativas:
+- **Totalmente Associativa**:
+	- Todos os blocos podem ir para qualquer entrada da cache
+	- É necessário um comparador por entrada da cache, dado que todas as entradas precisam ser avaliadas, o que é **caro**.
+- **n-way set associative**:
+	- Um meio termo entre a associatividade total e o mapeamento direto, ao inves dos blocos irem para qualquer entrada, eles tem um **conjunto** de posições onde podem ser armazenados.
+	- Desse modo cada conjunto possui $n$ blocos
+	- Cada bloco de memória é **diretamente mapeado** para um conjunto, onde esse conjunto é **totalmente associativo** para os blocos que podem alcançá-lo.
+	- Dessa forma só é necessário ter $n$ comparadores.
+
+> Aumento da associatividade diminui a taxa de faltas.
+
