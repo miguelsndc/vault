@@ -28,6 +28,8 @@ $$\begin{align*}
 So take $S'$ formed by replacing edges $(A,B), (B,C)$ with the edge $(A,C)$, the perimeter of $S$ is strictly less than $S$'s, and we can apply the same argument for every concave vertex in $S'$, once obtaining a polygon without concave vertices, therefore being convex, contradicting our assumption that $S$ was the smallest perimeter polygon, and showing that the polygon we get must be convex.
 
 
-$1.3)$ 
+$1.3)$ Assume that $P$ is a simple polygon and is the smallest perimeter polygon containing a set of points $S$, and now take $P'$ to be a arbitrary convex set containing $S$. let us show that $P'$ contains $P$.
+
+Let $P'$ is a convex set containing $S$, assume by contradiction that $P'$ doesn't completely contain $P$, the smallest perimeter polygon around $S$. By the definition of the smallest perimeter polygon shown above, the edges of the polygon $P$ are formed directly from connections between points of $S$, so there must be a vertex of $S$ outside the boundaries of $P'$, it follows $P'$ doesnt fully contain $S$, which is a contradiction, therefore $P'$ must contain $P$.
 ___
 
