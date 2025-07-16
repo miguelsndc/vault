@@ -21,7 +21,13 @@ so i found out by drawing that if i make a "shell" around the points, notice tha
 
 i have no clue how to prove it this was the most promising idea i've had
 
+so given $S$ as a simple polygon enclosing a set of points $P$, assume by contradiction that $S$ is the smallest perimeter polygon enclosing $P$, and there is at least one concave vertex $B$, whose is between two other vertices $A$ and $C$, so $B$ by definition has a inward angle greater than 180, given that this vertex is $B$ and its neighbours are $A$ and $C$, by the triangle inequality:
+$$\begin{align*}
+|AB| + |BC| > |AC|
+\end{align*}$$
+So take $S'$ formed by replacing edges $(A,B), (B,C)$ with the edge $(A,C)$, the perimeter of $S$ is strictly less than $S$'s, and we can apply the same argument for every concave vertex in $S'$, once obtaining a polygon without concave vertices, therefore being convex, contradicting our assumption that $S$ was the smallest perimeter polygon, and showing that the polygon we get must be convex.
 
 
+$1.3)$ 
 ___
 
