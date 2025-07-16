@@ -29,11 +29,6 @@ So take $S'$ formed by replacing edges $(A,B), (B,C)$ with the edge $(A,C)$, the
 
 $c)$ Okay so since $\rm conv(S)$ is by definition the intersection of all convex sets containing $S$, it follows that $\rm conv(S) \subseteq C$. where $C$ is any arbitrary convex hull containing the points of $S$.
 
-$1.2)$ lets try to do like, assume we have two such polygons that fulfill the requirements, then we proceed to show that they must be equal, after that we use the smallest perimeter thing
+$1.2)$ "The polygon $P$ (the convex hull of the set $'P$) can only be formed by the **extreme vertices** of $P'$. Since the set of extreme points is **uniquely defined** by $P′$, the polygon $P$ is uniquely determined.
 
-Let $P$ be the convex polygon whose vertices are points from the set of points and that it contains all points from it. the intuition is that given another $Q$ fulfilling the same requirements, assume by contradiction that it is not equal to $P$, it should have either more points or less points.
-
-- if it has more points than $P$ it falls to the triangle inequality thing and is not convex neither the smallest
-- if it has less points it doesnt contain the whole set
-
-so they must be equal otherwise it just wouldnt fw it
+Furthermore, $P$ is the **intersection of all convex sets** containing $P'$, because every convex set that contains $P'$ must also contain the extreme points of $P'$, and thus must contain their convex hull."
