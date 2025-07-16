@@ -50,4 +50,4 @@ from $n-2$ down to $1$
 - while the length of $L_{lower}$ is greater than $2$ and the last $3$ points do not make a right turn, remove the middle of the last three from $L$
 remove the first and last element of  $L_{lower}$ and append it to $L_{upper}$, then return $L$.
 
-$1.4)$ Because the determinant described is the same thing as the cross product between vectors $\vec{pr}$ and $\vec{pq}$,  and the sign of the determinant tells whether there is a orientation change between 
+$1.4)$ Because the determinant described is the same thing as the cross product between vectors $\vec{pr}$ and $\vec{pq}$,  and the sign of the determinant tells whether the parallelogram formed by these two vectors has to make a "twist" or if it stays the same, kinda fucked to understand but if its negative is on the right and positive it is on the left i guess
