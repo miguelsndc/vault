@@ -44,8 +44,8 @@ Then take the a list $L_{upper}$ of points, add the first 2 points in order to $
 
 from $3$ to $n$
 Add the next point.
-- while the length of $L_{upper}$ is greater than $2$ and the last $3$ points form a **left-turn**, pop off the middle point from $L$
+- while the length of $L_{upper}$ is greater than $2$ and the last $3$ points do not make a right turn, remove the middle of the last three from $L$
 Add $p_{n}$ and $p_{n-1}$to $L_{lower}$
 from $n-2$ down to $1$
-- while the length of $L_{lower}$ is greater than $2$ and the last $3$ points form a **left-turn**, pop off the middle point from $L$
-remove the first and last element of  $L_{lower}$ and append it 
+- while the length of $L_{lower}$ is greater than $2$ and the last $3$ points do not make a right turn, remove the middle of the last three from $L$
+remove the first and last element of  $L_{lower}$ and append it to $L_{upper}$, then return $L$.
