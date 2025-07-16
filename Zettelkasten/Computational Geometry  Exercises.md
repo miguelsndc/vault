@@ -17,6 +17,11 @@ $2)$ The perimeter of a polygon is defined as the sum of lengths of the edges be
 
 2. Given the smallest perimiter polygon, show it is convex.
 
+so i found out by drawing that if i make a "shell" around the points, notice that if i have three points making a triangle, it is always better to connect the two upmost points rather than connecting with the inner one, we can find that out via hypot formula, we expand and get that $a + b > c$ so we should take c, this guarantees we do not take any "left turns"on the shell, leaving spikes that create concave polygons.
+
+i have no clue how to prove it this was the most promising idea i've had
+
+
 
 ___
 
