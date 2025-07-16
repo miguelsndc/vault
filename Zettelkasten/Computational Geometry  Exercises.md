@@ -32,3 +32,20 @@ $c)$ Okay so since $\rm conv(S)$ is by definition the intersection of all convex
 $1.2)$ "The polygon $P$ (the convex hull of the set $'P$) can only be formed by the **extreme vertices** of $P'$. Since the set of extreme points is **uniquely defined** by $P′$, the polygon $P$ is uniquely determined.
 
 Furthermore, $P$ is the **intersection of all convex sets** containing $P'$, because every convex set that contains $P'$ must also contain the extreme points of $P'$, and thus must contain their convex hull."
+
+
+$1.3$ _"Let E be an unsorted set of n segments that are the edges of a convex polygon. Describe an $O(n log n)$ algorithm that computes from E a list containing all vertices of the polygon, sorted in clockwise order."
+
+Lets divide the algorithm into two parts, computing the upper shell and the lower shell, then combining them to form the convex hull.
+
+so take all points as ordered pairs of the form $(x,y)$, sort those points first by $x$ increasingly, then if there is a tie, sort by $y$, (lexicographical order),  then take the first point, it must be in the convex hull since its an extreme point.
+
+Then take the a list $L_{upper}$ of points, add the first 2 points in order to $L_{upper}$ and repeat following procedure:
+
+from $3$ to $n$
+Add the next point.
+- while the length of $L_{upper}$ is greater than $2$ and the last $3$ points form a **left-turn**, pop off the middle point from $L$
+Add $p_{n}$ and $p_{n-1}$to $L_{lower}$
+from $n-2$ down to $1$
+- while the length of $L_{lower}$ is greater than $2$ and the last $3$ points form a **left-turn**, pop off the middle point from $L$
+remove the first and last element of  $L_{lower}$ and append it 
