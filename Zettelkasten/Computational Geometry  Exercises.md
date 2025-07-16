@@ -27,9 +27,13 @@ $$\begin{align*}
 \end{align*}$$
 So take $S'$ formed by replacing edges $(A,B), (B,C)$ with the edge $(A,C)$, the perimeter of $S$ is strictly less than $S$'s, and we can apply the same argument for every concave vertex in $S'$, once obtaining a polygon without concave vertices, therefore being convex, contradicting our assumption that $S$ was the smallest perimeter polygon, and showing that the polygon we get must be convex.
 
+$c)$ Okay so since $\rm conv(S)$ is by definition the intersection of all convex sets containing $S$, it follows that $\rm conv(S) \subseteq C$. where $C$ is any arbitrary convex hull containing the points of $S$.
 
-$1.3)$ Assume that $P$ is a simple polygon and is the smallest perimeter polygon containing a set of points $S$, and now take $P'$ to be a arbitrary convex set containing $S$. let us show that $P'$ contains $P$.
+$1.2)$ lets try to do like, assume we have two such polygons that fulfill the requirements, then we proceed to show that they must be equal, after that we use the smallest perimeter thing
 
-Let $P'$ is a convex set containing $S$, assume by contradiction that $P'$ doesn't completely contain $P$, the smallest perimeter polygon around $S$. By the definition of the smallest perimeter polygon shown above, the edges of the polygon $P$ are formed directly from connections between points of $S$, so there must be a vertex of $S$ outside the boundaries of $P'$, it follows $P'$ doesnt fully contain $S$, which is a contradiction, therefore $P'$ must contain $P$.
-___
+Let $P$ be the convex polygon whose vertices are points from the set of points and that it contains all points from it. the intuition is that given another $Q$ fulfilling the same requirements, assume by contradiction that it is not equal to $P$, it should have either more points or less points.
 
+- if it has more points than $P$ it falls to the triangle inequality thing and is not convex neither the smallest
+- if it has less points it doesnt contain the whole set
+
+so they must be equal otherwise it just wouldnt fw it
