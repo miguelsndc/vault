@@ -55,8 +55,15 @@ Significado das colunas:
  - **COMMAND**: Nome do commando/processo.
 
 $7)$
-- $a)$
-- $b)$
+- $a)$ O comando utilizado foi `cat /proc/<pid>/comm`, as executáveis foram, spotify, gnome-terminal e um componente do firefox em execução.
+
+![[Pasted image 20250718113842.png]]
+
+
+- $b)$ O comando utilizado foi `cat /proc/<pid>/status + grep` para filtrar as informações relevantes à questão, os resultados obtidos estão no print.
+
+![[Pasted image 20250718114150.png]]
+
 - $c)$
 
 - $d)$ Comandos utilizados `cat /proc/sys/kernel/pid_max` e `cat /proc/sys/kernel/threads-max`. Os valores obtidos foram, respectivamente, $4194304$ e $94028$.
