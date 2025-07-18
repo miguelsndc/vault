@@ -31,3 +31,33 @@ $5)$ Comando utilizado: `pstree`; Resultado:
 ![[Pasted image 20250718104919.png]]
 
 Vê se que o usuário iniciou o próprio `systemd` assim como um processo que lida com a interface gráfica, o $\rm gdm$, algo que o gnome usa. 
+
+$6)$ Comando: `top -d 10`; Resultado:
+
+![[Pasted image 20250718112621.png]]
+
+Significado das colunas:
+ - **PID**: Identificador do processo.
+ - **USER**: Usuário dono do processo
+ - **PR**: Prioridade (PR menor tem mais prioridade)
+ - **NI**: O valor de "nice", serve para ajuste de prioridade.
+ - **VIRT**: Memória virtual total usada.
+ - **RES**: Memória residente, (a de fato armazenada na RAM)
+ - **SHR**: Memória compartilhada
+ - **S**: Estado:
+	- S = Sleep
+	- R = Running
+	- I = Idle
+	- Z = Zombie
+ - **%CPU**: Percentual de uso da CPU
+ - **%MEM**: Percentual de uso da memória RAM
+ - **TIME+**: Tempo total de CPU usado pelo processo
+ - **COMMAND**: Nome do commando/processo.
+
+$7)$
+- $a)$
+- $b)$
+- $c)$
+
+- $d)$ Comandos utilizados `cat /proc/sys/kernel/pid_max` e `cat /proc/sys/kernel/threads-max`. Os valores obtidos foram, respectivamente, $4194304$ e $94028$.
+ 
