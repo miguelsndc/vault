@@ -60,11 +60,14 @@ $7)$
 ![[Pasted image 20250718113842.png]]
 
 
-- $b)$ O comando utilizado foi `cat /proc/<pid>/status + grep` para filtrar as informações relevantes à questão, os resultados obtidos estão no print.
+- $b)$ O comando utilizado foi `cat /proc/<pid>/status` + `grep` para filtrar as informações relevantes à questão, os resultados obtidos estão no print.
 
 ![[Pasted image 20250718114150.png]]
 
-- $c)$
+- $c)$ TODO
 
-- $d)$ Comandos utilizados `cat /proc/sys/kernel/pid_max` e `cat /proc/sys/kernel/threads-max`. Os valores obtidos foram, respectivamente, $4194304$ e $94028$.
- 
+- $d)$ Comandos utilizados `cat /proc/sys/kernel/pid_max` e `cat /proc/sys/kernel/threads-max` Os valores obtidos foram, respectivamente: $4194304$ e $94028$:
+![[Pasted image 20250718115002.png]]
+
+
+
