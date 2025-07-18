@@ -108,8 +108,15 @@ Em seguida, foi tentada a alteração para nice = 0 como usuário comum: `renice
 
 ![[Pasted image 20250718123607.png]]
 
-Após entrar como root:`sudo renice -n -20 -p <PID>`, o comando foi executado e o valor de prioridade foi alterado para -20, o menor valor possível e, portanto, a maior prioridade real possível no sistema.
+Após entrar como root:`sudo renice -n -20 -p <PID>`, o comando foi executado e o valor de prioridade foi alterado para $-20$, o menor valor possível e, portanto, a maior prioridade real possível no sistema.
 
 ![[Pasted image 20250718123804.png]]
 
 Segue que usuários comuns podem defininir prioridades positivas, e somente o **root** pode definir prioridades mais altas (negativas) para os processos.
+
+$9)$
+- $a)$ Foram criados $2$ processos com a execução, os identificadores são: 
+![[Pasted image 20250718131012.png]] 
+Pai: $87313$ e filho $87314$, a hierarquia é: $87313 \rightarrow 87314$ já que o pai é o $87313$.
+
+- $b)$ O processo pai ainda está rodando por conta do `while(1);` no seu código, o filho termina o seu trabalho após o laço que imprime "Finalizei meu trabalho"  múltiplas vezes.
