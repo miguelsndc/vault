@@ -71,9 +71,19 @@ $7)$
 
 $8)$
 - $a)$ Executando.
-![[Pasted image 20250718120228.png]]
+![[Pasted image 20250718121139.png]]
 
 - $b)$ Existem dois identificadores, e eles são diferentes porque cada execução do programa cria um processo diferente no sistema.
-- $c)$ Ambos são iguais a $0$. 
+- $c)$ A prioridade efetiva e o valor de "Nice" de ambos, é respectivamente $20$ e $0$. 
+- $d)$ Ambos pararam de executar e o contador de `stopped` no `top` aumentou em duas unidades, Comando utilizado: `kill -STOP <pid>`
+
+![[Pasted image 20250718121322.png]]
+
+$e)$ O comando utilizado foi `kill -CONT <pid>`; Os processos voltaram a executar e o contador de stopped voltou a ser 0.
+
+![[Pasted image 20250718121145.png]]
+
+
+
 
 
