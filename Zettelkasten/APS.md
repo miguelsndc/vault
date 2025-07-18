@@ -95,4 +95,14 @@ $h)$ O comando utilizado foi `sudo renice -n 15 -p <pid>`
 
 ![[Pasted image 20250718122257.png]]
 
+$j)$ Não foi possível aumentar o valor em mais $10$ unidades, o sistema setou automaticamente a priodade para ser $39$; O comando utilizado foi `sudo renice -n 25 -p <pid>.`
 
+
+![[Pasted image 20250718122432.png]]
+
+
+Tentei reduzir a prioridade do processo em execução para -30 com: `renice -n -30 -p <PID>`, o comando não foi aceito como usuário comum:
+![[Pasted image 20250718123333.png]]
+Em seguida, foi tentada a alteração para nice = 0 como usuário comum: `renice -n 0 -p <PID>`, o comando foi de fato executado, pois a prioridade não foi aumentada além do permitido.
+
+Após entrar como root:`sudo renice -n -20 -p <PID>`, o comando foi executado e o valor de prioridade foi alterado para -20, o menor valor possível e, portanto, a maior prioridade real possível no sistema.
