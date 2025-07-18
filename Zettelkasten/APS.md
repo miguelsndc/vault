@@ -3,8 +3,9 @@
 
 *Em um terminal de comando, liste somente os processos que estão em execução no  terminal atual. Ilustre o resultado obtido*
 
-$1)$ Comando: `ps`; Resultado obtido:
-![[Pasted image 20250718101232.png]]
-Somente o próprio bash do terminal e o `ps` sendo executados.
+$1)$ Comando: `ps a`; Resultado obtido:
+![[Pasted image 20250718101931.png]]
 
 $2)$ Comando `ps -ef` Resultado:
+![[Pasted image 20250718101343.png]]
+
