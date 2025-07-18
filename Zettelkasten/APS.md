@@ -83,7 +83,16 @@ $e)$ O comando utilizado foi `kill -CONT <pid>`; Os processos voltaram a executa
 
 ![[Pasted image 20250718121145.png]]
 
+$f)$ O Comando utilizado foi: `kill <pid>`,  e ambos os processos sumiram do top.
 
+![[Pasted image 20250718121525.png]]
 
+$g)$ O comando utilizado foi `nice -n 5 ./codigo0`, os resultados obtidos foram:
+![[Pasted image 20250718121956.png]]
+A prioridade efetiva do `codigo0` aumentou $5$ unidades.
+
+$h)$ O comando utilizado foi `sudo renice -n 15 -p <pid>` 
+
+![[Pasted image 20250718122257.png]]
 
 
