@@ -69,5 +69,11 @@ $7)$
 - $d)$ Comandos utilizados `cat /proc/sys/kernel/pid_max` e `cat /proc/sys/kernel/threads-max` Os valores obtidos foram, respectivamente: $4194304$ e $94028$:
 ![[Pasted image 20250718115002.png]]
 
+$8)$
+- $a)$ Executando.
+![[Pasted image 20250718120228.png]]
+
+- $b)$ Existem dois identificadores, e eles são diferentes porque cada execução do programa cria um processo diferente no sistema.
+- $c)$ Ambos são iguais a $0$. 
 
 
