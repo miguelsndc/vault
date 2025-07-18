@@ -1,9 +1,8 @@
 
 > Nome: **Miguel Santos Nogueira da Costa**
 
-*Em um terminal de comando, liste somente os processos que estão em execução no  terminal atual. Ilustre o resultado obtido*
-
 $1)$ Comando: `ps a`; Resultado obtido:
+
 ![[Pasted image 20250718101931.png]]
 
 $2)$ Comando `ps aux` Resultado:
@@ -20,11 +19,17 @@ $5)$ Comando utilizado: `pstree`; Resultado:
 
 - $a)$ O processo raiz é o systemd, seu $PID$ é sempre $1$.
 
-- $b)$ Usando `ps -u miguelsndc -o pid,ppid,comm --forest
-	 ![[Pasted image 20250718103913.png]]
-		Vemos claramento o PID do `ps` $74438$  junto com seu processo pai o `bash`, bem como seu PID $72530$.
+- $b)$ Usando `ps -u miguelsndc -o pid,ppid,comm --forest:
 
-- $c)$ Rodando um `sleep` em outro terminal e pegando o $PID$ do bash daquele terminal, eu tenho ![[Pasted image 20250718104533.png]] como árvore, comando `pstree -p <PID>` onde $\rm<PID>$, é o pid do bash.
+	 ![[Pasted image 20250718103913.png]]
+		Vemos o PID do `ps` $74438$  junto com seu processo pai o `bash`, bem como seu PID $72530$.
+
+- $c)$ Rodando um `sleep` em outro terminal e pegando o `PID` do bash daquele terminal, eu tenho
+
+![[Pasted image 20250718104533.png]] 
+
+como árvore, comando `pstree -p <PID>` onde `<PID>`, é o pid do bash.
+
 
 - $d)$ Comando: `pstree -u miguelsndc`,
 
@@ -71,6 +76,7 @@ $7)$
 
 $8)$
 - $a)$ Executando.
+
 ![[Pasted image 20250718121139.png]]
 
 - $b)$ Existem dois identificadores, e eles são diferentes porque cada execução do programa cria um processo diferente no sistema.
@@ -88,7 +94,9 @@ $f)$ O Comando utilizado foi: `kill <pid>`,  e ambos os processos sumiram do top
 ![[Pasted image 20250718121525.png]]
 
 $g)$ O comando utilizado foi `nice -n 5 ./codigo0`, os resultados obtidos foram:
+
 ![[Pasted image 20250718121956.png]]
+
 A prioridade efetiva do `codigo0` aumentou $5$ unidades.
 
 $h)$ O comando utilizado foi `sudo renice -n 15 -p <pid>` 
@@ -116,15 +124,31 @@ Segue que usuários comuns podem defininir prioridades positivas, e somente o **
 
 $9)$
 - $a)$ Foram criados $2$ processos com a execução, os identificadores são: 
+
 ![[Pasted image 20250718131012.png]] 
+
 Pai: $87313$ e filho $87314$, a hierarquia é: $87313 \rightarrow 87314$ já que o pai é o $87313$.
 
 - $b)$ O processo pai ainda está em execução ou esperando (S) indefinidamente por conta do `while(1);` no seu código, o filho vira zumbi após o fim do laço que imprime "Finalizei meu trabalho" múltiplas vezes, porque não é limpo da tabela de processos até que o pai seja encerrado (nunca) ou fizesse `wait()`.
 
 $10)$ 
-
 - $a)$ 
+
 ![[Pasted image 20250718131945.png]]
 os PID's são $88052$ e $88053$ para pai e filho respectivamente, a hierarquia é $88052 \rightarrow 88053$.
 
 - $b)$ No `codigo2.c`, o filho não entra no estado zumbi porque o pai chama a função `waitpid(pid, status, 0);`, que serve exatamente pra esperar a finalização do filho e coletar o seu status de término. Quando um filho termina sua execução, ele permanece como zumbi até que o processo pai colete seu status com `wait()` ou `waitpid()`, ou o sistema não pode liberar os recursos. Como o pai faz a coleta antes de entrar no loop infinito, o sistema pode desalocar imediatamente os recursos do filho, evitando que ele continue como zumbi. Após o fim da execução do processo filho, o pai entra em loop infinito.
+
+$11)$
+Localização do arquivo:
+`/usr/src/linux-headers-<versao>/include/linux/sched.h` 
+
+Alguns campos relevantes do task_struct:
+- **pid**: identificador do processo.
+- **state**: estado do processo.
+- **prio**: prioridade.
+- **static_prio**, **normal_prio**: prioridades estática e normal.
+- **real_parent**, **parent**: ponteiros para o processo pai.
+- **comm**: nome do processo.
+- **mm**: informações sobre memória.
+- **se**: estatísticas de agendamento.
