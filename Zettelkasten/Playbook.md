@@ -51,3 +51,7 @@ int main() {
 ```
 
 esse simplesmente calcula a quanto tempo cada quantidade de intervalo aberto fica aberto. Um caso especial é quando **o last time não chega no $b$, no fim do intervalo**, e precisamos considerar esse cara pq nada acontece, e todos os intervalos abertos continuam abertos.
+
+#### Inversions
+
+Uma inversão em um array é, para um pair $(i,j)$ temos $i < j$ e $a_{i}> a_{j}$. Uma propriedade interessante que vi [nesse problema](https://codeforces.com/gym/105709/problem/G) é que se performarmos alguns swaps numa array, é o a paridade do número de inversões flipa. Isto é, se fizermos swap em um par do array, o único par afetado é ele mesmo, ou era uma inversão e não é mais, ou não era e agora é, como fazemos dois swaps no problema, a paridade de inversões não muda, e só é possível chegar a um número limitado de estados a partir do inicial dado a paridade das inversões. Note que o array ordenado tem **0** inversões, e como a cada operação a paridade é **invariante**, só podemos chegar nele caso já tivéssemos um número par de inversões.
