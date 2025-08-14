@@ -25,3 +25,14 @@ Um processo pode criar um ou mais processos filhos, dando origem à uma estrutur
 - Um programa principal que invoca as rotinas de serviço.
 - Um conjunto de rotinas de serviço que executam as chamadas de sistema
 - Um conjunto de rotinas utilitárias que auxiliam as rotinas de serviço
+
+**Camadas**: A Arquitetura em camadas separa as responsabilidades em níveis, onde quanto mais baixo o nível, mas privilegiadas/críticas são as rotinas realizadas pela camada, e menor o nível de abstração. Cada camada é construída a partir da anterior, adicionando novas rotinas e disponibilizando outras para as camadas acima. Um exemplo seria um sistema com 6 camadas, sendo:
+- **Camada 0**: Alocação de processador e multiprogramação;
+- **Camada 1**: Gerenciamento de memória e tambor;
+- **Camada 2**: Comunicação operador-processo;
+- **Camada 3**: Gerenciamento de entrada/saída;
+- **Camada 4**: Programas de usuário;
+- **Camada 5**: Operador.
+Que é a arquitetura do sistema do mano Djisktra.
+
+**Micronúcleos**: Há quem argumente que quanto menos camadas temos executando em modo núcleo, maior a confiabilidade do sistema (em partes),  já que caso uma 
