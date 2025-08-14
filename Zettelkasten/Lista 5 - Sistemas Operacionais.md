@@ -25,4 +25,9 @@ A arquitetura em camadas tenta dividir as funções do sistema em, bom, camadas,
 $8)$ A arquitetura de microkernel se desenvolve a partir da ideia de que o núcleo pode e deve ser mínimo, para trazer confiabilidade e resiliência ao sistema, dado que erros no núcleo são absolutamente críticos e compremetem todo o sistema operacional, e erros em processos de usuários podem ser resolvidos simplesmente matando o processo defeituoso, a arquitetura de micro-kernel se divide em:
 
 - Micronúcleo: responsável por chavear processos, gerenciar dispositivos de E/S, gerenciar memória, e demais operações de modo núcleo.
-- Drivers: 
+- Servidores, que implementam funções do SO como processos de usuário, temos por exemplo, o servidor de rede, de impressão, de arquivos, de memória, que fazem chamadas ao núcleo, que responde devidamente, fornecendo basicamente uma comunicação entre os processos
+
+Vantagens são: Facilidade de depuração, manutenção, gerenciamento.
+Como desvantagem podemos citar: desempenho, dado que cada comunicação entre cliente-servidor, temos uma troca do modo de acesso, (núcleo envolvido).
+
+$9)$ System calls ou chamadas para o sistema são rotinas invocadas por processos em modo usuário que desejam acessar um recurso ou executar uma ação que está protegida pelo sistema operacional e pode somente ser executada em modo núcleo. Um processo que faz uma chamada de sistema passa o controle para o sistema operacional, que cuidadosamente avalia a chamada para garantir consistência e corretude dos parâmetros, que então a executa com segurança e devolve o controle à instrução seguinte do processo, chamadas de sistema são abstrações que garantem a segurança, desempenho e confiabilidade do sistema, abstraindo de processos de usuário funções que não os cabem.
