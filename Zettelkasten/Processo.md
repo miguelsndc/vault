@@ -17,5 +17,18 @@ Em sistemas muito simples, citando o exemplo dos embarcados em microondas por ex
 - Solicitação do usuário para criar novo processo.
 - Início de uma tarefa em lote *(exclusivo para sistemas em lote)*.
 
-Processos que executam em segundo plano, aguardando algum evento para serem executados, são chamados de **daemons**, alguns exemplos são: o processo que aguarda para notificar a chegada de um novo e-mail, o que está aguardadn
+Processos que executam em segundo plano, aguardando algum evento para serem executados, são chamados de **daemons**, alguns exemplos são: o processo que aguarda para notificar a chegada de um novo e-mail, o que está aguardando uma nova solicitação de página web para buscar a retorná-la.
 
+#### Término de Processos
+
+Como nem tudo dura pra sempre, processos, uma vez criados e tendo seu trabalho concluído, (ou algum erro detectado), se encerram. Temos 4 motivos principais para o encerramento dos processos:
+
+- Saída normal (voluntária)
+- Erro fatal (involuntária)
+- Saída por erro (voluntária)
+- Morte por outro processo (involuntária)
+
+Um processo, uma vez tendo terminado seu trabalho, executa uma chamada para o sistema operacional como uma criança que chama sua mãe para limpar sua bundinha no banheiro. No UNIX a chamada se chama `exit`. 
+Um erro fatal é quando, por exemplo, se deseja compilar um arquivo que não existe, nesse caso, o compilador graciosamente anuncia que o arquivo indicado não existe, e se encerra. Em programas baseados em tela, geralmente não se encerram, apenas indicam ao usuário para que dê os dados corretamente.
+O terceiro motivo é um erro causado pelo processo, em decorrência de um erro de programa, referenciar endereços inválidos e dividir por zero são exemplos de erros de programa.
+O quarto motivo é a morte por outro processo, que pode invocar uma [[Chamadas de Sistema]] `kill` para matar o processo indicado, obviamente é necessário possuir a permissão para matar o processo indicado.
