@@ -18,3 +18,10 @@ Um processo pode criar um ou mais processos filhos, dando origem à uma estrutur
 
 
 **Proteção**: também faz parte do papel do sistema operacional proteger arquivos e recursos com permissões designadas para cada tipo de usuário, no **UNIX**, as permissões são gerenciadas por $9$ bits, 3 para cada o administrador, 3 para os usuários do grupo do proprietário, e mais 3 para um usuário qualquer, esses bits são chamados de **bits rwx**, por exemplo, *rwxr-x--x* indica que o admin pode **ler: r**, **escrever: w** e **executar: x** arquivos, usuários quaisquer podem apenas executar, mas não ler e escrever.
+
+### Estruturas
+
+**Monolítico**: Neste arquitetura, todo o sistema operacional é ligado a um único binário executável, todas as rotinas são visíveis para todas as rotinas do sistema, não há nenhuma separação, todas as rotinas podem chamar todas as outras, o que torna complexo e difícil de compreender. Porém é possível haver estrutura num sistema monolítico, colocando-se os parâmetros das [[Chamadas de Sistema]] num local bem definido, como uma pilha por exemplo, e executando uma instrução de desvio de controle, passa-se para o modo núcleo e se dá o controle para o sistema operacional, que os busca e determina qual instrução será executada, então indexa uma tabela que contém na k-ésima linha um ponteiro para a rotina que executa a k-ésima chamada de sistema, então, tem-se a seguinte estrutura:
+- Um programa principal que invoca as rotinas de serviço.
+- Um conjunto de rotinas de serviço que executam as chamadas de sistema
+- Um conjunto de rotinas utilitárias que auxiliam as rotinas de serviço
