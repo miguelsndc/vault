@@ -25,3 +25,13 @@ Uma thread, assim como processo, pode estar pronta, pode estar bloqueada, pode d
 | Sinais e tratadores de sinais |                      |
 | informação de contabilidade   |                      |
 Quando um processo é criado, ele possui uma thread única, essa thread pode criar outras com ajuda de rotinas de criação
+
+#### Modelo POSIX
+
+Aqui estão listadas alguma funções do modelo POSIX para threads, o standard `pthreads`:
+
+- `pthread_create` Cria uma nova thread
+- `pthread_exit` Conclui a chamada de thread (mata a thread)
+- `pthread_join` Espera pela saída de uma determinada thread (bloqueia a thread que fez a chamada)
+- `pthread_yield` libera a CPU para que outra thread seja executada
+- ``
