@@ -41,3 +41,11 @@ No UNIX, ao inicializar-se o sistema, um único processo é executado, o init, q
 
 #### Estados de Processos
 
+Processos possuem estados dentro do sistema, nenhum processo é executado indefinidamente, existem restrições e condições para que ele seja executado, além de tempo de CPU que é dividido irmãmente entre os processos pelo [[Escalonamento]], um processo que, por exemplo, busca algum texto no arquivo, pode somente buscar esse texto quando o arquivo estiver disponível para ser buscado. Nesse caso, o processo fica **bloqueado** até que sua entrada esteja disponível. Outro motivo para o bloqueio de um processo, é quando a CPU decidiu que ele ocupou tempo o suficiente de CPU e passa a executar outro processo no lugar, nesse caso, o processo, conceitualmente pronto e executável, fica bloqueado até que tenha a oportunidade de rodar novamente. Em geral, existem três estados:
+
+1. Executando (Realmente usando a CPU naquele instante)
+2. Pronto (Executável, temporariamente parado para deixar outro processo ser executado)
+3. Bloqueado (Incapaz de ser executado até que algum evento externo aconteça).
+
+![[Escalonamento.excalidraw]]
+
