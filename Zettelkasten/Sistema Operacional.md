@@ -35,4 +35,4 @@ Um processo pode criar um ou mais processos filhos, dando origem à uma estrutur
 - **Camada 5**: Operador.
 Que é a arquitetura do sistema do mano Djisktra.
 
-**Micronúcleos**: Há quem argumente que quanto menos camadas temos executando em modo núcleo, maior a confiabilidade do sistema (em partes),  já que caso uma 
+**Micronúcleos**: Na arquitetura de micronúcleos, tenta-se minimizar o número de processos executando em modo núcleo ao estritamente necessário, para aumentar a confiabilidade do sistema. Tendo em vista que um erro introduzido em um processo rodando no modo núcleo, pode facilmente referenciar um endereço inválido na memória e explodir o sistema operacional inteiro. As rotinas do núcleo são realizadas por um processo chamado de micronúcleo, que realiza operações básicas como chavear processos e oferece uma interface de chamadas de sistema. Um sistema em micronúcleos altamente modularizado tem a vantagem de que um processo dando pau, um driver de dispositivo por exemplo, de áudio, o som é truncado, e o sistema continua tendo seus outros processos funcionando.
