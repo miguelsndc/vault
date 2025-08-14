@@ -32,3 +32,7 @@ Um processo, uma vez tendo terminado seu trabalho, executa uma chamada para o si
 Um erro fatal é quando, por exemplo, se deseja compilar um arquivo que não existe, nesse caso, o compilador graciosamente anuncia que o arquivo indicado não existe, e se encerra. Em programas baseados em tela, geralmente não se encerram, apenas indicam ao usuário para que dê os dados corretamente.
 O terceiro motivo é um erro causado pelo processo, em decorrência de um erro de programa, referenciar endereços inválidos e dividir por zero são exemplos de erros de programa.
 O quarto motivo é a morte por outro processo, que pode invocar uma [[Chamadas de Sistema]] `kill` para matar o processo indicado, obviamente é necessário possuir a permissão para matar o processo indicado.
+
+#### Hierarquia de Processos
+
+Como dito na seção
