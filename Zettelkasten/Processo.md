@@ -63,4 +63,4 @@ Processos possuem estados dentro do sistema, nenhum processo é executado indefi
 
 Para implementar o modelo de processos, o sistema operacional mantém um arranjo de estruturas chamada **tabela de processos**, com uma entrada para cada processo, as entradas contém informações importantes sobre o estado do processo, incluindo seu [[Contador de Programa]], [[Ponteiro de Pilha]], alocação de memória e estado dos arquivos abertos e tudo mais que deva ser salvo para quando o processo chavear de *em execução* para *pronto*, e posteriormente conseguir retomar como se nada tivesse acontecido.
 
-Existe um local na memória, geralmente fixo, chamada de **vetor de interrupção**, que contém o endereço da rotina de serviço de interrupção
+Existe um local na memória, geralmente fixo, chamada de **vetor de interrupção**, que contém o endereço da rotina de serviço de interrupção. Supondo que um processo foi interrompido por uma interrupção de disco, [[Contador de Programa]], a palavra de estado e um ou mais registradores são salvos na pilha (atual) pelo hardware, o computador então desvia a execução pro endereço especificado no **vetor de interrupção**.
