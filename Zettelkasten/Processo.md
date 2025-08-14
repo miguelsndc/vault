@@ -57,3 +57,7 @@ Processos possuem estados dentro do sistema, nenhum processo é executado indefi
 2.  A transição 2 ocorre quando o **escalonador** decide que o processo em andamento foi executado por tempo suficiente, e é o momento de deixar outro processo utilizar a CPU.
 3. A transição 3 é o outro lado da moeda da transição 2, o processo que antes aguardava a vez de usar a CPU agora está em execução, selecionado pelo escalonador.
 4. A transição 4 checa se o evento que o processo estava esperando na transição 1 aconteceu, isto é, no exemplo dado, se uma entrada está disponível, neste caso, se não houver processos pendentes ele pode passar direto para a transição 3, ou, por um curto período aguardar em estado **pronto**.
+
+
+#### Implementação de Processos
+
