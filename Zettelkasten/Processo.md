@@ -38,3 +38,6 @@ O quarto motivo é a morte por outro processo, que pode invocar uma [[Chamadas d
 Como dito na seção de criação de processos, um processo pode criar vários filhos, mas  ele somente tem um pai, essa estrutura acaba se tornando uma árvore de processos, onde cada processo possui um pai, filhos e descendentes. No UNIX, um processo e todos os seus descendentes formam um **grupo de processos**, quando um usuário envia, por exemplo, um sinal do teclado, o sinal é entregue a **todos os membros do grupo de processos associados ao teclado**, que podem decidir tomar alguma ação, ignorá-lo ou tomar alguma ação predefinida como, por exemplo, ser morto pelo sinal (Alt F4).
 
 No UNIX, ao inicializar-se o sistema, um único processo é executado, o init, que por sua vez lê um arquivo que diz quantos terminais existem, então, ele se bifurca em um processo para cada terminal, que por sua vez aguardam comandos que podem iniciar novos processos e assim por diante.
+
+#### Estados de Processos
+
