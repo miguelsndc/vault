@@ -47,4 +47,8 @@ O argumento mais devastador é que, em aplicações que mais se beneficiam de th
 
 #### Threads de Núcleo
 
-Ao invés de cada processo possuir uma tabela de threads e um sistema de tempo de execução, o núcleo agora tem uma tabela que controla todas as threads do sistema. A criação de novas thread
+Ao invés de cada processo possuir uma tabela de threads e um sistema de tempo de execução, o núcleo agora tem uma tabela que controla todas as threads do sistema. A criação de novas threads é feita a partir de chamadas de núcleo. A tabela de threads armazena todas as informações relativas à threads, registradores, estado, etc. O núcleo mantém paralelamente a tabela de processo.
+
+Todas as chamadas que poderiam bloquear uma thread são agora feitas como chamadas de sistema, a um custo consideravelmente maior do que uma chamada à uma rotina do sistema de tempo de execução. Quando uma thread é bloqueada, o sistema tem a opção de executar uma thread do mesmo processo no lugar, ou de outro processo. Enquanto o sistema de tempo de execução escalona as threads do seu processo enquanto tiver a CPU.
+
+Tendo em vista o custo maior de criação e destruição de threads, quando uma thread encerra o sistema marca como não executável, ou seja, o sistema recicla threads, polpando parte do trabalho de criação, apenas modificando o que for necessário das estruturas de dados internas da thread para abrigar a nova thread.
