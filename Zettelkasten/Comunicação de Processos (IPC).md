@@ -49,3 +49,17 @@ O grande problema de soluções que utilizam espera ocupada é exemplificada na 
 Imagina o seguinte problema, temos um produtor, um consumidor, e um buffer, o produtor enche o buffer até que ele esteja cheio, então vai dormir, e o consumidor retira itens do buffer até que ele esteja vazio, e então vai dormir.
 Os problemas de condições de corrida são os mesmos da fila de impressão, note que, se o consumidor ler uma variável `count` que indica quantos itens estão no buffer, e ela for 0, e logo em seguida o escalonador trocar para o produtor, ele vai ler, e atualizar o conteúdo pra 1, e então **acordar o consumidor, que não estava logicamente dormindo, então a instrução é perdida**, quando o escalonador retomar o consumidor, ele vai notar que o count que leu é $0$, e irá dormir, o produtor eventualmente vai encher o buffer, e ambos dormirão pra sempre, **deadlock**.
 
+#### Semáforos
+
+**Semáforos** são variáveis inteiras cujo valor é modificado apenas por **operações atômicas** (`wait`/`P` e `signal`/`V`), garantindo que não ocorram **condições de corrida**.
+
+O valor de um semáforo indica **quantos recursos estão disponíveis** naquele instante, permitindo que múltiplas threads/produtores/consumidores acessem recursos compartilhados de forma sincronizada.
+
+- **Semáforo contador**: pode assumir valores maiores que 1, controlando múltiplos recursos disponíveis.
+- **Semáforo binário**: só assume 0 ou 1 e é funcionalmente similar a um _mutex_, mas não é exatamente o mesmo — um mutex é um mecanismo de **exclusão mútua** estrito, enquanto um semáforo binário pode ser usado também para **sincronização** entre threads que não compartilham exatamente a mesma seção crítica.
+
+A exclusão mútua em si não é “implementada pelos contadores”, mas pelo uso de semáforo binário ou mutex para garantir que apenas uma thread entre na seção crítica por vez.
+
+#### Mutex
+
+Mutexes são simples variáveis 
