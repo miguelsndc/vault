@@ -34,4 +34,5 @@ Aqui estão listadas alguma funções do modelo POSIX para threads, o standard `
 - `pthread_exit` Conclui a chamada de thread (mata a thread)
 - `pthread_join` Espera pela saída de uma determinada thread (bloqueia a thread que fez a chamada)
 - `pthread_yield` libera a CPU para que outra thread seja executada
-- ``
+
+
