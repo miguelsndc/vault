@@ -18,3 +18,17 @@ Se conseguíssemos garantir que, jamais dois processos acessassem uma informaç�
 3. Nenhum processo executando fora de sua região crítica pode bloquear outro processo
 4. Nenhum processo deve ser obrigado a esperar eternamente para entrar em sua região crítica.
 
+
+##### Desligamento de Interrupções
+
+Uma das soluções é desligar os sinais de interrupção quando um processo está em sua região crítica, dessa forma, nenhum outro processo pode também executar, portanto não pode entrar em sua região crítica, esta abordagem é falha, dado que em um sistema multiprocessador, desabilitar interrupções em uma CPU somente não garante que processos executando em outras CPU's também acessem suas regiões críticas.
+E também dar a processos o poder de desabilitar interrupções é desencorajado, e se o processo desabilitar e nunca mais reabilitar ? fim do sistema. Também desabilitar todas as CPU's quando um processo está em região crítica é tão ineficiente que chega a ser cômico.
+
+##### Variáveis de Trava
+
+E se houvesse uma varíavel que indicasse quando um processo está em região crítica ? Um processo primeiro checa se a variável de trava está livre $= 0$, e então a troca para $1$ e entra em região crítica. O problema de race conditions vai existir do mesmo jeito para essa variável, um processo lê a variável, vê que está $0$, e a CPU passa para outro processo, que também a lê a atualiza para $1$, e entra na região crítica, quando a CPU retomar o processo antigo, ele também a atualiza e entra em região crítica.
+
+##### Alternância explícita
+
+Esta abordagem utiliza de **espera ocupada**, que é uma estratégia onde o processo testa continuamente em loop contra uma variável para saber se é possível entrar em sua região crítica, o que é desencorajado, porque desperdiça tempo de CPU. 
+
