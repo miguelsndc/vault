@@ -42,4 +42,5 @@ A maioria dos processadores possui uma instrução atômica e indivísivel para 
 
 ### Inversão de Prioridades
 
-O grande problema de soluções que utilizam espera ocupada é exemplificada na situação a seguir: Imagine que existem dois processos $A$ e $B$, e $A$ é criado de tal forma que sempre que puder ser executado
+O grande problema de soluções que utilizam espera ocupada é exemplificada na situação a seguir: Imagine que existem dois processos $A$ e $B$, e $A$ é criado de tal forma que sua prioridade é tão alta que sempre que puder ser executado, ele será, indivisivelmente. Considere que $B$ entra em sua região crítica, e $A$ entra em espera ativa. Como $A$ está executando (esperando), ele nunca para de executar, e $B$ fica impossibilitado de deixar sua região crítica porque nunca tem a CPU para si, dada as prioridades.
+
