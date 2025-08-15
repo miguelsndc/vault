@@ -44,3 +44,7 @@ Entre as desvantagens, temos os casos de _page faults_ e outras chamadas de sist
 Outra desvantagem é que, uma vez que uma thread de usuário comece a ser executada, nenhuma outra thread do mesmo processo será executada até que a primeira libere voluntariamente a CPU. Dentro de um único processo não há interrupções de relógio geridas pelo kernel para threads de usuário, tornando impossível implementar escalonamento circular de forma automática. Existe a possibilidade de forçar o sistema de tempo de execução (coleção de rotinas que gerencia as threads) a solicitar sinais de temporizador para retomar o controle, mas isso gera sobrecarga e aumenta a complexidade.
 
 O argumento mais devastador é que, em aplicações que mais se beneficiam de threads — por exemplo, servidores web, que estão constantemente realizando chamadas bloqueantes —, o uso de threads de usuário elimina justamente o motivo para utilizá-las, tornando o conceito ineficaz nesses casos.
+
+#### Threads de Núcleo
+
+Ao invés de cada processo possuir uma tabela de threads e um sistema de tempo de execução, o núcleo agora tem uma tabela que controla todas as threads do sistema. A criação de novas thread
