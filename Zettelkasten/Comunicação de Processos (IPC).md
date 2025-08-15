@@ -44,3 +44,8 @@ A maioria dos processadores possui uma instrução atômica e indivísivel para 
 
 O grande problema de soluções que utilizam espera ocupada é exemplificada na situação a seguir: Imagine que existem dois processos $A$ e $B$, e $A$ é criado de tal forma que sua prioridade é tão alta que sempre que puder ser executado, ele será, indivisivelmente. Considere que $B$ entra em sua região crítica, e $A$ entra em espera ativa. Como $A$ está executando (esperando), ele nunca para de executar, e $B$ fica impossibilitado de deixar sua região crítica porque nunca tem a CPU para si, dada as prioridades.
 
+#### Problema Produtor-Consumidor
+
+Imagina o seguinte problema, temos um produtor, um consumidor, e um buffer, o produtor enche o buffer até que ele esteja cheio, então vai dormir, e o consumidor retira itens do buffer até que ele esteja vazio, e então vai dormir.
+Os problemas de condições de corrida são os mesmos da fila de impressão, note que, se o consumidor ler uma variável `count` que indica quantos itens estão no buffer, e ela for 0, e logo em seguida o escalonador trocar para o produtor, ele vai ler, e atualizar o conteúdo pra 1, e então **acordar o consumidor, que não estava logicamente dormindo, então a instrução é perdida**, quando o escalonador retomar o consumidor, ele vai notar que o count que leu é $0$, e irá dormir, o produtor eventualmente vai encher o buffer, e ambos dormirão pra sempre, **deadlock**.
+

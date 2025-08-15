@@ -15,3 +15,5 @@ $4)$ Busy wait tem o problema da inversão de prioridades, quando um processo de
 
 
 $8)$ O esquema de alternância obrigatória assume que os processos estritamente se alternam em suas regiões críticas, se ambos não estão em RC, um aguarda o outro terminar suas tarefas não críticas para poder entrar em região crítica, o que fere o terceiro princípio.
+
+
