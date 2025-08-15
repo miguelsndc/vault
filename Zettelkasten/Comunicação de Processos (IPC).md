@@ -62,4 +62,8 @@ A exclusão mútua em si não é “implementada pelos contadores”, mas pelo u
 
 #### Mutex
 
-Mutexes são simples variáveis 
+Mutexes são variáveis que indicam se uma thread está em região crítica (1) ou não $(0)$, apenas a thread que chamou `mutex_lock`, isto é, entrou em região crítica pode liberar o mutex chamando `mutex_unlock`. Caso o mutex esteja destravado a thread o trava e entra em região crítica, por outro lado, caso o mutex esteja destravado, o thread que chamou ficará bloqueado até que a thread na região crítica chame `mutex_unlock`, isto é, abre mão da CPU com `thread_yield`, diferente do `enter_region` de espera ocupada, a thread barrada libera a CPU para as outras continuarem, e se multiplas threads estiverem bloqueadas, uma é escolhida ao acaso para receber a trava.
+
+#### Monitores
+
+Monitores são uma abstração de sincronização que combina exclusão mútua automática com variáveis de condição para coordenação entre threads. Todo acesso a recursos compartilhados é feito por meio de procedimentos internos do monitor, que possuem um lock implícito, garantindo que apenas uma thread execute dentro dele por vez e evitando condições de corrida. **Variáveis de condição são mecanismos de espera associados a um lock, que permitem que threads liberem temporariamente o acesso e sejam colocadas em uma fila de bloqueio até que um evento específico ocorra, sendo então acordadas para prosseguir de forma segura.** Quando uma thread precisa esperar por uma situação específica (como um buffer ter espaço ou conter itens), ela usa uma variável de condição para liberar o lock e suspender sua execução até ser acordada, retomando de forma segura quando a condição for satisfeita.
