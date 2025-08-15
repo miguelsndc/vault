@@ -35,3 +35,11 @@ Esta abordagem utiliza de **espera ocupada**, que é uma estratégia onde o proc
 Ainda assim, considerando a situação onde os dois processos não estão em suas regiões críticas, e a variável de turno indica um valor $x$, um processo deve aguardar o outro concluir sua região não crítica para poder entrar em sua região crítica novamente, o que fere o terceiro princípio de exclusão mútua, o que um processo fora da sua região crítica não pode bloquear um processo de entrar na sua. Alternância explícita, para funcionar corretamente exige que os processos alternem-se estritamente nas entradas pra suas RC.
 
 
+#### A instrução TSL
+
+A maioria dos processadores possui uma instrução atômica e indivísivel para setar uma varíavel de lock em um registrador, assim garantindo que nenhum processo entra em regiões críticas ao mesmo tempo, um processo fica em espera ocupada.
+
+
+### Inversão de Prioridades
+
+O grande problema de soluções que utilizam espera ocupada é exemplificada na situação a seguir: Imagine que existem dois processos $A$ e $B$, e $A$ é criado de tal forma que sempre que puder ser executado
