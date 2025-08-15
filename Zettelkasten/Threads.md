@@ -35,4 +35,12 @@ Aqui estão listadas alguma funções do modelo POSIX para threads, o standard `
 - `pthread_join` Espera pela saída de uma determinada thread (bloqueia a thread que fez a chamada)
 - `pthread_yield` libera a CPU para que outra thread seja executada
 
+#### Threads de Usuário
 
+Threads de usuário são implementadas pela biblioteca de threads no modo usuário. O sistema operacional as enxerga como um único processo com uma única thread de núcleo. Entre as vantagens, temos que o chaveamento entre threads de usuário é extremamente rápido, pois não envolve o kernel: quando uma thread executa algo que pode bloqueá-la localmente, é possível que haja um escalonador de threads local que armazena as informações das threads — contador de programa, pilha, registradores etc. — em uma tabela de threads e as orquestra. Como o escalonamento é local e nenhuma chamada ao kernel é feita, o chaveamento de threads é ordens de magnitude mais rápido que o chaveamento de processos.
+
+Entre as desvantagens, temos os casos de _page faults_ e outras chamadas de sistema bloqueantes: uma vez que uma thread faça uma chamada bloqueante, todas as outras ficam bloqueadas aguardando, o que é absolutamente inaceitável e tira todo o propósito de se usar threads, que é permitir que apenas a thread bloqueada pare, enquanto as outras continuam executando. Alternativas para esse comportamento exigem mudanças internas na biblioteca ou no sistema operacional, o que normalmente não é atrativo.
+
+Outra desvantagem é que, uma vez que uma thread de usuário comece a ser executada, nenhuma outra thread do mesmo processo será executada até que a primeira libere voluntariamente a CPU. Dentro de um único processo não há interrupções de relógio geridas pelo kernel para threads de usuário, tornando impossível implementar escalonamento circular de forma automática. Existe a possibilidade de forçar o sistema de tempo de execução (coleção de rotinas que gerencia as threads) a solicitar sinais de temporizador para retomar o controle, mas isso gera sobrecarga e aumenta a complexidade.
+
+O argumento mais devastador é que, em aplicações que mais se beneficiam de threads — por exemplo, servidores web, que estão constantemente realizando chamadas bloqueantes —, o uso de threads de usuário elimina justamente o motivo para utilizá-las, tornando o conceito ineficaz nesses casos.
