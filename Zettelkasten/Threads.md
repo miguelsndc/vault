@@ -47,8 +47,18 @@ O argumento mais devastador é que, em aplicações que mais se beneficiam de th
 
 #### Threads de Núcleo
 
-Ao invés de cada processo possuir uma tabela de threads e um sistema de tempo de execução, o núcleo agora tem uma tabela que controla todas as threads do sistema. A criação de novas threads é feita a partir de chamadas de núcleo. A tabela de threads armazena todas as informações relativas à threads, registradores, estado, etc. O núcleo mantém paralelamente a tabela de processo.
+Ao invés de cada processo possuir uma tabela de threads e um sistema de tempo de execução, o núcleo agora tem uma tabela que controla todas as threads do sistema. A criação e destruição de threads é feita a partir de chamadas de núcleo, que atualizam essa tabela. A tabela de threads armazena todas as informações relativas às threads — registradores, estado, etc. — que, no caso das threads de usuário, ficariam no espaço do usuário. O núcleo mantém, paralelamente, a tabela de processos tradicional para controle dos processos.
 
-Todas as chamadas que poderiam bloquear uma thread são agora feitas como chamadas de sistema, a um custo consideravelmente maior do que uma chamada à uma rotina do sistema de tempo de execução. Quando uma thread é bloqueada, o sistema tem a opção de executar uma thread do mesmo processo no lugar, ou de outro processo. Enquanto o sistema de tempo de execução escalona as threads do seu processo enquanto tiver a CPU.
+Todas as chamadas que poderiam bloquear uma thread são agora feitas como chamadas de sistema, a um custo consideravelmente maior do que uma chamada à uma rotina do sistema de tempo de execução. Quando uma thread é bloqueada, o sistema tem a opção de executar outra thread do mesmo processo (se houver) ou de outro processo. Enquanto isso, no modelo de threads de usuário, o sistema de tempo de execução escalona as threads do seu processo até que o núcleo retire a CPU dele ou não haja mais threads prontas.
 
-Tendo em vista o custo maior de criação e destruição de threads, quando uma thread se encerra o sistema a marca como não executável, ou seja, o sistema recicla threads, polpando parte do trabalho de criação, apenas modificando o que for necessário das estruturas de dados internas da thread para abrigar a nova.
+Tendo em vista o custo maior de criação e destruição de threads, quando uma thread se encerra, o sistema pode marcá-la como não executável e reaproveitá-la depois para outra execução — ou seja, o sistema recicla threads, poupando parte do trabalho de criação, apenas modificando o necessário das estruturas internas da thread para abrigar a nova. Essa reciclagem também é possível no modelo de threads de usuário, mas como o custo de gerenciamento nesse caso é muito menor, há menos incentivo para fazê-lo.
+
+Entre as vantagens do modelo de threads de núcleo, está a capacidade de lidar melhor com _page faults_ e chamadas bloqueantes: se uma thread provocar uma falta de página, o núcleo pode facilmente verificar se há outras threads executáveis no mesmo processo e executá-las enquanto aguarda o carregamento da página do disco.
+
+Ainda assim, há problemas não resolvidos. Por exemplo, quando um processo com múltiplas threads é bifurcado (_fork_), o novo processo deve herdar todos os threads ou apenas um? A escolha depende do que será feito a seguir: se o processo for chamar _exec_ para iniciar um novo programa, provavelmente apenas um thread é a melhor escolha; se for continuar a execução, reproduzir todos os threads pode ser mais adequado.
+
+Outra questão são os sinais. No modelo clássico, sinais são enviados para processos, não para threads. Surge, então, a dúvida: quando um sinal chega, qual thread deve tratá-lo? Uma solução seria permitir que threads registrassem interesse em sinais específicos, mas isso levanta outro problema: e se várias threads registrarem interesse pelo mesmo sinal?
+
+#### Implementações Híbridas
+
+Várias formas de contornar as desvantagens claras de threads de usuário/núcleo foram criadas ao longo do tempo, uma delas é uma abordagem que usa as threads de núcleo juntamente com threads de usuário, esta sendo multiplexada em algumas ou todas as de núcleo. Neste caso, o núcleo está consciente **somente** das threads de núcleo e as escalona.
