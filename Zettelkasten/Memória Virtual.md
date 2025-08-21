@@ -16,3 +16,8 @@ As páginas são marcadas com um bit de presença que indica se elas estão na m
 - Carrega do disco a página referenciada no quadro de página recém-liberado
 		> Se o sistema operacional escolher a página 1 para ser substituída por exemplo, primeiro o SO marca a página 1 como não mapeada para evitar acessos nesse meio tempo, então marca o bit de presença na página que entrou.
 - Reinicia a instrução que falhou.
+
+#### Tabelas de Páginas
+
+**Implementação simples**: O mapeamento de endereços virtuais para físicos é feito da seguinte forma: com um endereço de 16 bits por exemplo, e páginas de 4KB, os 4 bits mais significativos poderiam especificar uma das 16 páginas, e os outros 12 bits especificariam então o deslocamento dentro dessa página. 
+Então, o número da página virtual é usado como índice na tabela de páginas, que vai dar o número do quadro de páginas físico, onde está armazenado na RAM, (caso esteja, se não, desvia pro SO e aguarda),  agora, substitui-se os 4 msb's pelo número do quadro físico. Tendo o número do quadro e o offset fica fácil mandar pro barramento ler/escrever a memória.
