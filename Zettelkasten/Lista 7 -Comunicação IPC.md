@@ -13,6 +13,8 @@ $3)$ Interrupções podem ser desabilitadas somente para uma CPU, um processo ex
 
 $4)$ Busy wait tem o problema da inversão de prioridades, quando um processo de prioridade baixa entra em seção crítica e um processo de prioridade máxima executa em espera ocupada, o processo é executado de tal forma que o escalonamento nunca vai escalonar o processo de menor prioridade, então ele nunca tem a chance de deixar a seção crítica, então o processo de menor prioridade fica bloqueado e o de maior fica em loop infinito.
 
+$5)$ Starvation acontece quando um processo espera eternamente para entrar em sua região crítica.
+Deadlock's acontecem quando dois ou mais processos ficam bloqueados eternamente por conta de alguma race condition.
 
 $8)$ O esquema de alternância obrigatória assume que os processos estritamente se alternam em suas regiões críticas, se ambos não estão em RC, um aguarda o outro terminar suas tarefas não críticas para poder entrar em região crítica, o que fere o terceiro princípio.
 
