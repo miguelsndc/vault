@@ -23,7 +23,14 @@ $6)$ Semáforos são mecanismos que permitem implementar, ao mesmo tempo:
 
 Semáforos são variáveis inteiras não negativas que podem se manipuladas por duas instruções, **atômicas e indivisíveis**, chamadas de *down* e *up*:
 
-- Down dre
+- Down decrementa a variável, se down for chamado e a variável for $0$, o processo entra em estado de espera, sem **busy wait**.
+- Up aumenta o valor da variável
+
+É possível pensar em down e up como tomando o recurso e liberando, respectivamente.
+
+**Semafóros binários ou mutexes** são os semáforos que tem valor $0$ ou $1$, e são usados para controlar o acesso de threads aos recursos compartilhados, garantindo a exclusão mútua, as instruções *DOWN* e *UP* funcionam como protocolos de entrada e saída respectivamente.
+
+$7)$ O semáforo não apresenta espera ocupada por que os processos que tentam usar *DOWN* no semáforo e ele já está em $0$ são postos em modo de espera e não gera overhead à CPU, se um ou mais processos estiverem aguardando, o SO seleciona um ao acaso e coloca em estado pronto.
 
 
 $8)$ O esquema de alternância obrigatória assume que os processos estritamente se alternam em suas regiões críticas, se ambos não estão em RC, um aguarda o outro terminar suas tarefas não críticas para poder entrar em região crítica, o que fere o terceiro princípio.
