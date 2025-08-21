@@ -12,3 +12,11 @@ $2)$ Como o programa do usuário ocupa 768MB e o programa apenas $512$KB $=$ 0.5
 $3)$ O programa C proporciona maior taxa de utilização por ser maior e caber na memória, o programa $B$ não cabe no espaço disponível, e o $A$ ocupa menos memória, causando maior subutilização.
 
 $3)$ Fragmentação *interna* refere-se a taxa de subutilização do espaço de memória alocado a um processo. O espaço desperdiçado pelo processo.
+
+Fragmentação externa acontece quando a memória principal livre está dividida em vários pedaços pequenos inúteis, que não comportam nenhum processo que será alocado, podemos ter blocos de 2, 3, 1, 2 e 2MB livres, totalizando 10MB livres e um processo que necessita de 10MB não poderá ser alocado, mesmo tendo esse espaço **fragmentado** na memória.
+
+$3)$
+
+$a)$ O módulo principal deve ser mantido da memória, uma região do tamanho do maior módulo deve ser reservada, então os módulos os independentes sendo transferidos do disco pra memória e vice-versa, conforme necessário, sobrescrevendo a memória do módulo já em memória.
+
+$b)$ Quando a memória ocupada pelos módulos é grande porém não o suficiente para comportar um outro módulo que precisa ser executado, temos um espaço de fragmentação potencialmente grande.
