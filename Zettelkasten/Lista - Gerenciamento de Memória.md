@@ -17,6 +17,10 @@ Fragmentação externa acontece quando a memória principal livre está dividida
 
 $3)$
 
-$a)$ O módulo principal deve ser mantido da memória, uma região do tamanho do maior módulo deve ser reservada, então os módulos os independentes sendo transferidos do disco pra memória e vice-versa, conforme necessário, sobrescrevendo a memória do módulo já em memória.
+$a)$ O módulo principal deve ser mantido da memória, uma região do tamanho do maior módulo deve ser reservada, então os módulos os independentes sendo transferidos do disco pra memória e vice-versa, conforme necessário, sobrescrevendo a memória do módulo presente.
 
-$b)$ Quando a memória ocupada pelos módulos é grande porém não o suficiente para comportar um outro módulo que precisa ser executado, temos um espaço de fragmentação potencialmente grande.
+$b)$ Quando o módulo presente não ocupa toda a memória ocorre fragmentação interna.
+
+$c)$ (150 + 200 + 300) / 3 $\approx$ 216, com modulo principal + SO temos 216 + 128 = (408) / 512 = $79\%$ de utilização da memória principal.
+
+$d)$ não, pois o módulo maior de 350KB nunca seria executado.
