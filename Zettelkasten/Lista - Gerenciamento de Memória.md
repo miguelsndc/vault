@@ -31,4 +31,17 @@ $1)$ A técnica de swapping serve para "manter" mais processos ativos do que a m
 
 $2)$ Existe um registrador de *relocação* que recebe o endereço inicial da posição de memória que o processo irá ocupar, então toda referência posterior é somada ao valor desse registrador a fim de obter o endereço físico, com isso o programa pode ser carregado em qualquer posição de memória no *swap-in*.
 
-$3)$ Quando existem programas
+$3)$ Quando há pouca memória disponível, o sistema pode ficar inteiro dedicado a fazer swapping, dado o custo elevando da operação (busca no disco), o desempenho é seriamente comprometido.
+
+$4)$ É uma estratégia para lidar com bloatware, programas que excedem o tamanho da memória principal disponível, a técnica se resume à dividir o programa em blocos de tamanho fixo chamados de páginas, e esses páginas podem existir na memória principal como **quadros de página** ou no disco. Quando o processo referencia um endereço em uma página que está no disco, a MMU desvia pro sistema operacional e ele busca no disco, atualiza o quadro de páginas e reexecuta a instrução que falhou.
+
+$5)$ 
+- Minimiza a fragmentação, já que os programas podem ser alocados em espaços não contíguos.
+- Programas deixam de estar limitados ao tamanho da memória física disponível.
+- Permite maior compartilhamento de memória já que apenas parte de cada processo fica presente na memória e melhor utilização da CPU.
+
+$6)$ Espaço de endereçamento virtual se refere aos endereços que o processo pode referenciar e que serão futuramente traduzidos em endereços físicos pela MMU.  O espaço de endereçamento real são os endereços físicos.
+
+$7)$ A **tabela de páginas** é utilizada.
+
+$8)$ 
