@@ -19,5 +19,15 @@ As páginas são marcadas com um bit de presença que indica se elas estão na m
 
 #### Tabelas de Páginas
 
-**Implementação simples**: O mapeamento de endereços virtuais para físicos é feito da seguinte forma: com um endereço de 16 bits por exemplo, e páginas de 4KB, os 4 bits mais significativos poderiam especificar uma das 16 páginas, e os outros 12 bits especificariam então o deslocamento dentro dessa página. 
+**Implementação simples**
+
+O mapeamento de endereços virtuais para físicos é feito da seguinte forma: com um endereço de 16 bits por exemplo, e páginas de 4KB, os 4 bits mais significativos poderiam especificar uma das 16 páginas, e os outros 12 bits especificariam então o deslocamento dentro dessa página. 
 Então, o número da página virtual é usado como índice na tabela de páginas, que vai dar o número do quadro de páginas físico, onde está armazenado na RAM, (caso esteja, se não, desvia pro SO e aguarda),  agora, substitui-se os 4 msb's pelo número do quadro físico. Tendo o número do quadro e o offset fica fácil mandar pro barramento ler/escrever a memória.
+
+**Estrutura de uma Entrada de Tabela de Página**
+
+O campo mais importante de uma tabela de página é o número do quadro de página, já que é ele que se deseja localizar, mas também há outras informações importantes:
+- Bit de presente na memória ou não.
+- Bits de proteção que dizem quais tipos de acesso são permitidos, podem ser até 3 bits para leitura / escrita / execução.
+- Bit de *modificada* ou **dirty bit**: É um bit que indica que uma página foi alterada, e caso o sistema operacional deseje recuperar um quadro de página e a página dentro do quadro foi alterada (isto é, está "suja"), ela também precisa ser alterada no disco, se não foi, ela pode ser abandonada, tendo em vista que a cópia em disco ainda é válida.
+- Bit de *referenciada*: É o bit que o sistema operacional usa para saber quais páginas foram referenciadas recentemente, e ajuda o sistema operacional a escolher um quadro de página para ser substituído.
