@@ -31,3 +31,14 @@ O campo mais importante de uma tabela de página é o número do quadro de pági
 - Bits de proteção que dizem quais tipos de acesso são permitidos, podem ser até 3 bits para leitura / escrita / execução.
 - Bit de *modificada* ou **dirty bit**: É um bit que indica que uma página foi alterada, e caso o sistema operacional deseje recuperar um quadro de página e a página dentro do quadro foi alterada (isto é, está "suja"), ela também precisa ser alterada no disco, se não foi, ela pode ser abandonada, tendo em vista que a cópia em disco ainda é válida.
 - Bit de *referenciada*: É o bit que o sistema operacional usa para saber quais páginas foram referenciadas recentemente, e ajuda o sistema operacional a escolher um quadro de página para ser substituído.
+
+
+#### Translation Lookaside Buffer
+
+Pesquisadores perceberam que uma fração pequena das páginas são recorrentemente referenciadas, e que existem várias página que sequer são encostadas, por isso, um pedaço especial de hardware foi criado, o **Translation Lookaside Buffer**, que é como se fosse um cache para páginas, que inclui informações semelhantes à tabela de páginas, mas por possuir hardware dedicado é muito mais rápido, é evidente que age como um **"middle-man"** na frente da tabela de páginas, dentro da MMU, é importante destacar que ele sempre é atualizado para conter as páginas mais recentemente referenciadas.
+Isso introduz alguns novos conceitos, especialmente sobre **page faults**
+-  **Soft-miss**: quando a página não está no TLB mas está na memória, e basta que a TLB seja atualizada.
+- **Hard-miss**: Quando a página em si não está na memória e precisa ser carregada do disco.
+- **Minor page fault**: A página está na memória, e pode ter sido trazida do disco por outro processo, então basta fazer os paranauê na tabela para funcionar.
+- **Major page fault**: Precisa ser trazida do disco.
+- **Segmentation Fault**: Um endereço inválido foi referenciado e nenhum mapeamento precisa ser acrescentado ao TLB
