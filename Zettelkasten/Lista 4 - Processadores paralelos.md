@@ -18,3 +18,15 @@ A **Taxonomia de Flynn** categoriza os processadores paralelos em quatro categor
 - **SISD** **S**ingle **I**nstruction **S**ingle **D**ata: Um processador único executa uma única instrução por vez em um conjunto de dados.
 - **MISD** - **M**ultiple **I**nstruction **S**ingle **D**ata: Uma sequência de dados é transmitida para um conjunto de processadores onde cada um executa uma sequência de instruções.
 
+$4)$ Principais caraterísticas de sistemas **SMP** (Symmetric Multiprocessores) são:
+- $\ge 2$ processadores de capacidade igual ou semelhante
+- Compartilham a memória principal e recursos de IO
+- Tempo de acesso â memória é igual para todos os processadores **UMA** *Uniform Memory Access*.
+- Processadores desempenham a mesma função
+- S.O oferece interação entre processadores à nível de arquivos, dados compartilhados e tarefas.
+
+$5)$ A carga de trabalho é evidentemente dividida igualmente entre os processadores, dado que são semelhantes e executam a mesma tarefa.
+A disponibilidade é maior, dado que temos vários processadores executando a mesma tarefa, e se um falhar, a carga de trabalho é redirecionada para os outros. 
+Escala melhor, já que basta adicionar mais processadores para aguentar mais trabalho.
+
+$6)$ O barramento compartilhado é um middle-man entre a memória e os processadores, porém um
