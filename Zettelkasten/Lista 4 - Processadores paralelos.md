@@ -12,5 +12,9 @@ $b$) **Coordenação/Sincronização** - Por muitas vezes deseja-se que processa
 $c)$ **Comunicação** Por diversas vezes deseja-se que os processadores dividam o trabalho e se comuniquem por algum espaço de memória compartilhado, isso introduz uma série de problemas como: informações perdidas, atualizações perdidas, condições de corrida, processadores realizando trabalho com informações desatualizadas, inconsistência de dados, e assim por diante.
 
 $3)$ 
+A **Taxonomia de Flynn** categoriza os processadores paralelos em quatro categorias, sendo elas:
+- **SIMD** - **S**ingle **I**nstruction, **M**ultiple **D**ata: uma única instrução de máquina controla a execução simultânea de uma série de elementos de processamento em operações básicas.
+- **MIMD** - **M**ultiple **I**nstruction **M**ultiple **D**ata: Um conjunto de processadores executa diferentes instruções em múltiplos conjuntos de dados ao mesmo tempo.
+- **SISD** **S**ingle **I**nstruction **S**ingle **D**ata: Um processador único executa uma única instrução por vez em um conjunto de dados.
+- **MISD** - **M**ultiple **I**nstruction **S**ingle **D**ata: Uma sequência de dados é transmitida para um conjunto de processadores onde cada um executa uma sequência de instruções.
 
-- **SIMD** - **S**ingle **I**nstruction **M**ultiple **D**ata
