@@ -29,4 +29,19 @@ $5)$ A carga de trabalho é evidentemente dividida igualmente entre os processad
 A disponibilidade é maior, dado que temos vários processadores executando a mesma tarefa, e se um falhar, a carga de trabalho é redirecionada para os outros. 
 Escala melhor, já que basta adicionar mais processadores para aguentar mais trabalho.
 
-$6)$ O barramento compartilhado é um middle-man entre a memória e os processadores, porém um
+$6)$ O barramento compartilhado é um middle-man entre a memória e os processadores, porém um grande limitador de performance, já que todo acesso à memória de todos os processadores passa por ele, uma melhoria é a inclusão de uma cache para cada CPU, onde ela primeiro busca na cache, em caso de miss aí sim o barramento é necessário. Mas isso introduz problemas de coerência de cache entre os processadores e consistência com a memória. Então entram políticas de escrita de cache.
+
+$7)$ 
+
+$8)$ Clusters são redes de múltiplos computadores interligados (nós) que se comunicam através de uma rede de interconexão, WAN ou LAN.
+
+$9)$ Vantagens de clusters são:
+- **Escalabilidade absoluta**: um cluster pode ter dezenas, centenas ou até milhares de máquinas trabalhando juntas.
+- **Escalabilidade incremental**: é possível incrementar o cluster aos poucos, adicionando novas máquinas conforme for necessário.
+- **Alta disponibilidade**: falha em um nó não implica na falha do sistema, todos os outros continuam rodando.
+- **Preço/desempenho**: É possível montar um cluster com desempenho igual ou superior a uma máquina de grande porte, com custo menor.
+
+$10)$ 
+**Clusters com servidores passivos** tem a característica de que uma máquina principal executa todo o trabalho, caso ela falhe, uma máquina secundária assume e assim por diante. É fácil de implementar porém é extremamente ineficiente e desperdiça o poder de processamento de todas as outras $n -1$ máquinas disponíveis no cluster.
+
+**Clusters com servidores ativos** mantém todas as máquinas trabalhando em conjunto, o que é muito melhor em questão de desempenho, porém a **complexidade** de se implementar e manter um sistema nesse modelo é muito superior.
