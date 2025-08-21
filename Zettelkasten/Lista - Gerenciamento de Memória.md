@@ -44,4 +44,15 @@ $6)$ Espaço de endereçamento virtual se refere aos endereços que o processo p
 
 $7)$ A **tabela de páginas** é utilizada.
 
-$8)$ 
+$8)$ Pode ser implementada com **paginação**, onde os blocos de memória são divididos em páginas de tamanho fixo, **segmentação**, de tamanho variável, ou ambos. 
+
+$9)$ Paginação os blocos tem tamanho fixo, e em segmentação, variável.
+
+$10)$ O endereço virtual é composto por:
+- Número de página virtual (NPV): índice para a tabela de páginas virtuais.
+- Deslocamento de página, que indica o deslocamento referente ao início do programa.
+O endereço física é obtido combinando o endereço do frame junto com o deslocamento.
+
+$11)$ Quando a página não se encontra presente na memória ocorre um **page fault** (falta de página), a MMU detecta que a página não se encontra nos quadros de página, gera uma interrupção e o sistema operacional se encarrega de executar alguma política de troca de páginas, onde ele escolhe uma página do quadro em função dessa política e joga pro disco, e traz de volta a página que precisa ser referenciada, diz o número dessa página e reexecuta a instrução que falhou.
+
+$12)$ Paginação apresenta fragmentação interna, a 
