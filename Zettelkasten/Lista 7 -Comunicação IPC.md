@@ -16,6 +16,16 @@ $4)$ Busy wait tem o problema da inversão de prioridades, quando um processo de
 $5)$ Starvation acontece quando um processo espera eternamente para entrar em sua região crítica.
 Deadlock's acontecem quando dois ou mais processos ficam bloqueados eternamente por conta de alguma race condition.
 
+$6)$ Semáforos são mecanismos que permitem implementar, ao mesmo tempo:
+- Exclusão mútua
+- Sincronização
+- Algoritmos de escalonamento
+
+Semáforos são variáveis inteiras não negativas que podem se manipuladas por duas instruções, **atômicas e indivisíveis**, chamadas de *down* e *up*:
+
+- Down dre
+
+
 $8)$ O esquema de alternância obrigatória assume que os processos estritamente se alternam em suas regiões críticas, se ambos não estão em RC, um aguarda o outro terminar suas tarefas não críticas para poder entrar em região crítica, o que fere o terceiro princípio.
 
 
