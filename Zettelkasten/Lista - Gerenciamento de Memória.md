@@ -24,3 +24,11 @@ $b)$ Quando o módulo presente não ocupa toda a memória ocorre fragmentação 
 $c)$ (150 + 200 + 300) / 3 $\approx$ 216, com modulo principal + SO temos 216 + 128 = (408) / 512 = $79\%$ de utilização da memória principal.
 
 $d)$ não, pois o módulo maior de 350KB nunca seria executado.
+
+### Parte II 
+
+$1)$ A técnica de swapping serve para "manter" mais processos ativos do que a memória principal permite, movendo-os entre memória e disco com base em alguma política.
+
+$2)$ Existe um registrador de *relocação* que recebe o endereço inicial da posição de memória que o processo irá ocupar, então toda referência posterior é somada ao valor desse registrador a fim de obter o endereço físico, com isso o programa pode ser carregado em qualquer posição de memória no *swap-in*.
+
+$3)$ Quando existem programas
