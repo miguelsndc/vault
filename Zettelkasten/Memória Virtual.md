@@ -6,3 +6,7 @@ Caso o processo referencie um endereço que faz parte de uma página que esteja 
 
 
 #### Paginação
+
+Quando um processo referencia um endereço de memória, em uma instrução, esses endereços podem ser gerados por diversos métodos, por exemplo, [[Registradores Base e Limite]]. Esses endereços gerados são chamados de **endereços virtuais** e foram o **espaço de endereçamento virtual**, em computadores sem memória virtual, o endereço gerado é colocado diretamente no barramento de memória e faz com que a palavra física com o mesmo endereço seja escrita ou lida. Quando o computador possui esquema de **memória virtual**, os endereços antes passam pela ***MMU (Memory Management Unit)***, que vai mapear os endereços virtuais em endereços físicos.
+
+O espaço de endereçamento virtual consiste em blocos de tamanho fixo chamados **páginas**, esses blocos que estão presentes na memória física são chamados de **quadros de páginas**, geralmente eles tem o mesmo tamanho.
