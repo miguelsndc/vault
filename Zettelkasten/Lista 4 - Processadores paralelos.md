@@ -42,6 +42,17 @@ $9)$ Vantagens de clusters são:
 - **Preço/desempenho**: É possível montar um cluster com desempenho igual ou superior a uma máquina de grande porte, com custo menor.
 
 $10)$ 
-**Clusters com servidores passivos** tem a característica de que uma máquina principal executa todo o trabalho, caso ela falhe, uma máquina secundária assume e assim por diante. É fácil de implementar porém é extremamente ineficiente e desperdiça o poder de processamento de todas as outras $n -1$ máquinas disponíveis no cluster.
+- **Clusters com servidores passivos** tem a característica de que uma máquina principal executa todo o trabalho, caso ela falhe, uma máquina secundária assume e assim por diante. É fácil de implementar porém é extremamente ineficiente e desperdiça o poder de processamento de todas as outras $n -1$ máquinas disponíveis no cluster.
 
-**Clusters com servidores ativos** mantém todas as máquinas trabalhando em conjunto, o que é muito melhor em questão de desempenho, porém a **complexidade** de se implementar e manter um sistema nesse modelo é muito superior.
+- **Clusters com servidores ativos** mantém todas as máquinas trabalhando em conjunto, o que é muito melhor em questão de desempenho, porém a **complexidade** de se implementar e manter um sistema nesse modelo é muito superior.
+
+$11)$
+Existem três tipos de servidores **ativos**:
+- **Servidores separados**: cada nó possui seu próprio disco, e os dados são continuamente copiados para o servidor secundário, tem a vantagem de possuir **alta disponibilidade**, mas a sobrecarga de rede e processamento que a cópia contínua de dados gera é enorme.
+- **Servidores conectados aos discos**: Servidores são ligados aos mesmos discos, e cada servidor possui seus discos, caso um falhe, outro pode assumir seus discos. Aqui, a carga de cópia foi reduzida, mas ainda requer espelhamento de discos ou RAID para compensar o risco da falha de discos.
+- **Servidores compartilham discos**: Vários servidores compartilham simultanamente o acesso a discos, tem baixa carga de rede e servidores, e risco de inatividade causada por falhas de disco reduzido, mas ainda requer **gerenciamento de bloqueio**.
+
+$12)$ Uma abordagem para aumentar o desempenho dos computadores é o **Multithreading**, que funciona permitindo que múltiplas threads compartilhem as unidades funcionais de um único processador de modo sobreposto (paralelo), com troca rápida entre threads e uso eficaz do hardware.
+
+$13)$ Existem alguns tipos de multithreading:
+- **Granularidade fina / intercalado**: Comuta várias threads a cada instrução, resultando em uma execução intercalada de várias threads, as trocas de thread são em geral circulares, ou seja, salta-se para a próxi
