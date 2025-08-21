@@ -55,4 +55,4 @@ O endereço física é obtido combinando o endereço do frame junto com o desloc
 
 $11)$ Quando a página não se encontra presente na memória ocorre um **page fault** (falta de página), a MMU detecta que a página não se encontra nos quadros de página, gera uma interrupção e o sistema operacional se encarrega de executar alguma política de troca de páginas, onde ele escolhe uma página do quadro em função dessa política e joga pro disco, e traz de volta a página que precisa ser referenciada, diz o número dessa página e reexecuta a instrução que falhou.
 
-$12)$ Paginação apresenta fragmentação interna, a 
+$12)$ Paginação apresenta fragmentação interna, a externa não existe. e essa fragmentação ocorre quando o processo necessita de mais páginas do que o limite.
