@@ -4,19 +4,32 @@ kanban-plugin: board
 
 ---
 
-## Na fila
+## Babau leleu
 
-- [ ] [[Regressão Linear - AM]]
-- [ ] Regressão Logística - AM
-- [ ] Atividade 1 - SI
-- [ ] Atividade 2 - SI
+**Complete**
 
 
-## Fazendo
+## Aprendizagem de Máquina
+
+- [ ] Regressão Linear📅 2025-09-14 🔼
+- [ ] Regressão Logística📅 2025-09-09 🔼
+
+
+## Sistemas Inteligentes
+
+- [ ] Atividade 1 📅 2025-09-14 🔽
+- [ ] Atividade 2.1📅 2025-09-14 🔽
+
+
+## Metodol
 
 
 
-## Urgente
+## Compiladores
+
+
+
+## Infosoc
 
 
 
@@ -24,6 +37,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true,true,true]}
 ```
 %%
