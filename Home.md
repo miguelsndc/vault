@@ -22,7 +22,6 @@ Scientific writing and communication - Angela Hoffman;
 English for non natives;
 Writing for Computer Science
 
-
 #### Informática e Sociedade
 
 > E131
@@ -38,6 +37,7 @@ Apresentação transformação digital - **18/09/2025**
 - Prova dia **11/12/2025**
 
 **Material** **Bibliográfico** 
-
 Engineering a Compiler - Keith D. Coopsr
+
+- [[Compiladores|Introdução]]
 
