@@ -55,4 +55,6 @@ Existem três tipos de servidores **ativos**:
 $12)$ Uma abordagem para aumentar o desempenho dos computadores é o **Multithreading**, que funciona permitindo que múltiplas threads compartilhem as unidades funcionais de um único processador de modo sobreposto (paralelo), com troca rápida entre threads e uso eficaz do hardware.
 
 $13)$ Existem alguns tipos de multithreading:
-- **Granularidade fina / intercalado**: Comuta várias threads a cada instrução, resultando em uma execução intercalada de várias threads, as trocas de thread são em geral circulares, ou seja, salta-se para a próxi
+- **Granularidade fina / intercalado**: Comuta várias threads a cada instrução, resultando em uma execução intercalada de várias threads, as trocas de thread são em geral circulares, ou seja, salta-se para a próxima thread que esteja suspensa. Diminui a vazão por motivos de que todas as outras threads precisam rodar para que eu volte para a primeira, tornando mais lenta a execução de uma única thread.
+- **Granularidade grossa / bloqueado**; Só comuta a thread quando ocorre um stall longo, como um *miss na cache L2*, simplifica o hardware mas não esconde stalls curtos, o que melhora a execução individual de threads.
+- **Simultaneous Multithreading (SMT)**: Acontece o escalonamento de threads, e instruções independentes de threads executam quando há uma unidade funcional disponível.
