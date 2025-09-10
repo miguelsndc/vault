@@ -37,4 +37,6 @@ Ferramentas utilizadas nos compiladores encontram uso em filtros, processamento 
 
 #### Estrutura de um Compilador
 
-Um compilador tem duas tarefas, entender a linguagem fonte e mapear suas sem
+Um compilador tem duas tarefas, entender a linguagem fonte e mapear suas semântica pra linguagem alvo. Naturalmente, existe uma divisão do trabalho associado a essas duas tarefas, o **front-end**, que cuida do *entender* e o **back-end** que cuida do *mapear*.
+
+O front-end codifica o seu retorno em um formato que o back-end pode entender e utilizar, o back pode assumir que este formato é livre de erros, dado que a checagem é feita pelo front. Esta representação 
