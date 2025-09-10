@@ -34,3 +34,7 @@ E a segunda segue de que os compiladores devem melhorar o programa compilado, se
 
 Um compilador é um **microcosmo** da computação, ele possui algoritmos gulosos, de grafo, programação dinâmica, hierarquia de memória, parsing, teoria dos números, sincronização, pipelines, entre outras coisas além de possuir problemas ainda em aberto, é um universo a ser explorado e descoberto.
 Ferramentas utilizadas nos compiladores encontram uso em filtros, processamento de texto, busca de textos, buscas na internet, pattern matching, etc.
+
+#### Estrutura de um Compilador
+
+
