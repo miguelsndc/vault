@@ -28,8 +28,9 @@ Um compilador deve:
 1. *Preservar a intenção do programa compilado* 
 2. *Fazer uma otimização discernível do programa compilado*
 O primeiro princípio diz respeito à corretude, e é inegociável, se corretude não é estritamente necessária por quê se dar ao trabalho de fazer funcionar ?
-E a segunda segue de que os compiladores devem o
+E a segunda segue de que os compiladores devem melhorar o programa compilado, seja otimizações de performance inerentes ao processo de compilação, ou melhorias de consumo de energia, latência, disponibilidade por exemplo, portar uma linguagem mais específica para um formato universal.
 
- 
 > *Como os conceitos de compiladores podem ser aplicados em contextos além da construção de compiladores?*
 
+Um compilador é um **microcosmo** da computação, ele possui algoritmos gulosos, de grafo, programação dinâmica, hierarquia de memória, parsing, teoria dos números, sincronização, pipelines, entre outras coisas além de possuir problemas ainda em aberto, é um universo a ser explorado e descoberto.
+Ferramentas utilizadas nos compiladores encontram uso em filtros, processamento de texto, busca de textos, buscas na internet, pattern matching, etc.
