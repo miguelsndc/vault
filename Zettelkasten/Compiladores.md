@@ -37,4 +37,4 @@ Ferramentas utilizadas nos compiladores encontram uso em filtros, processamento 
 
 #### Estrutura de um Compilador
 
-
+Um compilador tem duas tarefas, entender a linguagem fonte e mapear suas sem
