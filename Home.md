@@ -11,14 +11,6 @@ Entrega e Apresentação do trabalho final **29/10/2025**
 
 #### Informática Teórica
 
-
-
-- **Material Bibliográfico**
-
-Scientific writing and communication - Angela Hoffman;
-English for non natives;
-Writing for Computer Science
-
 #### Informática e Sociedade
 
 > E131
@@ -37,4 +29,5 @@ Apresentação transformação digital - **18/09/2025**
 Engineering a Compiler - Keith D. Coopsr
 
 - [[Compiladores|Introdução]]
-
+- [[Análise Léxica e Expressões Regulares]]
+- 
