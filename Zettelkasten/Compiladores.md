@@ -1,5 +1,5 @@
 ---
-tags: compiladores
+tags: compiladores, review
 aliases: Introdução
 ---
 >  *O que é uma linguagem e como o computador entende uma linguagem de programação?*

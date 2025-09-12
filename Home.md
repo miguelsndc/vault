@@ -8,12 +8,9 @@ Entrega e Apresentação do trabalho final **29/10/2025**
 
 - **Entregas**:
 
-#### Metodologia Científica 
 
-Prova 1 - dia **9/10/2025**
-Apresentação Oral - **13/11/2025**
-Apresentação Pôster - **18/11/2025**
-Apresentação do Projeto - **2 e 4 de Dezembro**
+#### Informática Teórica
+
 
 
 - **Material Bibliográfico**

@@ -7,11 +7,11 @@ kanban-plugin: board
 ## Babau leleu
 
 **Complete**
+- [x] Responder perguntas introdução ✅ 2025-09-11
 
 
 ## Compiladores
 
-- [ ] Responder perguntas introdução
 
 
 ## Aprendizagem de Máquina
@@ -32,12 +32,13 @@ kanban-plugin: board
 
 ## Infosoc
 
+- [ ] Ler sobre transformação digital com I.A 📅 2025-09-15
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false,true,true]}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false,false,false]}
 ```
 %%
