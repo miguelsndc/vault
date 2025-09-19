@@ -11,6 +11,8 @@ Entrega e Apresentação do trabalho final **29/10/2025**
 
 #### Informática Teórica
 
+[[Anotações Aula 16-09]] 
+
 #### Informática e Sociedade
 
 > E131
