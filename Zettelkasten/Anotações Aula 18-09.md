@@ -46,4 +46,11 @@ Vamos construir a partir de $M_{1}$ e $M_{2}$, um A.F que reconhece $A_{1} \cup 
 *Se $L$ é uma linguagem regular, então o complemento $L'$ também é regular*
 
 **Prova**:
-Assuma por hipótese que $L$ é regular, vamos demonstrar que $L'$ também é regular. Da hipótese existe um $M = \{Q, \Sigma, q_{0}, \delta, F\}$ 
+Assuma por hipótese que $L$ é regular, vamos demonstrar que $L'$ também é regular. Da hipótese existe um $M = \{Q, \Sigma, q_{0}, \delta, F\}$ um autômato finito que reconhece a linguagem $L$, vamos utilizar $M$ para construir outro A.F $M' = \{Q', \Sigma, q_{0}', \delta', F' \}$ que reconhece $L'$.
+Perceba que $M'$ deve reconhecer tudo que $L$ não reconhece, e não reconhecer tudo que $L$ reconhece, ou seja, o conjunto dos estados de aceitação de $M'$  deve ser o complemento do de $M$. então temos que:
+1. $Q = Q'$
+2. $\Sigma$ continua igual.
+3. $q_{0}=q_{0}'$
+4. $\delta = \delta_{'}$
+5. Apenas $F' = (Q - F)$.
+Agora o A.F construído $M'$ reconhece o complemento da linguagem $L$, como descrito acima.
