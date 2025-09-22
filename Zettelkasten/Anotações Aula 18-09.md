@@ -40,3 +40,5 @@ Vamos construir a partir de $M_{1}$ e $M_{2}$, um A.F que reconhece $A_{1} \cup 
 \end{align*}$$
 	Portanto $\delta_{3}$ pega um estado de $M_{3}$, que é um par de estados composto por um estado de $M_{1}$ e outro de $M_{2}$, e retorna o próximo estado se decompondo em uma função para cada estado.o
 5. O conjunto de estados de aceitação $F_{3}$, cujos membros podem ser *estados de aceitação de $M_{1}$ **ou** estados de aceitação de $M_{2}$*: $F_{3} =\{(r_{1},r_{2}) | r_{1}\in F_{1} \textrm{ or } r_{2} \in F_{2}\}$. Essa expressão é equivalente a $F_{3} = (F_{1}\times Q_{2}) \cup (Q_{1}\times F_{2})$ . Note que isso é diferente de $F_{3}= F_{1}\times F_{2}$, isso nos daria a **interseção** de $F_{1}$ e $F_{2}$, e neste caso, nos daria a linguagem que é a interseção, não união, com isso, a interseção de linguagens regulares também está definida. 
+
+****
