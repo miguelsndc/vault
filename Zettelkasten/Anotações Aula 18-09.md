@@ -33,4 +33,10 @@ Vamos construir a partir de $M_{1}$ e $M_{2}$, um A.F que reconhece $A_{1} \cup 
 	O alfabeto é igual pras duas então ele permanece inalterado.
 3. Estado inicial $q_{0_{3}}$.
 	 Vamos definir o estado inicial de $M_{3}$ como sendo o par ordenado $(q_{0_{1}}, q_{0_{2}})$, como definido no ponto $1$.
-4. 
+4. A função de transição $\delta_{3}$
+	$\delta_{3}$ é definida da seguinte forma: para cada pair $(r_{1},r_{2}) \in Q_{3}$ e para cada símbolo do alfabeto, $a \in \Sigma$:
+	$$\begin{align*}
+\delta_{3}((r_{1},r_{2}), a) &= (\delta_{1}(r_{1}, a), \delta_{2}(r_{2}, a))
+\end{align*}$$
+	Portanto $\delta_{3}$ pega um estado de $M_{3}$, que é um par de estados composto por um estado de $M_{1}$ e outro de $M_{2}$, e retorna o próximo estado se decompondo em uma função para cada estado.o
+5. O conjunto de estados de aceitação $F_{3}$, cujos membros podem ser es 
