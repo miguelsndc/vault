@@ -54,3 +54,7 @@ Perceba que $M'$ deve reconhecer tudo que $L$ não reconhece, e não reconhecer 
 4. $\delta = \delta_{'}$
 5. Apenas $F' = (Q - F)$.
 Agora o A.F construído $M'$ reconhece o complemento da linguagem $L$, como descrito acima.
+
+
+##### Autômatos finitos não determinísticos
+
