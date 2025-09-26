@@ -1,7 +1,4 @@
 
-1713C - Build Permutation - <1200>
-https://codeforces.com/problemset/problem/1713/C
-
 1859C - Another Permutation Problem - <1200>
 https://codeforces.com/problemset/problem/1859/C
 
