@@ -1,5 +1,3 @@
-1934B - Yet Another Coin Problem - <1200>
-https://codeforces.com/problemset/problem/1934/B
 
 1713C - Build Permutation - <1200>
 https://codeforces.com/problemset/problem/1713/C
