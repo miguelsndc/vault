@@ -56,5 +56,5 @@ Perceba que $M'$ deve reconhecer tudo que $L$ não reconhece, e não reconhecer 
 Agora o A.F construído $M'$ reconhece o complemento da linguagem $L$, como descrito acima.
 
 
-##### Autômatos finitos não determinísticos
+Veja [[A.F Não determinístico]]
 
