@@ -13,15 +13,15 @@
 
 ### Problemas Atuais
 
-- [ ] https://codeforces.com/contest/2132/problem/D 
-- [ ] https://codeforces.com/contest/2129/problem/B
-- [ ] https://codeforces.com/contest/2125/problem/D 
-- [ ] https://codeforces.com/contest/2117/problem/E 
-- [ ] codeforces.com/contest/2150/problem/B 
-- [ ] https://codeforces.com/contest/2147/problem/D 
-- [ ] https://codeforces.com/contest/2135/problem/B 
-- [ ] https://codeforces.com/contest/2132/problem/E 
-- [ ] https://codeforces.com/contest/2148/problem/F 
-- [ ] https://codeforces.com/contest/2143/problem/D1 
-- [ ] https://codeforces.com/contest/2141/problem/D 
-- [ ] https://codeforces.com/contest/2141/problem/C 
+- [ ] [https://codeforces.com/contest/2135/problem/B](https://codeforces.com/contest/2135/problem/B)
+- [ ] [https://codeforces.com/contest/2147/problem/D](https://codeforces.com/contest/2147/problem/D)
+- [ ] [https://codeforces.com/contest/2132/problem/E](https://codeforces.com/contest/2132/problem/E)
+- [ ] [https://codeforces.com/contest/2125/problem/D](https://codeforces.com/contest/2125/problem/D)
+- [ ] [https://codeforces.com/contest/2143/problem/D1](https://codeforces.com/contest/2143/problem/D1)
+- [ ] [https://codeforces.com/contest/2150/problem/B](https://codeforces.com/contest/2150/problem/B)
+- [ ] [https://codeforces.com/contest/2148/problem/F](https://codeforces.com/contest/2148/problem/F)
+- [ ] [https://codeforces.com/contest/2141/problem/C](https://codeforces.com/contest/2141/problem/C)
+- [ ] [https://codeforces.com/contest/2117/problem/E](https://codeforces.com/contest/2117/problem/E)
+- [ ] [https://codeforces.com/contest/2132/problem/D](https://codeforces.com/contest/2132/problem/D)
+- [ ] [https://codeforces.com/contest/2129/problem/B](https://codeforces.com/contest/2129/problem/B)
+- [ ] [https://codeforces.com/contest/2141/problem/D](https://codeforces.com/contest/2141/problem/D)
