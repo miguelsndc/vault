@@ -13,6 +13,7 @@ Entrega e Apresentação do trabalho final **29/10/2025**
 
 [[Anotações Aula 16-09]] 
 [[Anotações Aula 18-09]] 
+[[Expressões Regulares]] 
 
 #### Informática e Sociedade
 
