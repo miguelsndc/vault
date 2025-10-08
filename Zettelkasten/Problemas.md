@@ -8,7 +8,7 @@
 - [ ] https://codeforces.com/group/yc7Yxny414/contest/103821/problem/B 
 - [ ] https://codeforces.com/group/yc7Yxny414/contest/103821/problem/I 
 - [ ] https://codeforces.com/group/yc7Yxny414/contest/103821/problem/J 
-- [ ] https://codeforces.com/group/yc7Yxny414/contest/103821/problem/M  
+- [x] https://codeforces.com/group/yc7Yxny414/contest/103821/problem/M ✅ 2025-10-08
 
 
 ### Problemas Atuais
