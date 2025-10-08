@@ -30,4 +30,4 @@ Perceba que concatenar a cadeia vazia com outra cadeia não muda a cadeia anteri
 - $R \cup \epsilon \ne R$ , porque se $R = 0$ por exemplo, então $L(R) = \{0\}$ e $L(R \cup \epsilon) = \{0, \epsilon\}$.
 - $R \circ \emptyset \ne R$ , porque se $R = 0$ por exemplo, então $L(R) = \{0\}$ e $L(R \circ \emptyset) = \emptyset$.
 
-Perceba que a operação de concatenação necessita que haja pelo menos uma cadeia em ambas linguagens, se não, não há com o que concatenar,
+Perceba que a operação de concatenação necessita que haja pelo menos uma cadeia em ambas linguagens, se não, não há com o que concatenar, e obtemos a linguagem vazia como descrito acima.
