@@ -4,7 +4,7 @@ Aqui está a lista formatada como uma lista de tarefas Markdown:
 - [x] [B. Sum of Mod](https://atcoder.jp/contests/arc208/tasks/arc208_b) ✅ 2025-10-20
 - [x] [D. The Simple Game](https://atcoder.jp/contests/abc427/tasks/abc427_d) ✅ 2025-10-20
 - [x] [D. Pop and Insert](https://atcoder.jp/contests/abc426/tasks/abc426_d) ✅ 2025-10-20
-- [ ] [D. Ulam-Warburton Automaton](https://atcoder.jp/contests/abc425/tasks/abc425_d)
+- [x] [D. Ulam-Warburton Automaton](https://atcoder.jp/contests/abc425/tasks/abc425_d) ✅ 2025-10-20
 - [ ] [B. Slime Swap](https://atcoder.jp/contests/arc206/tasks/arc206_b)
 - [ ] [D. XNOR Operation](https://atcoder.jp/contests/abc418/tasks/abc418_d)
 - [ ] [E. A Path in A Dictionary](https://atcoder.jp/contests/abc417/tasks/abc417_e)
