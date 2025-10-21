@@ -5,7 +5,7 @@ Aqui está a lista formatada como uma lista de tarefas Markdown:
 - [x] [D. The Simple Game](https://atcoder.jp/contests/abc427/tasks/abc427_d) ✅ 2025-10-20
 - [x] [D. Pop and Insert](https://atcoder.jp/contests/abc426/tasks/abc426_d) ✅ 2025-10-20
 - [x] [D. Ulam-Warburton Automaton](https://atcoder.jp/contests/abc425/tasks/abc425_d) ✅ 2025-10-20
-- [ ] [B. Slime Swap](https://atcoder.jp/contests/arc206/tasks/arc206_b)
+- [x] [B. Slime Swap](https://atcoder.jp/contests/arc206/tasks/arc206_b) ✅ 2025-10-20
 - [ ] [D. XNOR Operation](https://atcoder.jp/contests/abc418/tasks/abc418_d)
 - [ ] [E. A Path in A Dictionary](https://atcoder.jp/contests/abc417/tasks/abc417_e)
 - [ ] [D. Get Many Stickers](https://atcoder.jp/contests/abc415/tasks/abc415_d)
