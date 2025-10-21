@@ -18,7 +18,7 @@
 - [x] [B. Slime Swap](https://atcoder.jp/contests/arc206/tasks/arc206_b) ✅ 2025-10-20
 - [x] [D. XNOR Operation](https://atcoder.jp/contests/abc418/tasks/abc418_d) ✅ 2025-10-21
 - [x] [E. A Path in A Dictionary](https://atcoder.jp/contests/abc417/tasks/abc417_e) ✅ 2025-10-21
-- [ ] [D. Get Many Stickers](https://atcoder.jp/contests/abc415/tasks/abc415_d)
+- [x] [D. Get Many Stickers](https://atcoder.jp/contests/abc415/tasks/abc415_d) ✅ 2025-10-21
 - [ ] [D. Transmission Mission](https://atcoder.jp/contests/abc414/tasks/abc414_d)
 - [ ] [D. Make Geometric Sequence](https://atcoder.jp/contests/abc413/tasks/abc413_d)
 - [ ] [D. Make 2-Regular Graph](https://atcoder.jp/contests/abc412/tasks/abc412_d)
