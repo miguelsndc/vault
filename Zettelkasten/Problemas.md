@@ -20,7 +20,7 @@
 - [x] [E. A Path in A Dictionary](https://atcoder.jp/contests/abc417/tasks/abc417_e) ✅ 2025-10-21
 - [x] [D. Get Many Stickers](https://atcoder.jp/contests/abc415/tasks/abc415_d) ✅ 2025-10-21
 - [x] [D. Transmission Mission](https://atcoder.jp/contests/abc414/tasks/abc414_d) ✅ 2025-10-22
-- [ ] [D. Make Geometric Sequence](https://atcoder.jp/contests/abc413/tasks/abc413_d)
+- [x] [D. Make Geometric Sequence](https://atcoder.jp/contests/abc413/tasks/abc413_d) ✅ 2025-10-22
 - [ ] [D. Make 2-Regular Graph](https://atcoder.jp/contests/abc412/tasks/abc412_d)
 - [ ] [D. Conflict 2](https://atcoder.jp/contests/abc411/tasks/abc411_d)
 - [ ] [D. XOR Shortest Walk](https://atcoder.jp/contests/abc410/tasks/abc410_d)
