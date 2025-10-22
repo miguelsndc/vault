@@ -22,7 +22,7 @@
 - [x] [D. Transmission Mission](https://atcoder.jp/contests/abc414/tasks/abc414_d) ✅ 2025-10-22
 - [x] [D. Make Geometric Sequence](https://atcoder.jp/contests/abc413/tasks/abc413_d) ✅ 2025-10-22
 - [ ] [D. Make 2-Regular Graph](https://atcoder.jp/contests/abc412/tasks/abc412_d)
-- [ ] [D. Conflict 2](https://atcoder.jp/contests/abc411/tasks/abc411_d)
+- [x] [D. Conflict 2](https://atcoder.jp/contests/abc411/tasks/abc411_d) ✅ 2025-10-22
 - [ ] [D. XOR Shortest Walk](https://atcoder.jp/contests/abc410/tasks/abc410_d)
 - [ ] [E. Battles in a Row](https://atcoder.jp/contests/abc410/tasks/abc410_e)
 - [ ] [E. Pair Annihilation](https://atcoder.jp/contests/abc409/tasks/abc409_e)
