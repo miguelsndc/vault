@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"095ceda6c807f2e3","x":-160,"y":-60,"width":250,"height":60,"type":"text","text":"Métodos Científicos"},
+		{"id":"c5a4af0596d4a301","x":24,"y":-188,"width":250,"height":60,"type":"text","text":"Método Indutivo"},
+		{"id":"985a6c33fea268ff","x":24,"y":60,"width":250,"height":60,"type":"text","text":"Método Dialético"},
+		{"id":"c366f88840e27943","x":-380,"y":-188,"width":250,"height":60,"type":"text","text":"Método Indutivo"},
+		{"id":"8ca2a0c42ba6d5f8","type":"text","text":"Método Hipotético","x":-380,"y":60,"width":250,"height":60}
+	],
+	"edges":[]
+}
