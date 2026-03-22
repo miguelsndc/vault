@@ -1,6 +1,10 @@
-Questão 1
+Questão 4
 
-![[Pasted image 20260322185515.png]]
-Cada estado $q_{i}$  representa uma classe de congruência $[i]_{5}$.
-Ao ler um bit $b$, transiciona para o estado $(2 * q_{i} + b) \mod 5$, construindo número da esquerda para a direita.
+> [!faq]
+> Use o lema do bombeamento para mostrar que as liguagens a seguir não são regulares.
+> - $A_{1} = \{ 0^{n}1^{n}2^{n} | n \geq 1 \}$
 
+
+$A_{1} = \{ 0^{n}1^{n}2^{n} | n \geq 1 \}$
+
+Suponha por contradição que $A_{1}$ é regular
