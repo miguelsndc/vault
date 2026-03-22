@@ -81,3 +81,8 @@ Para que $C_{n}$ seja regular, deve existir um autômato finito determinístico 
 3. $\delta(q_{i}, b) = q_{(2i + b) \mod n}$. 
 4. $q_{0}$ é classe $[0]$.
 5. $F = {q_{0}}$.
+
+A linguagem $C_n$​ é regular porque construímos um AFD válido que a reconhece. O modelo possui exatamente $n$ estados cobrindo todas as classes de congruência possíveis, e a transição $\delta(q_{i}​,b)=q_{(2i+b) \mod n}​$ garante que rastreamos corretamente a classe que contém o valor formado conforme os bits são lidos da esquerda pra direita.
+
+___
+
