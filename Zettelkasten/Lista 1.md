@@ -69,6 +69,15 @@ Vamos construir um autômato finito não-determinístico para reconhecer $A^{R}$
 
 Como construímos um AFN que reconhece $A^{R}$, e todo AFN possui um AFD equivalente, $A^{R}$ é regular.
 
+___
+
 > [!faq] Questão 6
 > Seja $C_{n}= \{ x | \text{x é um número binário múltiplo de n} \}$  Mostre que para cada $n\geq 1$ a linguagem $C_{n}$ é regular.
 
+Para que $C_{n}$ seja regular, deve existir um autômato finito determinístico que a reconhece. Seja $M = (Q, \Sigma,\delta,q_{0},F)$ um AFD onde:
+
+1. $Q = \{q_{0},q_{1},\cdots q_{n-1}\}$ onde $q_{i}$ representa a classe de congruência $[i]_{n}$.  
+2. $\Sigma = \{0, 1\}$.
+3. $\delta(q_{i}, b) = q_{(2i + b) \mod n}$. 
+4. $q_{0}$ é classe $[0]$.
+5. $F = {q_{0}}$.
