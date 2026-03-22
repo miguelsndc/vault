@@ -1,5 +1,5 @@
 
-> [!faq Questão 4]
+> [!faq] Questão 4
 > Use o lema do bombeamento para mostrar que as liguagens a seguir não são regulares.
 > - $A_{1} = \{ 0^{n}1^{n}2^{n} | n \geq 1 \}$
 > - $A_{2} = \{ www | w \in \{a,b\}^{*} \}$
@@ -50,3 +50,14 @@ Vamos testar a Condição 3 escolhendo $i = 2$. Isso significa que vamos bombear
 - Para que essa palavra continuasse pertencendo a $A_{2}$, ela precisaria ser perfeitamente divisível em três partes idênticas. Como a palavra inteira possui apenas três simbolos $b$, a única forma de dividí-la em três partes iguais seria quebrar a string após cada símbolo $b$. No entanto, isso nos daria as três partes: $a^{p+k}b$, $a^{p}b$ e $a^{p}b$.
 
 Como $k> 0$, o primeiro bloco $a^{p+k}b$ agora é estritamente maior e diferente dos outros dias. A nova palavra $xyyz$ não pode ser dividida no formato $www$. Portanto $xyyz \notin A_{2}$. Isso viola a Condição 3 do Lema do Bombeamento, gerando uma contradição com nossa suposição inicial. Sendo assim, a linguagem $A_{2}$​ não é regular.
+
+___
+
+> [!faq] Questão 5
+> Para qualquer cadeia $w = w_{1}w_{2}\cdots w_{n}$ o reverso de $w$, escrito $w^{R}$ é a cadeia $w$ na ordem reversa $w = w_{n} \cdots w_{2}w_{1}$. Para qualquer linguagem $A$, seja $A_{R} = \{ w^{R}| w \in A \}$  Mostre que se $A$ é regular, então $A^{R}$ é regular.
+
+Se a linguagem $A$ é regular, então existe um autômato finito determinístico que a reconhece. Seja $M = (Q,\Sigma,\delta,q_{0},F)$, esse autômato.  
+
+Vamos construir um autômato finito não-determinístico para reconhecer $A^{R}$. Seja $M' = (Q',\Sigma,\delta',q_{s},F' )$ esse autômato, vamos definir componente a componente:
+
+1. 
