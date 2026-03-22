@@ -58,6 +58,17 @@ ___
 
 Se a linguagem $A$ é regular, então existe um autômato finito determinístico que a reconhece. Seja $M = (Q,\Sigma,\delta,q_{0},F)$, esse autômato.  
 
-Vamos construir um autômato finito não-determinístico para reconhecer $A^{R}$. Seja $M' = (Q',\Sigma,\delta',q_{s},F' )$ esse autômato, vamos definir componente a componente:
+Vamos construir um autômato finito não-determinístico para reconhecer $A^{R}$. Seja $M^{R} = (Q^{R},\Sigma,\delta^{R},q_{novo},F^{R})$ esse autômato, onde:
 
-1. 
+1. $Q^{R} = Q \cup \{q_{novo}\}$.
+2. $q_{novo}$ é o novo estado inicial.
+3. $F^{R}= \{q_{0}\}$.
+4. A nova função $\delta^{R}$ é definida da seguinte forma:
+	- Para cada transição original $\delta (q, a) = p$ em $M$, criamos a transição reversa $q \in \delta^{R}(p, a)$ em $M^{R}$.
+	- Como o autômato original podia ter vários estados finais em $F$, o novo autômato precisa começar a leitura a partir deles. Adicionamos $\delta^{R}(q_{novo}, \epsilon) = F$. Ou seja, do novo estado inicial transicionamos espontaneamente para qualquer um dos estados finais de $M$.
+
+Como construímos um AFN que reconhece $A^{R}$, e todo AFN possui um AFD equivalente, $A^{R}$ é regular.
+
+> [!faq] Questão 6
+> Seja $C_{n}= \{ x | \text{x é um número binário múltiplo de n} \}$  Mostre que para cada $n\geq 1$ a linguagem $C_{n}$ é regular.
+
