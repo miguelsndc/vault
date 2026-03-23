@@ -130,18 +130,15 @@ ___
 2. 
 
 Seja $p=2$. A parte $y$ que vai ser bombeada sempre vai sair das duas primeiras letras da palavra. Temos três casos:
-1. $i=0$: Você bombeia a primeira letra. A palavra continua sem ter a letra a (i=0). Como 0=1, a regra continua desativada. A palavra é aceita.
-    
-2. **A palavra tem exatamente um a:** (Ex: ab). A parte y obrigatoriamente será o a. Se você bombear para cima (gerando a2b) ou para baixo (apagando o a, gerando b), você altera a quantidade de a's para 2 ou 0. A regra é desativada. A palavra é aceita.
-    
-3. **A palavra tem vários a's:** (Ex: aaa). A parte y será formada por letras a. Ao bombear, você só vai colocar mais a's ou tirar alguns, mas nunca vai conseguir chegar em exatamente um a. A regra continua desativada. A palavra é aceita.
-    
+1. $i=0$: $y$ é bombeada. A palavra ainda não possui a letra $a$, então a regra está desativada e a palavra é aceita.
+2. $i=1$: $y$ obrigatoriamente será o $a$. Se $y$ for bombeada para cima, teremos $i=2$ e a regra é desativada, e a palavra, aceita. Se $y$ for bombeada para baixo, então o único $a$ é apagado, e voltamos para o caso $1$. Em ambas as situações, a palavra é aceita.
+3. $i>1$: $y$ será formada por símbolos $a$. Vamos dividir em dois casos:
+	- Se $i = 2$ então $y = aa$, e é impossível chegar em $i = 1$.
+	- Se $i > 2$  então $x= a^{i-1}$ e $y = a$, e é impossível chegar em $i = 1$.
 
-**Resumo:** Não importa a palavra, você sempre consegue bombear a letra inicial para "fugir" da condição i=1. Logo, ela passa no Lema do Bombeamento.
+___
 
-### c. Por que não há contradição?
+3. Por que não há contradição?
 
-Explique simplesmente assim: "O Lema do Bombeamento é apenas uma condição necessária, mas **não suficiente** para garantir que uma linguagem é regular. Ele funciona como um teste de eliminação: se a linguagem falhar no lema, ela com certeza não é regular. Mas, se ela passar, isso não garante que ela seja regular (ela pode ser apenas uma linguagem que encontrou uma 'brecha' nas regras do lema, como foi o caso de F)."
-
-Fica muito mais fácil de memorizar e escrever na prova assim, focando na ideia de "ativar e desativar" a regra do i=1!
+O Lema do Bombeamento é uma condição necessária, mas **não suficiente** para garantir que uma linguagem é regular: se a linguagem falhar no lema, ela com certeza não é regular. Mas, se ela passar, isso não garante que ela seja regular.
 
