@@ -86,4 +86,7 @@ A linguagem $C_n$​ é regular porque construímos um AFD $M$ válido que a rec
 
 ___
 
+> [!faq] Questão 7
+> Seja $\Sigma ={0,1,+,=}$ e $SOMA = \{x = y+z | \text{ x,y e z são inteiros binários e x é a soma de y e z}\}$. Mostre que $SOMA$ não é regular.
+
 
