@@ -4,7 +4,6 @@
 > - $A_{1} = \{ 0^{n}1^{n}2^{n} | n \geq 1 \}$
 > - $A_{2} = \{ www | w \in \{a,b\}^{*} \}$
 
-
 - $A_{1} = \{ 0^{n}1^{n}2^{n} | n \geq 1 \}$
 
 Suponha por contradição que $A_{1}$ é regular. Então, pelo Lema do Bombeamento, existe um comprimento de bombeamento $p \geq 1$. 
@@ -119,7 +118,7 @@ ___
 >2. Escolha uma constante de bombeamento $p$ e mostre que F satisfaz as três condições do lema do bombeamento para esse valor de $p$. 
 >3. Explique porque os itens a e b não contradizem o lema do bombeamento.
 
-1. Mostre que $F$ não é regular.
+1. *Mostre que $F$ não é regular.*
 
 Sabemos que linguagens regulares são fechadas sob as operações de interseção e concatenação. Vamos utilizar dessas propriedades.
 
@@ -127,18 +126,18 @@ Vamos filtrar $F$ fazendo uma interseção com a expressão regular $ab^{*} c^{*
 
 ___
 
-2. 
+2. *Escolha uma constante de bombeamento $p$ e mostre que F satisfaz as três condições do lema do bombeamento para esse valor de $p$.*  
 
 Seja $p=2$. A parte $y$ que vai ser bombeada sempre vai sair das duas primeiras letras da palavra. Temos três casos:
 1. $i=0$: $y$ é bombeada. A palavra ainda não possui a letra $a$, então a regra está desativada e a palavra é aceita.
 2. $i=1$: $y$ obrigatoriamente será o $a$. Se $y$ for bombeada para cima, teremos $i=2$ e a regra é desativada, e a palavra, aceita. Se $y$ for bombeada para baixo, então o único $a$ é apagado, e voltamos para o caso $1$. Em ambas as situações, a palavra é aceita.
 3. $i>1$: $y$ será formada por símbolos $a$. Vamos dividir em dois casos:
-	- Se $i = 2$ então $y = aa$, e é impossível chegar em $i = 1$.
-	- Se $i > 2$  então $x= a^{i-1}$ e $y = a$, e é impossível chegar em $i = 1$.
-
+	- Se $i = 2$ então $x=\epsilon$ e $y = aa$, passamos apenas por múltiplos de 2.
+	- Se $i > 2$  então $x= a^{i-1}$  e $y = a$, o menor número de símbolos $a$ possível é $i-1$, como $i > 2$, $i-1$ vai ser pelo menos $2$ em todas as configurações.   
+	Em ambos os casos é impossível chegar em $i = 1$ para "ativar" a regra da linguagem, então as palavras são aceitas.
 ___
 
-3. Por que não há contradição?
+3.  *Explique porque os itens 1 e 2 não contradizem o lema do bombeamento.*
 
-O Lema do Bombeamento é uma condição necessária, mas **não suficiente** para garantir que uma linguagem é regular: se a linguagem falhar no lema, ela com certeza não é regular. Mas, se ela passar, isso não garante que ela seja regular.
+O Lema do Bombeamento é uma condição necessária, mas não suficiente pra garantir que uma linguagem é regular: se a linguagem falhar no lema, ela com certeza não é regular. Mas, se ela passar, isso não garante que ela seja regular.
 
