@@ -105,4 +105,19 @@ Como $w$ começa com $10^{p}$, a restrição $|xy| \leq p$ garante que a porçã
 Vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$.
 Temos dois casos:
 1. $y$ contém apenas zeros ($k$ zeros, onde $k>0$):
-	Nesse caso, ao bombear $y$, o número será deslocado para a esquerda $k$ vezes, agora sendo: $10^$
+	Nesse caso, ao bombear $y$, o número será deslocado para a esquerda $k$ vezes, agora sendo: $10^{p+k} =2^{p+k}$ .
+2. $y$ contém o $1$ inicial.
+	Nesse caso, ao bombear $y$, o número agora será $10^{p}10^{p} = 2^{2p} + 2^{p}= 2^{p}(2^{p}+1)$.      
+
+Em ambos os casos, ao bombearmos a cadeia uma vez, o valor numérico do lado esquerdo $x$ é aumentado ou alterado, enquanto o lado direito $y+z$ permanece intacto e somando exatamente $2^{p}$. A igualdade é quebrada. Isso viola a Condição 3 do Lema do Bombeamento, gerando uma contradição com nossa suposição inicial. Sendo assim, a linguagem $SOMA$​ não é regular.
+
+___
+
+> [!faq] Questão 8
+>  Considere a linguagem $F = \{a^{i} b^{j}c^{k}| i,j,k\geq 0 \text{ e se } i =1 \text{ então } j=k$
+>1. Mostre que $F$ não é regular
+>2. Escolha uma constante de bombeamento $p$ e mostre que F satisfaz as três condições do lema do bombeamento para esse valor de $p$. 
+>3. Explique porque os itens a e b não contradizem o lema do bombeamento.
+
+1. Mostre que $F$ não é regular.
+
