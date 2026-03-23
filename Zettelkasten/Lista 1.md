@@ -20,7 +20,7 @@ Pelo lema, sabemos que $w$ pode ser dividida em três partes, $w = xyz$ que obri
 
 Observe a condição $2$ ($|xy| \leq p$). A nossa palavra escolha $w = 0^{p}1^{p}2^{p}$ começa com exatamente $p$ zeros. Como $x$ e $y$ juntas ocupam no máximo os primeiros $p$ caracteres da palavra, isso garante que a subcadeia $xy$ é composta **exclusivamente** por zeros. Consequentemente, a parte $y$ (que é o trecho que será bombeado), é formada apenas por zeros. Vamos dizer que $y$ contém $k$ zeros, onde $k > 0$ (Condição 1).
 
-Vamos testar a Condição 3 escolhendo $i = 2$. Isso significa que vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$ ou $xyyz$.
+Vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$.
 - Ao fazer isso, adicionamos mais uma cópia de $y$ à palavra.
 - Como $y$ é composto por $k$ zeros, a nova palavra terá $p + k$ zeros.
 - A quantidade de símbolos $1$ e símbolos $2$ em $z$ não foi alterada, permanecendo exatamente $p$
@@ -43,7 +43,7 @@ Pelo lema, sabemos que $s$ pode ser dividida em três partes, $s = xyz$ que obri
 
 Observe a condição $2$ ($|xy| \leq p$). A nossa palavra escolha $w = a^{p}b a^{p}b a^{p}b$ começa com exatamente $p$ símbolos $a$. Como $x$ e $y$ juntas ocupam no máximo os primeiros $p$ caracteres da palavra, isso garante que a subcadeia $xy$ é composta **exclusivamente** por símbolos $a$. Consequentemente, a parte $y$ (que é o trecho que será bombeado), é formada apenas por símbolos $a$. Vamos dizer que $y$ contém $k$ símbolos $a$, onde $k > 0$ (Condição 1).
 
-Vamos testar a Condição 3 escolhendo $i = 2$. Isso significa que vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$ ou $xyyz$.
+Vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$.
 - Ao fazer isso, adicionamos mais uma cópia de $y$ à palavra.
 - Como $y$ é composto por $k$ símbolos $a$, a nova palavra terá $p + k$ símbolos $a$.
 - A quantidade de símbolos no restante da palavra (a parte z) não foi alterada, de modo que a string nova fica com o formato $a^{p+k}b a^{p}b a^{p}b$
@@ -89,4 +89,20 @@ ___
 > [!faq] Questão 7
 > Seja $\Sigma ={0,1,+,=}$ e $SOMA = \{x = y+z | \text{ x,y e z são inteiros binários e x é a soma de y e z}\}$. Mostre que $SOMA$ não é regular.
 
+Suponha por contradição que $SOMA$ é regular. Então, pelo Lema do Bombeamento, existe um comprimento de bombeamento $p \geq 1$. 
 
+Seja a palavra $w = 10^{p}= 1^{p}+1$
+- Sabemos que $w \in L$, pois $10^{p} = 2^{p}$  e $1^{p}= 2^{p}-1$, logo $1^{p}+1 = 2^{p}=10^{p}$  
+- O comprimento total da palavra é $|w| = 2p+4$. Com $p \geq 1$, temos que $|w| \geq p$, o que satisfaz a condição inicial do lema para a palavra ser elegível ao bombeamento.
+
+Pelo lema, sabemos que $w$ pode ser dividida em três partes, $w = xyz$ que obrigatoriamente satisfazem as seguintes condições:
+1. $|y| > 0$ (a parte $y$ não pode ser vazia).
+2. $|xy| \leq p$ (as partes $x$ e $y$ juntas têm tamanho máximo $p$).
+3. Para todo $i \geq 0$ $xy^{i}z \in L$.
+
+Como $w$ começa com $10^{p}$, a restrição $|xy| \leq p$ garante que a porção $xy$ está inteiramente contida nos primeiros $p$ caracteres da cadeia, que englobam o $1$ inicial e os zeros subsequentes. Isso significa que a parte $y$ afeta exclusivamente o primeiro número.
+
+Vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$.
+Temos dois casos:
+1. $y$ contém apenas zeros ($k$ zeros, onde $k>0$):
+	Nesse caso, ao bombear $y$, o número será deslocado para a esquerda $k$ vezes, agora sendo: $10^$
