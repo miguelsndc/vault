@@ -48,7 +48,7 @@ Vamos bombear a palavra uma vez, criando a nova cadeia $xy^{2}z$.
 - A quantidade de símbolos no restante da palavra (a parte z) não foi alterada, de modo que a string nova fica com o formato $a^{p+k}b a^{p}b a^{p}b$
 - Para que essa palavra continuasse pertencendo a $A_{2}$, ela precisaria ser perfeitamente divisível em três partes idênticas. Como a palavra inteira possui apenas três simbolos $b$, a única forma de dividí-la em três partes iguais seria quebrar a string após cada símbolo $b$. No entanto, isso nos daria as três partes: $a^{p+k}b$, $a^{p}b$ e $a^{p}b$.
 
-Como $k> 0$, o primeiro bloco $a^{p+k}b$ agora é estritamente maior e diferente dos outros dias. A nova palavra $xyyz$ não pode ser dividida no formato $www$. Portanto $xyyz \notin A_{2}$. Isso viola a Condição 3 do Lema do Bombeamento, gerando uma contradição com nossa suposição inicial. Sendo assim, a linguagem $A_{2}$​ não é regular.
+Como $k> 0$, o primeiro bloco $a^{p+k}b$ agora é estritamente maior do que os outros. A nova palavra $xyyz$ não pode ser dividida no formato $www$. Portanto $xyyz \notin A_{2}$. Isso viola a Condição 3 do Lema do Bombeamento, gerando uma contradição com nossa suposição inicial. Sendo assim, a linguagem $A_{2}$​ não é regular.
 
 ___
 
