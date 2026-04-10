@@ -27,6 +27,6 @@ Por fim, os dois comportamentos podem ser combinados em um único autômato com 
 
 ![[atpilha_palindromo.excalidraw]]
 
-
+$4)$ 
 
 
