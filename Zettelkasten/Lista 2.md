@@ -26,7 +26,9 @@ Para palíndromos ímpares, o processo é análogo, exceto que o autômato ao de
 Por fim, os dois comportamentos podem ser combinados em um único autômato com pilha através de uma transição $\epsilon$ a partir do estado inicial, escolhendo não deterministicamente entre os dois casos.
 
 ![[atpilha_palindromo.excalidraw]]
+___
+$4)$
 
-$4)$ 
+ ![[Drawing 2026-04-10 16.22.21.excalidraw]]
 
 
