@@ -15,10 +15,13 @@ S &\rightarrow Sa\\
 S &\rightarrow aS\\
 S &\rightarrow SS\\
 \end{align*}$$
-$2)$ Podemos dividir em dois casos:
-- Palíndromos pares
-- Palíndromos ímpares
-E resolver cada caso separadamente, e então unir os dois autômatos resultantes.
-Os palíndromos pares caem no caso $ww^{R}$, que pode ser resolvido com o autômato construído em sala: empilha os caracteres de $w$ e transiciona não-deterministicamente para desempilhá-los em seguida, "chutando", onde acontece a quebra entre $w$ e $w^{R}$, se a pilha estiver vazia, aceite.
 
-Os palíndromos pares são análogos, porém há um símbolo $x$ no meio, que deve ser ignorado
+$2)$
+Podemos dividir os palíndromos em dois casos: de comprimento par e de comprimento ímpar.
+
+Para palíndromos de comprimento par, que têm a forma ( $ww^{R}$ ): ele lê a primeira parte da palavra empilhando os símbolos. Em algum ponto, de forma não determinística, ele decide que chegou ao meio da palavra e passa a desempilhar, comparando cada símbolo da pilha com o símbolo lido da entrada. A palavra é aceita se ao final da leitura a pilha retorna ao símbolo inicial.
+
+Para palíndromos ímpares, o processo é análogo, exceto que o autômato ao decidir não deterministicamente o ponto do meio, consome um símbolo adicional sem empilhar e então inicia o processo de desempilhamento e comparação.
+
+Por fim, os dois comportamentos podem ser combinados em um único autômato com pilha através de uma transição $\epsilon$ a partir do estado inicial, escolhendo não deterministicamente entre os dois casos.
+
