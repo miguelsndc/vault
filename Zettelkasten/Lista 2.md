@@ -32,3 +32,27 @@ $4)$
  ![[Drawing 2026-04-10 16.22.21.excalidraw]]
 
 
+Seja B a linguagem de todos os palı́ndromos sobre {0, 1} contendo o mesmo número de 0s e 1s.
+Mostre que B não é livre de contexto.
+
+
+- o palindromo tem que ser par
+- 0000 1100111 nao vai
+- tem que ser 01S10 
+- 10S01
+- S -> 10S01 | 01S10 | $\epsilon$ 
+- 1010 0101
+- 101010 010101
+- $(10)^{n} (01)^{n}$ 
+
+
+
+
+
+
+
+
+
+
+
+
