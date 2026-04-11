@@ -46,6 +46,29 @@ Mostre que B não é livre de contexto.
 - $(10)^{n} (01)^{n}$ 
 
 
+Suponha, por contradição, que B seja uma linguagem livre de contexto. Seja $p≥1$ o comprimento do bombeamento associado a B.
+Considere a palavra $s \in B$ definida por:
+$$\begin{align*}
+s=0^{p}1^{2p}0^{p}
+\end{align*}$$Note que $∣s∣=4p≥p$, $s$ é um palíndromo e possui exatos $2p$ zeros e $2p$ uns.
+
+Pelo Lema do Bombeamento, existe uma divisão de $s$ na forma s=$uvxyz$ que satisfaz:
+- $∣vy∣≥1$ : pelo menos uma parte a ser bombeada não é vazia
+- $∣vxy∣≤p$ : a janela de bombeamento é limitada pelo tamanho $p$
+- Para todo $i≥0$, $uvixyiz\in B$
+
+Como o tamanho máximo da janela $∣vxy∣$ é $p$, a substring $vxy$ não pode abranger simultaneamente o primeiro bloco de zeros (0p) e o último bloco de zeros (0p), pois eles estão separados por 2p uns. Portanto, vxy deve se enquadrar em uma das três posições abaixo. Avaliaremos o bombeamento para i=2 (a palavra uv2xy2z):
+ 
+ **Caso 1: vxy está contido estritamente no bloco inicial 0p ou estritamente no bloco final 0p.** Ao bombear (i=2), adicionaremos zeros em apenas uma das extremidades da palavra. A palavra resultante perderá a simetria estrutural e não será mais lida da mesma forma nos dois sentidos. Logo, uv2xy2z deixa de ser um palíndromo, o que implica uv2xy2z∈/B.
+
+**Caso 2: vxy está contido estritamente no bloco central 12p.** Ao bombear (i=2), adicionaremos apenas caracteres 1. A palavra resultante terá mais uns do que zeros (pois a quantidade de zeros permaneceu a mesma). Faltando o balanço quantitativo, uv2xy2z∈/B.
+
+ **Caso 3: vxy sobrepõe a fronteira entre 0p e 12p, ou entre 12p e 0p.** Neste caso, os elementos v e y contêm zeros do bloco inicial (ou final) e/ou uns do bloco central. Ao bombear (i=2), a quantidade de zeros aumentará de forma assimétrica em relação ao centro da palavra, destruindo a propriedade de palíndromo. Adicionalmente, pode quebrar a paridade entre zeros e uns. Portanto, uv2xy2z∈/B.
+
+**Conclusão:** Em todos os cenários possíveis delimitados pela condição ∣vxy∣≤p, existe um i (no caso, i=2) tal que uvixyiz∈/B. Isso é uma contradição direta com a condição **(iii)** do Lema do Bombeamento.
+
+Logo, a premissa inicial é falsa. Conclui-se rigorosamente que B não é uma linguagem livre de contexto. ■
+
 
 
 
