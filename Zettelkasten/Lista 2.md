@@ -57,17 +57,15 @@ Pelo Lema do Bombeamento, existe uma divisão de $s$ na forma s=$uvxyz$ que sati
 - $∣vxy∣≤p$ : a janela de bombeamento é limitada pelo tamanho $p$
 - Para todo $i≥0$, $uvixyiz\in B$
 
-Como o tamanho máximo da janela $∣vxy∣$ é $p$, a substring $vxy$ não pode abranger simultaneamente o primeiro bloco de zeros (0p) e o último bloco de zeros (0p), pois eles estão separados por 2p uns. Portanto, vxy deve se enquadrar em uma das três posições abaixo. Avaliaremos o bombeamento para i=2 (a palavra uv2xy2z):
+Como o tamanho máximo da janela $∣vxy∣$ é $p$, a substring $vxy$ não pode abranger simultaneamente o primeiro bloco de zeros ($0p$) e o último bloco de zeros ($0p$), pois eles estão separados por $2p$ uns. Portanto, $vxy$ deve se enquadrar em um dos três casos abaixo. Vamos avaliar o bombeamento para $i=2$ (a palavra $uv^{2}xy^{2}z$):
  
- **Caso 1: vxy está contido estritamente no bloco inicial 0p ou estritamente no bloco final 0p.** Ao bombear (i=2), adicionaremos zeros em apenas uma das extremidades da palavra. A palavra resultante perderá a simetria estrutural e não será mais lida da mesma forma nos dois sentidos. Logo, uv2xy2z deixa de ser um palíndromo, o que implica uv2xy2z∈/B.
+ 1. $vxy$ está contido estritamente no bloco inicial $0p$ ou estritamente no bloco final $0p$. Ao bombear adicionaremos zeros em apenas uma das extremidades da palavra. A palavra resultante perderá a simetria. Logo, $uv^{2}xy^{2}z$ deixa de ser um palíndromo, o que implica $uv^{2}xy^{2}z \notin B.$
 
-**Caso 2: vxy está contido estritamente no bloco central 12p.** Ao bombear (i=2), adicionaremos apenas caracteres 1. A palavra resultante terá mais uns do que zeros (pois a quantidade de zeros permaneceu a mesma). Faltando o balanço quantitativo, uv2xy2z∈/B.
+2. $vxy$ está contido estritamente no bloco central $1^{2p}$ . Ao bombear, adicionaremos apenas caracteres 1. A palavra resultante terá mais uns do que zeros. Portanto $uv^{2}xy^{2}z \notin B$.
 
- **Caso 3: vxy sobrepõe a fronteira entre 0p e 12p, ou entre 12p e 0p.** Neste caso, os elementos v e y contêm zeros do bloco inicial (ou final) e/ou uns do bloco central. Ao bombear (i=2), a quantidade de zeros aumentará de forma assimétrica em relação ao centro da palavra, destruindo a propriedade de palíndromo. Adicionalmente, pode quebrar a paridade entre zeros e uns. Portanto, uv2xy2z∈/B.
+3. $vxy$ está entre $0^{p}$ e $1^{2p}$, ou entre $1^{2p}$e $0^{p}$. Neste caso, os elementos $v$ e $y$ contêm zeros do bloco inicial (ou final) e/ou uns do bloco central. Ao bombear, a quantidade de zeros aumentará de forma assimétrica em relação ao centro da palavra, destruindo a propriedade de palíndromo. Adicionalmente, pode quebrar a paridade entre zeros e uns. Portanto, $uv^{2}xy^{2}z \notin B$.
 
-**Conclusão:** Em todos os cenários possíveis delimitados pela condição ∣vxy∣≤p, existe um i (no caso, i=2) tal que uvixyiz∈/B. Isso é uma contradição direta com a condição **(iii)** do Lema do Bombeamento.
-
-Logo, a premissa inicial é falsa. Conclui-se rigorosamente que B não é uma linguagem livre de contexto. ■
+Em todos os cenários possíveis existe um $i$ tal que $uv^{i}xy^{i}z \notin B$. Isso quebra a condição $3$ do lema do bombeamento, logo, temos uma contradição, e $B$ não é livre de contexto.
 
 
 
